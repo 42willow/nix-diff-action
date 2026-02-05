@@ -1,4 +1,4 @@
-import { $n as match$2, A as catchAll$2, B as map$4, C as option, Cr as __toESM, D as Service, E as isConfigError, F as forEach, G as scoped$2, H as orElseSucceed, I as gen, J as tapError$2, Jn as fromNullable, K as succeed$2, L as logError, M as catchTags, N as fail$2, O as all, On as fromEnv$1, P as flatMap$3, Qn as map$5, R as logInfo, Rn as orElse$3, Rt as merge$2, S as boolean, Sr as __toCommonJS, T as string, U as provide$2, V as mapError$2, W as runPromise, X as try_, Xn as isNone, Y as tryPromise, Yn as getOrElse, Zn as isSome, Zt as scopedDiscard$1, _ as Struct, _r as require_tunnel, a as GitHubApiError, ar as getInput, b as pattern, bn as make$3, br as __exportAll, c as MissingAttributesError, cr as setFailed$1, d as NixPathInfoError, dr as warning, er as none, f as NotPullRequestContextError, fr as exec, g as NonEmptyString, gn as withConfigProviderScoped, gr as require_undici, h as Literal, hr as HttpCodes, i as AttributeParseError, ir as error, j as catchIf, jn as fromMap$1, k as as, l as NixBuildError, lr as setOutput, m as Config, mr as HttpClient, nr as pipe, o as InvalidCommentStrategyError, p as Array$, pr as BearerCredentialHandler, q as sync$2, qn as flatMap$2, r as ArtifactError, rr as debug, s as InvalidDirectoryError, sr as info, t as GitService, tr as some$2, u as NixDixError, ur as setSecret, v as decodeUnknown, vr as __commonJSMin, w as redacted, x as value, xn as set, xr as __require, y as filter$2, yn as get, yr as __esmMin, z as logWarning, zt as mergeAll$1 } from "./assets/git-BnCC41gc.js";
+import { $ as TaggedError, $n as isNone, A as as, B as logInfo, C as option, Cn as make$3, Cr as __exportAll, D as Service, E as isConfigError, Er as __toESM, F as fail$2, G as provide$2, H as map$4, Ht as mergeAll$1, I as flatMap$2, J as succeed$2, K as runPromise, L as forEach, M as catchIf, N as catchTag, O as all, P as catchTags, Pn as fromMap$1, Q as try_, Qn as getOrElse, R as gen, S as boolean, Sn as get, Sr as __esmMin, T as string, Tr as __toCommonJS, U as mapError$2, V as logWarning, Vn as orElse$3, Vt as merge$2, W as orElseSucceed, X as tapError$2, Xn as flatMap$3, Y as sync$2, Z as tryPromise, Zn as fromNullable, _ as Struct, _r as HttpClient, a as GitHubApiError, ar as pipe, b as pattern, br as require_tunnel, c as MissingAttributesError, cr as getInput, d as NixPathInfoError, dr as setFailed$1, en as scopedDiscard$1, er as isSome, f as NotPullRequestContextError, fr as setOutput, g as NonEmptyString, gr as BearerCredentialHandler, h as Literal, hr as exec, i as AttributeParseError, ir as some$2, j as catchAll$2, jn as fromEnv$1, k as andThen, l as NixBuildError, m as Config, mr as warning, nr as match$2, o as InvalidCommentStrategyError, or as debug, p as Array$, pr as setSecret, q as scoped$2, r as ArtifactError, rr as none, s as InvalidDirectoryError, sr as error, t as GitService, tr as map$5, u as NixDixError, ur as info, v as decodeUnknown, vr as HttpCodes, w as redacted, wn as set, wr as __require, x as value, xr as __commonJSMin, y as filter$2, yn as withConfigProviderScoped, yr as require_undici, z as logError } from "./assets/git-B93axXDy.js";
 import * as os$2 from "os";
 import os, { EOL } from "os";
 import * as crypto$1 from "crypto";
@@ -75,6 +75,7 @@ const fromMap = fromMap$1;
 * @category utils
 */
 const orElse = orElse$3;
+var DixUnsupportedFlag = class extends TaggedError("DixUnsupportedFlag") {};
 var execNix = (args, ignoreReturnCode = true) => {
 	const stdoutChunks = [];
 	const stderrChunks = [];
@@ -146,24 +147,34 @@ var NixService = class extends Service()("NixService", { effect: gen(function* (
 			}));
 			return stdout;
 		}),
-		getDixDiff: (basePath, prPath, inputsFromPath) => gen(function* () {
-			const { exitCode, stdout, stderr } = yield* execNix([
+		getDixDiff: (basePath, prPath, inputsFromPath) => {
+			const baseArgs = [
 				"run",
 				"nixpkgs#dix",
 				"--inputs-from",
 				`path:${inputsFromPath}`,
-				"--",
+				"--"
+			];
+			const handleDixResult = (result) => {
+				if (result.exitCode !== 0) return fail$2(new NixDixError({
+					basePath,
+					prPath,
+					message: result.stderr || "dix failed with no error message"
+				}));
+				if (result.stderr) return logInfo(`dix stderr: ${result.stderr}`).pipe(as(result.stdout));
+				return succeed$2(result.stdout);
+			};
+			return execNix([
+				...baseArgs,
+				"--force-correctness",
 				basePath,
 				prPath
-			]);
-			if (exitCode !== 0) return yield* fail$2(new NixDixError({
+			]).pipe(flatMap$2((result) => result.exitCode !== 0 && result.stderr.includes("unexpected argument '--force-correctness'") ? fail$2(new DixUnsupportedFlag()) : succeed$2(result)), catchTag("DixUnsupportedFlag", () => logInfo("dix does not support --force-correctness, retrying without it").pipe(andThen(execNix([
+				...baseArgs,
 				basePath,
-				prPath,
-				message: stderr || "dix failed with no error message"
-			}));
-			if (stderr) yield* logInfo(`dix stderr: ${stderr}`);
-			return stdout;
-		})
+				prPath
+			])))), flatMap$2(handleDixResult));
+		}
 	};
 }) }) {};
 var Context = class {
@@ -65837,7 +65848,7 @@ var decodeResults = (parsed, artName) => decodeUnknown(DiffResultArray)(parsed).
 	message: `Invalid format: ${error}`
 })));
 var downloadAndParseArtifact = (art, downloadPath, findBy) => gen(function* () {
-	const artifactDownloadPath = (yield* withWarningOption(downloadArtifact(art.id, art.name, downloadPath, findBy), `Download artifact ${art.name}`)).pipe(flatMap$2((r) => fromNullable(r.downloadPath)));
+	const artifactDownloadPath = (yield* withWarningOption(downloadArtifact(art.id, art.name, downloadPath, findBy), `Download artifact ${art.name}`)).pipe(flatMap$3((r) => fromNullable(r.downloadPath)));
 	if (isNone(artifactDownloadPath)) {
 		yield* logWarning(`Artifact ${art.name} has no download path`);
 		return [];
@@ -65992,7 +66003,7 @@ var findOldNixDiffComments = (octokit, context, prNumber, currentHeadSha, displa
 	id: c.id,
 	node_id: c.node_id
 }))));
-var minimizeOldComments = (octokit, context, prNumber, currentHeadSha, displayName) => findOldNixDiffComments(octokit, context, prNumber, currentHeadSha, displayName).pipe(flatMap$3((oldComments) => forEach(oldComments, (comment) => tryPromise({
+var minimizeOldComments = (octokit, context, prNumber, currentHeadSha, displayName) => findOldNixDiffComments(octokit, context, prNumber, currentHeadSha, displayName).pipe(flatMap$2((oldComments) => forEach(oldComments, (comment) => tryPromise({
 	try: () => octokit.graphql(`
                 mutation($input: MinimizeCommentInput!) {
                   minimizeComment(input: $input) {
@@ -66009,7 +66020,7 @@ var minimizeOldComments = (octokit, context, prNumber, currentHeadSha, displayNa
 		operation: "minimizeComment",
 		message: `Failed to minimize comment ${comment.id}: ${e}`
 	})
-}).pipe(flatMap$3(() => logInfo(`Minimized outdated comment (ID: ${comment.id})`)), catchAll$2((error) => logWarning(`Failed to minimize comment ${comment.id}: ${error.message}`))), { concurrency: "unbounded" })));
+}).pipe(flatMap$2(() => logInfo(`Minimized outdated comment (ID: ${comment.id})`)), catchAll$2((error) => logWarning(`Failed to minimize comment ${comment.id}: ${error.message}`))), { concurrency: "unbounded" })));
 var updateComment = (octokit, context, commentId, body) => tryPromise({
 	try: () => octokit.rest.issues.updateComment({
 		...context.repo,

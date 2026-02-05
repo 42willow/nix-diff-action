@@ -1,6 +1,8 @@
 import * as exec from "@actions/exec";
-import { Effect, Ref } from "effect";
+import { Data, Effect, Ref } from "effect";
 import { NixPathInfoError, NixDixError, NixBuildError } from "../errors.js";
+
+class DixUnsupportedFlag extends Data.TaggedError("DixUnsupportedFlag")<{}> {}
 
 interface ExecResult {
   exitCode: number;
@@ -122,35 +124,44 @@ export class NixService extends Effect.Service<NixService>()("NixService", {
         basePath: string,
         prPath: string,
         inputsFromPath: string,
-      ): Effect.Effect<string, NixDixError> =>
-        Effect.gen(function* () {
-          // Use path: to avoid git history requirements
-          const inputsFromRef = `path:${inputsFromPath}`;
-          const { exitCode, stdout, stderr } = yield* execNix([
-            "run",
-            "nixpkgs#dix",
-            "--inputs-from",
-            inputsFromRef,
-            "--",
-            basePath,
-            prPath,
-          ]);
+      ): Effect.Effect<string, NixDixError> => {
+        // Use path: to avoid git history requirements
+        const inputsFromRef = `path:${inputsFromPath}`;
+        const baseArgs = ["run", "nixpkgs#dix", "--inputs-from", inputsFromRef, "--"];
 
-          if (exitCode !== 0) {
-            return yield* Effect.fail(
+        const handleDixResult = (result: ExecResult) => {
+          if (result.exitCode !== 0) {
+            return Effect.fail(
               new NixDixError({
                 basePath,
                 prPath,
-                message: stderr || "dix failed with no error message",
+                message: result.stderr || "dix failed with no error message",
               }),
             );
           }
-
-          if (stderr) {
-            yield* Effect.logInfo(`dix stderr: ${stderr}`);
+          if (result.stderr) {
+            return Effect.logInfo(`dix stderr: ${result.stderr}`).pipe(Effect.as(result.stdout));
           }
-          return stdout;
-        }),
+          return Effect.succeed(result.stdout);
+        };
+
+        // Try with --force-correctness (dix 1.4.2+) first, fall back to
+        // without it for older versions that don't recognize the flag.
+        return execNix([...baseArgs, "--force-correctness", basePath, prPath]).pipe(
+          Effect.flatMap((result) =>
+            result.exitCode !== 0 &&
+            result.stderr.includes("unexpected argument '--force-correctness'")
+              ? Effect.fail(new DixUnsupportedFlag())
+              : Effect.succeed(result),
+          ),
+          Effect.catchTag("DixUnsupportedFlag", () =>
+            Effect.logInfo("dix does not support --force-correctness, retrying without it").pipe(
+              Effect.andThen(execNix([...baseArgs, basePath, prPath])),
+            ),
+          ),
+          Effect.flatMap(handleDixResult),
+        );
+      },
     };
   }),
 }) {}
