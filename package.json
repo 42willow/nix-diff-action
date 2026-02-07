@@ -46,7 +46,7 @@
     "yaml": "^2.8.2"
   },
   "devDependencies": {
-    "@github/local-action": "6.0.2",
+    "@github/local-action": "7.0.0",
     "@types/node": "25.0.6",
     "@typescript/native-preview": "7.0.0-dev.20260109.1",
     "oxfmt": "0.23.0",
