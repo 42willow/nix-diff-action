@@ -1,4 +1,4 @@
-import { $ as MemoMapTypeId$1, $n as match$2, $t as succeed$1, A as catchAll$2, An as fromJson$1, At as launch$1, B as map$4, Bn as unnested$1, Bt as mock$1, C as option, Cn as spanTag, Cr as __toESM, Ct as fresh$1, D as Service, Dn as constantCase$1, Dt as fromFunction$1, E as isConfigError, En as configProviderTag, Et as fromEffectDiscard, F as forEach, Fn as makeFlat$1, Ft as match$1, G as scoped$2, Gn as enable$1, Gt as provide$1, H as orElseSucceed, Hn as within$1, Ht as orElse$2, I as gen, In as mapInputPath$1, It as matchCause$1, J as tapError$2, Jn as fromNullable, Jt as scope$1, K as succeed$2, Kn as make$1, Kt as provideMerge$1, L as logError, Ln as nested$1, Lt as memoize$2, M as catchTags, Mn as kebabCase$1, Mt as makeMemoMap$1, N as fail$2, Nn as lowerCase$1, Nt as map$3, O as all, On as fromEnv$1, Ot as isFresh$1, P as flatMap$3, Pn as make$2, Pt as mapError$1, Q as LayerTypeId$1, Qn as map$5, Qt as service$1, R as logInfo, Rn as orElse$3, Rt as merge$2, S as boolean, Sn as addSpanStackTrace, Sr as __toCommonJS, St as flatten$1, T as string, Tn as FlatConfigProviderTypeId$1, Tt as fromEffectContext, U as provide$2, Un as tap$1, Ut as passthrough$1, V as mapError$2, Vn as upperCase$1, Vt as orDie$1, W as runPromise, Wn as disable$1, Wt as project$1, X as try_, Xn as isNone, Xt as scopedContext$1, Y as tryPromise, Yn as getOrElse, Yt as scoped$1, Z as CurrentMemoMap$1, Zn as isSome, Zt as scopedDiscard$1, _ as Struct, _n as withRuntimeFlagsScoped, _r as require_tunnel, _t as fiberRefLocally, a as GitHubApiError, an as tapError$1, ar as getInput, at as catchAll$1, b as pattern, bn as make$3, br as __exportAll, bt as fiberRefLocallyWith, c as MissingAttributesError, cn as toRuntimeWithMemoMap$1, cr as setFailed$1, ct as die$1, d as NixPathInfoError, dn as withParentSpan$1, dr as warning, dt as empty$1, en as succeedContext$1, er as none, et as annotateLogs$1, f as NotPullRequestContextError, fn as withSpan$1, fr as exec, ft as extendScope$1, g as NonEmptyString, gn as withConfigProviderScoped, gr as require_undici, gt as failSync$1, h as Literal, hn as makeSpanScoped, hr as HttpCodes, ht as failCauseSync$1, i as AttributeParseError, in as tap$2, ir as error, it as buildWithScope$1, j as catchIf, jn as fromMap$1, jt as locallyEffect$1, k as as, kn as fromFlat$1, kt as isLayer$1, l as NixBuildError, ln as unwrapEffect$1, lr as setOutput, lt as dieSync$1, m as Config, mn as addFinalizer, mr as HttpClient, mt as failCause$1, nn as sync$1, nr as pipe, nt as build$1, o as InvalidCommentStrategyError, on as tapErrorCause$1, ot as catchAllCause$1, p as Array$, pn as zipWith$1, pr as BearerCredentialHandler, pt as fail$1, q as sync$2, qn as flatMap$2, qt as retry$3, r as ArtifactError, rn as syncContext$1, rr as debug, rt as buildWithMemoMap$1, s as InvalidDirectoryError, sn as toRuntime$1, sr as info, st as context$5, t as GitService, tn as suspend$1, tr as some$2, tt as annotateSpans$1, u as NixDixError, un as unwrapScoped$1, ur as setSecret, ut as discard$1, v as decodeUnknown, vn as withTracerScoped, vr as __commonJSMin, vt as fiberRefLocallyScoped, w as redacted, wn as ConfigProviderTypeId$1, wt as fromEffect, x as value, xn as set, xr as __require, xt as flatMap$1, y as filter$2, yn as get, yr as __esmMin, yt as fiberRefLocallyScopedWith$1, z as logWarning, zn as snakeCase$1, zt as mergeAll$1 } from "./assets/git-KIOs-7Gl.js";
+import { $ as MemoMapTypeId$1, $n as match$2, $t as succeed$1, A as catchAll$2, An as fromJson$1, At as launch$1, B as map$4, Bn as unnested$1, Bt as mock$1, C as option, Cn as spanTag, Cr as __toESM, Ct as fresh$1, D as Service, Dn as constantCase$1, Dt as fromFunction$1, E as isConfigError, En as configProviderTag, Et as fromEffectDiscard, F as forEach, Fn as makeFlat$1, Ft as match$1, G as scoped$2, Gn as enable$1, Gt as provide$1, H as orElseSucceed, Hn as within$1, Ht as orElse$2, I as gen, In as mapInputPath$1, It as matchCause$1, J as tapError$2, Jn as fromNullable, Jt as scope$1, K as succeed$2, Kn as make$1, Kt as provideMerge$1, L as logError, Ln as nested$1, Lt as memoize$2, M as catchTags, Mn as kebabCase$1, Mt as makeMemoMap$1, N as fail$2, Nn as lowerCase$1, Nt as map$3, O as all, On as fromEnv$1, Ot as isFresh$1, P as flatMap$3, Pn as make$2, Pt as mapError$1, Q as LayerTypeId$1, Qn as map$5, Qt as service$1, R as logInfo, Rn as orElse$3, Rt as merge$2, S as boolean, Sn as addSpanStackTrace, Sr as __toCommonJS, St as flatten$1, T as string, Tn as FlatConfigProviderTypeId$1, Tt as fromEffectContext, U as provide$2, Un as tap$1, Ut as passthrough$1, V as mapError$2, Vn as upperCase$1, Vt as orDie$1, W as runPromise, Wn as disable$1, Wt as project$1, X as try_, Xn as isNone, Xt as scopedContext$1, Y as tryPromise, Yn as getOrElse, Yt as scoped$1, Z as CurrentMemoMap$1, Zn as isSome, Zt as scopedDiscard$1, _ as Struct, _n as withRuntimeFlagsScoped, _r as require_tunnel, _t as fiberRefLocally, a as GitHubApiError, an as tapError$1, ar as getInput, at as catchAll$1, b as pattern, bn as make$3, br as __exportAll, bt as fiberRefLocallyWith, c as MissingAttributesError, cn as toRuntimeWithMemoMap$1, cr as setFailed$1, ct as die$1, d as NixPathInfoError, dn as withParentSpan$1, dr as warning, dt as empty$1, en as succeedContext$1, er as none, et as annotateLogs$1, f as NotPullRequestContextError, fn as withSpan$1, fr as exec, ft as extendScope$1, g as NonEmptyString, gn as withConfigProviderScoped, gr as require_undici, gt as failSync$1, h as Literal, hn as makeSpanScoped, hr as HttpCodes, ht as failCauseSync$1, i as AttributeParseError, in as tap$2, ir as error, it as buildWithScope$1, j as catchIf, jn as fromMap$1, jt as locallyEffect$1, k as as, kn as fromFlat$1, kt as isLayer$1, l as NixBuildError, ln as unwrapEffect$1, lr as setOutput, lt as dieSync$1, m as Config, mn as addFinalizer, mr as HttpClient, mt as failCause$1, nn as sync$1, nr as pipe, nt as build$1, o as InvalidCommentStrategyError, on as tapErrorCause$1, ot as catchAllCause$1, p as Array$, pn as zipWith$1, pr as BearerCredentialHandler, pt as fail$1, q as sync$2, qn as flatMap$2, qt as retry$3, r as ArtifactError, rn as syncContext$1, rr as debug, rt as buildWithMemoMap$1, s as InvalidDirectoryError, sn as toRuntime$1, sr as info, st as context$5, t as GitService, tn as suspend$1, tr as some$2, tt as annotateSpans$1, u as NixDixError, un as unwrapScoped$1, ur as setSecret, ut as discard$1, v as decodeUnknown, vn as withTracerScoped, vr as __commonJSMin, vt as fiberRefLocallyScoped, w as redacted, wn as ConfigProviderTypeId$1, wt as fromEffect, x as value, xn as set, xr as __require, xt as flatMap$1, y as filter$2, yn as get, yr as __esmMin, yt as fiberRefLocallyScopedWith$1, z as logWarning, zn as snakeCase$1, zt as mergeAll$1 } from "./assets/git-CEaifjYY.js";
 import * as os$2 from "os";
 import os, { EOL } from "os";
 import * as crypto$1 from "crypto";
@@ -23,12 +23,57 @@ import fs from "node:fs";
 import * as fs$2 from "fs/promises";
 import fs$1, { realpath } from "fs/promises";
 import * as nodePath from "node:path";
+/** @internal */
 const setConfigProvider$1 = (configProvider) => scopedDiscard$1(withConfigProviderScoped(configProvider));
+/**
+* Merges this layer with the specified layer concurrently, producing a new layer with combined input and output types.
+*
+* @since 2.0.0
+* @category zipping
+*/
 const merge$1 = merge$2;
+/**
+* Combines all the provided layers concurrently, creating a new layer with merged input, error, and output types.
+*
+* @since 2.0.0
+* @category zipping
+*/
 const mergeAll = mergeAll$1;
+/**
+* Sets the current `ConfigProvider`.
+*
+* @since 2.0.0
+* @category config
+*/
 const setConfigProvider = setConfigProvider$1;
+/**
+* A config provider that loads configuration from context variables
+*
+* **Options**:
+*
+* - `pathDelim`: The delimiter for the path segments (default: `"_"`).
+* - `seqDelim`: The delimiter for the sequence of values (default: `","`).
+*
+* @since 2.0.0
+* @category constructors
+*/
 const fromEnv = fromEnv$1;
+/**
+* Constructs a ConfigProvider using a map and the specified delimiter string,
+* which determines how to split the keys in the map into path segments.
+*
+* @since 2.0.0
+* @category constructors
+*/
 const fromMap = fromMap$1;
+/**
+* Returns a new config provider that preferentially loads configuration data
+* from this one, but which will fall back to the specified alternate provider
+* if there are any issues loading the configuration from this provider.
+*
+* @since 2.0.0
+* @category utils
+*/
 const orElse = orElse$3;
 var execNix = (args, ignoreReturnCode = true) => {
 	const stdoutChunks = [];
@@ -122,6 +167,9 @@ var NixService = class extends Service()("NixService", { effect: gen(function* (
 	};
 }) }) {};
 var Context = class {
+	/**
+	* Hydrate the context from the environment
+	*/
 	constructor() {
 		var _a, _b, _c;
 		this.payload = {};
@@ -331,6 +379,10 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 	(function(MediaTypes) {
 		MediaTypes["ApplicationJson"] = "application/json";
 	})(MediaTypes || (exports.MediaTypes = MediaTypes = {}));
+	/**
+	* Returns the proxy URL, depending upon the supplied url and proxy environment variables.
+	* @param serverUrl  The server URL where the request will be sent. For example, https://api.github.com
+	*/
 	function getProxyUrl(serverUrl) {
 		const proxyUrl = pm.getProxyUrl(new URL(serverUrl));
 		return proxyUrl ? proxyUrl.href : "";
@@ -463,6 +515,10 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 				return this.request(verb, requestUrl, stream, additionalHeaders);
 			});
 		}
+		/**
+		* Gets a typed object from an endpoint
+		* Be aware that not found returns a null.  Other errors (4xx, 5xx) reject the promise
+		*/
 		getJson(requestUrl_1) {
 			return __awaiter(this, arguments, void 0, function* (requestUrl, additionalHeaders = {}) {
 				additionalHeaders[Headers.Accept] = this._getExistingOrDefaultHeader(additionalHeaders, Headers.Accept, MediaTypes.ApplicationJson);
@@ -497,6 +553,11 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 				return this._processResponse(res, this.requestOptions);
 			});
 		}
+		/**
+		* Makes a raw http request.
+		* All other methods such as get, post, patch, and request ultimately call this.
+		* Prefer get, del, post and patch
+		*/
 		request(verb, requestUrl, data, headers) {
 			return __awaiter(this, void 0, void 0, function* () {
 				if (this._disposed) throw new Error("Client has already been disposed.");
@@ -540,10 +601,18 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 				return response;
 			});
 		}
+		/**
+		* Needs to be called if keepAlive is set to true in request options.
+		*/
 		dispose() {
 			if (this._agent) this._agent.destroy();
 			this._disposed = true;
 		}
+		/**
+		* Raw request.
+		* @param info
+		* @param data
+		*/
 		requestRaw(info, data) {
 			return __awaiter(this, void 0, void 0, function* () {
 				return new Promise((resolve, reject) => {
@@ -556,6 +625,12 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 				});
 			});
 		}
+		/**
+		* Raw request with callback.
+		* @param info
+		* @param data
+		* @param onResult
+		*/
 		requestRawWithCallback(info, data, onResult) {
 			if (typeof data === "string") {
 				if (!info.options.headers) info.options.headers = {};
@@ -590,6 +665,11 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 				data.pipe(req);
 			} else req.end();
 		}
+		/**
+		* Gets an http agent. This function is useful when you need an http agent that handles
+		* routing through a proxy server - depending upon the url and proxy environment variables.
+		* @param serverUrl  The server URL where the request will be sent. For example, https://api.github.com
+		*/
 		getAgent(serverUrl) {
 			const parsedUrl = new URL(serverUrl);
 			return this._getAgent(parsedUrl);
@@ -621,6 +701,13 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 			if (this.requestOptions && this.requestOptions.headers) return Object.assign({}, lowercaseKeys(this.requestOptions.headers), lowercaseKeys(headers || {}));
 			return lowercaseKeys(headers || {});
 		}
+		/**
+		* Gets an existing header value or returns a default.
+		* Handles converting number header values to strings since HTTP headers must be strings.
+		* Note: This returns string | string[] since some headers can have multiple values.
+		* For headers that must always be a single string (like Content-Type), use the
+		* specialized _getExistingOrDefaultContentTypeHeader method instead.
+		*/
 		_getExistingOrDefaultHeader(additionalHeaders, header, _default) {
 			let clientHeader;
 			if (this.requestOptions && this.requestOptions.headers) {
@@ -632,6 +719,13 @@ var import_lib = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((export
 			if (clientHeader !== void 0) return clientHeader;
 			return _default;
 		}
+		/**
+		* Specialized version of _getExistingOrDefaultHeader for Content-Type header.
+		* Always returns a single string (not an array) since Content-Type should be a single value.
+		* Converts arrays to comma-separated strings and numbers to strings to ensure type safety.
+		* This was split from _getExistingOrDefaultHeader to provide stricter typing for callers
+		* that assign the result to places expecting a string (e.g., additionalHeaders[Headers.ContentType]).
+		*/
 		_getExistingOrDefaultContentTypeHeader(additionalHeaders, _default) {
 			let clientHeader;
 			if (this.requestOptions && this.requestOptions.headers) {
@@ -1113,8 +1207,35 @@ var endpoint = withDefaults$2(null, DEFAULTS);
 var import_fast_content_type_parse = (/* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var NullObject = function NullObject() {};
 	NullObject.prototype = Object.create(null);
+	/**
+	* RegExp to match *( ";" parameter ) in RFC 7231 sec 3.1.1.1
+	*
+	* parameter     = token "=" ( token / quoted-string )
+	* token         = 1*tchar
+	* tchar         = "!" / "#" / "$" / "%" / "&" / "'" / "*"
+	*               / "+" / "-" / "." / "^" / "_" / "`" / "|" / "~"
+	*               / DIGIT / ALPHA
+	*               ; any VCHAR, except delimiters
+	* quoted-string = DQUOTE *( qdtext / quoted-pair ) DQUOTE
+	* qdtext        = HTAB / SP / %x21 / %x23-5B / %x5D-7E / obs-text
+	* obs-text      = %x80-FF
+	* quoted-pair   = "\" ( HTAB / SP / VCHAR / obs-text )
+	*/
 	var paramRE = /; *([!#$%&'*+.^\w`|~-]+)=("(?:[\v\u0020\u0021\u0023-\u005b\u005d-\u007e\u0080-\u00ff]|\\[\v\u0020-\u00ff])*"|[!#$%&'*+.^\w`|~-]+) */gu;
+	/**
+	* RegExp to match quoted-pair in RFC 7230 sec 3.2.6
+	*
+	* quoted-pair = "\" ( HTAB / SP / VCHAR / obs-text )
+	* obs-text    = %x80-FF
+	*/
 	var quotedPairRE = /\\([\v\u0020-\u00ff])/gu;
+	/**
+	* RegExp to match type in RFC 7231 sec 3.1.1.1
+	*
+	* media-type = type "/" subtype
+	* type       = token
+	* subtype    = token
+	*/
 	var mediaTypeRE = /^[!#$%&'*+.^\w|~-]+\/[!#$%&'*+.^\w|~-]+$/u;
 	var defaultContentType = {
 		type: "",
@@ -1122,6 +1243,13 @@ var import_fast_content_type_parse = (/* @__PURE__ */ __commonJSMin(((exports, m
 	};
 	Object.freeze(defaultContentType.parameters);
 	Object.freeze(defaultContentType);
+	/**
+	* Parse media type to object.
+	*
+	* @param {string|object} header
+	* @return {Object}
+	* @public
+	*/
 	function parse(header) {
 		if (typeof header !== "string") throw new TypeError("argument header is required and must be a string");
 		let index = header.indexOf(";");
@@ -1188,8 +1316,17 @@ var import_fast_content_type_parse = (/* @__PURE__ */ __commonJSMin(((exports, m
 })))();
 var RequestError = class extends Error {
 	name;
+	/**
+	* http status code
+	*/
 	status;
+	/**
+	* Request options that lead to the error.
+	*/
 	request;
+	/**
+	* Response object if a response was received
+	*/
 	response;
 	constructor(message, statusCode, options) {
 		super(message, { cause: options.cause });
@@ -1483,6 +1620,12 @@ var Octokit = class {
 		return OctokitWithDefaults;
 	}
 	static plugins = [];
+	/**
+	* Attach a plugin (or many) to your Octokit instance.
+	*
+	* @example
+	* const API = Octokit.plugin(plugin1, plugin2, plugin3, ...)
+	*/
 	static plugin(...newPlugins) {
 		const currentPlugins = this.plugins;
 		const NewOctokit = class extends this {
@@ -3023,6 +3166,12 @@ const defaults = {
 	}
 };
 const GitHub = Octokit.plugin(restEndpointMethods, paginateRest).defaults(defaults);
+/**
+* Convience function to correctly format Octokit Options to pass into the constructor.
+*
+* @param     token    the repo PAT or GITHUB_TOKEN
+* @param     options  other options to set
+*/
 function getOctokitOptions(token, options) {
 	const opts = Object.assign({}, options || {});
 	const auth = getAuthString(token, opts);
@@ -3030,6 +3179,12 @@ function getOctokitOptions(token, options) {
 	return opts;
 }
 const context$2 = new Context();
+/**
+* Returns a hydrated octokit ready to use for GitHub Actions
+*
+* @param     token    the repo PAT or GITHUB_TOKEN
+* @param     options  other options to set
+*/
 function getOctokit(token, options, ...additionalPlugins) {
 	return new (GitHub.plugin(...additionalPlugins))(getOctokitOptions(token, options));
 }
@@ -3091,6 +3246,10 @@ function getMaxArtifactListCount() {
 	if (isNaN(maxCount) || maxCount < 1) throw new Error("Invalid value set for ACTIONS_ARTIFACT_MAX_ARTIFACT_COUNT env variable");
 	return maxCount;
 }
+/**
+* Get the type of a JSON value.
+* Distinguishes between array, null and object.
+*/
 function typeofJsonValue(value) {
 	let t = typeof value;
 	if (t == "object") {
@@ -3099,6 +3258,9 @@ function typeofJsonValue(value) {
 	}
 	return t;
 }
+/**
+* Is this a JSON object (instead of an array or null)?
+*/
 function isJsonObject(value) {
 	return value !== null && typeof value == "object" && !Array.isArray(value);
 }
@@ -3107,6 +3269,17 @@ var decTable = [];
 for (let i = 0; i < encTable.length; i++) decTable[encTable[i].charCodeAt(0)] = i;
 decTable["-".charCodeAt(0)] = encTable.indexOf("+");
 decTable["_".charCodeAt(0)] = encTable.indexOf("/");
+/**
+* Decodes a base64 string to a byte array.
+*
+* - ignores white-space, including line breaks and tabs
+* - allows inner padding (can decode concatenated base64 strings)
+* - does not require padding
+* - understands base64url encoding:
+*   "-" instead of "+",
+*   "_" instead of "/",
+*   no padding
+*/
 function base64decode(base64Str) {
 	let es = base64Str.length * 3 / 4;
 	if (base64Str[base64Str.length - 2] == "=") es -= 2;
@@ -3146,6 +3319,11 @@ function base64decode(base64Str) {
 	if (groupPos == 1) throw Error(`invalid base64 string.`);
 	return bytes.subarray(0, bytePos);
 }
+/**
+* Encodes a byte array to a base64 string.
+* Adds padding at the end.
+* Does not insert newlines.
+*/
 function base64encode$1(bytes) {
 	let base64 = "", groupPos = 0, b, p = 0;
 	for (let i = 0; i < bytes.length; i++) {
@@ -3175,9 +3353,24 @@ function base64encode$1(bytes) {
 	}
 	return base64;
 }
+/**
+* This handler implements the default behaviour for unknown fields.
+* When reading data, unknown fields are stored on the message, in a
+* symbol property.
+* When writing data, the symbol property is queried and unknown fields
+* are serialized into the output again.
+*/
 var UnknownFieldHandler;
 (function(UnknownFieldHandler) {
+	/**
+	* The symbol used to store unknown fields for a message.
+	* The property must conform to `UnknownFieldContainer`.
+	*/
 	UnknownFieldHandler.symbol = Symbol.for("protobuf-ts/unknown");
+	/**
+	* Store an unknown field during binary read directly on the message.
+	* This method is compatible with `BinaryReadOptions.readUnknownField`.
+	*/
 	UnknownFieldHandler.onRead = (typeName, message, fieldNo, wireType, data) => {
 		(is(message) ? message[UnknownFieldHandler.symbol] : message[UnknownFieldHandler.symbol] = []).push({
 			no: fieldNo,
@@ -3185,9 +3378,17 @@ var UnknownFieldHandler;
 			data
 		});
 	};
+	/**
+	* Write unknown fields stored for the message to the writer.
+	* This method is compatible with `BinaryWriteOptions.writeUnknownFields`.
+	*/
 	UnknownFieldHandler.onWrite = (typeName, message, writer) => {
 		for (let { no, wireType, data } of UnknownFieldHandler.list(message)) writer.tag(no, wireType).raw(data);
 	};
+	/**
+	* List unknown fields stored for the message.
+	* Note that there may be multiples fields with the same number.
+	*/
 	UnknownFieldHandler.list = (message, fieldNo) => {
 		if (is(message)) {
 			let all = message[UnknownFieldHandler.symbol];
@@ -3195,18 +3396,66 @@ var UnknownFieldHandler;
 		}
 		return [];
 	};
+	/**
+	* Returns the last unknown field by field number.
+	*/
 	UnknownFieldHandler.last = (message, fieldNo) => UnknownFieldHandler.list(message, fieldNo).slice(-1)[0];
 	const is = (message) => message && Array.isArray(message[UnknownFieldHandler.symbol]);
 })(UnknownFieldHandler || (UnknownFieldHandler = {}));
+/**
+* Protobuf binary format wire types.
+*
+* A wire type provides just enough information to find the length of the
+* following value.
+*
+* See https://developers.google.com/protocol-buffers/docs/encoding#structure
+*/
 var WireType;
 (function(WireType) {
+	/**
+	* Used for int32, int64, uint32, uint64, sint32, sint64, bool, enum
+	*/
 	WireType[WireType["Varint"] = 0] = "Varint";
+	/**
+	* Used for fixed64, sfixed64, double.
+	* Always 8 bytes with little-endian byte order.
+	*/
 	WireType[WireType["Bit64"] = 1] = "Bit64";
+	/**
+	* Used for string, bytes, embedded messages, packed repeated fields
+	*
+	* Only repeated numeric types (types which use the varint, 32-bit,
+	* or 64-bit wire types) can be packed. In proto3, such fields are
+	* packed by default.
+	*/
 	WireType[WireType["LengthDelimited"] = 2] = "LengthDelimited";
+	/**
+	* Used for groups
+	* @deprecated
+	*/
 	WireType[WireType["StartGroup"] = 3] = "StartGroup";
+	/**
+	* Used for groups
+	* @deprecated
+	*/
 	WireType[WireType["EndGroup"] = 4] = "EndGroup";
+	/**
+	* Used for fixed32, sfixed32, float.
+	* Always 4 bytes with little-endian byte order.
+	*/
 	WireType[WireType["Bit32"] = 5] = "Bit32";
 })(WireType || (WireType = {}));
+/**
+* Read a 64 bit varint as two JS numbers.
+*
+* Returns tuple:
+* [0]: low bits
+* [0]: high bits
+*
+* Copyright 2008 Google Inc.  All rights reserved.
+*
+* See https://github.com/protocolbuffers/protobuf/blob/8a71927d74a4ce34efe2d8769fda198f52d20d12/js/experimental/runtime/kernel/buffer_decoder.js#L175
+*/
 function varint64read() {
 	let lowBits = 0;
 	let highBits = 0;
@@ -3235,6 +3484,13 @@ function varint64read() {
 	}
 	throw new Error("invalid varint");
 }
+/**
+* Write a 64 bit varint, given as two JS numbers, to the given bytes array.
+*
+* Copyright 2008 Google Inc.  All rights reserved.
+*
+* See https://github.com/protocolbuffers/protobuf/blob/8a71927d74a4ce34efe2d8769fda198f52d20d12/js/experimental/runtime/kernel/writer.js#L344
+*/
 function varint64write(lo, hi, bytes) {
 	for (let i = 0; i < 28; i = i + 7) {
 		const shift = lo >>> i;
@@ -3257,6 +3513,16 @@ function varint64write(lo, hi, bytes) {
 	bytes.push(hi >>> 31 & 1);
 }
 var TWO_PWR_32_DBL$1 = 65536 * 65536;
+/**
+* Parse decimal string of 64 bit integer value as two JS numbers.
+*
+* Returns tuple:
+* [0]: minus sign?
+* [1]: low bits
+* [2]: high bits
+*
+* Copyright 2008 Google Inc.
+*/
 function int64fromString(dec) {
 	let minus = dec[0] == "-";
 	if (minus) dec = dec.slice(1);
@@ -3282,6 +3548,11 @@ function int64fromString(dec) {
 		highBits
 	];
 }
+/**
+* Format 64 bit integer value (as two JS numbers) to decimal string.
+*
+* Copyright 2008 Google Inc.
+*/
 function int64toString(bitsLow, bitsHigh) {
 	if (bitsHigh >>> 0 <= 2097151) return "" + (TWO_PWR_32_DBL$1 * bitsHigh + (bitsLow >>> 0));
 	let low = bitsLow & 16777215;
@@ -3306,6 +3577,13 @@ function int64toString(bitsLow, bitsHigh) {
 	}
 	return decimalFrom1e7(digitC, 0) + decimalFrom1e7(digitB, digitC) + decimalFrom1e7(digitA, 1);
 }
+/**
+* Write a 32 bit varint, signed or unsigned. Same as `varint64write(0, value, bytes)`
+*
+* Copyright 2008 Google Inc.  All rights reserved.
+*
+* See https://github.com/protocolbuffers/protobuf/blob/1b18833f4f2a2f681f4e4a25cdf3b0a43115ec26/js/binary/encoder.js#L144
+*/
 function varint32write(value, bytes) {
 	if (value >= 0) {
 		while (value > 127) {
@@ -3321,6 +3599,11 @@ function varint32write(value, bytes) {
 		bytes.push(1);
 	}
 }
+/**
+* Read an unsigned 32 bit varint.
+*
+* See https://github.com/protocolbuffers/protobuf/blob/8a71927d74a4ce34efe2d8769fda198f52d20d12/js/experimental/runtime/kernel/buffer_decoder.js#L220
+*/
 function varint32read() {
 	let b = this.buf[this.pos++];
 	let result = b & 127;
@@ -3373,20 +3656,36 @@ var RE_DECIMAL_STR = /^-?[0-9]+$/;
 var TWO_PWR_32_DBL = 4294967296;
 var HALF_2_PWR_32 = 2147483648;
 var SharedPbLong = class {
+	/**
+	* Create a new instance with the given bits.
+	*/
 	constructor(lo, hi) {
 		this.lo = lo | 0;
 		this.hi = hi | 0;
 	}
+	/**
+	* Is this instance equal to 0?
+	*/
 	isZero() {
 		return this.lo == 0 && this.hi == 0;
 	}
+	/**
+	* Convert to a native number.
+	*/
 	toNumber() {
 		let result = this.hi * TWO_PWR_32_DBL + (this.lo >>> 0);
 		if (!Number.isSafeInteger(result)) throw new Error("cannot convert to safe number");
 		return result;
 	}
 };
+/**
+* 64-bit unsigned integer as two 32-bit values.
+* Converts between `string`, `number` and `bigint` representations.
+*/
 var PbULong = class PbULong extends SharedPbLong {
+	/**
+	* Create instance from a `string`, `number` or `bigint`.
+	*/
 	static from(value) {
 		if (BI) switch (typeof value) {
 			case "string":
@@ -3419,9 +3718,15 @@ var PbULong = class PbULong extends SharedPbLong {
 		}
 		throw new Error("unknown value " + typeof value);
 	}
+	/**
+	* Convert to decimal string.
+	*/
 	toString() {
 		return BI ? this.toBigInt().toString() : int64toString(this.lo, this.hi);
 	}
+	/**
+	* Convert to native bigint.
+	*/
 	toBigInt() {
 		assertBi(BI);
 		BI.V.setInt32(0, this.lo, true);
@@ -3429,8 +3734,18 @@ var PbULong = class PbULong extends SharedPbLong {
 		return BI.V.getBigUint64(0, true);
 	}
 };
+/**
+* ulong 0 singleton.
+*/
 PbULong.ZERO = new PbULong(0, 0);
+/**
+* 64-bit signed integer as two 32-bit values.
+* Converts between `string`, `number` and `bigint` representations.
+*/
 var PbLong = class PbLong extends SharedPbLong {
+	/**
+	* Create instance from a `string`, `number` or `bigint`.
+	*/
 	static from(value) {
 		if (BI) switch (typeof value) {
 			case "string":
@@ -3465,15 +3780,25 @@ var PbLong = class PbLong extends SharedPbLong {
 		}
 		throw new Error("unknown value " + typeof value);
 	}
+	/**
+	* Do we have a minus sign?
+	*/
 	isNegative() {
 		return (this.hi & HALF_2_PWR_32) !== 0;
 	}
+	/**
+	* Negate two's complement.
+	* Invert all the bits and add one to the result.
+	*/
 	negate() {
 		let hi = ~this.hi, lo = this.lo;
 		if (lo) lo = ~lo + 1;
 		else hi += 1;
 		return new PbLong(lo, hi);
 	}
+	/**
+	* Convert to decimal string.
+	*/
 	toString() {
 		if (BI) return this.toBigInt().toString();
 		if (this.isNegative()) {
@@ -3482,6 +3807,9 @@ var PbLong = class PbLong extends SharedPbLong {
 		}
 		return int64toString(this.lo, this.hi);
 	}
+	/**
+	* Convert to native bigint.
+	*/
 	toBigInt() {
 		assertBi(BI);
 		BI.V.setInt32(0, this.lo, true);
@@ -3489,17 +3817,26 @@ var PbLong = class PbLong extends SharedPbLong {
 		return BI.V.getBigInt64(0, true);
 	}
 };
+/**
+* long 0 singleton.
+*/
 PbLong.ZERO = new PbLong(0, 0);
 var defaultsRead$1 = {
 	readUnknownField: true,
 	readerFactory: (bytes) => new BinaryReader(bytes)
 };
+/**
+* Make options for reading binary data form partial options.
+*/
 function binaryReadOptions(options) {
 	return options ? Object.assign(Object.assign({}, defaultsRead$1), options) : defaultsRead$1;
 }
 var BinaryReader = class {
 	constructor(buf, textDecoder) {
 		this.varint64 = varint64read;
+		/**
+		* Read a `uint32` field, an unsigned 32 bit varint.
+		*/
 		this.uint32 = varint32read;
 		this.buf = buf;
 		this.len = buf.length;
@@ -3510,11 +3847,18 @@ var BinaryReader = class {
 			ignoreBOM: true
 		});
 	}
+	/**
+	* Reads a tag - field number and wire type.
+	*/
 	tag() {
 		let tag = this.uint32(), fieldNo = tag >>> 3, wireType = tag & 7;
 		if (fieldNo <= 0 || wireType < 0 || wireType > 5) throw new Error("illegal tag: field no " + fieldNo + " wire type " + wireType);
 		return [fieldNo, wireType];
 	}
+	/**
+	* Skip one element on the wire and return the skipped data.
+	* Supports WireType.StartGroup since v2.0.0-alpha.23.
+	*/
 	skip(wireType) {
 		let start = this.pos;
 		switch (wireType) {
@@ -3538,22 +3882,40 @@ var BinaryReader = class {
 		this.assertBounds();
 		return this.buf.subarray(start, this.pos);
 	}
+	/**
+	* Throws error if position in byte array is out of range.
+	*/
 	assertBounds() {
 		if (this.pos > this.len) throw new RangeError("premature EOF");
 	}
+	/**
+	* Read a `int32` field, a signed 32 bit varint.
+	*/
 	int32() {
 		return this.uint32() | 0;
 	}
+	/**
+	* Read a `sint32` field, a signed, zigzag-encoded 32-bit varint.
+	*/
 	sint32() {
 		let zze = this.uint32();
 		return zze >>> 1 ^ -(zze & 1);
 	}
+	/**
+	* Read a `int64` field, a signed 64-bit varint.
+	*/
 	int64() {
 		return new PbLong(...this.varint64());
 	}
+	/**
+	* Read a `uint64` field, an unsigned 64-bit varint.
+	*/
 	uint64() {
 		return new PbULong(...this.varint64());
 	}
+	/**
+	* Read a `sint64` field, a signed, zig-zag-encoded 64-bit varint.
+	*/
 	sint64() {
 		let [lo, hi] = this.varint64();
 		let s = -(lo & 1);
@@ -3561,28 +3923,52 @@ var BinaryReader = class {
 		hi = hi >>> 1 ^ s;
 		return new PbLong(lo, hi);
 	}
+	/**
+	* Read a `bool` field, a variant.
+	*/
 	bool() {
 		let [lo, hi] = this.varint64();
 		return lo !== 0 || hi !== 0;
 	}
+	/**
+	* Read a `fixed32` field, an unsigned, fixed-length 32-bit integer.
+	*/
 	fixed32() {
 		return this.view.getUint32((this.pos += 4) - 4, true);
 	}
+	/**
+	* Read a `sfixed32` field, a signed, fixed-length 32-bit integer.
+	*/
 	sfixed32() {
 		return this.view.getInt32((this.pos += 4) - 4, true);
 	}
+	/**
+	* Read a `fixed64` field, an unsigned, fixed-length 64 bit integer.
+	*/
 	fixed64() {
 		return new PbULong(this.sfixed32(), this.sfixed32());
 	}
+	/**
+	* Read a `fixed64` field, a signed, fixed-length 64-bit integer.
+	*/
 	sfixed64() {
 		return new PbLong(this.sfixed32(), this.sfixed32());
 	}
+	/**
+	* Read a `float` field, 32-bit floating point number.
+	*/
 	float() {
 		return this.view.getFloat32((this.pos += 4) - 4, true);
 	}
+	/**
+	* Read a `double` field, a 64-bit floating point number.
+	*/
 	double() {
 		return this.view.getFloat64((this.pos += 8) - 8, true);
 	}
+	/**
+	* Read a `bytes` field, length-delimited arbitrary data.
+	*/
 	bytes() {
 		let len = this.uint32();
 		let start = this.pos;
@@ -3590,10 +3976,16 @@ var BinaryReader = class {
 		this.assertBounds();
 		return this.buf.subarray(start, start + len);
 	}
+	/**
+	* Read a `string` field, length-delimited data converted to UTF-8 text.
+	*/
 	string() {
 		return this.textDecoder.decode(this.bytes());
 	}
 };
+/**
+* assert that condition is true or throw error (with message)
+*/
 function assert(condition, msg) {
 	if (!condition) throw new Error(msg);
 }
@@ -3615,16 +4007,25 @@ var defaultsWrite$1 = {
 	writeUnknownFields: true,
 	writerFactory: () => new BinaryWriter()
 };
+/**
+* Make options for writing binary data form partial options.
+*/
 function binaryWriteOptions(options) {
 	return options ? Object.assign(Object.assign({}, defaultsWrite$1), options) : defaultsWrite$1;
 }
 var BinaryWriter = class {
 	constructor(textEncoder) {
+		/**
+		* Previous fork states.
+		*/
 		this.stack = [];
 		this.textEncoder = textEncoder !== null && textEncoder !== void 0 ? textEncoder : new TextEncoder();
 		this.chunks = [];
 		this.buf = [];
 	}
+	/**
+	* Return all bytes written and reset this writer.
+	*/
 	finish() {
 		this.chunks.push(new Uint8Array(this.buf));
 		let len = 0;
@@ -3638,6 +4039,12 @@ var BinaryWriter = class {
 		this.chunks = [];
 		return bytes;
 	}
+	/**
+	* Start a new fork for length-delimited data like a message
+	* or a packed repeated field.
+	*
+	* Must be joined later with `join()`.
+	*/
 	fork() {
 		this.stack.push({
 			chunks: this.chunks,
@@ -3647,6 +4054,10 @@ var BinaryWriter = class {
 		this.buf = [];
 		return this;
 	}
+	/**
+	* Join the last fork. Write its length and bytes, then
+	* return to the previous state.
+	*/
 	join() {
 		let chunk = this.finish();
 		let prev = this.stack.pop();
@@ -3656,9 +4067,19 @@ var BinaryWriter = class {
 		this.uint32(chunk.byteLength);
 		return this.raw(chunk);
 	}
+	/**
+	* Writes a tag (field number and wire type).
+	*
+	* Equivalent to `uint32( (fieldNo << 3 | type) >>> 0 )`.
+	*
+	* Generated code should compute the tag ahead of time and call `uint32()`.
+	*/
 	tag(fieldNo, type) {
 		return this.uint32((fieldNo << 3 | type) >>> 0);
 	}
+	/**
+	* Write a chunk of raw bytes.
+	*/
 	raw(chunk) {
 		if (this.buf.length) {
 			this.chunks.push(new Uint8Array(this.buf));
@@ -3667,6 +4088,9 @@ var BinaryWriter = class {
 		this.chunks.push(chunk);
 		return this;
 	}
+	/**
+	* Write a `uint32` value, an unsigned 32 bit varint.
+	*/
 	uint32(value) {
 		assertUInt32(value);
 		while (value > 127) {
@@ -3676,53 +4100,83 @@ var BinaryWriter = class {
 		this.buf.push(value);
 		return this;
 	}
+	/**
+	* Write a `int32` value, a signed 32 bit varint.
+	*/
 	int32(value) {
 		assertInt32(value);
 		varint32write(value, this.buf);
 		return this;
 	}
+	/**
+	* Write a `bool` value, a variant.
+	*/
 	bool(value) {
 		this.buf.push(value ? 1 : 0);
 		return this;
 	}
+	/**
+	* Write a `bytes` value, length-delimited arbitrary data.
+	*/
 	bytes(value) {
 		this.uint32(value.byteLength);
 		return this.raw(value);
 	}
+	/**
+	* Write a `string` value, length-delimited data converted to UTF-8 text.
+	*/
 	string(value) {
 		let chunk = this.textEncoder.encode(value);
 		this.uint32(chunk.byteLength);
 		return this.raw(chunk);
 	}
+	/**
+	* Write a `float` value, 32-bit floating point number.
+	*/
 	float(value) {
 		assertFloat32(value);
 		let chunk = new Uint8Array(4);
 		new DataView(chunk.buffer).setFloat32(0, value, true);
 		return this.raw(chunk);
 	}
+	/**
+	* Write a `double` value, a 64-bit floating point number.
+	*/
 	double(value) {
 		let chunk = new Uint8Array(8);
 		new DataView(chunk.buffer).setFloat64(0, value, true);
 		return this.raw(chunk);
 	}
+	/**
+	* Write a `fixed32` value, an unsigned, fixed-length 32-bit integer.
+	*/
 	fixed32(value) {
 		assertUInt32(value);
 		let chunk = new Uint8Array(4);
 		new DataView(chunk.buffer).setUint32(0, value, true);
 		return this.raw(chunk);
 	}
+	/**
+	* Write a `sfixed32` value, a signed, fixed-length 32-bit integer.
+	*/
 	sfixed32(value) {
 		assertInt32(value);
 		let chunk = new Uint8Array(4);
 		new DataView(chunk.buffer).setInt32(0, value, true);
 		return this.raw(chunk);
 	}
+	/**
+	* Write a `sint32` value, a signed, zigzag-encoded 32-bit varint.
+	*/
 	sint32(value) {
 		assertInt32(value);
 		value = (value << 1 ^ value >> 31) >>> 0;
 		varint32write(value, this.buf);
 		return this;
 	}
+	/**
+	* Write a `fixed64` value, a signed, fixed-length 64-bit integer.
+	*/
 	sfixed64(value) {
 		let chunk = new Uint8Array(8);
 		let view = new DataView(chunk.buffer);
@@ -3731,6 +4185,9 @@ var BinaryWriter = class {
 		view.setInt32(4, long.hi, true);
 		return this.raw(chunk);
 	}
+	/**
+	* Write a `fixed64` value, an unsigned, fixed-length 64 bit integer.
+	*/
 	fixed64(value) {
 		let chunk = new Uint8Array(8);
 		let view = new DataView(chunk.buffer);
@@ -3739,16 +4196,25 @@ var BinaryWriter = class {
 		view.setInt32(4, long.hi, true);
 		return this.raw(chunk);
 	}
+	/**
+	* Write a `int64` value, a signed 64-bit varint.
+	*/
 	int64(value) {
 		let long = PbLong.from(value);
 		varint64write(long.lo, long.hi, this.buf);
 		return this;
 	}
+	/**
+	* Write a `sint64` value, a signed, zig-zag-encoded 64-bit varint.
+	*/
 	sint64(value) {
 		let long = PbLong.from(value), sign = long.hi >> 31;
 		varint64write(long.lo << 1 ^ sign, (long.hi << 1 | long.lo >>> 31) ^ sign, this.buf);
 		return this;
 	}
+	/**
+	* Write a `uint64` value, an unsigned 64-bit varint.
+	*/
 	uint64(value) {
 		let long = PbULong.from(value);
 		varint64write(long.lo, long.hi, this.buf);
@@ -3761,13 +4227,31 @@ var defaultsWrite = {
 	useProtoFieldName: false,
 	prettySpaces: 0
 }, defaultsRead = { ignoreUnknownFields: false };
+/**
+* Make options for reading JSON data from partial options.
+*/
 function jsonReadOptions(options) {
 	return options ? Object.assign(Object.assign({}, defaultsRead), options) : defaultsRead;
 }
+/**
+* Make options for writing JSON data from partial options.
+*/
 function jsonWriteOptions(options) {
 	return options ? Object.assign(Object.assign({}, defaultsWrite), options) : defaultsWrite;
 }
+/**
+* The symbol used as a key on message objects to store the message type.
+*
+* Note that this is an experimental feature - it is here to stay, but
+* implementation details may change without notice.
+*/
 const MESSAGE_TYPE = Symbol.for("protobuf-ts/message-type");
+/**
+* Converts snake_case to lowerCamelCase.
+*
+* Should behave like protoc:
+* https://github.com/protocolbuffers/protobuf/blob/e8ae137c96444ea313485ed1118c5e43b2099cf1/src/google/protobuf/compiler/java/java_helpers.cc#L118
+*/
 function lowerCamelCase(snakeCase) {
 	let capNext = false;
 	const sb = [];
@@ -3785,6 +4269,11 @@ function lowerCamelCase(snakeCase) {
 	}
 	return sb.join("");
 }
+/**
+* Scalar value types. This is a subset of field types declared by protobuf
+* enum google.protobuf.FieldDescriptorProto.Type The types GROUP and MESSAGE
+* are omitted, but the numerical values are identical.
+*/
 var ScalarType;
 (function(ScalarType) {
 	ScalarType[ScalarType["DOUBLE"] = 1] = "DOUBLE";
@@ -3803,18 +4292,81 @@ var ScalarType;
 	ScalarType[ScalarType["SINT32"] = 17] = "SINT32";
 	ScalarType[ScalarType["SINT64"] = 18] = "SINT64";
 })(ScalarType || (ScalarType = {}));
+/**
+* JavaScript representation of 64 bit integral types. Equivalent to the
+* field option "jstype".
+*
+* By default, protobuf-ts represents 64 bit types as `bigint`.
+*
+* You can change the default behaviour by enabling the plugin parameter
+* `long_type_string`, which will represent 64 bit types as `string`.
+*
+* Alternatively, you can change the behaviour for individual fields
+* with the field option "jstype":
+*
+* ```protobuf
+* uint64 my_field = 1 [jstype = JS_STRING];
+* uint64 other_field = 2 [jstype = JS_NUMBER];
+* ```
+*/
 var LongType;
 (function(LongType) {
+	/**
+	* Use JavaScript `bigint`.
+	*
+	* Field option `[jstype = JS_NORMAL]`.
+	*/
 	LongType[LongType["BIGINT"] = 0] = "BIGINT";
+	/**
+	* Use JavaScript `string`.
+	*
+	* Field option `[jstype = JS_STRING]`.
+	*/
 	LongType[LongType["STRING"] = 1] = "STRING";
+	/**
+	* Use JavaScript `number`.
+	*
+	* Large values will loose precision.
+	*
+	* Field option `[jstype = JS_NUMBER]`.
+	*/
 	LongType[LongType["NUMBER"] = 2] = "NUMBER";
 })(LongType || (LongType = {}));
+/**
+* Protobuf 2.1.0 introduced packed repeated fields.
+* Setting the field option `[packed = true]` enables packing.
+*
+* In proto3, all repeated fields are packed by default.
+* Setting the field option `[packed = false]` disables packing.
+*
+* Packed repeated fields are encoded with a single tag,
+* then a length-delimiter, then the element values.
+*
+* Unpacked repeated fields are encoded with a tag and
+* value for each element.
+*
+* `bytes` and `string` cannot be packed.
+*/
 var RepeatType;
 (function(RepeatType) {
+	/**
+	* The field is not repeated.
+	*/
 	RepeatType[RepeatType["NO"] = 0] = "NO";
+	/**
+	* The field is repeated and should be packed.
+	* Invalid for `bytes` and `string`, they cannot be packed.
+	*/
 	RepeatType[RepeatType["PACKED"] = 1] = "PACKED";
+	/**
+	* The field is repeated but should not be packed.
+	* The only valid repeat type for repeated `bytes` and `string`.
+	*/
 	RepeatType[RepeatType["UNPACKED"] = 2] = "UNPACKED";
 })(RepeatType || (RepeatType = {}));
+/**
+* Turns PartialFieldInfo into FieldInfo.
+*/
 function normalizeFieldInfo(field) {
 	var _a, _b, _c, _d;
 	field.localName = (_a = field.localName) !== null && _a !== void 0 ? _a : lowerCamelCase(field.name);
@@ -3823,6 +4375,33 @@ function normalizeFieldInfo(field) {
 	field.opt = (_d = field.opt) !== null && _d !== void 0 ? _d : field.repeat ? false : field.oneof ? false : field.kind == "message";
 	return field;
 }
+/**
+* Is the given value a valid oneof group?
+*
+* We represent protobuf `oneof` as algebraic data types (ADT) in generated
+* code. But when working with messages of unknown type, the ADT does not
+* help us.
+*
+* This type guard checks if the given object adheres to the ADT rules, which
+* are as follows:
+*
+* 1) Must be an object.
+*
+* 2) Must have a "oneofKind" discriminator property.
+*
+* 3) If "oneofKind" is `undefined`, no member field is selected. The object
+* must not have any other properties.
+*
+* 4) If "oneofKind" is a `string`, the member field with this name is
+* selected.
+*
+* 5) If a member field is selected, the object must have a second property
+* with this name. The property must not be `undefined`.
+*
+* 6) No extra properties are allowed. The object has either one property
+* (no selection) or two properties (selection).
+*
+*/
 function isOneofGroup(any) {
 	if (typeof any != "object" || any === null || !any.hasOwnProperty("oneofKind")) return false;
 	switch (typeof any.oneofKind) {
@@ -3868,6 +4447,26 @@ var ReflectionTypeCheck = class {
 			oneofs: Object.values(oneofs)
 		};
 	}
+	/**
+	* Is the argument a valid message as specified by the
+	* reflection information?
+	*
+	* Checks all field types recursively. The `depth`
+	* specifies how deep into the structure the check will be.
+	*
+	* With a depth of 0, only the presence of fields
+	* is checked.
+	*
+	* With a depth of 1 or more, the field types are checked.
+	*
+	* With a depth of 2 or more, the members of map, repeated
+	* and message fields are checked.
+	*
+	* Message fields will be checked recursively with depth - 1.
+	*
+	* The number of map entries / repeated values being checked
+	* is < depth.
+	*/
 	is(message, depth, allowExcessProperties = false) {
 		if (depth < 0) return true;
 		if (message === null || message === void 0 || typeof message != "object") return false;
@@ -3973,6 +4572,13 @@ var ReflectionTypeCheck = class {
 		}
 	}
 };
+/**
+* Utility method to convert a PbLong or PbUlong to a JavaScript
+* representation during runtime.
+*
+* Works with generated field information, `undefined` is equivalent
+* to `STRING`.
+*/
 function reflectionLongConvert(long, type) {
 	switch (type) {
 		case LongType.BIGINT: return long.toBigInt();
@@ -3980,6 +4586,11 @@ function reflectionLongConvert(long, type) {
 		default: return long.toString();
 	}
 }
+/**
+* Reads proto3 messages in canonical JSON format using reflection information.
+*
+* https://developers.google.com/protocol-buffers/docs/proto3#json
+*/
 var ReflectionJsonReader = class {
 	constructor(info) {
 		this.info = info;
@@ -4003,6 +4614,15 @@ var ReflectionJsonReader = class {
 			throw new Error(`Cannot parse JSON ${what} for ${this.info.typeName}#${fieldName}`);
 		}
 	}
+	/**
+	* Reads a message from canonical JSON format into the target message.
+	*
+	* Repeated fields are appended. Map entries are added, overwriting
+	* existing keys.
+	*
+	* If a message field is already present, it will be merged with the
+	* new data.
+	*/
 	read(input, message, options) {
 		this.prepare();
 		const oneofsHandled = [];
@@ -4088,6 +4708,11 @@ var ReflectionJsonReader = class {
 			}
 		}
 	}
+	/**
+	* Returns `false` for unrecognized string representations.
+	*
+	* google.protobuf.NullValue accepts only JSON `null` (or the old `"NULL_VALUE"`).
+	*/
 	enum(type, json, fieldName, ignoreUnknownFields) {
 		if (type[0] == "google.protobuf.NullValue") assert(json === null || json === "NULL_VALUE", `Unable to parse field ${this.info.typeName}#${fieldName}, enum ${type[0]} only accepts null.`);
 		if (json === null) return 0;
@@ -4183,11 +4808,20 @@ var ReflectionJsonReader = class {
 		this.assert(false, fieldName + (e ? " - " + e : ""), json);
 	}
 };
+/**
+* Writes proto3 messages in canonical JSON format using reflection
+* information.
+*
+* https://developers.google.com/protocol-buffers/docs/proto3#json
+*/
 var ReflectionJsonWriter = class {
 	constructor(info) {
 		var _a;
 		this.fields = (_a = info.fields) !== null && _a !== void 0 ? _a : [];
 	}
+	/**
+	* Converts the message to a JSON object, based on the field descriptors.
+	*/
 	write(message, options) {
 		const json = {}, source = message;
 		for (const field of this.fields) {
@@ -4280,6 +4914,9 @@ var ReflectionJsonWriter = class {
 		}
 		return jsonValue;
 	}
+	/**
+	* Returns `null` as the default for google.protobuf.NullValue.
+	*/
 	enum(type, value, fieldName, optional, emitDefaultValues, enumAsInteger) {
 		if (type[0] == "google.protobuf.NullValue") return !emitDefaultValues && !optional ? void 0 : null;
 		if (value === void 0) {
@@ -4351,6 +4988,9 @@ var ReflectionJsonWriter = class {
 		}
 	}
 };
+/**
+* Creates the default value for a scalar type.
+*/
 function reflectionScalarDefault(type, longType = LongType.STRING) {
 	switch (type) {
 		case ScalarType.BOOL: return false;
@@ -4366,6 +5006,11 @@ function reflectionScalarDefault(type, longType = LongType.STRING) {
 		default: return 0;
 	}
 }
+/**
+* Reads proto3 messages in binary format using reflection information.
+*
+* https://developers.google.com/protocol-buffers/docs/encoding
+*/
 var ReflectionBinaryReader = class {
 	constructor(info) {
 		this.info = info;
@@ -4377,6 +5022,15 @@ var ReflectionBinaryReader = class {
 			this.fieldNoToField = new Map(fieldsInput.map((field) => [field.no, field]));
 		}
 	}
+	/**
+	* Reads a message from binary format into the target message.
+	*
+	* Repeated fields are appended. Map entries are added, overwriting
+	* existing keys.
+	*
+	* If a message field is already present, it will be merged with the
+	* new data.
+	*/
 	read(reader, message, options, length) {
 		this.prepare();
 		const end = length === void 0 ? reader.len : reader.pos + length;
@@ -4421,6 +5075,9 @@ var ReflectionBinaryReader = class {
 			}
 		}
 	}
+	/**
+	* Read a map field, expecting key field = 1, value field = 2
+	*/
 	mapEntry(field, reader, options) {
 		let length = reader.uint32();
 		let end = reader.pos + length;
@@ -4486,6 +5143,11 @@ var ReflectionBinaryReader = class {
 		}
 	}
 };
+/**
+* Writes proto3 messages in binary format using reflection information.
+*
+* https://developers.google.com/protocol-buffers/docs/encoding
+*/
 var ReflectionBinaryWriter = class {
 	constructor(info) {
 		this.info = info;
@@ -4493,6 +5155,9 @@ var ReflectionBinaryWriter = class {
 	prepare() {
 		if (!this.fields) this.fields = (this.info.fields ? this.info.fields.concat() : []).sort((a, b) => a.no - b.no);
 	}
+	/**
+	* Writes the message to binary format.
+	*/
 	write(message, writer, options) {
 		this.prepare();
 		for (const field of this.fields) {
@@ -4568,6 +5233,9 @@ var ReflectionBinaryWriter = class {
 		handler.internalBinaryWrite(value, writer.tag(fieldNo, WireType.LengthDelimited).fork(), options);
 		writer.join();
 	}
+	/**
+	* Write a single scalar value.
+	*/
 	scalar(writer, type, fieldNo, value, emitDefault) {
 		let [wireType, method, isDefault] = this.scalarInfo(type, value);
 		if (!isDefault || emitDefault) {
@@ -4575,6 +5243,9 @@ var ReflectionBinaryWriter = class {
 			writer[method](value);
 		}
 	}
+	/**
+	* Write an array of scalar values in packed format.
+	*/
 	packed(writer, type, fieldNo, value) {
 		if (!value.length) return;
 		assert(type !== ScalarType.BYTES && type !== ScalarType.STRING);
@@ -4584,6 +5255,16 @@ var ReflectionBinaryWriter = class {
 		for (let i = 0; i < value.length; i++) writer[method](value[i]);
 		writer.join();
 	}
+	/**
+	* Get information for writing a scalar value.
+	*
+	* Returns tuple:
+	* [0]: appropriate WireType
+	* [1]: name of the appropriate method of IBinaryWriter
+	* [2]: whether the given value is a default value
+	*
+	* If argument `value` is omitted, [2] is always false.
+	*/
 	scalarInfo(type, value) {
 		let t = WireType.Varint;
 		let m;
@@ -4659,7 +5340,21 @@ var ReflectionBinaryWriter = class {
 		];
 	}
 };
+/**
+* Creates an instance of the generic message, using the field
+* information.
+*/
 function reflectionCreate(type) {
+	/**
+	* This ternary can be removed in the next major version.
+	* The `Object.create()` code path utilizes a new `messagePrototype`
+	* property on the `IMessageType` which has this same `MESSAGE_TYPE`
+	* non-enumerable property on it. Doing it this way means that we only
+	* pay the cost of `Object.defineProperty()` once per `IMessageType`
+	* class of once per "instance". The falsy code path is only provided
+	* for backwards compatibility in cases where the runtime library is
+	* updated without also updating the generated code.
+	*/
 	const msg = type.messagePrototype ? Object.create(type.messagePrototype) : Object.defineProperty({}, MESSAGE_TYPE, { value: type });
 	for (let field of type.fields) {
 		let name = field.localName;
@@ -4680,6 +5375,28 @@ function reflectionCreate(type) {
 	}
 	return msg;
 }
+/**
+* Copy partial data into the target message.
+*
+* If a singular scalar or enum field is present in the source, it
+* replaces the field in the target.
+*
+* If a singular message field is present in the source, it is merged
+* with the target field by calling mergePartial() of the responsible
+* message type.
+*
+* If a repeated field is present in the source, its values replace
+* all values in the target array, removing extraneous values.
+* Repeated message fields are copied, not merged.
+*
+* If a map field is present in the source, entries are added to the
+* target map, replacing entries with the same key. Entries that only
+* exist in the target remain. Entries with message values are copied,
+* not merged.
+*
+* Note that this function differs from protobuf merge semantics,
+* which appends repeated fields.
+*/
 function reflectionMergePartial(info, target, source) {
 	let fieldValue, input = source, output;
 	for (let field of info.fields) {
@@ -4727,6 +5444,12 @@ function reflectionMergePartial(info, target, source) {
 		}
 	}
 }
+/**
+* Determines whether two message of the same type have the same field values.
+* Checks for deep equality, traversing repeated fields, oneof groups, maps
+* and messages recursively.
+* Will also return true if both messages are `undefined`.
+*/
 function reflectionEquals(info, a, b) {
 	if (a === b) return true;
 	if (!a || !b) return false;
@@ -4773,6 +5496,10 @@ function repeatedMsgEq(type, a, b) {
 }
 var baseDescriptors = Object.getOwnPropertyDescriptors(Object.getPrototypeOf({}));
 var messageTypeDescriptor = baseDescriptors[MESSAGE_TYPE] = {};
+/**
+* This standard message type provides reflection-based
+* operations to work with a message.
+*/
 var MessageType = class {
 	constructor(name, fields, options) {
 		this.defaultCheckDepth = 16;
@@ -4792,46 +5519,96 @@ var MessageType = class {
 		if (value !== void 0) reflectionMergePartial(this, message, value);
 		return message;
 	}
+	/**
+	* Clone the message.
+	*
+	* Unknown fields are discarded.
+	*/
 	clone(message) {
 		let copy = this.create();
 		reflectionMergePartial(this, copy, message);
 		return copy;
 	}
+	/**
+	* Determines whether two message of the same type have the same field values.
+	* Checks for deep equality, traversing repeated fields, oneof groups, maps
+	* and messages recursively.
+	* Will also return true if both messages are `undefined`.
+	*/
 	equals(a, b) {
 		return reflectionEquals(this, a, b);
 	}
+	/**
+	* Is the given value assignable to our message type
+	* and contains no [excess properties](https://www.typescriptlang.org/docs/handbook/interfaces.html#excess-property-checks)?
+	*/
 	is(arg, depth = this.defaultCheckDepth) {
 		return this.refTypeCheck.is(arg, depth, false);
 	}
+	/**
+	* Is the given value assignable to our message type,
+	* regardless of [excess properties](https://www.typescriptlang.org/docs/handbook/interfaces.html#excess-property-checks)?
+	*/
 	isAssignable(arg, depth = this.defaultCheckDepth) {
 		return this.refTypeCheck.is(arg, depth, true);
 	}
+	/**
+	* Copy partial data into the target message.
+	*/
 	mergePartial(target, source) {
 		reflectionMergePartial(this, target, source);
 	}
+	/**
+	* Create a new message from binary format.
+	*/
 	fromBinary(data, options) {
 		let opt = binaryReadOptions(options);
 		return this.internalBinaryRead(opt.readerFactory(data), data.byteLength, opt);
 	}
+	/**
+	* Read a new message from a JSON value.
+	*/
 	fromJson(json, options) {
 		return this.internalJsonRead(json, jsonReadOptions(options));
 	}
+	/**
+	* Read a new message from a JSON string.
+	* This is equivalent to `T.fromJson(JSON.parse(json))`.
+	*/
 	fromJsonString(json, options) {
 		let value = JSON.parse(json);
 		return this.fromJson(value, options);
 	}
+	/**
+	* Write the message to canonical JSON value.
+	*/
 	toJson(message, options) {
 		return this.internalJsonWrite(message, jsonWriteOptions(options));
 	}
+	/**
+	* Convert the message to canonical JSON string.
+	* This is equivalent to `JSON.stringify(T.toJson(t))`
+	*/
 	toJsonString(message, options) {
 		var _a;
 		let value = this.toJson(message, options);
 		return JSON.stringify(value, null, (_a = options === null || options === void 0 ? void 0 : options.prettySpaces) !== null && _a !== void 0 ? _a : 0);
 	}
+	/**
+	* Write the message to binary format.
+	*/
 	toBinary(message, options) {
 		let opt = binaryWriteOptions(options);
 		return this.internalBinaryWrite(message, opt.writerFactory(), opt).finish();
 	}
+	/**
+	* This is an internal method. If you just want to read a message from
+	* JSON, use `fromJson()` or `fromJsonString()`.
+	*
+	* Reads JSON value and merges the fields into the target
+	* according to protobuf rules. If the target is omitted,
+	* a new instance is created first.
+	*/
 	internalJsonRead(json, options, target) {
 		if (json !== null && typeof json == "object" && !Array.isArray(json)) {
 			let message = target !== null && target !== void 0 ? target : this.create();
@@ -4840,13 +5617,34 @@ var MessageType = class {
 		}
 		throw new Error(`Unable to parse message ${this.typeName} from JSON ${typeofJsonValue(json)}.`);
 	}
+	/**
+	* This is an internal method. If you just want to write a message
+	* to JSON, use `toJson()` or `toJsonString().
+	*
+	* Writes JSON value and returns it.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.write(message, options);
 	}
+	/**
+	* This is an internal method. If you just want to write a message
+	* in binary format, use `toBinary()`.
+	*
+	* Serializes the message in binary format and appends it to the given
+	* writer. Returns passed writer.
+	*/
 	internalBinaryWrite(message, writer, options) {
 		this.refBinWriter.write(message, writer, options);
 		return writer;
 	}
+	/**
+	* This is an internal method. If you just want to read a message from
+	* binary data, use `fromBinary()`.
+	*
+	* Reads data from binary format and merges the fields into
+	* the target according to protobuf rules. If the target is
+	* omitted, a new instance is created first.
+	*/
 	internalBinaryRead(reader, length, options, target) {
 		let message = target !== null && target !== void 0 ? target : this.create();
 		this.refBinReader.read(reader, message, options, length);
@@ -4867,6 +5665,9 @@ var Timestamp$Type = class extends MessageType {
 			T: 5
 		}]);
 	}
+	/**
+	* Creates a new `Timestamp` for the current time.
+	*/
 	now() {
 		const msg = this.create();
 		const ms = Date.now();
@@ -4874,9 +5675,15 @@ var Timestamp$Type = class extends MessageType {
 		msg.nanos = ms % 1e3 * 1e6;
 		return msg;
 	}
+	/**
+	* Converts a `Timestamp` to a JavaScript Date.
+	*/
 	toDate(message) {
 		return new Date(PbLong.from(message.seconds).toNumber() * 1e3 + Math.ceil(message.nanos / 1e6));
 	}
+	/**
+	* Converts a JavaScript Date to a `Timestamp`.
+	*/
 	fromDate(date) {
 		const msg = this.create();
 		const ms = date.getTime();
@@ -4884,6 +5691,10 @@ var Timestamp$Type = class extends MessageType {
 		msg.nanos = ms % 1e3 * 1e6;
 		return msg;
 	}
+	/**
+	* In JSON format, the `Timestamp` type is encoded as a string
+	* in the RFC 3339 format.
+	*/
 	internalJsonWrite(message, options) {
 		let ms = PbLong.from(message.seconds).toNumber() * 1e3;
 		if (ms < Date.parse("0001-01-01T00:00:00Z") || ms > Date.parse("9999-12-31T23:59:59Z")) throw new Error("Unable to encode Timestamp to JSON. Must be from 0001-01-01T00:00:00Z to 9999-12-31T23:59:59Z inclusive.");
@@ -4897,6 +5708,10 @@ var Timestamp$Type = class extends MessageType {
 		}
 		return new Date(ms).toISOString().replace(".000Z", z);
 	}
+	/**
+	* In JSON format, the `Timestamp` type is encoded as a string
+	* in the RFC 3339 format.
+	*/
 	internalJsonRead(json, options, target) {
 		if (typeof json !== "string") throw new Error("Unable to parse Timestamp from JSON " + typeofJsonValue(json) + ".");
 		let matches = json.match(/^([0-9]{4})-([0-9]{2})-([0-9]{2})T([0-9]{2}):([0-9]{2}):([0-9]{2})(?:Z|\.([0-9]{3,9})Z|([+-][0-9][0-9]:[0-9][0-9]))$/);
@@ -4950,6 +5765,9 @@ var Timestamp$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message google.protobuf.Timestamp
+*/
 const Timestamp = new Timestamp$Type();
 var DoubleValue$Type = class extends MessageType {
 	constructor() {
@@ -4960,9 +5778,15 @@ var DoubleValue$Type = class extends MessageType {
 			T: 1
 		}]);
 	}
+	/**
+	* Encode `DoubleValue` to JSON number.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.scalar(2, message.value, "value", false, true);
 	}
+	/**
+	* Decode `DoubleValue` from JSON number.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, 1, void 0, "value");
@@ -5011,9 +5835,15 @@ var FloatValue$Type = class extends MessageType {
 			T: 2
 		}]);
 	}
+	/**
+	* Encode `FloatValue` to JSON number.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.scalar(1, message.value, "value", false, true);
 	}
+	/**
+	* Decode `FloatValue` from JSON number.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, 1, void 0, "value");
@@ -5062,9 +5892,15 @@ var Int64Value$Type = class extends MessageType {
 			T: 3
 		}]);
 	}
+	/**
+	* Encode `Int64Value` to JSON string.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.scalar(ScalarType.INT64, message.value, "value", false, true);
 	}
+	/**
+	* Decode `Int64Value` from JSON string.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, ScalarType.INT64, LongType.STRING, "value");
@@ -5103,6 +5939,9 @@ var Int64Value$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message google.protobuf.Int64Value
+*/
 const Int64Value = new Int64Value$Type();
 var UInt64Value$Type = class extends MessageType {
 	constructor() {
@@ -5113,9 +5952,15 @@ var UInt64Value$Type = class extends MessageType {
 			T: 4
 		}]);
 	}
+	/**
+	* Encode `UInt64Value` to JSON string.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.scalar(ScalarType.UINT64, message.value, "value", false, true);
 	}
+	/**
+	* Decode `UInt64Value` from JSON string.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, ScalarType.UINT64, LongType.STRING, "value");
@@ -5164,9 +6009,15 @@ var Int32Value$Type = class extends MessageType {
 			T: 5
 		}]);
 	}
+	/**
+	* Encode `Int32Value` to JSON string.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.scalar(5, message.value, "value", false, true);
 	}
+	/**
+	* Decode `Int32Value` from JSON string.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, 5, void 0, "value");
@@ -5215,9 +6066,15 @@ var UInt32Value$Type = class extends MessageType {
 			T: 13
 		}]);
 	}
+	/**
+	* Encode `UInt32Value` to JSON string.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.scalar(13, message.value, "value", false, true);
 	}
+	/**
+	* Decode `UInt32Value` from JSON string.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, 13, void 0, "value");
@@ -5266,9 +6123,15 @@ var BoolValue$Type = class extends MessageType {
 			T: 8
 		}]);
 	}
+	/**
+	* Encode `BoolValue` to JSON bool.
+	*/
 	internalJsonWrite(message, options) {
 		return message.value;
 	}
+	/**
+	* Decode `BoolValue` from JSON bool.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, 8, void 0, "value");
@@ -5317,9 +6180,15 @@ var StringValue$Type = class extends MessageType {
 			T: 9
 		}]);
 	}
+	/**
+	* Encode `StringValue` to JSON string.
+	*/
 	internalJsonWrite(message, options) {
 		return message.value;
 	}
+	/**
+	* Decode `StringValue` from JSON string.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, 9, void 0, "value");
@@ -5358,6 +6227,9 @@ var StringValue$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message google.protobuf.StringValue
+*/
 const StringValue = new StringValue$Type();
 var BytesValue$Type = class extends MessageType {
 	constructor() {
@@ -5368,9 +6240,15 @@ var BytesValue$Type = class extends MessageType {
 			T: 12
 		}]);
 	}
+	/**
+	* Encode `BytesValue` to JSON string.
+	*/
 	internalJsonWrite(message, options) {
 		return this.refJsonWriter.scalar(12, message.value, "value", false, true);
 	}
+	/**
+	* Decode `BytesValue` from JSON string.
+	*/
 	internalJsonRead(json, options, target) {
 		if (!target) target = this.create();
 		target.value = this.refJsonReader.scalar(json, 12, void 0, "value");
@@ -5410,6 +6288,9 @@ var BytesValue$Type = class extends MessageType {
 	}
 };
 new BytesValue$Type();
+/**
+* Turns PartialMethodInfo into MethodInfo.
+*/
 function normalizeMethodInfo(method, service) {
 	var _a, _b, _c;
 	let m = method;
@@ -5495,6 +6376,9 @@ var MigrateArtifactRequest$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.MigrateArtifactRequest
+*/
 const MigrateArtifactRequest = new MigrateArtifactRequest$Type();
 var MigrateArtifactResponse$Type = class extends MessageType {
 	constructor() {
@@ -5550,6 +6434,9 @@ var MigrateArtifactResponse$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.MigrateArtifactResponse
+*/
 const MigrateArtifactResponse = new MigrateArtifactResponse$Type();
 var FinalizeMigratedArtifactRequest$Type = class extends MessageType {
 	constructor() {
@@ -5619,6 +6506,9 @@ var FinalizeMigratedArtifactRequest$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.FinalizeMigratedArtifactRequest
+*/
 const FinalizeMigratedArtifactRequest = new FinalizeMigratedArtifactRequest$Type();
 var FinalizeMigratedArtifactResponse$Type = class extends MessageType {
 	constructor() {
@@ -5674,6 +6564,9 @@ var FinalizeMigratedArtifactResponse$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.FinalizeMigratedArtifactResponse
+*/
 const FinalizeMigratedArtifactResponse = new FinalizeMigratedArtifactResponse$Type();
 var CreateArtifactRequest$Type = class extends MessageType {
 	constructor() {
@@ -5764,6 +6657,9 @@ var CreateArtifactRequest$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.CreateArtifactRequest
+*/
 const CreateArtifactRequest = new CreateArtifactRequest$Type();
 var CreateArtifactResponse$Type = class extends MessageType {
 	constructor() {
@@ -5819,6 +6715,9 @@ var CreateArtifactResponse$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.CreateArtifactResponse
+*/
 const CreateArtifactResponse = new CreateArtifactResponse$Type();
 var FinalizeArtifactRequest$Type = class extends MessageType {
 	constructor() {
@@ -5909,6 +6808,9 @@ var FinalizeArtifactRequest$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.FinalizeArtifactRequest
+*/
 const FinalizeArtifactRequest = new FinalizeArtifactRequest$Type();
 var FinalizeArtifactResponse$Type = class extends MessageType {
 	constructor() {
@@ -5964,6 +6866,9 @@ var FinalizeArtifactResponse$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.FinalizeArtifactResponse
+*/
 const FinalizeArtifactResponse = new FinalizeArtifactResponse$Type();
 var ListArtifactsRequest$Type = class extends MessageType {
 	constructor() {
@@ -6042,6 +6947,9 @@ var ListArtifactsRequest$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.ListArtifactsRequest
+*/
 const ListArtifactsRequest = new ListArtifactsRequest$Type();
 var ListArtifactsResponse$Type = class extends MessageType {
 	constructor() {
@@ -6086,6 +6994,9 @@ var ListArtifactsResponse$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.ListArtifactsResponse
+*/
 const ListArtifactsResponse = new ListArtifactsResponse$Type();
 var ListArtifactsResponse_MonolithArtifact$Type = class extends MessageType {
 	constructor() {
@@ -6197,6 +7108,9 @@ var ListArtifactsResponse_MonolithArtifact$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.ListArtifactsResponse.MonolithArtifact
+*/
 const ListArtifactsResponse_MonolithArtifact = new ListArtifactsResponse_MonolithArtifact$Type();
 var GetSignedArtifactURLRequest$Type = class extends MessageType {
 	constructor() {
@@ -6266,6 +7180,9 @@ var GetSignedArtifactURLRequest$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.GetSignedArtifactURLRequest
+*/
 const GetSignedArtifactURLRequest = new GetSignedArtifactURLRequest$Type();
 var GetSignedArtifactURLResponse$Type = class extends MessageType {
 	constructor() {
@@ -6309,6 +7226,9 @@ var GetSignedArtifactURLResponse$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.GetSignedArtifactURLResponse
+*/
 const GetSignedArtifactURLResponse = new GetSignedArtifactURLResponse$Type();
 var DeleteArtifactRequest$Type = class extends MessageType {
 	constructor() {
@@ -6378,6 +7298,9 @@ var DeleteArtifactRequest$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.DeleteArtifactRequest
+*/
 const DeleteArtifactRequest = new DeleteArtifactRequest$Type();
 var DeleteArtifactResponse$Type = class extends MessageType {
 	constructor() {
@@ -6433,6 +7356,9 @@ var DeleteArtifactResponse$Type = class extends MessageType {
 		return writer;
 	}
 };
+/**
+* @generated MessageType for protobuf message github.actions.results.api.v1.DeleteArtifactResponse
+*/
 const DeleteArtifactResponse = new DeleteArtifactResponse$Type();
 new ServiceType("github.actions.results.api.v1.ArtifactService", [
 	{
@@ -6541,6 +7467,14 @@ function getRetentionDays() {
 	if (isNaN(days)) return;
 	return days;
 }
+/**
+* Invalid characters that cannot be in the artifact name or an uploaded file. Will be rejected
+* from the server if attempted to be sent over. These characters are not allowed due to limitations with certain
+* file systems such as NTFS. To maintain platform-agnostic behavior, all characters that are not supported by an
+* individual filesystem/platform will not be supported on all fileSystems/platforms
+*
+* FilePaths can include characters such as \ and / which are not permitted in the artifact name alone
+*/
 var invalidArtifactFilePathCharacters = new Map([
 	["\"", " Double quote \""],
 	[":", " Colon :"],
@@ -6557,6 +7491,9 @@ var invalidArtifactNameCharacters = new Map([
 	["\\", " Backslash \\"],
 	["/", " Forward slash /"]
 ]);
+/**
+* Validates the name of the artifact to check to make sure there are no illegal characters
+*/
 function validateArtifactName(name) {
 	if (!name) throw new Error(`Provided artifact name input during validation is empty`);
 	for (const [invalidCharacterKey, errorMessageForCharacter] of invalidArtifactNameCharacters) if (name.includes(invalidCharacterKey)) throw new Error(`The artifact name is not valid: ${name}. Contains the following character: ${errorMessageForCharacter}
@@ -6566,6 +7503,9 @@ Invalid characters include: ${Array.from(invalidArtifactNameCharacters.values())
 These characters are not allowed in the artifact name due to limitations with certain file systems such as NTFS. To maintain file system agnostic behavior, these characters are intentionally not allowed to prevent potential problems with downloads on different file systems.`);
 	info(`Artifact name is valid!`);
 }
+/**
+* Validates file paths to check for any illegal characters that can cause problems on different file systems
+*/
 function validateFilePath(path) {
 	if (!path) throw new Error(`Provided file path input during validation is empty`);
 	for (const [invalidCharacterKey, errorMessageForCharacter] of invalidArtifactFilePathCharacters) if (path.includes(invalidCharacterKey)) throw new Error(`The path for one of the files in artifact is not valid: ${path}. Contains the following character: ${errorMessageForCharacter}
@@ -6688,6 +7628,9 @@ var init_package = __esmMin((() => {
 var import_package_version = (/* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = { version: (init_package(), __toCommonJS(package_exports).default).version };
 })))();
+/**
+* Ensure that this User Agent String is used in all HTTP calls so that we can monitor telemetry between different versions of this package
+*/
 function getUserAgentString$1() {
 	return `@actions/artifact-${import_package_version.version}`;
 }
@@ -6811,6 +7754,23 @@ function getBackendIdsFromToken() {
 	}
 	throw InvalidJwtError;
 }
+/**
+* Masks the `sig` parameter in a URL and sets it as a secret.
+*
+* @param url - The URL containing the signature parameter to mask
+* @remarks
+* This function attempts to parse the provided URL and identify the 'sig' query parameter.
+* If found, it registers both the raw and URL-encoded signature values as secrets using
+* the Actions `setSecret` API, which prevents them from being displayed in logs.
+*
+* The function handles errors gracefully if URL parsing fails, logging them as debug messages.
+*
+* @example
+* ```typescript
+* // Mask a signature in an Azure SAS token URL
+* maskSigUrl('https://example.blob.core.windows.net/container/file.txt?sig=abc123&se=2023-01-01');
+* ```
+*/
 function maskSigUrl(url) {
 	if (!url) return;
 	try {
@@ -6823,6 +7783,27 @@ function maskSigUrl(url) {
 		debug(`Failed to parse URL: ${url} ${error instanceof Error ? error.message : String(error)}`);
 	}
 }
+/**
+* Masks sensitive information in URLs containing signature parameters.
+* Currently supports masking 'sig' parameters in the 'signed_upload_url'
+* and 'signed_download_url' properties of the provided object.
+*
+* @param body - The object should contain a signature
+* @remarks
+* This function extracts URLs from the object properties and calls maskSigUrl
+* on each one to redact sensitive signature information. The function doesn't
+* modify the original object; it only marks the signatures as secrets for
+* logging purposes.
+*
+* @example
+* ```typescript
+* const responseBody = {
+*   signed_upload_url: 'https://example.com?sig=abc123',
+*   signed_download_url: 'https://example.com?sig=def456'
+* };
+* maskSecretUrls(responseBody);
+* ```
+*/
 function maskSecretUrls(body) {
 	if (typeof body !== "object" || body === null) {
 		debug("body is not an object or is null");
@@ -6958,11 +7939,20 @@ var ArtifactHttpClient = class {
 function internalArtifactTwirpClient(options) {
 	return new ArtifactServiceClientJSON(new ArtifactHttpClient(getUserAgentString$1(), options === null || options === void 0 ? void 0 : options.maxAttempts, options === null || options === void 0 ? void 0 : options.retryIntervalMs, options === null || options === void 0 ? void 0 : options.retryMultiplier));
 }
+/**
+* Checks if a root directory exists and is valid
+* @param rootDirectory an absolute root directory path common to all input files that that will be trimmed from the final zip structure
+*/
 function validateRootDirectory(rootDirectory) {
 	if (!fs$8.existsSync(rootDirectory)) throw new Error(`The provided rootDirectory ${rootDirectory} does not exist`);
 	if (!fs$8.statSync(rootDirectory).isDirectory()) throw new Error(`The provided rootDirectory ${rootDirectory} is not a valid directory`);
 	info(`Root directory input is valid!`);
 }
+/**
+* Creates a specification that describes how a zip file will be created for a set of input files
+* @param filesToZip a list of file that should be included in the zip
+* @param rootDirectory an absolute root directory path common to all input files that that will be trimmed from the final zip structure
+*/
 function getUploadZipSpecification(filesToZip, rootDirectory) {
 	const specification = [];
 	rootDirectory = normalize(rootDirectory);
@@ -6993,6 +7983,35 @@ function getUploadZipSpecification(filesToZip, rootDirectory) {
 	}
 	return specification;
 }
+/**
+* This error is thrown when an asynchronous operation has been aborted.
+* Check for this error by testing the `name` that the name property of the
+* error matches `"AbortError"`.
+*
+* @example
+* ```ts snippet:ReadmeSampleAbortError
+* import { AbortError } from "@typespec/ts-http-runtime";
+*
+* async function doAsyncWork(options: { abortSignal: AbortSignal }): Promise<void> {
+*   if (options.abortSignal.aborted) {
+*     throw new AbortError();
+*   }
+*
+*   // do async work
+* }
+*
+* const controller = new AbortController();
+* controller.abort();
+*
+* try {
+*   doAsyncWork({ abortSignal: controller.signal });
+* } catch (e) {
+*   if (e instanceof Error && e.name === "AbortError") {
+*     // handle abort error here.
+*   }
+* }
+* ```
+*/
 var AbortError$1 = class extends Error {
 	constructor(message) {
 		super(message);
@@ -7031,6 +8050,11 @@ function enabled(namespace) {
 	for (const enabledNamespace of enabledNamespaces) if (namespaceMatches(namespace, enabledNamespace)) return true;
 	return false;
 }
+/**
+* Given a namespace, check if it matches a pattern.
+* Patterns only have a single wildcard character which is *.
+* The behavior of * is that it matches zero or more other characters.
+*/
 function namespaceMatches(namespace, patternToMatch) {
 	if (patternToMatch.indexOf("*") === -1) return namespace === patternToMatch;
 	let pattern = patternToMatch;
@@ -7117,7 +8141,6 @@ function extend(namespace) {
 	newDebugger.log = this.log;
 	return newDebugger;
 }
-var debug_default = debugObj;
 var TYPESPEC_RUNTIME_LOG_LEVELS = [
 	"verbose",
 	"info",
@@ -7138,20 +8161,25 @@ function patchLogMethod(parent, child) {
 function isTypeSpecRuntimeLogLevel(level) {
 	return TYPESPEC_RUNTIME_LOG_LEVELS.includes(level);
 }
+/**
+* Creates a logger context base on the provided options.
+* @param options - The options for creating a logger context.
+* @returns The logger context.
+*/
 function createLoggerContext(options) {
 	const registeredLoggers = /* @__PURE__ */ new Set();
 	const logLevelFromEnv = typeof process !== "undefined" && process.env && process.env[options.logLevelEnvVarName] || void 0;
 	let logLevel;
-	const clientLogger = debug_default(options.namespace);
+	const clientLogger = debugObj(options.namespace);
 	clientLogger.log = (...args) => {
-		debug_default.log(...args);
+		debugObj.log(...args);
 	};
 	function contextSetLogLevel(level) {
 		if (level && !isTypeSpecRuntimeLogLevel(level)) throw new Error(`Unknown log level '${level}'. Acceptable values: ${TYPESPEC_RUNTIME_LOG_LEVELS.join(",")}`);
 		logLevel = level;
 		const enabledNamespaces = [];
 		for (const logger of registeredLoggers) if (shouldEnable(logger)) enabledNamespaces.push(logger.namespace);
-		debug_default.enable(enabledNamespaces.join(","));
+		debugObj.enable(enabledNamespaces.join(","));
 	}
 	if (logLevelFromEnv) if (isTypeSpecRuntimeLogLevel(logLevelFromEnv)) contextSetLogLevel(logLevelFromEnv);
 	else console.error(`${options.logLevelEnvVarName} set to unknown log level '${logLevelFromEnv}'; logging is not enabled. Acceptable values: ${TYPESPEC_RUNTIME_LOG_LEVELS.join(", ")}.`);
@@ -7162,8 +8190,8 @@ function createLoggerContext(options) {
 		const logger = Object.assign(parent.extend(level), { level });
 		patchLogMethod(parent, logger);
 		if (shouldEnable(logger)) {
-			const enabledNamespaces = debug_default.disable();
-			debug_default.enable(enabledNamespaces + "," + logger.namespace);
+			const enabledNamespaces = debugObj.disable();
+			debugObj.enable(enabledNamespaces + "," + logger.namespace);
 		}
 		registeredLoggers.add(logger);
 		return logger;
@@ -7193,6 +8221,11 @@ var context$1 = createLoggerContext({
 	namespace: "typeSpecRuntime"
 });
 context$1.logger;
+/**
+* Creates a logger for use by the SDKs that inherits from `TypeSpecRuntimeLogger`.
+* @param namespace - The name of the SDK package.
+* @hidden
+*/
 function createClientLogger$1(namespace) {
 	return context$1.createClientLogger(namespace);
 }
@@ -7208,37 +8241,74 @@ var HttpHeadersImpl = class {
 		this._headersMap = /* @__PURE__ */ new Map();
 		if (rawHeaders) for (const headerName of Object.keys(rawHeaders)) this.set(headerName, rawHeaders[headerName]);
 	}
+	/**
+	* Set a header in this collection with the provided name and value. The name is
+	* case-insensitive.
+	* @param name - The name of the header to set. This value is case-insensitive.
+	* @param value - The value of the header to set.
+	*/
 	set(name, value) {
 		this._headersMap.set(normalizeName(name), {
 			name,
 			value: String(value).trim()
 		});
 	}
+	/**
+	* Get the header value for the provided header name, or undefined if no header exists in this
+	* collection with the provided name.
+	* @param name - The name of the header. This value is case-insensitive.
+	*/
 	get(name) {
 		return this._headersMap.get(normalizeName(name))?.value;
 	}
+	/**
+	* Get whether or not this header collection contains a header entry for the provided header name.
+	* @param name - The name of the header to set. This value is case-insensitive.
+	*/
 	has(name) {
 		return this._headersMap.has(normalizeName(name));
 	}
+	/**
+	* Remove the header with the provided headerName.
+	* @param name - The name of the header to remove.
+	*/
 	delete(name) {
 		this._headersMap.delete(normalizeName(name));
 	}
+	/**
+	* Get the JSON object representation of this HTTP header collection.
+	*/
 	toJSON(options = {}) {
 		const result = {};
 		if (options.preserveCase) for (const entry of this._headersMap.values()) result[entry.name] = entry.value;
 		else for (const [normalizedName, entry] of this._headersMap) result[normalizedName] = entry.value;
 		return result;
 	}
+	/**
+	* Get the string representation of this HTTP header collection.
+	*/
 	toString() {
 		return JSON.stringify(this.toJSON({ preserveCase: true }));
 	}
+	/**
+	* Iterate over tuples of header [name, value] pairs.
+	*/
 	[Symbol.iterator]() {
 		return headerIterator(this._headersMap);
 	}
 };
+/**
+* Creates an object that satisfies the `HttpHeaders` interface.
+* @param rawHeaders - A simple object representing initial headers
+*/
 function createHttpHeaders$1(rawHeaders) {
 	return new HttpHeadersImpl(rawHeaders);
 }
+/**
+* Generated Universally Unique Identifier
+*
+* @returns RFC4122 v4 UUID.
+*/
 function randomUUID$1() {
 	return crypto.randomUUID();
 }
@@ -7284,6 +8354,11 @@ var PipelineRequestImpl = class {
 		this.authSchemes = options.authSchemes;
 	}
 };
+/**
+* Creates a new pipeline request with the given options.
+* This method is to allow for the easy setting of default values and not required.
+* @param options - The options to create the request with.
+*/
 function createPipelineRequest$1(options) {
 	return new PipelineRequestImpl(options);
 }
@@ -7293,6 +8368,11 @@ var ValidPhaseNames = new Set([
 	"Retry",
 	"Sign"
 ]);
+/**
+* A private implementation of Pipeline.
+* Do not export this class from the package.
+* @internal
+*/
 var HttpPipeline = class HttpPipeline {
 	_policies = [];
 	_orderedPolicies;
@@ -7339,6 +8419,41 @@ var HttpPipeline = class HttpPipeline {
 		return new HttpPipeline();
 	}
 	orderPolicies() {
+		/**
+		* The goal of this method is to reliably order pipeline policies
+		* based on their declared requirements when they were added.
+		*
+		* Order is first determined by phase:
+		*
+		* 1. Serialize Phase
+		* 2. Policies not in a phase
+		* 3. Deserialize Phase
+		* 4. Retry Phase
+		* 5. Sign Phase
+		*
+		* Within each phase, policies are executed in the order
+		* they were added unless they were specified to execute
+		* before/after other policies or after a particular phase.
+		*
+		* To determine the final order, we will walk the policy list
+		* in phase order multiple times until all dependencies are
+		* satisfied.
+		*
+		* `afterPolicies` are the set of policies that must be
+		* executed before a given policy. This requirement is
+		* considered satisfied when each of the listed policies
+		* have been scheduled.
+		*
+		* `beforePolicies` are the set of policies that must be
+		* executed after a given policy. Since this dependency
+		* can be expressed by converting it into a equivalent
+		* `afterPolicies` declarations, they are normalized
+		* into that form for simplicity.
+		*
+		* An `afterPhase` dependency is considered satisfied when all
+		* policies in that phase have scheduled.
+		*
+		*/
 		const result = [];
 		const policyMap = /* @__PURE__ */ new Map();
 		function createPhase(name) {
@@ -7437,12 +8552,24 @@ var HttpPipeline = class HttpPipeline {
 		return result;
 	}
 };
+/**
+* Creates a totally empty pipeline.
+* Useful for testing or creating a custom one.
+*/
 function createEmptyPipeline$1() {
 	return HttpPipeline.create();
 }
+/**
+* Helper to determine when an input is a generic JS object.
+* @returns true when input is an object type that is not null, Array, RegExp, or Date.
+*/
 function isObject$1(input) {
 	return typeof input === "object" && input !== null && !Array.isArray(input) && !(input instanceof RegExp) && !(input instanceof Date);
 }
+/**
+* Typeguard for an error object shape (has name and message)
+* @param e - Something caught by a catch clause.
+*/
 function isError$1(e) {
 	if (isObject$1(e)) {
 		const hasName = typeof e.name === "string";
@@ -7495,6 +8622,9 @@ var defaultAllowedHeaderNames = [
 	"WWW-Authenticate"
 ];
 var defaultAllowedQueryParameters = ["api-version"];
+/**
+* A utility class to sanitize objects for logging.
+*/
 var Sanitizer = class {
 	allowedHeaderNames;
 	allowedQueryParameters;
@@ -7504,6 +8634,11 @@ var Sanitizer = class {
 		this.allowedHeaderNames = new Set(allowedHeaderNames.map((n) => n.toLowerCase()));
 		this.allowedQueryParameters = new Set(allowedQueryParameters.map((p) => p.toLowerCase()));
 	}
+	/**
+	* Sanitizes an object for logging.
+	* @param obj - The object to sanitize
+	* @returns - The sanitized object as a string
+	*/
 	sanitize(obj) {
 		const seen = /* @__PURE__ */ new Set();
 		return JSON.stringify(obj, (key, value) => {
@@ -7525,6 +8660,11 @@ var Sanitizer = class {
 			return value;
 		}, 2);
 	}
+	/**
+	* Sanitizes a URL for logging.
+	* @param value - The URL to sanitize
+	* @returns - The sanitized URL as a string
+	*/
 	sanitizeUrl(value) {
 		if (typeof value !== "string" || value === null || value === "") return value;
 		const url = new URL(value);
@@ -7547,13 +8687,42 @@ var Sanitizer = class {
 	}
 };
 var errorSanitizer = new Sanitizer();
+/**
+* A custom error type for failed pipeline requests.
+*/
 var RestError$1 = class RestError$1 extends Error {
+	/**
+	* Something went wrong when making the request.
+	* This means the actual request failed for some reason,
+	* such as a DNS issue or the connection being lost.
+	*/
 	static REQUEST_SEND_ERROR = "REQUEST_SEND_ERROR";
+	/**
+	* This means that parsing the response from the server failed.
+	* It may have been malformed.
+	*/
 	static PARSE_ERROR = "PARSE_ERROR";
+	/**
+	* The code of the error itself (use statics on RestError if possible.)
+	*/
 	code;
+	/**
+	* The HTTP status code of the request (if applicable.)
+	*/
 	statusCode;
+	/**
+	* The request that was made.
+	* This property is non-enumerable.
+	*/
 	request;
+	/**
+	* The response received (if any.)
+	* This property is non-enumerable.
+	*/
 	response;
+	/**
+	* Bonus property set by the throw site.
+	*/
 	details;
 	constructor(message, options = {}) {
 		super(message);
@@ -7588,10 +8757,20 @@ var RestError$1 = class RestError$1 extends Error {
 		Object.setPrototypeOf(this, RestError$1.prototype);
 	}
 };
+/**
+* Typeguard for RestError
+* @param e - Something caught by a catch clause.
+*/
 function isRestError$1(e) {
 	if (e instanceof RestError$1) return true;
 	return isError$1(e) && e.name === "RestError";
 }
+/**
+* The helper that transforms string to specific character encoded bytes array.
+* @param value - the string to be converted
+* @param format - the format we use to decode the value
+* @returns a uint8array
+*/
 function stringToUint8Array(value, format) {
 	return Buffer.from(value, format);
 }
@@ -7635,9 +8814,17 @@ var ReportTransform = class extends Transform {
 		this.progressCallback = progressCallback;
 	}
 };
+/**
+* A HttpClient implementation that uses Node's "https" module to send HTTPS requests.
+* @internal
+*/
 var NodeHttpClient = class {
 	cachedHttpAgent;
 	cachedHttpsAgents = /* @__PURE__ */ new WeakMap();
+	/**
+	* Makes a request over an underlying transport layer and returns the response.
+	* @param request - The request to be made.
+	*/
 	async sendRequest(request) {
 		const abortController = new AbortController();
 		let abortListener;
@@ -7808,6 +8995,7 @@ function streamToText(stream) {
 		});
 	});
 }
+/** @internal */
 function getBodyLength(body) {
 	if (!body) return 0;
 	else if (Buffer.isBuffer(body)) return body.length;
@@ -7816,13 +9004,27 @@ function getBodyLength(body) {
 	else if (typeof body === "string") return Buffer.from(body).length;
 	else return null;
 }
+/**
+* Create a new HttpClient instance for the NodeJS environment.
+* @internal
+*/
 function createNodeHttpClient() {
 	return new NodeHttpClient();
 }
+/**
+* Create the correct HttpClient for the current environment.
+*/
 function createDefaultHttpClient$1() {
 	return createNodeHttpClient();
 }
+/**
+* The programmatic identifier of the logPolicy.
+*/
 const logPolicyName = "logPolicy";
+/**
+* A policy that logs all requests and responses.
+* @param options - Options to configure logPolicy.
+*/
 function logPolicy$1(options = {}) {
 	const logger = options.logger ?? logger$4.info;
 	const sanitizer = new Sanitizer({
@@ -7841,8 +9043,20 @@ function logPolicy$1(options = {}) {
 		}
 	};
 }
+/**
+* The programmatic identifier of the redirectPolicy.
+*/
 const redirectPolicyName$1 = "redirectPolicy";
+/**
+* Methods that are allowed to follow redirects 301 and 302
+*/
 var allowedRedirect = ["GET", "HEAD"];
+/**
+* A policy to follow Location headers from the server in order
+* to support server-side redirection.
+* In the browser, this policy is not used.
+* @param options - Options to control policy behavior.
+*/
 function redirectPolicy$1(options = {}) {
 	const { maxRetries = 20 } = options;
 	return {
@@ -7867,7 +9081,14 @@ async function handleRedirect(next, response, maxRetries, currentRetries = 0) {
 	}
 	return response;
 }
+/**
+* The programmatic identifier of the decompressResponsePolicy.
+*/
 const decompressResponsePolicyName$1 = "decompressResponsePolicy";
+/**
+* A policy to enable response decompression according to Accept-Encoding header
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding
+*/
 function decompressResponsePolicy$1() {
 	return {
 		name: decompressResponsePolicyName$1,
@@ -7877,17 +9098,40 @@ function decompressResponsePolicy$1() {
 		}
 	};
 }
+/**
+* Returns a random integer value between a lower and upper bound,
+* inclusive of both bounds.
+* Note that this uses Math.random and isn't secure. If you need to use
+* this for any kind of security purpose, find a better source of random.
+* @param min - The smallest integer value allowed.
+* @param max - The largest integer value allowed.
+*/
 function getRandomIntegerInclusive(min, max) {
 	min = Math.ceil(min);
 	max = Math.floor(max);
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+/**
+* Calculates the delay interval for retry attempts using exponential delay with jitter.
+* @param retryAttempt - The current retry attempt number.
+* @param config - The exponential retry configuration.
+* @returns An object containing the calculated retry delay.
+*/
 function calculateRetryDelay(retryAttempt, config) {
 	const exponentialDelay = config.retryDelayInMs * Math.pow(2, retryAttempt);
 	const clampedDelay = Math.min(config.maxRetryDelayInMs, exponentialDelay);
 	return { retryAfterInMs: clampedDelay / 2 + getRandomIntegerInclusive(0, clampedDelay / 2) };
 }
 var StandardAbortMessage$1 = "The operation was aborted.";
+/**
+* A wrapper for setTimeout that resolves a promise after delayInMs milliseconds.
+* @param delayInMs - The number of milliseconds to be delayed.
+* @param value - The value to be resolved with after a timeout of t milliseconds.
+* @param options - The options for delay - currently abort options
+*                  - abortSignal - The abortSignal associated with containing operation.
+*                  - abortErrorMsg - The abort error message associated with containing operation.
+* @returns Resolved promise
+*/
 function delay$2(delayInMs, value, options) {
 	return new Promise((resolve, reject) => {
 		let timer = void 0;
@@ -7911,6 +9155,10 @@ function delay$2(delayInMs, value, options) {
 		if (options?.abortSignal) options.abortSignal.addEventListener("abort", onAborted);
 	});
 }
+/**
+* @internal
+* @returns the parsed value or undefined if the parsed value is invalid.
+*/
 function parseHeaderValueAsNumber(response, headerName) {
 	const value = response.headers.get(headerName);
 	if (!value) return;
@@ -7918,12 +9166,32 @@ function parseHeaderValueAsNumber(response, headerName) {
 	if (Number.isNaN(valueAsNum)) return;
 	return valueAsNum;
 }
+/**
+* The header that comes back from services representing
+* the amount of time (minimum) to wait to retry (in seconds or timestamp after which we can retry).
+*/
 var RetryAfterHeader = "Retry-After";
+/**
+* The headers that come back from services representing
+* the amount of time (minimum) to wait to retry.
+*
+* "retry-after-ms", "x-ms-retry-after-ms" : milliseconds
+* "Retry-After" : seconds or timestamp
+*/
 var AllRetryAfterHeaders = [
 	"retry-after-ms",
 	"x-ms-retry-after-ms",
 	RetryAfterHeader
 ];
+/**
+* A response is a throttling retry response if it has a throttling status code (429 or 503),
+* as long as one of the [ "Retry-After" or "retry-after-ms" or "x-ms-retry-after-ms" ] headers has a valid value.
+*
+* Returns the `retryAfterInMs` value if the response is a throttling retry response.
+* If not throttling retry response, returns `undefined`.
+*
+* @internal
+*/
 function getRetryAfterInMs(response) {
 	if (!(response && [429, 503].includes(response.status))) return void 0;
 	try {
@@ -7939,6 +9207,10 @@ function getRetryAfterInMs(response) {
 		return;
 	}
 }
+/**
+* A response is a retry response if it has a throttling status code (429 or 503),
+* as long as one of the [ "Retry-After" or "retry-after-ms" or "x-ms-retry-after-ms" ] headers has a valid value.
+*/
 function isThrottlingRetryResponse(response) {
 	return Number.isFinite(getRetryAfterInMs(response));
 }
@@ -7954,6 +9226,11 @@ function throttlingRetryStrategy() {
 }
 var DEFAULT_CLIENT_RETRY_INTERVAL = 1e3;
 var DEFAULT_CLIENT_MAX_RETRY_INTERVAL = 1e3 * 64;
+/**
+* A retry strategy that retries with an exponentially increasing delay in these two cases:
+* - When there are errors in the underlying transport layer (e.g. DNS lookup failures).
+* - Or otherwise if the outgoing request fails (408, greater or equal than 500, except for 501 and 505).
+*/
 function exponentialRetryStrategy(options = {}) {
 	const retryInterval = options.retryDelayInMs ?? DEFAULT_CLIENT_RETRY_INTERVAL;
 	const maxRetryInterval = options.maxRetryDelayInMs ?? DEFAULT_CLIENT_MAX_RETRY_INTERVAL;
@@ -7973,15 +9250,29 @@ function exponentialRetryStrategy(options = {}) {
 		}
 	};
 }
+/**
+* A response is a retry response if it has status codes:
+* - 408, or
+* - Greater or equal than 500, except for 501 and 505.
+*/
 function isExponentialRetryResponse(response) {
 	return Boolean(response && response.status !== void 0 && (response.status >= 500 || response.status === 408) && response.status !== 501 && response.status !== 505);
 }
+/**
+* Determines whether an error from a pipeline response was triggered in the network layer.
+*/
 function isSystemError(err) {
 	if (!err) return false;
 	return err.code === "ETIMEDOUT" || err.code === "ESOCKETTIMEDOUT" || err.code === "ECONNREFUSED" || err.code === "ECONNRESET" || err.code === "ENOENT" || err.code === "ENOTFOUND";
 }
 var retryPolicyLogger = createClientLogger$1("ts-http-runtime retryPolicy");
+/**
+* The programmatic identifier of the retryPolicy.
+*/
 var retryPolicyName = "retryPolicy";
+/**
+* retryPolicy is a generic policy to enable retrying requests when certain conditions are met
+*/
 function retryPolicy(strategies, options = { maxRetries: 3 }) {
 	const logger = options.logger || retryPolicyLogger;
 	return {
@@ -8055,7 +9346,16 @@ function retryPolicy(strategies, options = { maxRetries: 3 }) {
 		}
 	};
 }
+/**
+* Name of the {@link defaultRetryPolicy}
+*/
 const defaultRetryPolicyName = "defaultRetryPolicy";
+/**
+* A policy that retries according to three strategies:
+* - When the server sends a 429 response with a Retry-After header.
+* - When there are errors in the underlying transport layer (e.g. DNS lookup failures).
+* - Or otherwise if the outgoing request fails, it will retry with an exponentially increasing delay.
+*/
 function defaultRetryPolicy$1(options = {}) {
 	return {
 		name: defaultRetryPolicyName,
@@ -8066,8 +9366,14 @@ typeof window !== "undefined" && window.document;
 typeof self === "object" && typeof self?.importScripts === "function" && (self.constructor?.name === "DedicatedWorkerGlobalScope" || self.constructor?.name === "ServiceWorkerGlobalScope" || self.constructor?.name);
 typeof Deno !== "undefined" && typeof Deno.version !== "undefined" && Deno.version.deno;
 typeof Bun !== "undefined" && Bun.version;
+/**
+* A constant that indicates whether the environment the code is running is a Node.js compatible environment.
+*/
 const isNodeLike$1 = typeof globalThis.process !== "undefined" && Boolean(globalThis.process.version) && Boolean(globalThis.process.versions?.node);
 typeof navigator !== "undefined" && navigator?.product;
+/**
+* The programmatic identifier of the formDataPolicy.
+*/
 const formDataPolicyName = "formDataPolicy";
 function formDataToFormDataMap(formData) {
 	const formDataMap = {};
@@ -8077,6 +9383,9 @@ function formDataToFormDataMap(formData) {
 	}
 	return formDataMap;
 }
+/**
+* A policy that encodes FormData on the request into the body.
+*/
 function formDataPolicy$1() {
 	return {
 		name: formDataPolicyName,
@@ -8124,12 +9433,28 @@ async function prepareFormData(formData, request) {
 	request.multipartBody = { parts };
 }
 var require_ms = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Helpers.
+	*/
 	var s = 1e3;
 	var m = s * 60;
 	var h = m * 60;
 	var d = h * 24;
 	var w = d * 7;
 	var y = d * 365.25;
+	/**
+	* Parse or format the given `val`.
+	*
+	* Options:
+	*
+	*  - `long` verbose formatting [false]
+	*
+	* @param {String|Number} val
+	* @param {Object} [options]
+	* @throws {Error} throw an error if val is not a non-empty string or a number
+	* @return {String|Number}
+	* @api public
+	*/
 	module.exports = function(val, options) {
 		options = options || {};
 		var type = typeof val;
@@ -8137,6 +9462,13 @@ var require_ms = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		else if (type === "number" && isFinite(val)) return options.long ? fmtLong(val) : fmtShort(val);
 		throw new Error("val is not a non-empty string or a valid number. val=" + JSON.stringify(val));
 	};
+	/**
+	* Parse the given `str` and return milliseconds.
+	*
+	* @param {String} str
+	* @return {Number}
+	* @api private
+	*/
 	function parse(str) {
 		str = String(str);
 		if (str.length > 100) return;
@@ -8178,6 +9510,13 @@ var require_ms = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			default: return;
 		}
 	}
+	/**
+	* Short format for `ms`.
+	*
+	* @param {Number} ms
+	* @return {String}
+	* @api private
+	*/
 	function fmtShort(ms) {
 		var msAbs = Math.abs(ms);
 		if (msAbs >= d) return Math.round(ms / d) + "d";
@@ -8186,6 +9525,13 @@ var require_ms = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		if (msAbs >= s) return Math.round(ms / s) + "s";
 		return ms + "ms";
 	}
+	/**
+	* Long format for `ms`.
+	*
+	* @param {Number} ms
+	* @return {String}
+	* @api private
+	*/
 	function fmtLong(ms) {
 		var msAbs = Math.abs(ms);
 		if (msAbs >= d) return plural(ms, msAbs, d, "day");
@@ -8194,12 +9540,19 @@ var require_ms = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		if (msAbs >= s) return plural(ms, msAbs, s, "second");
 		return ms + " ms";
 	}
+	/**
+	* Pluralization helper.
+	*/
 	function plural(ms, msAbs, n, name) {
 		var isPlural = msAbs >= n * 1.5;
 		return Math.round(ms / n) + " " + name + (isPlural ? "s" : "");
 	}
 }));
 var require_common = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This is the common logic for both the Node.js and web browser
+	* implementations of `debug()`.
+	*/
 	function setup(env) {
 		createDebug.debug = createDebug;
 		createDebug.default = createDebug;
@@ -8212,9 +9565,23 @@ var require_common = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		Object.keys(env).forEach((key) => {
 			createDebug[key] = env[key];
 		});
+		/**
+		* The currently active debug mode names, and names to skip.
+		*/
 		createDebug.names = [];
 		createDebug.skips = [];
+		/**
+		* Map of special "%n" handling functions, for the debug "format" argument.
+		*
+		* Valid key names are a single, lower or upper-case letter, i.e. "n" and "N".
+		*/
 		createDebug.formatters = {};
+		/**
+		* Selects a color for a debug namespace
+		* @param {String} namespace The namespace string for the debug instance to be colored
+		* @return {Number|String} An ANSI color code for the given namespace
+		* @api private
+		*/
 		function selectColor(namespace) {
 			let hash = 0;
 			for (let i = 0; i < namespace.length; i++) {
@@ -8224,6 +9591,13 @@ var require_common = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			return createDebug.colors[Math.abs(hash) % createDebug.colors.length];
 		}
 		createDebug.selectColor = selectColor;
+		/**
+		* Create a debugger with the given `namespace`.
+		*
+		* @param {String} namespace
+		* @return {Function}
+		* @api public
+		*/
 		function createDebug(namespace) {
 			let prevTime;
 			let enableOverride = null;
@@ -8283,6 +9657,13 @@ var require_common = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			newDebug.log = this.log;
 			return newDebug;
 		}
+		/**
+		* Enables a debug mode by namespaces. This can include modes
+		* separated by a colon and wildcards.
+		*
+		* @param {String} namespaces
+		* @api public
+		*/
 		function enable(namespaces) {
 			createDebug.save(namespaces);
 			createDebug.namespaces = namespaces;
@@ -8292,6 +9673,14 @@ var require_common = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			for (const ns of split) if (ns[0] === "-") createDebug.skips.push(ns.slice(1));
 			else createDebug.names.push(ns);
 		}
+		/**
+		* Checks if the given string matches a namespace template, honoring
+		* asterisks as wildcards.
+		*
+		* @param {String} search
+		* @param {String} template
+		* @return {Boolean}
+		*/
 		function matchesTemplate(search, template) {
 			let searchIndex = 0;
 			let templateIndex = 0;
@@ -8313,20 +9702,44 @@ var require_common = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			while (templateIndex < template.length && template[templateIndex] === "*") templateIndex++;
 			return templateIndex === template.length;
 		}
+		/**
+		* Disable debug output.
+		*
+		* @return {String} namespaces
+		* @api public
+		*/
 		function disable() {
 			const namespaces = [...createDebug.names, ...createDebug.skips.map((namespace) => "-" + namespace)].join(",");
 			createDebug.enable("");
 			return namespaces;
 		}
+		/**
+		* Returns true if the given mode name is enabled, false otherwise.
+		*
+		* @param {String} name
+		* @return {Boolean}
+		* @api public
+		*/
 		function enabled(name) {
 			for (const skip of createDebug.skips) if (matchesTemplate(name, skip)) return false;
 			for (const ns of createDebug.names) if (matchesTemplate(name, ns)) return true;
 			return false;
 		}
+		/**
+		* Coerce `val`.
+		*
+		* @param {Mixed} val
+		* @return {Mixed}
+		* @api private
+		*/
 		function coerce(val) {
 			if (val instanceof Error) return val.stack || val.message;
 			return val;
 		}
+		/**
+		* XXX DO NOT USE. This is a temporary stub function.
+		* XXX It WILL be removed in the next major release.
+		*/
 		function destroy() {
 			console.warn("Instance method `debug.destroy()` is deprecated and no longer does anything. It will be removed in the next major version of `debug`.");
 		}
@@ -8336,6 +9749,9 @@ var require_common = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = setup;
 }));
 var require_browser = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This is the web browser implementation of `debug()`.
+	*/
 	exports.formatArgs = formatArgs;
 	exports.save = save;
 	exports.load = load;
@@ -8350,6 +9766,9 @@ var require_browser = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			}
 		};
 	})();
+	/**
+	* Colors.
+	*/
 	exports.colors = [
 		"#0000CC",
 		"#0000FF",
@@ -8428,12 +9847,24 @@ var require_browser = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		"#FFCC00",
 		"#FFCC33"
 	];
+	/**
+	* Currently only WebKit-based Web Inspectors, Firefox >= v31,
+	* and the Firebug extension (any Firefox version) are known
+	* to support "%c" CSS customizations.
+	*
+	* TODO: add a `localStorage` variable to explicitly enable/disable colors
+	*/
 	function useColors() {
 		if (typeof window !== "undefined" && window.process && (window.process.type === "renderer" || window.process.__nwjs)) return true;
 		if (typeof navigator !== "undefined" && navigator.userAgent && navigator.userAgent.toLowerCase().match(/(edge|trident)\/(\d+)/)) return false;
 		let m;
 		return typeof document !== "undefined" && document.documentElement && document.documentElement.style && document.documentElement.style.WebkitAppearance || typeof window !== "undefined" && window.console && (window.console.firebug || window.console.exception && window.console.table) || typeof navigator !== "undefined" && navigator.userAgent && (m = navigator.userAgent.toLowerCase().match(/firefox\/(\d+)/)) && parseInt(m[1], 10) >= 31 || typeof navigator !== "undefined" && navigator.userAgent && navigator.userAgent.toLowerCase().match(/applewebkit\/(\d+)/);
 	}
+	/**
+	* Colorize log arguments if enabled.
+	*
+	* @api public
+	*/
 	function formatArgs(args) {
 		args[0] = (this.useColors ? "%c" : "") + this.namespace + (this.useColors ? " %c" : " ") + args[0] + (this.useColors ? "%c " : " ") + "+" + module.exports.humanize(this.diff);
 		if (!this.useColors) return;
@@ -8448,13 +9879,33 @@ var require_browser = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		});
 		args.splice(lastC, 0, c);
 	}
+	/**
+	* Invokes `console.debug()` when available.
+	* No-op when `console.debug` is not a "function".
+	* If `console.debug` is not available, falls back
+	* to `console.log`.
+	*
+	* @api public
+	*/
 	exports.log = console.debug || console.log || (() => {});
+	/**
+	* Save `namespaces`.
+	*
+	* @param {String} namespaces
+	* @api private
+	*/
 	function save(namespaces) {
 		try {
 			if (namespaces) exports.storage.setItem("debug", namespaces);
 			else exports.storage.removeItem("debug");
 		} catch (error) {}
 	}
+	/**
+	* Load `namespaces`.
+	*
+	* @return {String} returns the previously persisted debug modes
+	* @api private
+	*/
 	function load() {
 		let r;
 		try {
@@ -8463,6 +9914,16 @@ var require_browser = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		if (!r && typeof process !== "undefined" && "env" in process) r = process.env.DEBUG;
 		return r;
 	}
+	/**
+	* Localstorage attempts to return the localstorage.
+	*
+	* This is necessary because safari throws
+	* when a user disables cookies/localstorage
+	* and you attempt to access it.
+	*
+	* @return {LocalStorage}
+	* @api private
+	*/
 	function localstorage() {
 		try {
 			return localStorage;
@@ -8470,6 +9931,9 @@ var require_browser = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	}
 	module.exports = require_common()(exports);
 	var { formatters } = module.exports;
+	/**
+	* Map %j to `JSON.stringify()`, since no Web Inspectors do that by default.
+	*/
 	formatters.j = function(v) {
 		try {
 			return JSON.stringify(v);
@@ -8479,8 +9943,14 @@ var require_browser = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_node$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Module dependencies.
+	*/
 	var tty = __require("tty");
 	var util$10 = __require("util");
+	/**
+	* This is the Node.js implementation of `debug()`.
+	*/
 	exports.init = init;
 	exports.log = log;
 	exports.formatArgs = formatArgs;
@@ -8488,6 +9958,9 @@ var require_node$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	exports.load = load;
 	exports.useColors = useColors;
 	exports.destroy = util$10.deprecate(() => {}, "Instance method `debug.destroy()` is deprecated and no longer does anything. It will be removed in the next major version of `debug`.");
+	/**
+	* Colors.
+	*/
 	exports.colors = [
 		6,
 		2,
@@ -8577,6 +10050,11 @@ var require_node$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			221
 		];
 	} catch (error) {}
+	/**
+	* Build up the default `inspectOpts` object from the environment variables.
+	*
+	*   $ DEBUG_COLORS=no DEBUG_DEPTH=10 DEBUG_SHOW_HIDDEN=enabled node script.js
+	*/
 	exports.inspectOpts = Object.keys(process.env).filter((key) => {
 		return /^debug_/i.test(key);
 	}).reduce((obj, key) => {
@@ -8591,9 +10069,17 @@ var require_node$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		obj[prop] = val;
 		return obj;
 	}, {});
+	/**
+	* Is stdout a TTY? Colored output is enabled when `true`.
+	*/
 	function useColors() {
 		return "colors" in exports.inspectOpts ? Boolean(exports.inspectOpts.colors) : tty.isatty(process.stderr.fd);
 	}
+	/**
+	* Adds ANSI color escape codes if enabled.
+	*
+	* @api public
+	*/
 	function formatArgs(args) {
 		const { namespace: name, useColors } = this;
 		if (useColors) {
@@ -8608,16 +10094,37 @@ var require_node$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		if (exports.inspectOpts.hideDate) return "";
 		return (/* @__PURE__ */ new Date()).toISOString() + " ";
 	}
+	/**
+	* Invokes `util.formatWithOptions()` with the specified arguments and writes to stderr.
+	*/
 	function log(...args) {
 		return process.stderr.write(util$10.formatWithOptions(exports.inspectOpts, ...args) + "\n");
 	}
+	/**
+	* Save `namespaces`.
+	*
+	* @param {String} namespaces
+	* @api private
+	*/
 	function save(namespaces) {
 		if (namespaces) process.env.DEBUG = namespaces;
 		else delete process.env.DEBUG;
 	}
+	/**
+	* Load `namespaces`.
+	*
+	* @return {String} returns the previously persisted debug modes
+	* @api private
+	*/
 	function load() {
 		return process.env.DEBUG;
 	}
+	/**
+	* Init logic for `debug` instances.
+	*
+	* Create a new `inspectOpts` object in case `useColors` is set
+	* differently for a particular `debug` instance.
+	*/
 	function init(debug) {
 		debug.inspectOpts = {};
 		const keys = Object.keys(exports.inspectOpts);
@@ -8625,16 +10132,26 @@ var require_node$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	}
 	module.exports = require_common()(exports);
 	var { formatters } = module.exports;
+	/**
+	* Map %o to `util.inspect()`, all on a single line.
+	*/
 	formatters.o = function(v) {
 		this.inspectOpts.colors = this.useColors;
 		return util$10.inspect(v, this.inspectOpts).split("\n").map((str) => str.trim()).join(" ");
 	};
+	/**
+	* Map %O to `util.inspect()`, allowing multiple lines if needed.
+	*/
 	formatters.O = function(v) {
 		this.inspectOpts.colors = this.useColors;
 		return util$10.inspect(v, this.inspectOpts);
 	};
 }));
 var require_src = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Detect Electron renderer / nwjs process, which is node, but we should
+	* treat as a browser.
+	*/
 	if (typeof process === "undefined" || process.type === "renderer" || process.browser === true || process.__nwjs) module.exports = require_browser();
 	else module.exports = require_node$1();
 }));
@@ -8752,6 +10269,9 @@ var require_dist$4 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			super(opts);
 			this[INTERNAL] = {};
 		}
+		/**
+		* Determine whether this is an `http` or `https` request.
+		*/
 		isSecureEndpoint(options) {
 			if (options) {
 				if (typeof options.secureEndpoint === "boolean") return options.secureEndpoint;
@@ -8960,6 +10480,18 @@ var require_dist$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		};
 		return options;
 	};
+	/**
+	* The `HttpsProxyAgent` implements an HTTP Agent subclass that connects to
+	* the specified "HTTP(s) proxy server" in order to proxy HTTPS requests.
+	*
+	* Outgoing HTTP requests are first tunneled through the proxy server using the
+	* `CONNECT` HTTP request method to establish a connection to the proxy server,
+	* and then the proxy server connects to the destination target and issues the
+	* HTTP request from the proxy server.
+	*
+	* `https:` requests have their socket connection upgraded to TLS once
+	* the connection to the proxy server has been established.
+	*/
 	var HttpsProxyAgent = class extends agent_base_1.Agent {
 		constructor(proxy, opts) {
 			super(opts);
@@ -8976,6 +10508,10 @@ var require_dist$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				port
 			};
 		}
+		/**
+		* Called when the node-core HTTP client library is creating a
+		* new HTTP request.
+		*/
 		async connect(req, opts) {
 			const { proxy } = this;
 			if (!opts.host) throw new TypeError("No \"host\" provided");
@@ -9081,6 +10617,10 @@ var require_dist$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var agent_base_1 = require_dist$4();
 	var url_1 = __require("url");
 	var debug = (0, debug_1.default)("http-proxy-agent");
+	/**
+	* The `HttpProxyAgent` implements an HTTP Agent subclass that connects
+	* to the specified "HTTP proxy server" in order to proxy HTTP requests.
+	*/
 	var HttpProxyAgent = class extends agent_base_1.Agent {
 		constructor(proxy, opts) {
 			super(opts);
@@ -9158,9 +10698,17 @@ var HTTPS_PROXY = "HTTPS_PROXY";
 var HTTP_PROXY = "HTTP_PROXY";
 var ALL_PROXY = "ALL_PROXY";
 var NO_PROXY = "NO_PROXY";
+/**
+* The programmatic identifier of the proxyPolicy.
+*/
 const proxyPolicyName = "proxyPolicy";
+/**
+* Stores the patterns specified in NO_PROXY environment variable.
+* @internal
+*/
 const globalNoProxyList = [];
 var noProxyListLoaded = false;
+/** A cache of whether a host should bypass the proxy. */
 var globalBypassedMap = /* @__PURE__ */ new Map();
 function getEnvironmentValue(name) {
 	if (process.env[name]) return process.env[name];
@@ -9173,6 +10721,11 @@ function loadEnvironmentProxyValue() {
 	const httpProxy = getEnvironmentValue(HTTP_PROXY);
 	return httpsProxy || allProxy || httpProxy;
 }
+/**
+* Check whether the host of a given `uri` matches any pattern in the no proxy list.
+* If there's a match, any request sent to the same host shouldn't have the proxy settings set.
+* This implementation is a port of https://github.com/Azure/azure-sdk-for-net/blob/8cca811371159e527159c7eb65602477898683e2/sdk/core/Azure.Core/src/Pipeline/Internal/HttpEnvironmentProxy.cs#L210
+*/
 function isBypassed(uri, noProxyList, bypassedMap) {
 	if (noProxyList.length === 0) return false;
 	const host = new URL(uri).hostname;
@@ -9191,6 +10744,13 @@ function loadNoProxy() {
 	if (noProxy) return noProxy.split(",").map((item) => item.trim()).filter((item) => item.length);
 	return [];
 }
+/**
+* This method converts a proxy url into `ProxySettings` for use with ProxyPolicy.
+* If no argument is given, it attempts to parse a proxy URL from the environment
+* variables `HTTPS_PROXY` or `HTTP_PROXY`.
+* @param proxyUrl - The url of the proxy to use. May contain authentication information.
+* @deprecated - Internally this method is no longer necessary when setting proxy information.
+*/
 function getDefaultProxySettings$1(proxyUrl) {
 	if (!proxyUrl) {
 		proxyUrl = loadEnvironmentProxyValue();
@@ -9204,6 +10764,10 @@ function getDefaultProxySettings$1(proxyUrl) {
 		password: parsedUrl.password
 	};
 }
+/**
+* This method attempts to parse a proxy URL from the environment
+* variables `HTTPS_PROXY` or `HTTP_PROXY`.
+*/
 function getDefaultProxySettingsInternal() {
 	const envProxy = loadEnvironmentProxyValue();
 	return envProxy ? new URL(envProxy) : void 0;
@@ -9233,6 +10797,13 @@ function setProxyAgentOnRequest(request, cachedAgents, proxyUrl) {
 		request.agent = cachedAgents.httpsProxyAgent;
 	}
 }
+/**
+* A policy that allows one to apply proxy settings to all requests.
+* If not passed static settings, they will be retrieved from the HTTPS_PROXY
+* or HTTP_PROXY environment variables.
+* @param proxySettings - ProxySettings to use on each request.
+* @param options - additional settings, for example, custom NO_PROXY patterns
+*/
 function proxyPolicy$1(proxySettings, options) {
 	if (!noProxyListLoaded) globalNoProxyList.push(...loadNoProxy());
 	const defaultProxy = proxySettings ? getUrlFromProxySettings(proxySettings) : getDefaultProxySettingsInternal();
@@ -9246,7 +10817,13 @@ function proxyPolicy$1(proxySettings, options) {
 		}
 	};
 }
+/**
+* Name of the Agent Policy
+*/
 const agentPolicyName = "agentPolicy";
+/**
+* Gets a pipeline policy that sets http.agent
+*/
 function agentPolicy$1(agent) {
 	return {
 		name: agentPolicyName,
@@ -9256,7 +10833,13 @@ function agentPolicy$1(agent) {
 		}
 	};
 }
+/**
+* Name of the TLS Policy
+*/
 const tlsPolicyName = "tlsPolicy";
+/**
+* Gets a pipeline policy that adds the client certificate to the HttpClient agent for authentication.
+*/
 function tlsPolicy$1(tlsSettings) {
 	return {
 		name: tlsPolicyName,
@@ -9296,6 +10879,15 @@ function toStream(source) {
 	else if (isBlob(source)) return ensureNodeStream(source.stream());
 	else return ensureNodeStream(source);
 }
+/**
+* Utility function that concatenates a set of binary inputs into one combined output.
+*
+* @param sources - array of sources for the concatenation
+* @returns - in Node, a (() =\> NodeJS.ReadableStream) which, when read, produces a concatenation of all the inputs.
+*           In browser, returns a `Blob` representing all the concatenated inputs.
+*
+* @internal
+*/
 async function concat$2(sources) {
 	return function() {
 		const streams = sources.map((x) => typeof x === "function" ? x() : x).map(toStream);
@@ -9342,6 +10934,9 @@ async function buildRequestBody(request, parts, boundary) {
 	if (contentLength) request.headers.set("Content-Length", contentLength);
 	request.body = await concat$2(sources);
 }
+/**
+* Name of multipart policy
+*/
 const multipartPolicyName$1 = "multipartPolicy";
 var maxBoundaryLength = 70;
 var validBoundaryCharacters = /* @__PURE__ */ new Set(`abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'()+,-./:=?`);
@@ -9349,6 +10944,9 @@ function assertValidBoundary(boundary) {
 	if (boundary.length > maxBoundaryLength) throw new Error(`Multipart boundary "${boundary}" exceeds maximum length of 70 characters`);
 	if (Array.from(boundary).some((x) => !validBoundaryCharacters.has(x))) throw new Error(`Multipart boundary "${boundary}" contains invalid characters`);
 }
+/**
+* Pipeline policy for multipart requests
+*/
 function multipartPolicy$1() {
 	return {
 		name: multipartPolicyName$1,
@@ -9371,6 +10969,10 @@ function multipartPolicy$1() {
 		}
 	};
 }
+/**
+* Creates a totally empty pipeline.
+* Useful for testing or creating a custom one.
+*/
 function createEmptyPipeline() {
 	return createEmptyPipeline$1();
 }
@@ -9379,23 +10981,47 @@ var context = createLoggerContext({
 	namespace: "azure"
 });
 context.logger;
+/**
+* Creates a logger for use by the Azure SDKs that inherits from `AzureLogger`.
+* @param namespace - The name of the SDK package.
+* @hidden
+*/
 function createClientLogger(namespace) {
 	return context.createClientLogger(namespace);
 }
 const logger$3 = createClientLogger("core-rest-pipeline");
+/**
+* A policy that logs all requests and responses.
+* @param options - Options to configure logPolicy.
+*/
 function logPolicy(options = {}) {
 	return logPolicy$1({
 		logger: logger$3.info,
 		...options
 	});
 }
+/**
+* The programmatic identifier of the redirectPolicy.
+*/
 const redirectPolicyName = redirectPolicyName$1;
+/**
+* A policy to follow Location headers from the server in order
+* to support server-side redirection.
+* In the browser, this policy is not used.
+* @param options - Options to control policy behavior.
+*/
 function redirectPolicy(options = {}) {
 	return redirectPolicy$1(options);
 }
+/**
+* @internal
+*/
 function getHeaderName() {
 	return "User-Agent";
 }
+/**
+* @internal
+*/
 async function setPlatformSpecificData(map) {
 	if (process$1 && process$1.versions) {
 		const osInfo = `${os$1.type()} ${os$1.release()}; ${os$1.arch()}`;
@@ -9414,9 +11040,15 @@ function getUserAgentString(telemetryInfo) {
 	}
 	return parts.join(" ");
 }
+/**
+* @internal
+*/
 function getUserAgentHeaderName() {
 	return getHeaderName();
 }
+/**
+* @internal
+*/
 async function getUserAgentValue(prefix) {
 	const runtimeInfo = /* @__PURE__ */ new Map();
 	runtimeInfo.set("core-rest-pipeline", SDK_VERSION$1);
@@ -9425,7 +11057,15 @@ async function getUserAgentValue(prefix) {
 	return prefix ? `${prefix} ${defaultAgent}` : defaultAgent;
 }
 var UserAgentHeaderName = getUserAgentHeaderName();
+/**
+* The programmatic identifier of the userAgentPolicy.
+*/
 const userAgentPolicyName = "userAgentPolicy";
+/**
+* A policy that sets the User-Agent header (or equivalent) to reflect
+* the library version.
+* @param options - Options to customize the user agent value.
+*/
 function userAgentPolicy(options = {}) {
 	const userAgentValue = getUserAgentValue(options.userAgentPrefix);
 	return {
@@ -9436,12 +11076,36 @@ function userAgentPolicy(options = {}) {
 		}
 	};
 }
+/**
+* This error is thrown when an asynchronous operation has been aborted.
+* Check for this error by testing the `name` that the name property of the
+* error matches `"AbortError"`.
+*
+* @example
+* ```ts
+* const controller = new AbortController();
+* controller.abort();
+* try {
+*   doAsyncWork(controller.signal)
+* } catch (e) {
+*   if (e.name === 'AbortError') {
+*     // handle abort error here.
+*   }
+* }
+* ```
+*/
 var AbortError = class extends Error {
 	constructor(message) {
 		super(message);
 		this.name = "AbortError";
 	}
 };
+/**
+* Creates an abortable promise.
+* @param buildPromise - A function that takes the resolve and reject functions as parameters.
+* @param options - The options for the abortable promise.
+* @returns A promise that can be aborted.
+*/
 function createAbortablePromise(buildPromise, options) {
 	const { cleanupBeforeAbort, abortSignal, abortErrorMsg } = options ?? {};
 	return new Promise((resolve, reject) => {
@@ -9472,6 +11136,12 @@ function createAbortablePromise(buildPromise, options) {
 	});
 }
 var StandardAbortMessage = "The delay was aborted.";
+/**
+* A wrapper for setTimeout that resolves a promise after timeInMs milliseconds.
+* @param timeInMs - The number of milliseconds to be delayed.
+* @param options - The options for delay - currently abort options
+* @returns Promise that is resolved after timeInMs
+*/
 function delay$1(timeInMs, options) {
 	let token;
 	const { abortSignal, abortErrorMsg } = options ?? {};
@@ -9483,6 +11153,12 @@ function delay$1(timeInMs, options) {
 		abortErrorMsg: abortErrorMsg ?? StandardAbortMessage
 	});
 }
+/**
+* Given what is thought to be an error object, return the message if possible.
+* If the message is missing, returns a stringified version of the input.
+* @param e - Something thrown from a try block
+* @returns The error message or a string of the input
+*/
 function getErrorMessage(e) {
 	if (isError$1(e)) return e.message;
 	else {
@@ -9496,22 +11172,65 @@ function getErrorMessage(e) {
 		return `Unknown error ${stringified}`;
 	}
 }
+/**
+* Typeguard for an error object shape (has name and message)
+*
+* @param e - Something caught by a catch clause.
+*/
 function isError(e) {
 	return isError$1(e);
 }
+/**
+* Generated Universally Unique Identifier
+*
+* @returns RFC4122 v4 UUID.
+*/
 function randomUUID() {
 	return randomUUID$1();
 }
+/**
+* A constant that indicates whether the environment the code is running is a Node.js compatible environment.
+*/
 const isNodeLike = isNodeLike$1;
+/**
+* Private symbol used as key on objects created using createFile containing the
+* original source of the file object.
+*
+* This is used in Node to access the original Node stream without using Blob#stream, which
+* returns a web stream. This is done to avoid a couple of bugs to do with Blob#stream and
+* Readable#to/fromWeb in Node versions we support:
+* - https://github.com/nodejs/node/issues/42694 (fixed in Node 18.14)
+* - https://github.com/nodejs/node/issues/48916 (fixed in Node 20.6)
+*
+* Once these versions are no longer supported, we may be able to stop doing this.
+*
+* @internal
+*/
 var rawContent = Symbol("rawContent");
+/**
+* Type guard to check if a given object is a blob-like object with a raw content property.
+*/
 function hasRawContent(x) {
 	return typeof x[rawContent] === "function";
 }
+/**
+* Extract the raw content from a given blob-like object. If the input was created using createFile
+* or createFileFromStream, the exact content passed into createFile/createFileFromStream will be used.
+* For true instances of Blob and File, returns the actual blob.
+*
+* @internal
+*/
 function getRawContent(blob) {
 	if (hasRawContent(blob)) return blob[rawContent]();
 	else return blob;
 }
+/**
+* Name of multipart policy
+*/
 const multipartPolicyName = multipartPolicyName$1;
+/**
+* Pipeline policy for multipart requests
+*/
 function multipartPolicy() {
 	const tspPolicy = multipartPolicy$1();
 	return {
@@ -9524,23 +11243,62 @@ function multipartPolicy() {
 		}
 	};
 }
+/**
+* The programmatic identifier of the decompressResponsePolicy.
+*/
 const decompressResponsePolicyName = decompressResponsePolicyName$1;
+/**
+* A policy to enable response decompression according to Accept-Encoding header
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding
+*/
 function decompressResponsePolicy() {
 	return decompressResponsePolicy$1();
 }
+/**
+* A policy that retries according to three strategies:
+* - When the server sends a 429 response with a Retry-After header.
+* - When there are errors in the underlying transport layer (e.g. DNS lookup failures).
+* - Or otherwise if the outgoing request fails, it will retry with an exponentially increasing delay.
+*/
 function defaultRetryPolicy(options = {}) {
 	return defaultRetryPolicy$1(options);
 }
+/**
+* A policy that encodes FormData on the request into the body.
+*/
 function formDataPolicy() {
 	return formDataPolicy$1();
 }
+/**
+* This method converts a proxy url into `ProxySettings` for use with ProxyPolicy.
+* If no argument is given, it attempts to parse a proxy URL from the environment
+* variables `HTTPS_PROXY` or `HTTP_PROXY`.
+* @param proxyUrl - The url of the proxy to use. May contain authentication information.
+* @deprecated - Internally this method is no longer necessary when setting proxy information.
+*/
 function getDefaultProxySettings(proxyUrl) {
 	return getDefaultProxySettings$1(proxyUrl);
 }
+/**
+* A policy that allows one to apply proxy settings to all requests.
+* If not passed static settings, they will be retrieved from the HTTPS_PROXY
+* or HTTP_PROXY environment variables.
+* @param proxySettings - ProxySettings to use on each request.
+* @param options - additional settings, for example, custom NO_PROXY patterns
+*/
 function proxyPolicy(proxySettings, options) {
 	return proxyPolicy$1(proxySettings, options);
 }
+/**
+* The programmatic identifier of the setClientRequestIdPolicy.
+*/
 const setClientRequestIdPolicyName = "setClientRequestIdPolicy";
+/**
+* Each PipelineRequest gets a unique id upon creation.
+* This policy passes that unique id along via an HTTP header to enable better
+* telemetry and tracing.
+* @param requestIdHeaderName - The name of the header to pass the request ID to.
+*/
 function setClientRequestIdPolicy(requestIdHeaderName = "x-ms-client-request-id") {
 	return {
 		name: setClientRequestIdPolicyName,
@@ -9550,22 +11308,37 @@ function setClientRequestIdPolicy(requestIdHeaderName = "x-ms-client-request-id"
 		}
 	};
 }
+/**
+* Gets a pipeline policy that sets http.agent
+*/
 function agentPolicy(agent) {
 	return agentPolicy$1(agent);
 }
+/**
+* Gets a pipeline policy that adds the client certificate to the HttpClient agent for authentication.
+*/
 function tlsPolicy(tlsSettings) {
 	return tlsPolicy$1(tlsSettings);
 }
+/** @internal */
 const knownContextKeys = {
 	span: Symbol.for("@azure/core-tracing span"),
 	namespace: Symbol.for("@azure/core-tracing namespace")
 };
+/**
+* Creates a new {@link TracingContext} with the given options.
+* @param options - A set of known keys that may be set on the context.
+* @returns A new {@link TracingContext} with the given options.
+*
+* @internal
+*/
 function createTracingContext(options = {}) {
 	let context = new TracingContextImpl(options.parentContext);
 	if (options.span) context = context.setValue(knownContextKeys.span, options.span);
 	if (options.namespace) context = context.setValue(knownContextKeys.namespace, options.namespace);
 	return context;
 }
+/** @internal */
 var TracingContextImpl = class TracingContextImpl {
 	_contextMap;
 	constructor(initialContext) {
@@ -9585,9 +11358,17 @@ var TracingContextImpl = class TracingContextImpl {
 		return newContext;
 	}
 };
+/**
+* Defines the shared state between CJS and ESM by re-exporting the CJS state.
+*/
 const state$1 = (/* @__PURE__ */ __commonJSMin(((exports) => {
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.state = void 0;
+	/**
+	* @internal
+	*
+	* Holds the singleton instrumenter, to be shared across CJS and ESM imports.
+	*/
 	exports.state = { instrumenterImplementation: void 0 };
 })))().state;
 function createDefaultTracingSpan() {
@@ -9617,10 +11398,21 @@ function createDefaultInstrumenter() {
 		}
 	};
 }
+/**
+* Gets the currently set instrumenter, a No-Op instrumenter by default.
+*
+* @returns The currently set instrumenter
+*/
 function getInstrumenter() {
 	if (!state$1.instrumenterImplementation) state$1.instrumenterImplementation = createDefaultInstrumenter();
 	return state$1.instrumenterImplementation;
 }
+/**
+* Creates a new tracing client.
+*
+* @param options - Options used to configure the tracing client.
+* @returns - An instance of {@link TracingClient}.
+*/
 function createTracingClient(options) {
 	const { namespace, packageName, packageVersion } = options;
 	function startSpan(name, operationOptions, spanOptions) {
@@ -9661,9 +11453,21 @@ function createTracingClient(options) {
 	function withContext(context, callback, ...callbackArgs) {
 		return getInstrumenter().withContext(context, callback, ...callbackArgs);
 	}
+	/**
+	* Parses a traceparent header value into a span identifier.
+	*
+	* @param traceparentHeader - The traceparent header to parse.
+	* @returns An implementation-specific identifier for the span.
+	*/
 	function parseTraceparentHeader(traceparentHeader) {
 		return getInstrumenter().parseTraceparentHeader(traceparentHeader);
 	}
+	/**
+	* Creates a set of request headers to propagate tracing information to a backend.
+	*
+	* @param tracingContext - The context containing the span to serialize.
+	* @returns The set of headers to add to a request.
+	*/
 	function createRequestHeaders(tracingContext) {
 		return getInstrumenter().createRequestHeaders(tracingContext);
 	}
@@ -9675,11 +11479,27 @@ function createTracingClient(options) {
 		createRequestHeaders
 	};
 }
+/**
+* A custom error type for failed pipeline requests.
+*/
 const RestError = RestError$1;
+/**
+* Typeguard for RestError
+* @param e - Something caught by a catch clause.
+*/
 function isRestError(e) {
 	return isRestError$1(e);
 }
+/**
+* The programmatic identifier of the tracingPolicy.
+*/
 const tracingPolicyName = "tracingPolicy";
+/**
+* A simple policy to create OpenTelemetry Spans for each request made by the pipeline
+* that has SpanOptions with a parent.
+* Requests made without a parent Span will not be recorded.
+* @param options - Options to configure the telemetry logged by the tracing policy.
+*/
 function tracingPolicy(options = {}) {
 	const userAgentPromise = getUserAgentValue(options.userAgentPrefix);
 	const sanitizer = new Sanitizer({ additionalAllowedQueryParameters: options.additionalAllowedQueryParameters });
@@ -9765,6 +11585,12 @@ function tryProcessResponse(span, response) {
 		logger$3.warning(`Skipping tracing span processing due to an error: ${getErrorMessage(e)}`);
 	}
 }
+/**
+* Creates a native AbortSignal which reflects the state of the provided AbortSignalLike.
+* If the AbortSignalLike is already a native AbortSignal, it is returned as is.
+* @param abortSignalLike - The AbortSignalLike to wrap.
+* @returns - An object containing the native AbortSignal and an optional cleanup function. The cleanup function should be called when the AbortSignal is no longer needed.
+*/
 function wrapAbortSignalLike(abortSignalLike) {
 	if (abortSignalLike instanceof AbortSignal) return { abortSignal: abortSignalLike };
 	if (abortSignalLike.aborted) return { abortSignal: AbortSignal.abort(abortSignalLike.reason) };
@@ -9787,6 +11613,12 @@ function wrapAbortSignalLike(abortSignalLike) {
 	};
 }
 const wrapAbortSignalLikePolicyName = "wrapAbortSignalLikePolicy";
+/**
+* Policy that ensure that any AbortSignalLike is wrapped in a native AbortSignal for processing by the pipeline.
+* Since the ts-http-runtime expects a native AbortSignal, this policy is used to ensure that any AbortSignalLike is wrapped in a native AbortSignal.
+*
+* @returns - created policy
+*/
 function wrapAbortSignalLikePolicy() {
 	return {
 		name: wrapAbortSignalLikePolicyName,
@@ -9802,6 +11634,10 @@ function wrapAbortSignalLikePolicy() {
 		}
 	};
 }
+/**
+* Create a new pipeline with a default set of customizable policies.
+* @param options - Options to configure a custom pipeline.
+*/
 function createPipelineFromOptions(options) {
 	const pipeline = createEmptyPipeline();
 	if (isNodeLike) {
@@ -9824,6 +11660,9 @@ function createPipelineFromOptions(options) {
 	pipeline.addPolicy(logPolicy(options.loggingOptions), { afterPhase: "Sign" });
 	return pipeline;
 }
+/**
+* Create the correct HttpClient for the current environment.
+*/
 function createDefaultHttpClient() {
 	const client = createDefaultHttpClient$1();
 	return { async sendRequest(request) {
@@ -9836,9 +11675,18 @@ function createDefaultHttpClient() {
 		}
 	} };
 }
+/**
+* Creates an object that satisfies the `HttpHeaders` interface.
+* @param rawHeaders - A simple object representing initial headers
+*/
 function createHttpHeaders(rawHeaders) {
 	return createHttpHeaders$1(rawHeaders);
 }
+/**
+* Creates a new pipeline request with the given options.
+* This method is to allow for the easy setting of default values and not required.
+* @param options - The options to create the request with.
+*/
 function createPipelineRequest(options) {
 	return createPipelineRequest$1(options);
 }
@@ -9847,6 +11695,16 @@ const DEFAULT_CYCLER_OPTIONS = {
 	retryIntervalInMs: 3e3,
 	refreshWindowInMs: 1e3 * 60 * 2
 };
+/**
+* Converts an an unreliable access token getter (which may resolve with null)
+* into an AccessTokenGetter by retrying the unreliable getter in a regular
+* interval.
+*
+* @param getAccessToken - A function that produces a promise of an access token that may fail by returning null.
+* @param retryIntervalInMs - The time (in milliseconds) to wait between retry attempts.
+* @param refreshTimeout - The timestamp after which the refresh attempt will fail, throwing an exception.
+* @returns - A promise that, if it resolves, will resolve with an access token.
+*/
 async function beginRefresh(getAccessToken, retryIntervalInMs, refreshTimeout) {
 	async function tryGetAccessToken() {
 		if (Date.now() < refreshTimeout) try {
@@ -9867,6 +11725,20 @@ async function beginRefresh(getAccessToken, retryIntervalInMs, refreshTimeout) {
 	}
 	return token;
 }
+/**
+* Creates a token cycler from a credential, scopes, and optional settings.
+*
+* A token cycler represents a way to reliably retrieve a valid access token
+* from a TokenCredential. It will handle initializing the token, refreshing it
+* when it nears expiration, and synchronizes refresh attempts to avoid
+* concurrency hazards.
+*
+* @param credential - the underlying TokenCredential that provides the access
+* token
+* @param tokenCyclerOptions - optionally override default settings for the cycler
+*
+* @returns - a function that reliably produces a valid access token
+*/
 function createTokenCycler(credential, tokenCyclerOptions) {
 	let refreshWorker = null;
 	let token = null;
@@ -9875,6 +11747,10 @@ function createTokenCycler(credential, tokenCyclerOptions) {
 		...DEFAULT_CYCLER_OPTIONS,
 		...tokenCyclerOptions
 	};
+	/**
+	* This little holder defines several predicates that we use to construct
+	* the rules of refreshing the token.
+	*/
 	const cycler = {
 		get isRefreshing() {
 			return refreshWorker !== null;
@@ -9888,6 +11764,10 @@ function createTokenCycler(credential, tokenCyclerOptions) {
 			return token === null || token.expiresOnTimestamp - options.forcedRefreshWindowInMs < Date.now();
 		}
 	};
+	/**
+	* Starts a refresh job or returns the existing job if one is already
+	* running.
+	*/
 	function refresh(scopes, getTokenOptions) {
 		if (!cycler.isRefreshing) {
 			const tryGetAccessToken = () => credential.getToken(scopes, getTokenOptions);
@@ -9914,7 +11794,19 @@ function createTokenCycler(credential, tokenCyclerOptions) {
 		return token;
 	};
 }
+/**
+* The programmatic identifier of the bearerTokenAuthenticationPolicy.
+*/
 const bearerTokenAuthenticationPolicyName = "bearerTokenAuthenticationPolicy";
+/**
+* Try to send the given request.
+*
+* When a response is received, returns a tuple of the response received and, if the response was received
+* inside a thrown RestError, the RestError that was thrown.
+*
+* Otherwise, if an error was thrown while sending the request that did not provide an underlying response, it
+* will be rethrown.
+*/
 async function trySendRequest(request, next) {
 	try {
 		return [await next(request), void 0];
@@ -9923,6 +11815,9 @@ async function trySendRequest(request, next) {
 		else throw e;
 	}
 }
+/**
+* Default authorize request handler
+*/
 async function defaultAuthorizeRequest(options) {
 	const { scopes, getAccessToken, request } = options;
 	const accessToken = await getAccessToken(scopes, {
@@ -9932,9 +11827,18 @@ async function defaultAuthorizeRequest(options) {
 	});
 	if (accessToken) options.request.headers.set("Authorization", `Bearer ${accessToken.token}`);
 }
+/**
+* We will retrieve the challenge only if the response status code was 401,
+* and if the response contained the header "WWW-Authenticate" with a non-empty value.
+*/
 function isChallengeResponse(response) {
 	return response.status === 401 && response.headers.has("WWW-Authenticate");
 }
+/**
+* Re-authorize the request for CAE challenge.
+* The response containing the challenge is `options.response`.
+* If this method returns true, the underlying request will be sent once again.
+*/
 async function authorizeRequestOnCaeChallenge(onChallengeOptions, caeClaims) {
 	const { scopes } = onChallengeOptions;
 	const accessToken = await onChallengeOptions.getAccessToken(scopes, {
@@ -9945,6 +11849,10 @@ async function authorizeRequestOnCaeChallenge(onChallengeOptions, caeClaims) {
 	onChallengeOptions.request.headers.set("Authorization", `${accessToken.tokenType ?? "Bearer"} ${accessToken.token}`);
 	return true;
 }
+/**
+* A policy that can request a token from a TokenCredential implementation and
+* then apply it to the Authorization header of a request as a Bearer token.
+*/
 function bearerTokenAuthenticationPolicy(options) {
 	const { credential, scopes, challengeCallbacks } = options;
 	const logger = options.logger || logger$3;
@@ -10021,6 +11929,12 @@ function bearerTokenAuthenticationPolicy(options) {
 		}
 	};
 }
+/**
+* Converts: `Bearer a="b", c="d", Pop e="f", g="h"`.
+* Into: `[ { scheme: 'Bearer', params: { a: 'b', c: 'd' } }, { scheme: 'Pop', params: { e: 'f', g: 'h' } } ]`.
+*
+* @internal
+*/
 function parseChallenges(challenges) {
 	const challengeRegex = /(\w+)\s+((?:\w+=(?:"[^"]*"|[^,]*),?\s*)+)/g;
 	const paramRegex = /(\w+)="([^"]*)"/g;
@@ -10039,10 +11953,20 @@ function parseChallenges(challenges) {
 	}
 	return parsedChallenges;
 }
+/**
+* Parse a pipeline response and look for a CAE challenge with "Bearer" scheme
+* Return the value in the header without parsing the challenge
+* @internal
+*/
 function getCaeChallengeClaims(challenges) {
 	if (!challenges) return;
 	return parseChallenges(challenges).find((x) => x.scheme === "Bearer" && x.params.claims && x.params.error === "insufficient_claims")?.params.claims;
 }
+/**
+* Tests an object to determine whether it implements TokenCredential.
+*
+* @param credential - The assumed TokenCredential to be tested.
+*/
 function isTokenCredential(credential) {
 	const castCredential = credential;
 	return castCredential && typeof castCredential.getToken === "function" && (castCredential.signRequest === void 0 || castCredential.getToken.length > 0);
@@ -10057,26 +11981,68 @@ function createDisableKeepAlivePolicy() {
 		}
 	};
 }
+/**
+* @internal
+*/
 function pipelineContainsDisableKeepAlivePolicy(pipeline) {
 	return pipeline.getOrderedPolicies().some((policy) => policy.name === disableKeepAlivePolicyName);
 }
+/**
+* Encodes a byte array in base64 format.
+* @param value - the Uint8Aray to encode
+* @internal
+*/
 function encodeByteArray(value) {
 	return (value instanceof Buffer ? value : Buffer.from(value.buffer)).toString("base64");
 }
+/**
+* Decodes a base64 string into a byte array.
+* @param value - the base64 string to decode
+* @internal
+*/
 function decodeString(value) {
 	return Buffer.from(value, "base64");
 }
+/**
+* A type guard for a primitive response body.
+* @param value - Value to test
+*
+* @internal
+*/
 function isPrimitiveBody(value, mapperTypeName) {
 	return mapperTypeName !== "Composite" && mapperTypeName !== "Dictionary" && (typeof value === "string" || typeof value === "number" || typeof value === "boolean" || mapperTypeName?.match(/^(Date|DateTime|DateTimeRfc1123|UnixTime|ByteArray|Base64Url)$/i) !== null || value === void 0 || value === null);
 }
 var validateISODuration = /^(-|\+)?P(?:([-+]?[0-9,.]*)Y)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)W)?(?:([-+]?[0-9,.]*)D)?(?:T(?:([-+]?[0-9,.]*)H)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)S)?)?$/;
+/**
+* Returns true if the given string is in ISO 8601 format.
+* @param value - The value to be validated for ISO 8601 duration format.
+* @internal
+*/
 function isDuration(value) {
 	return validateISODuration.test(value);
 }
 var validUuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/i;
+/**
+* Returns true if the provided uuid is valid.
+*
+* @param uuid - The uuid that needs to be validated.
+*
+* @internal
+*/
 function isValidUuid(uuid) {
 	return validUuidRegex.test(uuid);
 }
+/**
+* Maps the response as follows:
+* - wraps the response body if needed (typically if its type is primitive).
+* - returns null if the combination of the headers and the body is empty.
+* - otherwise, returns the combination of the headers and the body.
+*
+* @param responseObject - a representation of the parsed response
+* @returns the response that will be returned to the user which can be null and/or wrapped
+*
+* @internal
+*/
 function handleNullableResponseAndWrappableBody(responseObject) {
 	const combinedHeadersAndBody = {
 		...responseObject.headers,
@@ -10088,6 +12054,14 @@ function handleNullableResponseAndWrappableBody(responseObject) {
 		body: responseObject.body
 	} : combinedHeadersAndBody;
 }
+/**
+* Take a `FullOperationResponse` and turn it into a flat
+* response object to hand back to the consumer.
+* @param fullResponse - The processed response from the operation request
+* @param responseSpec - The response map from the OperationSpec
+*
+* @internal
+*/
 function flattenResponse(fullResponse, responseSpec) {
 	const parsedHeaders = fullResponse.parsedHeaders;
 	if (fullResponse.request.method === "HEAD") return {
@@ -10097,6 +12071,7 @@ function flattenResponse(fullResponse, responseSpec) {
 	const bodyMapper = responseSpec && responseSpec.bodyMapper;
 	const isNullable = Boolean(bodyMapper?.nullable);
 	const expectedBodyTypeName = bodyMapper?.type.name;
+	/** If the body is asked for, we look at the expected body type to handle it */
 	if (expectedBodyTypeName === "Stream") return {
 		...parsedHeaders,
 		blobBody: fullResponse.blobBody,
@@ -10124,6 +12099,9 @@ var SerializerImpl = class {
 		this.modelMappers = modelMappers;
 		this.isXML = isXML;
 	}
+	/**
+	* @deprecated Removing the constraints validation on client side.
+	*/
 	validateConstraints(mapper, value, objectName) {
 		const failValidation = (constraintName, constraintValue) => {
 			throw new Error(`"${objectName}" with value "${value}" should satisfy the constraint "${constraintName}": ${constraintValue}.`);
@@ -10146,6 +12124,19 @@ var SerializerImpl = class {
 			if (UniqueItems && value.some((item, i, ar) => ar.indexOf(item) !== i)) failValidation("UniqueItems", UniqueItems);
 		}
 	}
+	/**
+	* Serialize the given object based on its metadata defined in the mapper
+	*
+	* @param mapper - The mapper which defines the metadata of the serializable object
+	*
+	* @param object - A valid Javascript object to be serialized
+	*
+	* @param objectName - Name of the serialized object
+	*
+	* @param options - additional options to serialization
+	*
+	* @returns A valid serialized Javascript object
+	*/
 	serialize(mapper, object, objectName, options = { xml: {} }) {
 		const updatedOptions = { xml: {
 			rootName: options.xml.rootName ?? "",
@@ -10173,6 +12164,19 @@ var SerializerImpl = class {
 		else if (mapperType.match(/^Composite$/i) !== null) payload = serializeCompositeType(this, mapper, object, objectName, Boolean(this.isXML), updatedOptions);
 		return payload;
 	}
+	/**
+	* Deserialize the given object based on its metadata defined in the mapper
+	*
+	* @param mapper - The mapper which defines the metadata of the serializable object
+	*
+	* @param responseBody - A valid Javascript entity to be deserialized
+	*
+	* @param objectName - Name of the deserialized object
+	*
+	* @param options - Controls behavior of XML parser and builder.
+	*
+	* @returns A valid deserialized Javascript object
+	*/
 	deserialize(mapper, responseBody, objectName, options = { xml: {} }) {
 		const updatedOptions = {
 			xml: {
@@ -10194,6 +12198,11 @@ var SerializerImpl = class {
 		else {
 			if (this.isXML) {
 				const xmlCharKey = updatedOptions.xml.xmlCharKey;
+				/**
+				* If the mapper specifies this as a non-composite type value but the responseBody contains
+				* both header ("$" i.e., XML_ATTRKEY) and body ("#" i.e., XML_CHARKEY) properties,
+				* then just reduce the responseBody value to the body ("#" i.e., XML_CHARKEY) property.
+				*/
 				if (responseBody["$"] !== void 0 && responseBody[xmlCharKey] !== void 0) responseBody = responseBody[xmlCharKey];
 			}
 			if (mapperType.match(/^Number$/i) !== null) {
@@ -10214,6 +12223,11 @@ var SerializerImpl = class {
 		return payload;
 	}
 };
+/**
+* Method that creates and returns a Serializer.
+* @param modelMappers - Known models to map
+* @param isXML - If XML should be supported
+*/
 function createSerializer(modelMappers = {}, isXML = false) {
 	return new SerializerImpl(modelMappers, isXML);
 }
@@ -10351,16 +12365,33 @@ function serializeDictionaryType(serializer, mapper, object, objectName, isXml, 
 	}
 	return tempDictionary;
 }
+/**
+* Resolves the additionalProperties property from a referenced mapper
+* @param serializer - the serializer containing the entire set of mappers
+* @param mapper - the composite mapper to resolve
+* @param objectName - name of the object being serialized
+*/
 function resolveAdditionalProperties(serializer, mapper, objectName) {
 	const additionalProperties = mapper.type.additionalProperties;
 	if (!additionalProperties && mapper.type.className) return resolveReferencedMapper(serializer, mapper, objectName)?.type.additionalProperties;
 	return additionalProperties;
 }
+/**
+* Finds the mapper referenced by className
+* @param serializer - the serializer containing the entire set of mappers
+* @param mapper - the composite mapper to resolve
+* @param objectName - name of the object being serialized
+*/
 function resolveReferencedMapper(serializer, mapper, objectName) {
 	const className = mapper.type.className;
 	if (!className) throw new Error(`Class name for model "${objectName}" is not provided in the mapper "${JSON.stringify(mapper, void 0, 2)}".`);
 	return serializer.modelMappers[className];
 }
+/**
+* Resolves a composite mapper's modelProperties.
+* @param serializer - the serializer containing the entire set of mappers
+* @param mapper - the composite mapper to resolve
+*/
 function resolveModelProperties(serializer, mapper, objectName) {
 	let modelProps = mapper.type.modelProperties;
 	if (!modelProps) {
@@ -10568,6 +12599,9 @@ function getPolymorphicDiscriminatorRecursively(serializer, mapper) {
 function getPolymorphicDiscriminatorSafely(serializer, typeName) {
 	return typeName && serializer.modelMappers[typeName] && serializer.modelMappers[typeName].type.polymorphicDiscriminator;
 }
+/**
+* Known types of Mappers
+*/
 const MapperTypeNames = {
 	Base64Url: "Base64Url",
 	Boolean: "Boolean",
@@ -10586,11 +12620,25 @@ const MapperTypeNames = {
 	TimeSpan: "TimeSpan",
 	UnixTime: "UnixTime"
 };
+/**
+* Defines the shared state between CJS and ESM by re-exporting the CJS state.
+*/
 const state = (/* @__PURE__ */ __commonJSMin(((exports) => {
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.state = void 0;
+	/**
+	* Holds the singleton operationRequestMap, to be shared across CJS and ESM imports.
+	*/
 	exports.state = { operationRequestMap: /* @__PURE__ */ new WeakMap() };
 })))().state;
+/**
+* @internal
+* Retrieves the value to use for a given operation argument
+* @param operationArguments - The arguments passed from the generated client
+* @param parameter - The parameter description
+* @param fallbackObject - If something isn't found in the arguments bag, look here.
+*  Generally used to look at the service client properties.
+*/
 function getOperationArgumentValueFromParameter(operationArguments, parameter, fallbackObject) {
 	let parameterPath = parameter.parameterPath;
 	const parameterMapper = parameter.mapper;
@@ -10651,7 +12699,13 @@ function getOperationRequestInfo(request) {
 }
 var defaultJsonContentTypes = ["application/json", "text/json"];
 var defaultXmlContentTypes = ["application/xml", "application/atom+xml"];
+/**
+* The programmatic identifier of the deserializationPolicy.
+*/
 const deserializationPolicyName = "deserializationPolicy";
+/**
+* This policy handles parsing out responses according to OperationSpecs on the request.
+*/
 function deserializationPolicy(options = {}) {
 	const jsonContentTypes = options.expectedContentTypes?.json ?? defaultJsonContentTypes;
 	const xmlContentTypes = options.expectedContentTypes?.xml ?? defaultXmlContentTypes;
@@ -10793,6 +12847,10 @@ async function parse(jsonContentTypes, xmlContentTypes, operationResponse, opts,
 	}
 	return operationResponse;
 }
+/**
+* Gets the list of status codes for streaming responses.
+* @internal
+*/
 function getStreamingResponseStatusCodes(operationSpec) {
 	const result = /* @__PURE__ */ new Set();
 	for (const statusCode in operationSpec.responses) {
@@ -10801,6 +12859,12 @@ function getStreamingResponseStatusCodes(operationSpec) {
 	}
 	return result;
 }
+/**
+* Get the path to this parameter's value as a dotted string (a.b.c).
+* @param parameter - The parameter to get the path string for.
+* @returns The path to this parameter's value as a dotted string.
+* @internal
+*/
 function getPathStringFromParameter(parameter) {
 	const { parameterPath, mapper } = parameter;
 	let result;
@@ -10809,7 +12873,14 @@ function getPathStringFromParameter(parameter) {
 	else result = mapper.serializedName;
 	return result;
 }
+/**
+* The programmatic identifier of the serializationPolicy.
+*/
 const serializationPolicyName = "serializationPolicy";
+/**
+* This policy handles assembling the request body and headers using
+* an OperationSpec and OperationArguments on the request.
+*/
 function serializationPolicy(options = {}) {
 	const stringifyXML = options.stringifyXML;
 	return {
@@ -10826,6 +12897,9 @@ function serializationPolicy(options = {}) {
 		}
 	};
 }
+/**
+* @internal
+*/
 function serializeHeaders(request, operationArguments, operationSpec) {
 	if (operationSpec.headerParameters) for (const headerParameter of operationSpec.headerParameters) {
 		let headerValue = getOperationArgumentValueFromParameter(operationArguments, headerParameter);
@@ -10839,6 +12913,9 @@ function serializeHeaders(request, operationArguments, operationSpec) {
 	const customHeaders = operationArguments.options?.requestOptions?.customHeaders;
 	if (customHeaders) for (const customHeaderName of Object.keys(customHeaders)) request.headers.set(customHeaderName, customHeaders[customHeaderName]);
 }
+/**
+* @internal
+*/
 function serializeRequestBody(request, operationArguments, operationSpec, stringifyXML = function() {
 	throw new Error("XML serialization unsupported!");
 }) {
@@ -10887,6 +12964,9 @@ function serializeRequestBody(request, operationArguments, operationSpec, string
 		}
 	}
 }
+/**
+* Adds an xml namespace to the xml serialized object if needed, otherwise it just returns the value itself
+*/
 function getXmlValueWithNamespace(xmlNamespace, xmlnsKey, typeName, serializedValue, options) {
 	if (xmlNamespace && ![
 		"Composite",
@@ -10907,6 +12987,12 @@ function prepareXMLRootList(obj, elementName, xmlNamespaceKey, xmlNamespace) {
 	result["$"] = { [xmlNamespaceKey]: xmlNamespace };
 	return result;
 }
+/**
+* Creates a new Pipeline for use with a Service Client.
+* Adds in deserializationPolicy by default.
+* Also adds in bearerTokenAuthenticationPolicy if passed a TokenCredential.
+* @param options - Options to customize the created pipeline.
+*/
 function createClientPipeline(options = {}) {
 	const pipeline = createPipelineFromOptions(options ?? {});
 	if (options.credentialOptions) pipeline.addPolicy(bearerTokenAuthenticationPolicy({
@@ -10942,6 +13028,12 @@ function getRequestUrl(baseUri, operationSpec, operationArguments, fallbackObjec
 		} else requestUrl = appendPath(requestUrl, path);
 	}
 	const { queryParams, sequenceParams } = calculateQueryParameters(operationSpec, operationArguments, fallbackObject);
+	/**
+	* Notice that this call sets the `noOverwrite` parameter to true if the `requestUrl`
+	* is an absolute path. This ensures that existing query parameter values in `requestUrl`
+	* do not get overwritten. On the other hand when `requestUrl` is not absolute path, it
+	* is still being built so there is nothing to overwrite.
+	*/
 	requestUrl = appendQueryParams(requestUrl, queryParams, sequenceParams, isAbsolutePath);
 	return requestUrl;
 }
@@ -11022,6 +13114,7 @@ function simpleParseQueryParams(queryString) {
 	}
 	return result;
 }
+/** @internal */
 function appendQueryParams(url, queryParams, sequenceParams, noOverwrite = false) {
 	if (queryParams.size === 0) return url;
 	const parsedUrl = new URL(url);
@@ -11047,12 +13140,36 @@ function appendQueryParams(url, queryParams, sequenceParams, noOverwrite = false
 	return parsedUrl.toString();
 }
 const logger$2 = createClientLogger("core-client");
+/**
+* Initializes a new instance of the ServiceClient.
+*/
 var ServiceClient = class {
+	/**
+	* If specified, this is the base URI that requests will be made against for this ServiceClient.
+	* If it is not specified, then all OperationSpecs must contain a baseUrl property.
+	*/
 	_endpoint;
+	/**
+	* The default request content type for the service.
+	* Used if no requestContentType is present on an OperationSpec.
+	*/
 	_requestContentType;
+	/**
+	* Set to true if the request is sent over HTTP instead of HTTPS
+	*/
 	_allowInsecureConnection;
+	/**
+	* The HTTP client that will be used to send requests.
+	*/
 	_httpClient;
+	/**
+	* The pipeline used by this client to make requests
+	*/
 	pipeline;
+	/**
+	* The ServiceClient constructor
+	* @param options - The service client options that govern the behavior of the client.
+	*/
 	constructor(options = {}) {
 		this._requestContentType = options.requestContentType;
 		this._endpoint = options.endpoint ?? options.baseUri;
@@ -11065,9 +13182,18 @@ var ServiceClient = class {
 			this.pipeline.addPolicy(policy, { afterPhase });
 		}
 	}
+	/**
+	* Send the provided httpRequest.
+	*/
 	async sendRequest(request) {
 		return this.pipeline.sendRequest(this._httpClient, request);
 	}
+	/**
+	* Send an HTTP request that is populated using the provided OperationSpec.
+	* @typeParam T - The typed result of the request, based on the OperationSpec.
+	* @param operationArguments - The arguments that the HTTP request's templated values will be populated from.
+	* @param operationSpec - The OperationSpec to use to populate the httpRequest.
+	*/
 	async sendOperationRequest(operationArguments, operationSpec) {
 		const endpoint = operationSpec.baseUrl || this._endpoint;
 		if (!endpoint) throw new Error("If operationSpec.baseUrl is not specified, then the ServiceClient must have a endpoint string property that contains the base URL to use.");
@@ -11126,6 +13252,9 @@ function getCredentialScopes(options) {
 	if (options.baseUri) return `${options.baseUri}/.default`;
 	if (options.credential && !options.credentialScopes) throw new Error(`When using credentials, the ServiceClientOptions must contain either a endpoint or a credentialScopes. Unable to create a bearerTokenAuthenticationPolicy`);
 }
+/**
+* A set of constants used internally when processing requests.
+*/
 var Constants = {
 	DefaultScope: "/.default",
 	HeaderConstants: { AUTHORIZATION: "authorization" }
@@ -11133,6 +13262,11 @@ var Constants = {
 function isUuid(text) {
 	return /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/.test(text);
 }
+/**
+* Defines a callback to handle auth challenge for Storage APIs.
+* This implements the bearer challenge process described here: https://learn.microsoft.com/rest/api/storageservices/authorize-with-azure-active-directory#bearer-challenge
+* Handling has specific features for storage that departs to the general AAD challenge docs.
+**/
 const authorizeRequestOnTenantChallenge = async (challengeOptions) => {
 	const requestOptions = requestToOptions(challengeOptions.request);
 	const challenge = getChallenge(challengeOptions.response);
@@ -11151,10 +13285,20 @@ const authorizeRequestOnTenantChallenge = async (challengeOptions) => {
 	}
 	return false;
 };
+/**
+* Extracts the tenant id from the challenge information
+* The tenant id is contained in the authorization_uri as the first
+* path part.
+*/
 function extractTenantId(challengeInfo) {
 	const tenantId = new URL(challengeInfo.authorization_uri).pathname.split("/")[1];
 	if (tenantId && isUuid(tenantId)) return tenantId;
 }
+/**
+* Builds the authentication scopes based on the information that comes in the
+* challenge information. Scopes url is present in the resource_id, if it is empty
+* we keep using the original scopes.
+*/
 function buildScopes(challengeOptions, challengeInfo) {
 	if (!challengeInfo.resource_id) return challengeOptions.scopes;
 	const challengeScopes = new URL(challengeInfo.resource_id);
@@ -11163,16 +13307,29 @@ function buildScopes(challengeOptions, challengeInfo) {
 	if (scope === "https://disk.azure.com/.default") scope = "https://disk.azure.com//.default";
 	return [scope];
 }
+/**
+* We will retrieve the challenge only if the response status code was 401,
+* and if the response contained the header "WWW-Authenticate" with a non-empty value.
+*/
 function getChallenge(response) {
 	const challenge = response.headers.get("WWW-Authenticate");
 	if (response.status === 401 && challenge) return challenge;
 }
+/**
+* Converts: `Bearer a="b" c="d"`.
+* Into: `[ { a: 'b', c: 'd' }]`.
+*
+* @internal
+*/
 function parseChallenge(challenge) {
 	return `${challenge.slice(7).trim()} `.split(" ").filter((x) => x).map((keyValue) => (([key, value]) => ({ [key]: value }))(keyValue.trim().split("="))).reduce((a, b) => ({
 		...a,
 		...b
 	}), {});
 }
+/**
+* Extracts the options form a Pipeline Request for later re-use
+*/
 function requestToOptions(request) {
 	return {
 		abortSignal: request.abortSignal,
@@ -11236,7 +13393,9 @@ function toWebResourceLike(request, options) {
 		prepare() {
 			throw new Error("WebResourceLike.prepare() is not supported by @azure/core-http-compat");
 		},
-		validateRequestProperties() {}
+		validateRequestProperties() {
+			/** do nothing */
+		}
 	};
 	if (options?.createProxy) return new Proxy(webResource, {
 		get(target, prop, receiver) {
@@ -11272,56 +13431,102 @@ function toWebResourceLike(request, options) {
 	});
 	else return webResource;
 }
+/**
+* Converts HttpHeaders from core-rest-pipeline to look like
+* HttpHeaders from core-http.
+* @param headers - HttpHeaders from core-rest-pipeline
+* @returns HttpHeaders as they looked in core-http
+*/
 function toHttpHeadersLike(headers) {
 	return new HttpHeaders(headers.toJSON({ preserveCase: true }));
 }
+/**
+* A collection of HttpHeaders that can be sent with a HTTP request.
+*/
 function getHeaderKey(headerName) {
 	return headerName.toLowerCase();
 }
+/**
+* A collection of HTTP header key/value pairs.
+*/
 var HttpHeaders = class HttpHeaders {
 	_headersMap;
 	constructor(rawHeaders) {
 		this._headersMap = {};
 		if (rawHeaders) for (const headerName in rawHeaders) this.set(headerName, rawHeaders[headerName]);
 	}
+	/**
+	* Set a header in this collection with the provided name and value. The name is
+	* case-insensitive.
+	* @param headerName - The name of the header to set. This value is case-insensitive.
+	* @param headerValue - The value of the header to set.
+	*/
 	set(headerName, headerValue) {
 		this._headersMap[getHeaderKey(headerName)] = {
 			name: headerName,
 			value: headerValue.toString()
 		};
 	}
+	/**
+	* Get the header value for the provided header name, or undefined if no header exists in this
+	* collection with the provided name.
+	* @param headerName - The name of the header.
+	*/
 	get(headerName) {
 		const header = this._headersMap[getHeaderKey(headerName)];
 		return !header ? void 0 : header.value;
 	}
+	/**
+	* Get whether or not this header collection contains a header entry for the provided header name.
+	*/
 	contains(headerName) {
 		return !!this._headersMap[getHeaderKey(headerName)];
 	}
+	/**
+	* Remove the header with the provided headerName. Return whether or not the header existed and
+	* was removed.
+	* @param headerName - The name of the header to remove.
+	*/
 	remove(headerName) {
 		const result = this.contains(headerName);
 		delete this._headersMap[getHeaderKey(headerName)];
 		return result;
 	}
+	/**
+	* Get the headers that are contained this collection as an object.
+	*/
 	rawHeaders() {
 		return this.toJson({ preserveCase: true });
 	}
+	/**
+	* Get the headers that are contained in this collection as an array.
+	*/
 	headersArray() {
 		const headers = [];
 		for (const headerKey in this._headersMap) headers.push(this._headersMap[headerKey]);
 		return headers;
 	}
+	/**
+	* Get the header names that are contained in this collection.
+	*/
 	headerNames() {
 		const headerNames = [];
 		const headers = this.headersArray();
 		for (let i = 0; i < headers.length; ++i) headerNames.push(headers[i].name);
 		return headerNames;
 	}
+	/**
+	* Get the header values that are contained in this collection.
+	*/
 	headerValues() {
 		const headerValues = [];
 		const headers = this.headersArray();
 		for (let i = 0; i < headers.length; ++i) headerValues.push(headers[i].value);
 		return headerValues;
 	}
+	/**
+	* Get the JSON object representation of this HTTP header collection.
+	*/
 	toJson(options = {}) {
 		const result = {};
 		if (options.preserveCase) for (const headerKey in this._headersMap) {
@@ -11334,9 +13539,15 @@ var HttpHeaders = class HttpHeaders {
 		}
 		return result;
 	}
+	/**
+	* Get the string representation of this HTTP header collection.
+	*/
 	toString() {
 		return JSON.stringify(this.toJson({ preserveCase: true }));
 	}
+	/**
+	* Create a deep clone/copy of this HttpHeaders collection.
+	*/
 	clone() {
 		const resultPreservingCasing = {};
 		for (const headerKey in this._headersMap) {
@@ -11347,6 +13558,11 @@ var HttpHeaders = class HttpHeaders {
 	}
 };
 var originalResponse = Symbol("Original FullOperationResponse");
+/**
+* A helper to convert response objects from the new pipeline back to the old one.
+* @param response - A response object from core-client.
+* @returns A response compatible with `HttpOperationResponse` from core-http.
+*/
 function toCompatResponse(response, options) {
 	let request = toWebResourceLike(response.request);
 	let headers = toHttpHeadersLike(response.headers);
@@ -11369,6 +13585,10 @@ function toCompatResponse(response, options) {
 		headers
 	};
 }
+/**
+* A helper to convert back to a PipelineResponse
+* @param compatResponse - A response compatible with `HttpOperationResponse` from core-http.
+*/
 function toPipelineResponse(compatResponse) {
 	const response = compatResponse[originalResponse];
 	const headers = createHttpHeaders(compatResponse.headers.toJson({ preserveCase: true }));
@@ -11381,12 +13601,22 @@ function toPipelineResponse(compatResponse) {
 		request: toPipelineRequest(compatResponse.request)
 	};
 }
+/**
+* Client to provide compatability between core V1 & V2.
+*/
 var ExtendedServiceClient = class extends ServiceClient {
 	constructor(options) {
 		super(options);
 		if (options.keepAliveOptions?.enable === false && !pipelineContainsDisableKeepAlivePolicy(this.pipeline)) this.pipeline.addPolicy(createDisableKeepAlivePolicy());
 		if (options.redirectOptions?.handleRedirects === false) this.pipeline.removePolicy({ name: redirectPolicyName });
 	}
+	/**
+	* Compatible send operation request function.
+	*
+	* @param operationArguments - Operation arguments
+	* @param operationSpec - Operation Spec
+	* @returns
+	*/
 	async sendOperationRequest(operationArguments, operationSpec) {
 		const userProvidedCallBack = operationArguments?.options?.onResponse;
 		let lastResponse;
@@ -11403,6 +13633,9 @@ var ExtendedServiceClient = class extends ServiceClient {
 		return result;
 	}
 };
+/**
+* An enum for compatibility with RequestPolicy
+*/
 var HttpPipelineLogLevel;
 (function(HttpPipelineLogLevel) {
 	HttpPipelineLogLevel[HttpPipelineLogLevel["ERROR"] = 1] = "ERROR";
@@ -11416,7 +13649,14 @@ var mockRequestPolicyOptions = {
 		return false;
 	}
 };
+/**
+* The name of the RequestPolicyFactoryPolicy
+*/
 const requestPolicyFactoryPolicyName = "RequestPolicyFactoryPolicy";
+/**
+* A policy that wraps policies written for core-http.
+* @param factories - An array of `RequestPolicyFactory` objects from a core-http pipeline
+*/
 function createRequestPolicyFactoryPolicy(factories) {
 	const orderedFactories = factories.slice().reverse();
 	return {
@@ -11431,6 +13671,11 @@ function createRequestPolicyFactoryPolicy(factories) {
 		}
 	};
 }
+/**
+* Converts a RequestPolicy based HttpClient to a PipelineRequest based HttpClient.
+* @param requestPolicyClient - A HttpClient compatible with core-http
+* @returns A HttpClient compatible with core-rest-pipeline
+*/
 function convertHttpClient(requestPolicyClient) {
 	return { sendRequest: async (request) => {
 		return toPipelineResponse(await requestPolicyClient.sendRequest(toWebResourceLike(request, { createProxy: true })));
@@ -11560,6 +13805,11 @@ function validate(xmlData, options) {
 function isWhiteSpace(char) {
 	return char === " " || char === "	" || char === "\n" || char === "\r";
 }
+/**
+* Read Processing insstructions and skip
+* @param {*} xmlData
+* @param {*} i
+*/
 function readPI(xmlData, i) {
 	const start = i;
 	for (; i < xmlData.length; i++) if (xmlData[i] == "?" || xmlData[i] == " ") {
@@ -11595,6 +13845,11 @@ function readCommentAndCDATA(xmlData, i) {
 }
 var doubleQuote = "\"";
 var singleQuote = "'";
+/**
+* Keep reading xmlData until '<' is found outside the attribute value.
+* @param {string} xmlData
+* @param {number} i
+*/
 function readAttributeStr(xmlData, i) {
 	let attrStr = "";
 	let startChar = "";
@@ -11617,6 +13872,9 @@ function readAttributeStr(xmlData, i) {
 		tagClosed
 	};
 }
+/**
+* Select all the attributes whether valid or invalid.
+*/
 var validAttrStrRegxp = /* @__PURE__ */ new RegExp("(\\s*)([^\\s=]+)(\\s*=)?(\\s*(['\"])(([\\s\\S])*?)\\5)?", "g");
 function validateAttributeString(attrStr, options) {
 	const matches = getAllMatches(attrStr, validAttrStrRegxp);
@@ -11722,6 +13980,11 @@ const defaultOptions$1 = {
 	},
 	captureMetaData: false
 };
+/**
+* Normalizes processEntities option for backward compatibility
+* @param {boolean|object} value 
+* @returns {object} Always returns normalized object
+*/
 function normalizeProcessEntities(value) {
 	if (typeof value === "boolean") return {
 		enabled: value,
@@ -11770,6 +14033,7 @@ var XmlNode = class {
 		else this.child.push({ [node.tagname]: node.child });
 		if (startIndex !== void 0) this.child[this.child.length - 1][METADATA_SYMBOL$1] = { startIndex };
 	}
+	/** symbol used for metadata */
 	static getMetaDataSymbol() {
 		return METADATA_SYMBOL$1;
 	}
@@ -12065,6 +14329,11 @@ function resolveEnotation(str, trimmedStr, options) {
 		} else return str;
 	} else return str;
 }
+/**
+* 
+* @param {string} numStr without leading zeros
+* @returns 
+*/
 function trimZeros(numStr) {
 	if (numStr && numStr.indexOf(".") !== -1) {
 		numStr = numStr.replace(/0+$/, "");
@@ -12197,6 +14466,15 @@ function addExternalEntities(externalEntities) {
 		};
 	}
 }
+/**
+* @param {string} val
+* @param {string} tagName
+* @param {string} jPath
+* @param {boolean} dontTrim
+* @param {boolean} hasAttributes
+* @param {boolean} isLeafNode
+* @param {boolean} escapeEntities
+*/
 function parseTextData(val, tagName, jPath, dontTrim, hasAttributes, isLeafNode, escapeEntities) {
 	if (val !== void 0) {
 		if (this.options.trimValues && !dontTrim) val = val.trim();
@@ -12442,11 +14720,23 @@ function saveTextToParentTag(textData, currentNode, jPath, isLeafNode) {
 	}
 	return textData;
 }
+/**
+* @param {Set} stopNodesExact
+* @param {Set} stopNodesWildcard
+* @param {string} jPath
+* @param {string} currentTagName
+*/
 function isItStopNode(stopNodesExact, stopNodesWildcard, jPath, currentTagName) {
 	if (stopNodesWildcard && stopNodesWildcard.has(currentTagName)) return true;
 	if (stopNodesExact && stopNodesExact.has(jPath)) return true;
 	return false;
 }
+/**
+* Returns the tag Expression and where it is ending handling single-double quotes situation
+* @param {string} xmlData 
+* @param {number} i starting index
+* @returns 
+*/
 function tagExpWithClosingIndex(xmlData, i, closingChar = ">") {
 	let attrBoundary;
 	let tagExp = "";
@@ -12501,6 +14791,12 @@ function readTagExp(xmlData, i, removeNSPrefix, closingChar = ">") {
 		rawTagName
 	};
 }
+/**
+* find paired tag for a stop node
+* @param {string} xmlData 
+* @param {string} tagName 
+* @param {number} i 
+*/
 function readStopNodeData(xmlData, tagName, i) {
 	const startIndex = i;
 	let openTagCount = 1;
@@ -12540,9 +14836,22 @@ function fromCodePoint(str, base, prefix) {
 	else return prefix + str + ";";
 }
 var METADATA_SYMBOL = XmlNode.getMetaDataSymbol();
+/**
+* 
+* @param {array} node 
+* @param {any} options 
+* @returns 
+*/
 function prettify(node, options) {
 	return compress(node, options);
 }
+/**
+* 
+* @param {array} arr 
+* @param {object} options 
+* @param {string} jPath 
+* @returns object
+*/
 function compress(arr, options, jPath) {
 	let text;
 	const compressedObj = {};
@@ -12605,6 +14914,11 @@ var XMLParser = class {
 		this.externalEntities = {};
 		this.options = buildOptions(options);
 	}
+	/**
+	* Parse XML dats to JS object 
+	* @param {string|Uint8Array} xmlData 
+	* @param {boolean|Object} validationOption 
+	*/
 	parse(xmlData, validationOption) {
 		if (typeof xmlData !== "string" && xmlData.toString) xmlData = xmlData.toString();
 		else if (typeof xmlData !== "string") throw new Error("XML data is accepted in String or Bytes[] form.");
@@ -12619,17 +14933,38 @@ var XMLParser = class {
 		if (this.options.preserveOrder || orderedResult === void 0) return orderedResult;
 		else return prettify(orderedResult, this.options);
 	}
+	/**
+	* Add Entity which is not by default supported by this library
+	* @param {string} key 
+	* @param {string} value 
+	*/
 	addEntity(key, value) {
 		if (value.indexOf("&") !== -1) throw new Error("Entity value can't have '&'");
 		else if (key.indexOf("&") !== -1 || key.indexOf(";") !== -1) throw new Error("An entity must be set without '&' and ';'. Eg. use '#xD' for '&#xD;'");
 		else if (value === "&") throw new Error("An entity with value '&' is not permitted");
 		else this.externalEntities[key] = value;
 	}
+	/**
+	* Returns a Symbol that can be used to access the metadata
+	* property on a node.
+	* 
+	* If Symbol is not available in the environment, an ordinary property is used
+	* and the name of the property is here returned.
+	* 
+	* The XMLMetaData property is only present when `captureMetaData`
+	* is true in the options.
+	*/
 	static getMetaDataSymbol() {
 		return XmlNode.getMetaDataSymbol();
 	}
 };
 var EOL$2 = "\n";
+/**
+* 
+* @param {array} jArray 
+* @param {any} options 
+* @returns 
+*/
 function toXml(jArray, options) {
 	let indentation = "";
 	if (options.format && options.indentBy.length > 0) indentation = EOL$2;
@@ -12941,12 +15276,24 @@ function getParserOptions(options = {}) {
 		trimValues: false
 	});
 }
+/**
+* Converts given JSON object to XML string
+* @param obj - JSON object to be converted into XML string
+* @param opts - Options that govern the XML building of given JSON object
+* `rootName` indicates the name of the root element in the resulting XML
+*/
 function stringifyXML(obj, opts = {}) {
 	const parserOptions = getSerializerOptions(opts);
 	const j2x = new Builder(parserOptions);
 	const node = { [parserOptions.rootNodeName]: obj };
 	return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>${j2x.build(node)}`.replace(/\n/g, "");
 }
+/**
+* Converts given XML string into JSON
+* @param str - String containing the XML content to be parsed into JSON
+* @param opts - Options that govern the parsing of given xml string
+* `includeRoot` indicates whether the root element is to be included or not in the output
+*/
 async function parseXML(str, opts = {}) {
 	if (!str) throw new Error("Document is empty");
 	const validation = XMLValidator.validate(str);
@@ -12959,13 +15306,35 @@ async function parseXML(str, opts = {}) {
 	}
 	return parsedXml;
 }
+/**
+* The `@azure/logger` configuration for this package.
+*/
 const logger$1 = createClientLogger("storage-blob");
+/**
+* This class generates a readable stream from the data in an array of buffers.
+*/
 var BuffersStream = class extends Readable {
 	buffers;
 	byteLength;
+	/**
+	* The offset of data to be read in the current buffer.
+	*/
 	byteOffsetInCurrentBuffer;
+	/**
+	* The index of buffer to be read in the array of buffers.
+	*/
 	bufferIndex;
+	/**
+	* The total length of data already read.
+	*/
 	pushedBytesLength;
+	/**
+	* Creates an instance of BuffersStream that will emit the data
+	* contained in the array of buffers.
+	*
+	* @param buffers - Array of buffers containing the data
+	* @param byteLength - The total length of data contained in the buffers
+	*/
 	constructor(buffers, byteLength, options) {
 		super(options);
 		this.buffers = buffers;
@@ -12977,6 +15346,11 @@ var BuffersStream = class extends Readable {
 		for (const buf of this.buffers) buffersLength += buf.byteLength;
 		if (buffersLength < this.byteLength) throw new Error("Data size shouldn't be larger than the total length of buffers.");
 	}
+	/**
+	* Internal _read() that will be called when the stream wants to pull more data in.
+	*
+	* @param size - Optional. The size of data to be read
+	*/
 	_read(size) {
 		if (this.pushedBytesLength >= this.byteLength) this.push(null);
 		if (!size) size = this.readableHighWaterMark;
@@ -13008,11 +15382,35 @@ var BuffersStream = class extends Readable {
 		else if (outBuffers.length === 1) this.push(outBuffers[0]);
 	}
 };
+/**
+* maxBufferLength is max size of each buffer in the pooled buffers.
+*/
 var maxBufferLength = buffer.constants.MAX_LENGTH;
+/**
+* This class provides a buffer container which conceptually has no hard size limit.
+* It accepts a capacity, an array of input buffers and the total length of input data.
+* It will allocate an internal "buffer" of the capacity and fill the data in the input buffers
+* into the internal "buffer" serially with respect to the total length.
+* Then by calling PooledBuffer.getReadableStream(), you can get a readable stream
+* assembled from all the data in the internal "buffer".
+*/
 var PooledBuffer = class {
+	/**
+	* Internal buffers used to keep the data.
+	* Each buffer has a length of the maxBufferLength except last one.
+	*/
 	buffers = [];
+	/**
+	* The total size of internal buffers.
+	*/
 	capacity;
+	/**
+	* The total size of data contained in internal buffers.
+	*/
 	_size;
+	/**
+	* The size of the data contained in the pooled buffers.
+	*/
 	get size() {
 		return this._size;
 	}
@@ -13027,6 +15425,15 @@ var PooledBuffer = class {
 		}
 		if (buffers) this.fill(buffers, totalLength);
 	}
+	/**
+	* Fill the internal buffers with data in the input buffers serially
+	* with respect to the total length and the total capacity of the internal buffers.
+	* Data copied will be shift out of the input buffers.
+	*
+	* @param buffers - Input buffers containing the data to be filled in the pooled buffer
+	* @param totalLength - Total length of the data to be filled in.
+	*
+	*/
 	fill(buffers, totalLength) {
 		this._size = Math.min(this.capacity, totalLength);
 		let i = 0, j = 0, targetOffset = 0, sourceOffset = 0, totalCopiedNum = 0;
@@ -13049,27 +15456,119 @@ var PooledBuffer = class {
 		buffers.splice(0, i);
 		if (buffers.length > 0) buffers[0] = buffers[0].slice(sourceOffset);
 	}
+	/**
+	* Get the readable stream assembled from all the data in the internal buffers.
+	*
+	*/
 	getReadableStream() {
 		return new BuffersStream(this.buffers, this.size);
 	}
 };
+/**
+* This class accepts a Node.js Readable stream as input, and keeps reading data
+* from the stream into the internal buffer structure, until it reaches maxBuffers.
+* Every available buffer will try to trigger outgoingHandler.
+*
+* The internal buffer structure includes an incoming buffer array, and a outgoing
+* buffer array. The incoming buffer array includes the "empty" buffers can be filled
+* with new incoming data. The outgoing array includes the filled buffers to be
+* handled by outgoingHandler. Every above buffer size is defined by parameter bufferSize.
+*
+* NUM_OF_ALL_BUFFERS = BUFFERS_IN_INCOMING + BUFFERS_IN_OUTGOING + BUFFERS_UNDER_HANDLING
+*
+* NUM_OF_ALL_BUFFERS lesser than or equal to maxBuffers
+*
+* PERFORMANCE IMPROVEMENT TIPS:
+* 1. Input stream highWaterMark is better to set a same value with bufferSize
+*    parameter, which will avoid Buffer.concat() operations.
+* 2. concurrency should set a smaller value than maxBuffers, which is helpful to
+*    reduce the possibility when a outgoing handler waits for the stream data.
+*    in this situation, outgoing handlers are blocked.
+*    Outgoing queue shouldn't be empty.
+*/
 var BufferScheduler = class {
+	/**
+	* Size of buffers in incoming and outgoing queues. This class will try to align
+	* data read from Readable stream into buffer chunks with bufferSize defined.
+	*/
 	bufferSize;
+	/**
+	* How many buffers can be created or maintained.
+	*/
 	maxBuffers;
+	/**
+	* A Node.js Readable stream.
+	*/
 	readable;
+	/**
+	* OutgoingHandler is an async function triggered by BufferScheduler when there
+	* are available buffers in outgoing array.
+	*/
 	outgoingHandler;
+	/**
+	* An internal event emitter.
+	*/
 	emitter = new EventEmitter();
+	/**
+	* Concurrency of executing outgoingHandlers. (0 lesser than concurrency lesser than or equal to maxBuffers)
+	*/
 	concurrency;
+	/**
+	* An internal offset marker to track data offset in bytes of next outgoingHandler.
+	*/
 	offset = 0;
+	/**
+	* An internal marker to track whether stream is end.
+	*/
 	isStreamEnd = false;
+	/**
+	* An internal marker to track whether stream or outgoingHandler returns error.
+	*/
 	isError = false;
+	/**
+	* How many handlers are executing.
+	*/
 	executingOutgoingHandlers = 0;
+	/**
+	* Encoding of the input Readable stream which has string data type instead of Buffer.
+	*/
 	encoding;
+	/**
+	* How many buffers have been allocated.
+	*/
 	numBuffers = 0;
+	/**
+	* Because this class doesn't know how much data every time stream pops, which
+	* is defined by highWaterMarker of the stream. So BufferScheduler will cache
+	* data received from the stream, when data in unresolvedDataArray exceeds the
+	* blockSize defined, it will try to concat a blockSize of buffer, fill into available
+	* buffers from incoming and push to outgoing array.
+	*/
 	unresolvedDataArray = [];
+	/**
+	* How much data consisted in unresolvedDataArray.
+	*/
 	unresolvedLength = 0;
+	/**
+	* The array includes all the available buffers can be used to fill data from stream.
+	*/
 	incoming = [];
+	/**
+	* The array (queue) includes all the buffers filled from stream data.
+	*/
 	outgoing = [];
+	/**
+	* Creates an instance of BufferScheduler.
+	*
+	* @param readable - A Node.js Readable stream
+	* @param bufferSize - Buffer size of every maintained buffer
+	* @param maxBuffers - How many buffers can be allocated
+	* @param outgoingHandler - An async function scheduled to be
+	*                                          triggered when a buffer fully filled
+	*                                          with stream data
+	* @param concurrency - Concurrency of executing outgoingHandlers (&gt;0)
+	* @param encoding - [Optional] Encoding of Readable stream when it's a string stream
+	*/
 	constructor(readable, bufferSize, maxBuffers, outgoingHandler, concurrency, encoding) {
 		if (bufferSize <= 0) throw new RangeError(`bufferSize must be larger than 0, current is ${bufferSize}`);
 		if (maxBuffers <= 0) throw new RangeError(`maxBuffers must be larger than 0, current is ${maxBuffers}`);
@@ -13081,6 +15580,11 @@ var BufferScheduler = class {
 		this.concurrency = concurrency;
 		this.encoding = encoding;
 	}
+	/**
+	* Start the scheduler, will return error when stream of any of the outgoingHandlers
+	* returns error.
+	*
+	*/
 	async do() {
 		return new Promise((resolve, reject) => {
 			this.readable.on("data", (data) => {
@@ -13113,16 +15617,35 @@ var BufferScheduler = class {
 			});
 		});
 	}
+	/**
+	* Insert a new data into unresolved array.
+	*
+	* @param data -
+	*/
 	appendUnresolvedData(data) {
 		this.unresolvedDataArray.push(data);
 		this.unresolvedLength += data.length;
 	}
+	/**
+	* Try to shift a buffer with size in blockSize. The buffer returned may be less
+	* than blockSize when data in unresolvedDataArray is less than bufferSize.
+	*
+	*/
 	shiftBufferFromUnresolvedDataArray(buffer) {
 		if (!buffer) buffer = new PooledBuffer(this.bufferSize, this.unresolvedDataArray, this.unresolvedLength);
 		else buffer.fill(this.unresolvedDataArray, this.unresolvedLength);
 		this.unresolvedLength -= buffer.size;
 		return buffer;
 	}
+	/**
+	* Resolve data in unresolvedDataArray. For every buffer with size in blockSize
+	* shifted, it will try to get (or allocate a buffer) from incoming, and fill it,
+	* then push it into outgoing to be handled by outgoing handler.
+	*
+	* Return false when available buffers in incoming are not enough, else true.
+	*
+	* @returns Return false when buffers in incoming are not enough, else true.
+	*/
 	resolveData() {
 		while (this.unresolvedLength >= this.bufferSize) {
 			let buffer;
@@ -13138,6 +15661,10 @@ var BufferScheduler = class {
 		}
 		return true;
 	}
+	/**
+	* Try to trigger a outgoing handler for every buffer in outgoing. Stop when
+	* concurrency reaches.
+	*/
 	async triggerOutgoingHandlers() {
 		let buffer;
 		do {
@@ -13146,6 +15673,11 @@ var BufferScheduler = class {
 			if (buffer) this.triggerOutgoingHandler(buffer);
 		} while (buffer);
 	}
+	/**
+	* Trigger a outgoing handler for a buffer shifted from outgoing.
+	*
+	* @param buffer -
+	*/
 	async triggerOutgoingHandler(buffer) {
 		const bufferLength = buffer.size;
 		this.executingOutgoingHandlers++;
@@ -13160,6 +15692,11 @@ var BufferScheduler = class {
 		this.reuseBuffer(buffer);
 		this.emitter.emit("checkEnd");
 	}
+	/**
+	* Return buffer used by outgoing handler into incoming.
+	*
+	* @param buffer -
+	*/
 	reuseBuffer(buffer) {
 		this.incoming.push(buffer);
 		if (!this.isError && this.resolveData() && !this.isStreamEnd) this.readable.resume();
@@ -13170,16 +15707,33 @@ function getCachedDefaultHttpClient() {
 	if (!_defaultHttpClient) _defaultHttpClient = createDefaultHttpClient();
 	return _defaultHttpClient;
 }
+/**
+* The base class from which all request policies derive.
+*/
 var BaseRequestPolicy = class {
 	_nextPolicy;
 	_options;
+	/**
+	* The main method to implement that manipulates a request/response.
+	*/
 	constructor(_nextPolicy, _options) {
 		this._nextPolicy = _nextPolicy;
 		this._options = _options;
 	}
+	/**
+	* Get whether or not a log with the provided log level should be logged.
+	* @param logLevel - The log level of the log that will be logged.
+	* @returns Whether or not a log with the provided log level should be logged.
+	*/
 	shouldLog(logLevel) {
 		return this._options.shouldLog(logLevel);
 	}
+	/**
+	* Attempt to log the provided message to the provided logger. If no logger was provided or if
+	* the log level does not meat the logger's threshold, then nothing will be logged.
+	* @param logLevel - The log level of this log.
+	* @param message - The message of this log.
+	*/
 	log(logLevel, message) {
 		this._options.log(logLevel, message);
 	}
@@ -13217,6 +15771,15 @@ const HeaderConstants = {
 	X_MS_VERSION: "x-ms-version",
 	X_MS_CopySourceErrorCode: "x-ms-copy-source-error-code"
 };
+/**
+* Set URL parameter name and value. If name exists in URL parameters, old value
+* will be replaced by name key. If not provide value, the parameter will be deleted.
+*
+* @param url - Source URL string
+* @param name - Parameter name
+* @param value - Parameter value
+* @returns An updated URL string
+*/
 function setURLParameter$1(url, name, value) {
 	const urlParsed = new URL(url);
 	const encodedName = encodeURIComponent(name);
@@ -13231,11 +15794,23 @@ function setURLParameter$1(url, name, value) {
 	urlParsed.search = searchPieces.length ? `?${searchPieces.join("&")}` : "";
 	return urlParsed.toString();
 }
+/**
+* Set URL host.
+*
+* @param url - Source URL string
+* @param host - New host string
+* @returns An updated URL string
+*/
 function setURLHost(url, host) {
 	const urlParsed = new URL(url);
 	urlParsed.hostname = host;
 	return urlParsed.toString();
 }
+/**
+* Get URL path from an URL string.
+*
+* @param url - Source URL string
+*/
 function getURLPath(url) {
 	try {
 		return new URL(url).pathname;
@@ -13243,6 +15818,11 @@ function getURLPath(url) {
 		return;
 	}
 }
+/**
+* Get URL query key value pairs from an URL string.
+*
+* @param url -
+*/
 function getURLQueries(url) {
 	let queryString = new URL(url).search;
 	if (!queryString) return {};
@@ -13262,6 +15842,13 @@ function getURLQueries(url) {
 	}
 	return queries;
 }
+/**
+* Delay specified time interval.
+*
+* @param timeInMs -
+* @param aborter -
+* @param abortError -
+*/
 async function delay(timeInMs, aborter, abortError) {
 	return new Promise((resolve, reject) => {
 		let timeout;
@@ -13277,10 +15864,31 @@ async function delay(timeInMs, aborter, abortError) {
 		if (aborter !== void 0) aborter.addEventListener("abort", abortHandler);
 	});
 }
+/**
+* StorageBrowserPolicy will handle differences between Node.js and browser runtime, including:
+*
+* 1. Browsers cache GET/HEAD requests by adding conditional headers such as 'IF_MODIFIED_SINCE'.
+* StorageBrowserPolicy is a policy used to add a timestamp query to GET/HEAD request URL
+* thus avoid the browser cache.
+*
+* 2. Remove cookie header for security
+*
+* 3. Remove content-length header to avoid browsers warning
+*/
 var StorageBrowserPolicy = class extends BaseRequestPolicy {
+	/**
+	* Creates an instance of StorageBrowserPolicy.
+	* @param nextPolicy -
+	* @param options -
+	*/
 	constructor(nextPolicy, options) {
 		super(nextPolicy, options);
 	}
+	/**
+	* Sends out request.
+	*
+	* @param request -
+	*/
 	async sendRequest(request) {
 		if (isNodeLike) return this._nextPolicy.sendRequest(request);
 		if (request.method.toUpperCase() === "GET" || request.method.toUpperCase() === "HEAD") request.url = setURLParameter$1(request.url, URLConstants$1.Parameters.FORCE_BROWSER_NO_CACHE, (/* @__PURE__ */ new Date()).getTime().toString());
@@ -13289,30 +15897,85 @@ var StorageBrowserPolicy = class extends BaseRequestPolicy {
 		return this._nextPolicy.sendRequest(request);
 	}
 };
+/**
+* StorageBrowserPolicyFactory is a factory class helping generating StorageBrowserPolicy objects.
+*/
 var StorageBrowserPolicyFactory = class {
+	/**
+	* Creates a StorageBrowserPolicyFactory object.
+	*
+	* @param nextPolicy -
+	* @param options -
+	*/
 	create(nextPolicy, options) {
 		return new StorageBrowserPolicy(nextPolicy, options);
 	}
 };
+/**
+* Credential policy used to sign HTTP(S) requests before sending. This is an
+* abstract class.
+*/
 var CredentialPolicy = class extends BaseRequestPolicy {
+	/**
+	* Sends out request.
+	*
+	* @param request -
+	*/
 	sendRequest(request) {
 		return this._nextPolicy.sendRequest(this.signRequest(request));
 	}
+	/**
+	* Child classes must implement this method with request signing. This method
+	* will be executed in {@link sendRequest}.
+	*
+	* @param request -
+	*/
 	signRequest(request) {
 		return request;
 	}
 };
+/**
+* AnonymousCredentialPolicy is used with HTTP(S) requests that read public resources
+* or for use with Shared Access Signatures (SAS).
+*/
 var AnonymousCredentialPolicy = class extends CredentialPolicy {
+	/**
+	* Creates an instance of AnonymousCredentialPolicy.
+	* @param nextPolicy -
+	* @param options -
+	*/
 	constructor(nextPolicy, options) {
 		super(nextPolicy, options);
 	}
 };
+/**
+* Credential is an abstract class for Azure Storage HTTP requests signing. This
+* class will host an credentialPolicyCreator factory which generates CredentialPolicy.
+*/
 var Credential = class {
+	/**
+	* Creates a RequestPolicy object.
+	*
+	* @param _nextPolicy -
+	* @param _options -
+	*/
 	create(_nextPolicy, _options) {
 		throw new Error("Method should be implemented in children classes.");
 	}
 };
+/**
+* AnonymousCredential provides a credentialPolicyCreator member used to create
+* AnonymousCredentialPolicy objects. AnonymousCredentialPolicy is used with
+* HTTP(S) requests that read public resources or for use with Shared Access
+* Signatures (SAS).
+*/
 var AnonymousCredential = class extends Credential {
+	/**
+	* Creates an {@link AnonymousCredentialPolicy} object.
+	*
+	* @param nextPolicy -
+	* @param options -
+	*/
 	create(nextPolicy, options) {
 		return new AnonymousCredentialPolicy(nextPolicy, options);
 	}
@@ -13737,12 +16400,29 @@ function isLessThan(lhs, rhs) {
 	}
 	return false;
 }
+/**
+* StorageSharedKeyCredentialPolicy is a policy used to sign HTTP request with a shared key.
+*/
 var StorageSharedKeyCredentialPolicy = class extends CredentialPolicy {
+	/**
+	* Reference to StorageSharedKeyCredential which generates StorageSharedKeyCredentialPolicy
+	*/
 	factory;
+	/**
+	* Creates an instance of StorageSharedKeyCredentialPolicy.
+	* @param nextPolicy -
+	* @param options -
+	* @param factory -
+	*/
 	constructor(nextPolicy, options, factory) {
 		super(nextPolicy, options);
 		this.factory = factory;
 	}
+	/**
+	* Signs request.
+	*
+	* @param request -
+	*/
 	signRequest(request) {
 		request.headers.set(HeaderConstants.X_MS_DATE, (/* @__PURE__ */ new Date()).toUTCString());
 		if (request.body && (typeof request.body === "string" || request.body !== void 0) && request.body.length > 0) request.headers.set(HeaderConstants.CONTENT_LENGTH, Buffer.byteLength(request.body));
@@ -13764,12 +16444,32 @@ var StorageSharedKeyCredentialPolicy = class extends CredentialPolicy {
 		request.headers.set(HeaderConstants.AUTHORIZATION, `SharedKey ${this.factory.accountName}:${signature}`);
 		return request;
 	}
+	/**
+	* Retrieve header value according to shared key sign rules.
+	* @see https://learn.microsoft.com/rest/api/storageservices/authenticate-with-shared-key
+	*
+	* @param request -
+	* @param headerName -
+	*/
 	getHeaderValueToSign(request, headerName) {
 		const value = request.headers.get(headerName);
 		if (!value) return "";
 		if (headerName === HeaderConstants.CONTENT_LENGTH && value === "0") return "";
 		return value;
 	}
+	/**
+	* To construct the CanonicalizedHeaders portion of the signature string, follow these steps:
+	* 1. Retrieve all headers for the resource that begin with x-ms-, including the x-ms-date header.
+	* 2. Convert each HTTP header name to lowercase.
+	* 3. Sort the headers lexicographically by header name, in ascending order.
+	*    Each header may appear only once in the string.
+	* 4. Replace any linear whitespace in the header value with a single space.
+	* 5. Trim any whitespace around the colon in the header.
+	* 6. Finally, append a new-line character to each canonicalized header in the resulting list.
+	*    Construct the CanonicalizedHeaders string by concatenating all headers in this list into a single string.
+	*
+	* @param request -
+	*/
 	getCanonicalizedHeadersString(request) {
 		let headersArray = request.headers.headersArray().filter((value) => {
 			return value.name.toLowerCase().startsWith(HeaderConstants.PREFIX_FOR_STORAGE);
@@ -13787,6 +16487,11 @@ var StorageSharedKeyCredentialPolicy = class extends CredentialPolicy {
 		});
 		return canonicalizedHeadersStringToSign;
 	}
+	/**
+	* Retrieves the webResource canonicalized resource string.
+	*
+	* @param request -
+	*/
 	getCanonicalizedResourceString(request) {
 		const path = getURLPath(request.url) || "/";
 		let canonicalizedResourceString = "";
@@ -13806,25 +16511,64 @@ var StorageSharedKeyCredentialPolicy = class extends CredentialPolicy {
 		return canonicalizedResourceString;
 	}
 };
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* StorageSharedKeyCredential for account key authorization of Azure Storage service.
+*/
 var StorageSharedKeyCredential = class extends Credential {
+	/**
+	* Azure Storage account name; readonly.
+	*/
 	accountName;
+	/**
+	* Azure Storage account key; readonly.
+	*/
 	accountKey;
+	/**
+	* Creates an instance of StorageSharedKeyCredential.
+	* @param accountName -
+	* @param accountKey -
+	*/
 	constructor(accountName, accountKey) {
 		super();
 		this.accountName = accountName;
 		this.accountKey = Buffer.from(accountKey, "base64");
 	}
+	/**
+	* Creates a StorageSharedKeyCredentialPolicy object.
+	*
+	* @param nextPolicy -
+	* @param options -
+	*/
 	create(nextPolicy, options) {
 		return new StorageSharedKeyCredentialPolicy(nextPolicy, options, this);
 	}
+	/**
+	* Generates a hash signature for an HTTP request or for a SAS.
+	*
+	* @param stringToSign -
+	*/
 	computeHMACSHA256(stringToSign) {
 		return createHmac("sha256", this.accountKey).update(stringToSign, "utf8").digest("base64");
 	}
 };
+/**
+* The `@azure/logger` configuration for this package.
+*/
 const logger = createClientLogger("storage-common");
+/**
+* RetryPolicy types.
+*/
 var StorageRetryPolicyType;
 (function(StorageRetryPolicyType) {
+	/**
+	* Exponential retry. Retry time delay grows exponentially.
+	*/
 	StorageRetryPolicyType[StorageRetryPolicyType["EXPONENTIAL"] = 0] = "EXPONENTIAL";
+	/**
+	* Linear retry. Retry time delay grows linearly.
+	*/
 	StorageRetryPolicyType[StorageRetryPolicyType["FIXED"] = 1] = "FIXED";
 })(StorageRetryPolicyType || (StorageRetryPolicyType = {}));
 var DEFAULT_RETRY_OPTIONS$1 = {
@@ -13836,8 +16580,21 @@ var DEFAULT_RETRY_OPTIONS$1 = {
 	tryTimeoutInMs: void 0
 };
 var RETRY_ABORT_ERROR$1 = new AbortError("The operation was aborted.");
+/**
+* Retry policy with exponential retry and linear retry implemented.
+*/
 var StorageRetryPolicy = class extends BaseRequestPolicy {
+	/**
+	* RetryOptions.
+	*/
 	retryOptions;
+	/**
+	* Creates an instance of RetryPolicy.
+	*
+	* @param nextPolicy -
+	* @param options -
+	* @param retryOptions -
+	*/
 	constructor(nextPolicy, options, retryOptions = DEFAULT_RETRY_OPTIONS$1) {
 		super(nextPolicy, options);
 		this.retryOptions = {
@@ -13849,9 +16606,24 @@ var StorageRetryPolicy = class extends BaseRequestPolicy {
 			secondaryHost: retryOptions.secondaryHost ? retryOptions.secondaryHost : DEFAULT_RETRY_OPTIONS$1.secondaryHost
 		};
 	}
+	/**
+	* Sends request.
+	*
+	* @param request -
+	*/
 	async sendRequest(request) {
 		return this.attemptSendRequest(request, false, 1);
 	}
+	/**
+	* Decide and perform next retry. Won't mutate request parameter.
+	*
+	* @param request -
+	* @param secondaryHas404 -  If attempt was against the secondary & it returned a StatusNotFound (404), then
+	*                                   the resource was not found. This may be due to replication delay. So, in this
+	*                                   case, we'll never try the secondary again for this operation.
+	* @param attempt -           How many retries has been attempted to performed, starting from 1, which includes
+	*                                   the attempt will be performed by this method call.
+	*/
 	async attemptSendRequest(request, secondaryHas404, attempt) {
 		const newRequest = request.clone();
 		const isPrimaryRetry = secondaryHas404 || !this.retryOptions.secondaryHost || !(request.method === "GET" || request.method === "HEAD" || request.method === "OPTIONS") || attempt % 2 === 1;
@@ -13870,6 +16642,14 @@ var StorageRetryPolicy = class extends BaseRequestPolicy {
 		await this.delay(isPrimaryRetry, attempt, request.abortSignal);
 		return this.attemptSendRequest(request, secondaryHas404, ++attempt);
 	}
+	/**
+	* Decide whether to retry according to last HTTP response and retry counters.
+	*
+	* @param isPrimaryRetry -
+	* @param attempt -
+	* @param response -
+	* @param err -
+	*/
 	shouldRetry(isPrimaryRetry, attempt, response, err) {
 		if (attempt >= this.retryOptions.maxTries) {
 			logger.info(`RetryPolicy: Attempt(s) ${attempt} >= maxTries ${this.retryOptions.maxTries}, no further try.`);
@@ -13919,6 +16699,13 @@ var StorageRetryPolicy = class extends BaseRequestPolicy {
 		}
 		return false;
 	}
+	/**
+	* Delay a calculated time between retries.
+	*
+	* @param isPrimaryRetry -
+	* @param attempt -
+	* @param abortSignal -
+	*/
 	async delay(isPrimaryRetry, attempt, abortSignal) {
 		let delayTimeInMs = 0;
 		if (isPrimaryRetry) switch (this.retryOptions.retryPolicyType) {
@@ -13934,16 +16721,36 @@ var StorageRetryPolicy = class extends BaseRequestPolicy {
 		return delay(delayTimeInMs, abortSignal, RETRY_ABORT_ERROR$1);
 	}
 };
+/**
+* StorageRetryPolicyFactory is a factory class helping generating {@link StorageRetryPolicy} objects.
+*/
 var StorageRetryPolicyFactory = class {
 	retryOptions;
+	/**
+	* Creates an instance of StorageRetryPolicyFactory.
+	* @param retryOptions -
+	*/
 	constructor(retryOptions) {
 		this.retryOptions = retryOptions;
 	}
+	/**
+	* Creates a StorageRetryPolicy object.
+	*
+	* @param nextPolicy -
+	* @param options -
+	*/
 	create(nextPolicy, options) {
 		return new StorageRetryPolicy(nextPolicy, options, this.retryOptions);
 	}
 };
+/**
+* The programmatic identifier of the StorageBrowserPolicy.
+*/
 const storageBrowserPolicyName = "storageBrowserPolicy";
+/**
+* storageBrowserPolicy is a policy used to prevent browsers from caching requests
+* and to remove cookies and explicit content-length headers.
+*/
 function storageBrowserPolicy() {
 	return {
 		name: storageBrowserPolicyName,
@@ -13956,7 +16763,13 @@ function storageBrowserPolicy() {
 		}
 	};
 }
+/**
+* The programmatic identifier of the storageCorrectContentLengthPolicy.
+*/
 const storageCorrectContentLengthPolicyName = "StorageCorrectContentLengthPolicy";
+/**
+* storageCorrectContentLengthPolicy to correctly set Content-Length header with request body length.
+*/
 function storageCorrectContentLengthPolicy() {
 	function correctContentLength(request) {
 		if (request.body && (typeof request.body === "string" || Buffer.isBuffer(request.body)) && request.body.length > 0) request.headers.set(HeaderConstants.CONTENT_LENGTH, Buffer.byteLength(request.body));
@@ -13969,6 +16782,9 @@ function storageCorrectContentLengthPolicy() {
 		}
 	};
 }
+/**
+* Name of the {@link storageRetryPolicy}
+*/
 const storageRetryPolicyName = "storageRetryPolicy";
 var DEFAULT_RETRY_OPTIONS = {
 	maxRetryDelayInMs: 120 * 1e3,
@@ -13990,6 +16806,9 @@ var retriableErrors = [
 	"REQUEST_SEND_ERROR"
 ];
 var RETRY_ABORT_ERROR = new AbortError("The operation was aborted.");
+/**
+* Retry policy with exponential retry and linear retry implemented.
+*/
 function storageRetryPolicy(options = {}) {
 	const retryPolicyType = options.retryPolicyType ?? DEFAULT_RETRY_OPTIONS.retryPolicyType;
 	const maxTries = options.maxTries ?? DEFAULT_RETRY_OPTIONS.maxTries;
@@ -14096,7 +16915,13 @@ function storageRetryPolicy(options = {}) {
 		}
 	};
 }
+/**
+* The programmatic identifier of the storageSharedKeyCredentialPolicy.
+*/
 const storageSharedKeyCredentialPolicyName = "storageSharedKeyCredentialPolicy";
+/**
+* storageSharedKeyCredentialPolicy handles signing requests using storage account keys.
+*/
 function storageSharedKeyCredentialPolicy(options) {
 	function signRequest(request) {
 		request.headers.set(HeaderConstants.X_MS_DATE, (/* @__PURE__ */ new Date()).toUTCString());
@@ -14118,12 +16943,28 @@ function storageSharedKeyCredentialPolicy(options) {
 		const signature = createHmac("sha256", options.accountKey).update(stringToSign, "utf8").digest("base64");
 		request.headers.set(HeaderConstants.AUTHORIZATION, `SharedKey ${options.accountName}:${signature}`);
 	}
+	/**
+	* Retrieve header value according to shared key sign rules.
+	* @see https://learn.microsoft.com/rest/api/storageservices/authenticate-with-shared-key
+	*/
 	function getHeaderValueToSign(request, headerName) {
 		const value = request.headers.get(headerName);
 		if (!value) return "";
 		if (headerName === HeaderConstants.CONTENT_LENGTH && value === "0") return "";
 		return value;
 	}
+	/**
+	* To construct the CanonicalizedHeaders portion of the signature string, follow these steps:
+	* 1. Retrieve all headers for the resource that begin with x-ms-, including the x-ms-date header.
+	* 2. Convert each HTTP header name to lowercase.
+	* 3. Sort the headers lexicographically by header name, in ascending order.
+	*    Each header may appear only once in the string.
+	* 4. Replace any linear whitespace in the header value with a single space.
+	* 5. Trim any whitespace around the colon in the header.
+	* 6. Finally, append a new-line character to each canonicalized header in the resulting list.
+	*    Construct the CanonicalizedHeaders string by concatenating all headers in this list into a single string.
+	*
+	*/
 	function getCanonicalizedHeadersString(request) {
 		let headersArray = [];
 		for (const [name, value] of request.headers) if (name.toLowerCase().startsWith(HeaderConstants.PREFIX_FOR_STORAGE)) headersArray.push({
@@ -14169,7 +17010,13 @@ function storageSharedKeyCredentialPolicy(options) {
 		}
 	};
 }
+/**
+* The programmatic identifier of the StorageRequestFailureDetailsParserPolicy.
+*/
 const storageRequestFailureDetailsParserPolicyName = "storageRequestFailureDetailsParserPolicy";
+/**
+* StorageRequestFailureDetailsParserPolicy
+*/
 function storageRequestFailureDetailsParserPolicy() {
 	return {
 		name: storageRequestFailureDetailsParserPolicyName,
@@ -14185,15 +17032,40 @@ function storageRequestFailureDetailsParserPolicy() {
 		}
 	};
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* UserDelegationKeyCredential is only used for generation of user delegation SAS.
+* @see https://learn.microsoft.com/rest/api/storageservices/create-user-delegation-sas
+*/
 var UserDelegationKeyCredential = class {
+	/**
+	* Azure Storage account name; readonly.
+	*/
 	accountName;
+	/**
+	* Azure Storage user delegation key; readonly.
+	*/
 	userDelegationKey;
+	/**
+	* Key value in Buffer type.
+	*/
 	key;
+	/**
+	* Creates an instance of UserDelegationKeyCredential.
+	* @param accountName -
+	* @param userDelegationKey -
+	*/
 	constructor(accountName, userDelegationKey) {
 		this.accountName = accountName;
 		this.userDelegationKey = userDelegationKey;
 		this.key = Buffer.from(userDelegationKey.value, "base64");
 	}
+	/**
+	* Generates a hash signature for an HTTP request or for a SAS.
+	*
+	* @param stringToSign -
+	*/
 	computeHMACSHA256(stringToSign) {
 		return createHmac("sha256", this.key).update(stringToSign, "utf8").digest("base64");
 	}
@@ -14370,18 +17242,49 @@ const PathStylePorts = [
 	"11103",
 	"11104"
 ];
+/**
+* A helper to decide if a given argument satisfies the Pipeline contract
+* @param pipeline - An argument that may be a Pipeline
+* @returns true when the argument satisfies the Pipeline contract
+*/
 function isPipelineLike(pipeline) {
 	if (!pipeline || typeof pipeline !== "object") return false;
 	const castPipeline = pipeline;
 	return Array.isArray(castPipeline.factories) && typeof castPipeline.options === "object" && typeof castPipeline.toServiceClientOptions === "function";
 }
+/**
+* A Pipeline class containing HTTP request policies.
+* You can create a default Pipeline by calling {@link newPipeline}.
+* Or you can create a Pipeline with your own policies by the constructor of Pipeline.
+*
+* Refer to {@link newPipeline} and provided policies before implementing your
+* customized Pipeline.
+*/
 var Pipeline = class {
+	/**
+	* A list of chained request policy factories.
+	*/
 	factories;
+	/**
+	* Configures pipeline logger and HTTP client.
+	*/
 	options;
+	/**
+	* Creates an instance of Pipeline. Customize HTTPClient by implementing IHttpClient interface.
+	*
+	* @param factories -
+	* @param options -
+	*/
 	constructor(factories, options = {}) {
 		this.factories = factories;
 		this.options = options;
 	}
+	/**
+	* Transfer Pipeline object to ServiceClientOptions object which is required by
+	* ServiceClient constructor.
+	*
+	* @returns The ServiceClientOptions object from this Pipeline.
+	*/
 	toServiceClientOptions() {
 		return {
 			httpClient: this.options.httpClient,
@@ -14389,6 +17292,13 @@ var Pipeline = class {
 		};
 	}
 };
+/**
+* Creates a new Pipeline object with Credential provided.
+*
+* @param credential -  Such as AnonymousCredential, StorageSharedKeyCredential or any credential from the `@azure/identity` package to authenticate requests to the service. You can also provide an object that implements the TokenCredential interface. If not specified, AnonymousCredential is used.
+* @param pipelineOptions - Optional. Options.
+* @returns A new Pipeline object.
+*/
 function newPipeline(credential, pipelineOptions = {}) {
 	if (!credential) credential = new AnonymousCredential();
 	const pipeline = new Pipeline([], pipelineOptions);
@@ -22798,35 +25708,79 @@ const listType = {
 		}
 	}
 };
+/** Class containing Service operations. */
 var ServiceImpl = class {
 	client;
+	/**
+	* Initialize a new instance of the class Service class.
+	* @param client Reference to the service client
+	*/
 	constructor(client) {
 		this.client = client;
 	}
+	/**
+	* Sets properties for a storage account's Blob service endpoint, including properties for Storage
+	* Analytics and CORS (Cross-Origin Resource Sharing) rules
+	* @param blobServiceProperties The StorageService properties.
+	* @param options The options parameters.
+	*/
 	setProperties(blobServiceProperties, options) {
 		return this.client.sendOperationRequest({
 			blobServiceProperties,
 			options
 		}, setPropertiesOperationSpec);
 	}
+	/**
+	* gets the properties of a storage account's Blob service, including properties for Storage Analytics
+	* and CORS (Cross-Origin Resource Sharing) rules.
+	* @param options The options parameters.
+	*/
 	getProperties(options) {
 		return this.client.sendOperationRequest({ options }, getPropertiesOperationSpec$2);
 	}
+	/**
+	* Retrieves statistics related to replication for the Blob service. It is only available on the
+	* secondary location endpoint when read-access geo-redundant replication is enabled for the storage
+	* account.
+	* @param options The options parameters.
+	*/
 	getStatistics(options) {
 		return this.client.sendOperationRequest({ options }, getStatisticsOperationSpec);
 	}
+	/**
+	* The List Containers Segment operation returns a list of the containers under the specified account
+	* @param options The options parameters.
+	*/
 	listContainersSegment(options) {
 		return this.client.sendOperationRequest({ options }, listContainersSegmentOperationSpec);
 	}
+	/**
+	* Retrieves a user delegation key for the Blob service. This is only a valid operation when using
+	* bearer token authentication.
+	* @param keyInfo Key information
+	* @param options The options parameters.
+	*/
 	getUserDelegationKey(keyInfo, options) {
 		return this.client.sendOperationRequest({
 			keyInfo,
 			options
 		}, getUserDelegationKeyOperationSpec);
 	}
+	/**
+	* Returns the sku name and account kind
+	* @param options The options parameters.
+	*/
 	getAccountInfo(options) {
 		return this.client.sendOperationRequest({ options }, getAccountInfoOperationSpec$2);
 	}
+	/**
+	* The Batch operation allows multiple API calls to be embedded into a single HTTP request.
+	* @param contentLength The length of the request.
+	* @param multipartContentType Required. The value of this header must be multipart/mixed with a batch
+	*                             boundary. Example header value: multipart/mixed; boundary=batch_<GUID>
+	* @param body Initial data
+	* @param options The options parameters.
+	*/
 	submitBatch(contentLength, multipartContentType, body, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
@@ -22835,6 +25789,12 @@ var ServiceImpl = class {
 			options
 		}, submitBatchOperationSpec$1);
 	}
+	/**
+	* The Filter Blobs operation enables callers to list blobs across all containers whose tags match a
+	* given search expression.  Filter blobs searches across all containers within a storage account but
+	* can be scoped within the expression to a single container.
+	* @param options The options parameters.
+	*/
 	filterBlobs(options) {
 		return this.client.sendOperationRequest({ options }, filterBlobsOperationSpec$1);
 	}
@@ -23067,38 +26027,89 @@ var filterBlobsOperationSpec$1 = {
 	isXML: true,
 	serializer: xmlSerializer$5
 };
+/** Class containing Container operations. */
 var ContainerImpl = class {
 	client;
+	/**
+	* Initialize a new instance of the class Container class.
+	* @param client Reference to the service client
+	*/
 	constructor(client) {
 		this.client = client;
 	}
+	/**
+	* creates a new container under the specified account. If the container with the same name already
+	* exists, the operation fails
+	* @param options The options parameters.
+	*/
 	create(options) {
 		return this.client.sendOperationRequest({ options }, createOperationSpec$2);
 	}
+	/**
+	* returns all user-defined metadata and system properties for the specified container. The data
+	* returned does not include the container's list of blobs
+	* @param options The options parameters.
+	*/
 	getProperties(options) {
 		return this.client.sendOperationRequest({ options }, getPropertiesOperationSpec$1);
 	}
+	/**
+	* operation marks the specified container for deletion. The container and any blobs contained within
+	* it are later deleted during garbage collection
+	* @param options The options parameters.
+	*/
 	delete(options) {
 		return this.client.sendOperationRequest({ options }, deleteOperationSpec$1);
 	}
+	/**
+	* operation sets one or more user-defined name-value pairs for the specified container.
+	* @param options The options parameters.
+	*/
 	setMetadata(options) {
 		return this.client.sendOperationRequest({ options }, setMetadataOperationSpec$1);
 	}
+	/**
+	* gets the permissions for the specified container. The permissions indicate whether container data
+	* may be accessed publicly.
+	* @param options The options parameters.
+	*/
 	getAccessPolicy(options) {
 		return this.client.sendOperationRequest({ options }, getAccessPolicyOperationSpec);
 	}
+	/**
+	* sets the permissions for the specified container. The permissions indicate whether blobs in a
+	* container may be accessed publicly.
+	* @param options The options parameters.
+	*/
 	setAccessPolicy(options) {
 		return this.client.sendOperationRequest({ options }, setAccessPolicyOperationSpec);
 	}
+	/**
+	* Restores a previously-deleted container.
+	* @param options The options parameters.
+	*/
 	restore(options) {
 		return this.client.sendOperationRequest({ options }, restoreOperationSpec);
 	}
+	/**
+	* Renames an existing container.
+	* @param sourceContainerName Required.  Specifies the name of the container to rename.
+	* @param options The options parameters.
+	*/
 	rename(sourceContainerName, options) {
 		return this.client.sendOperationRequest({
 			sourceContainerName,
 			options
 		}, renameOperationSpec);
 	}
+	/**
+	* The Batch operation allows multiple API calls to be embedded into a single HTTP request.
+	* @param contentLength The length of the request.
+	* @param multipartContentType Required. The value of this header must be multipart/mixed with a batch
+	*                             boundary. Example header value: multipart/mixed; boundary=batch_<GUID>
+	* @param body Initial data
+	* @param options The options parameters.
+	*/
 	submitBatch(contentLength, multipartContentType, body, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
@@ -23107,27 +26118,63 @@ var ContainerImpl = class {
 			options
 		}, submitBatchOperationSpec);
 	}
+	/**
+	* The Filter Blobs operation enables callers to list blobs in a container whose tags match a given
+	* search expression.  Filter blobs searches within the given container.
+	* @param options The options parameters.
+	*/
 	filterBlobs(options) {
 		return this.client.sendOperationRequest({ options }, filterBlobsOperationSpec);
 	}
+	/**
+	* [Update] establishes and manages a lock on a container for delete operations. The lock duration can
+	* be 15 to 60 seconds, or can be infinite
+	* @param options The options parameters.
+	*/
 	acquireLease(options) {
 		return this.client.sendOperationRequest({ options }, acquireLeaseOperationSpec$1);
 	}
+	/**
+	* [Update] establishes and manages a lock on a container for delete operations. The lock duration can
+	* be 15 to 60 seconds, or can be infinite
+	* @param leaseId Specifies the current lease ID on the resource.
+	* @param options The options parameters.
+	*/
 	releaseLease(leaseId, options) {
 		return this.client.sendOperationRequest({
 			leaseId,
 			options
 		}, releaseLeaseOperationSpec$1);
 	}
+	/**
+	* [Update] establishes and manages a lock on a container for delete operations. The lock duration can
+	* be 15 to 60 seconds, or can be infinite
+	* @param leaseId Specifies the current lease ID on the resource.
+	* @param options The options parameters.
+	*/
 	renewLease(leaseId, options) {
 		return this.client.sendOperationRequest({
 			leaseId,
 			options
 		}, renewLeaseOperationSpec$1);
 	}
+	/**
+	* [Update] establishes and manages a lock on a container for delete operations. The lock duration can
+	* be 15 to 60 seconds, or can be infinite
+	* @param options The options parameters.
+	*/
 	breakLease(options) {
 		return this.client.sendOperationRequest({ options }, breakLeaseOperationSpec$1);
 	}
+	/**
+	* [Update] establishes and manages a lock on a container for delete operations. The lock duration can
+	* be 15 to 60 seconds, or can be infinite
+	* @param leaseId Specifies the current lease ID on the resource.
+	* @param proposedLeaseId Proposed lease ID, in a GUID string format. The Blob service returns 400
+	*                        (Invalid request) if the proposed lease ID is not in the correct format. See Guid Constructor
+	*                        (String) for a list of valid GUID string formats.
+	* @param options The options parameters.
+	*/
 	changeLease(leaseId, proposedLeaseId, options) {
 		return this.client.sendOperationRequest({
 			leaseId,
@@ -23135,15 +26182,31 @@ var ContainerImpl = class {
 			options
 		}, changeLeaseOperationSpec$1);
 	}
+	/**
+	* [Update] The List Blobs operation returns a list of the blobs under the specified container
+	* @param options The options parameters.
+	*/
 	listBlobFlatSegment(options) {
 		return this.client.sendOperationRequest({ options }, listBlobFlatSegmentOperationSpec);
 	}
+	/**
+	* [Update] The List Blobs operation returns a list of the blobs under the specified container
+	* @param delimiter When the request includes this parameter, the operation returns a BlobPrefix
+	*                  element in the response body that acts as a placeholder for all blobs whose names begin with the
+	*                  same substring up to the appearance of the delimiter character. The delimiter may be a single
+	*                  character or a string.
+	* @param options The options parameters.
+	*/
 	listBlobHierarchySegment(delimiter, options) {
 		return this.client.sendOperationRequest({
 			delimiter,
 			options
 		}, listBlobHierarchySegmentOperationSpec);
 	}
+	/**
+	* Returns the sku name and account kind
+	* @param options The options parameters.
+	*/
 	getAccountInfo(options) {
 		return this.client.sendOperationRequest({ options }, getAccountInfoOperationSpec$1);
 	}
@@ -23664,62 +26727,149 @@ var getAccountInfoOperationSpec$1 = {
 	isXML: true,
 	serializer: xmlSerializer$4
 };
+/** Class containing Blob operations. */
 var BlobImpl = class {
 	client;
+	/**
+	* Initialize a new instance of the class Blob class.
+	* @param client Reference to the service client
+	*/
 	constructor(client) {
 		this.client = client;
 	}
+	/**
+	* The Download operation reads or downloads a blob from the system, including its metadata and
+	* properties. You can also call Download to read a snapshot.
+	* @param options The options parameters.
+	*/
 	download(options) {
 		return this.client.sendOperationRequest({ options }, downloadOperationSpec);
 	}
+	/**
+	* The Get Properties operation returns all user-defined metadata, standard HTTP properties, and system
+	* properties for the blob. It does not return the content of the blob.
+	* @param options The options parameters.
+	*/
 	getProperties(options) {
 		return this.client.sendOperationRequest({ options }, getPropertiesOperationSpec);
 	}
+	/**
+	* If the storage account's soft delete feature is disabled then, when a blob is deleted, it is
+	* permanently removed from the storage account. If the storage account's soft delete feature is
+	* enabled, then, when a blob is deleted, it is marked for deletion and becomes inaccessible
+	* immediately. However, the blob service retains the blob or snapshot for the number of days specified
+	* by the DeleteRetentionPolicy section of [Storage service properties]
+	* (Set-Blob-Service-Properties.md). After the specified number of days has passed, the blob's data is
+	* permanently removed from the storage account. Note that you continue to be charged for the
+	* soft-deleted blob's storage until it is permanently removed. Use the List Blobs API and specify the
+	* "include=deleted" query parameter to discover which blobs and snapshots have been soft deleted. You
+	* can then use the Undelete Blob API to restore a soft-deleted blob. All other operations on a
+	* soft-deleted blob or snapshot causes the service to return an HTTP status code of 404
+	* (ResourceNotFound).
+	* @param options The options parameters.
+	*/
 	delete(options) {
 		return this.client.sendOperationRequest({ options }, deleteOperationSpec);
 	}
+	/**
+	* Undelete a blob that was previously soft deleted
+	* @param options The options parameters.
+	*/
 	undelete(options) {
 		return this.client.sendOperationRequest({ options }, undeleteOperationSpec);
 	}
+	/**
+	* Sets the time a blob will expire and be deleted.
+	* @param expiryOptions Required. Indicates mode of the expiry time
+	* @param options The options parameters.
+	*/
 	setExpiry(expiryOptions, options) {
 		return this.client.sendOperationRequest({
 			expiryOptions,
 			options
 		}, setExpiryOperationSpec);
 	}
+	/**
+	* The Set HTTP Headers operation sets system properties on the blob
+	* @param options The options parameters.
+	*/
 	setHttpHeaders(options) {
 		return this.client.sendOperationRequest({ options }, setHttpHeadersOperationSpec);
 	}
+	/**
+	* The Set Immutability Policy operation sets the immutability policy on the blob
+	* @param options The options parameters.
+	*/
 	setImmutabilityPolicy(options) {
 		return this.client.sendOperationRequest({ options }, setImmutabilityPolicyOperationSpec);
 	}
+	/**
+	* The Delete Immutability Policy operation deletes the immutability policy on the blob
+	* @param options The options parameters.
+	*/
 	deleteImmutabilityPolicy(options) {
 		return this.client.sendOperationRequest({ options }, deleteImmutabilityPolicyOperationSpec);
 	}
+	/**
+	* The Set Legal Hold operation sets a legal hold on the blob.
+	* @param legalHold Specified if a legal hold should be set on the blob.
+	* @param options The options parameters.
+	*/
 	setLegalHold(legalHold, options) {
 		return this.client.sendOperationRequest({
 			legalHold,
 			options
 		}, setLegalHoldOperationSpec);
 	}
+	/**
+	* The Set Blob Metadata operation sets user-defined metadata for the specified blob as one or more
+	* name-value pairs
+	* @param options The options parameters.
+	*/
 	setMetadata(options) {
 		return this.client.sendOperationRequest({ options }, setMetadataOperationSpec);
 	}
+	/**
+	* [Update] The Lease Blob operation establishes and manages a lock on a blob for write and delete
+	* operations
+	* @param options The options parameters.
+	*/
 	acquireLease(options) {
 		return this.client.sendOperationRequest({ options }, acquireLeaseOperationSpec);
 	}
+	/**
+	* [Update] The Lease Blob operation establishes and manages a lock on a blob for write and delete
+	* operations
+	* @param leaseId Specifies the current lease ID on the resource.
+	* @param options The options parameters.
+	*/
 	releaseLease(leaseId, options) {
 		return this.client.sendOperationRequest({
 			leaseId,
 			options
 		}, releaseLeaseOperationSpec);
 	}
+	/**
+	* [Update] The Lease Blob operation establishes and manages a lock on a blob for write and delete
+	* operations
+	* @param leaseId Specifies the current lease ID on the resource.
+	* @param options The options parameters.
+	*/
 	renewLease(leaseId, options) {
 		return this.client.sendOperationRequest({
 			leaseId,
 			options
 		}, renewLeaseOperationSpec);
 	}
+	/**
+	* [Update] The Lease Blob operation establishes and manages a lock on a blob for write and delete
+	* operations
+	* @param leaseId Specifies the current lease ID on the resource.
+	* @param proposedLeaseId Proposed lease ID, in a GUID string format. The Blob service returns 400
+	*                        (Invalid request) if the proposed lease ID is not in the correct format. See Guid Constructor
+	*                        (String) for a list of valid GUID string formats.
+	* @param options The options parameters.
+	*/
 	changeLease(leaseId, proposedLeaseId, options) {
 		return this.client.sendOperationRequest({
 			leaseId,
@@ -23727,45 +26877,104 @@ var BlobImpl = class {
 			options
 		}, changeLeaseOperationSpec);
 	}
+	/**
+	* [Update] The Lease Blob operation establishes and manages a lock on a blob for write and delete
+	* operations
+	* @param options The options parameters.
+	*/
 	breakLease(options) {
 		return this.client.sendOperationRequest({ options }, breakLeaseOperationSpec);
 	}
+	/**
+	* The Create Snapshot operation creates a read-only snapshot of a blob
+	* @param options The options parameters.
+	*/
 	createSnapshot(options) {
 		return this.client.sendOperationRequest({ options }, createSnapshotOperationSpec);
 	}
+	/**
+	* The Start Copy From URL operation copies a blob or an internet resource to a new blob.
+	* @param copySource Specifies the name of the source page blob snapshot. This value is a URL of up to
+	*                   2 KB in length that specifies a page blob snapshot. The value should be URL-encoded as it would
+	*                   appear in a request URI. The source blob must either be public or must be authenticated via a shared
+	*                   access signature.
+	* @param options The options parameters.
+	*/
 	startCopyFromURL(copySource, options) {
 		return this.client.sendOperationRequest({
 			copySource,
 			options
 		}, startCopyFromURLOperationSpec);
 	}
+	/**
+	* The Copy From URL operation copies a blob or an internet resource to a new blob. It will not return
+	* a response until the copy is complete.
+	* @param copySource Specifies the name of the source page blob snapshot. This value is a URL of up to
+	*                   2 KB in length that specifies a page blob snapshot. The value should be URL-encoded as it would
+	*                   appear in a request URI. The source blob must either be public or must be authenticated via a shared
+	*                   access signature.
+	* @param options The options parameters.
+	*/
 	copyFromURL(copySource, options) {
 		return this.client.sendOperationRequest({
 			copySource,
 			options
 		}, copyFromURLOperationSpec);
 	}
+	/**
+	* The Abort Copy From URL operation aborts a pending Copy From URL operation, and leaves a destination
+	* blob with zero length and full metadata.
+	* @param copyId The copy identifier provided in the x-ms-copy-id header of the original Copy Blob
+	*               operation.
+	* @param options The options parameters.
+	*/
 	abortCopyFromURL(copyId, options) {
 		return this.client.sendOperationRequest({
 			copyId,
 			options
 		}, abortCopyFromURLOperationSpec);
 	}
+	/**
+	* The Set Tier operation sets the tier on a blob. The operation is allowed on a page blob in a premium
+	* storage account and on a block blob in a blob storage account (locally redundant storage only). A
+	* premium page blob's tier determines the allowed size, IOPS, and bandwidth of the blob. A block
+	* blob's tier determines Hot/Cool/Archive storage type. This operation does not update the blob's
+	* ETag.
+	* @param tier Indicates the tier to be set on the blob.
+	* @param options The options parameters.
+	*/
 	setTier(tier, options) {
 		return this.client.sendOperationRequest({
 			tier,
 			options
 		}, setTierOperationSpec);
 	}
+	/**
+	* Returns the sku name and account kind
+	* @param options The options parameters.
+	*/
 	getAccountInfo(options) {
 		return this.client.sendOperationRequest({ options }, getAccountInfoOperationSpec);
 	}
+	/**
+	* The Query operation enables users to select/project on blob data by providing simple query
+	* expressions.
+	* @param options The options parameters.
+	*/
 	query(options) {
 		return this.client.sendOperationRequest({ options }, queryOperationSpec);
 	}
+	/**
+	* The Get Tags operation enables users to get the tags associated with a blob.
+	* @param options The options parameters.
+	*/
 	getTags(options) {
 		return this.client.sendOperationRequest({ options }, getTagsOperationSpec);
 	}
+	/**
+	* The Set Tags operation enables users to set tags on a blob.
+	* @param options The options parameters.
+	*/
 	setTags(options) {
 		return this.client.sendOperationRequest({ options }, setTagsOperationSpec);
 	}
@@ -24520,11 +27729,23 @@ var setTagsOperationSpec = {
 	mediaType: "xml",
 	serializer: xmlSerializer$3
 };
+/** Class containing PageBlob operations. */
 var PageBlobImpl = class {
 	client;
+	/**
+	* Initialize a new instance of the class PageBlob class.
+	* @param client Reference to the service client
+	*/
 	constructor(client) {
 		this.client = client;
 	}
+	/**
+	* The Create operation creates a new page blob.
+	* @param contentLength The length of the request.
+	* @param blobContentLength This header specifies the maximum size for the page blob, up to 1 TB. The
+	*                          page blob size must be aligned to a 512-byte boundary.
+	* @param options The options parameters.
+	*/
 	create(contentLength, blobContentLength, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
@@ -24532,6 +27753,12 @@ var PageBlobImpl = class {
 			options
 		}, createOperationSpec$1);
 	}
+	/**
+	* The Upload Pages operation writes a range of pages to a page blob
+	* @param contentLength The length of the request.
+	* @param body Initial data
+	* @param options The options parameters.
+	*/
 	uploadPages(contentLength, body, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
@@ -24539,12 +27766,28 @@ var PageBlobImpl = class {
 			options
 		}, uploadPagesOperationSpec);
 	}
+	/**
+	* The Clear Pages operation clears a set of pages from a page blob
+	* @param contentLength The length of the request.
+	* @param options The options parameters.
+	*/
 	clearPages(contentLength, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
 			options
 		}, clearPagesOperationSpec);
 	}
+	/**
+	* The Upload Pages operation writes a range of pages to a page blob where the contents are read from a
+	* URL
+	* @param sourceUrl Specify a URL to the copy source.
+	* @param sourceRange Bytes of source data in the specified range. The length of this range should
+	*                    match the ContentLength header and x-ms-range/Range destination range header.
+	* @param contentLength The length of the request.
+	* @param range The range of bytes to which the source range would be written. The range should be 512
+	*              aligned and range-end is required.
+	* @param options The options parameters.
+	*/
 	uploadPagesFromURL(sourceUrl, sourceRange, contentLength, range, options) {
 		return this.client.sendOperationRequest({
 			sourceUrl,
@@ -24554,24 +27797,59 @@ var PageBlobImpl = class {
 			options
 		}, uploadPagesFromURLOperationSpec);
 	}
+	/**
+	* The Get Page Ranges operation returns the list of valid page ranges for a page blob or snapshot of a
+	* page blob
+	* @param options The options parameters.
+	*/
 	getPageRanges(options) {
 		return this.client.sendOperationRequest({ options }, getPageRangesOperationSpec);
 	}
+	/**
+	* The Get Page Ranges Diff operation returns the list of valid page ranges for a page blob that were
+	* changed between target blob and previous snapshot.
+	* @param options The options parameters.
+	*/
 	getPageRangesDiff(options) {
 		return this.client.sendOperationRequest({ options }, getPageRangesDiffOperationSpec);
 	}
+	/**
+	* Resize the Blob
+	* @param blobContentLength This header specifies the maximum size for the page blob, up to 1 TB. The
+	*                          page blob size must be aligned to a 512-byte boundary.
+	* @param options The options parameters.
+	*/
 	resize(blobContentLength, options) {
 		return this.client.sendOperationRequest({
 			blobContentLength,
 			options
 		}, resizeOperationSpec);
 	}
+	/**
+	* Update the sequence number of the blob
+	* @param sequenceNumberAction Required if the x-ms-blob-sequence-number header is set for the request.
+	*                             This property applies to page blobs only. This property indicates how the service should modify the
+	*                             blob's sequence number
+	* @param options The options parameters.
+	*/
 	updateSequenceNumber(sequenceNumberAction, options) {
 		return this.client.sendOperationRequest({
 			sequenceNumberAction,
 			options
 		}, updateSequenceNumberOperationSpec);
 	}
+	/**
+	* The Copy Incremental operation copies a snapshot of the source page blob to a destination page blob.
+	* The snapshot is copied such that only the differential changes between the previously copied
+	* snapshot are transferred to the destination. The copied snapshots are complete copies of the
+	* original snapshot and can be read or copied from as usual. This API is supported since REST version
+	* 2016-05-31.
+	* @param copySource Specifies the name of the source page blob snapshot. This value is a URL of up to
+	*                   2 KB in length that specifies a page blob snapshot. The value should be URL-encoded as it would
+	*                   appear in a request URI. The source blob must either be public or must be authenticated via a shared
+	*                   access signature.
+	* @param options The options parameters.
+	*/
 	copyIncremental(copySource, options) {
 		return this.client.sendOperationRequest({
 			copySource,
@@ -24909,17 +28187,35 @@ var copyIncrementalOperationSpec = {
 	isXML: true,
 	serializer: xmlSerializer$2
 };
+/** Class containing AppendBlob operations. */
 var AppendBlobImpl = class {
 	client;
+	/**
+	* Initialize a new instance of the class AppendBlob class.
+	* @param client Reference to the service client
+	*/
 	constructor(client) {
 		this.client = client;
 	}
+	/**
+	* The Create Append Blob operation creates a new append blob.
+	* @param contentLength The length of the request.
+	* @param options The options parameters.
+	*/
 	create(contentLength, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
 			options
 		}, createOperationSpec);
 	}
+	/**
+	* The Append Block operation commits a new block of data to the end of an existing append blob. The
+	* Append Block operation is permitted only if the blob was created with x-ms-blob-type set to
+	* AppendBlob. Append Block is supported only on version 2015-02-21 version or later.
+	* @param contentLength The length of the request.
+	* @param body Initial data
+	* @param options The options parameters.
+	*/
 	appendBlock(contentLength, body, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
@@ -24927,6 +28223,15 @@ var AppendBlobImpl = class {
 			options
 		}, appendBlockOperationSpec);
 	}
+	/**
+	* The Append Block operation commits a new block of data to the end of an existing append blob where
+	* the contents are read from a source url. The Append Block operation is permitted only if the blob
+	* was created with x-ms-blob-type set to AppendBlob. Append Block is supported only on version
+	* 2015-02-21 version or later.
+	* @param sourceUrl Specify a URL to the copy source.
+	* @param contentLength The length of the request.
+	* @param options The options parameters.
+	*/
 	appendBlockFromUrl(sourceUrl, contentLength, options) {
 		return this.client.sendOperationRequest({
 			sourceUrl,
@@ -24934,6 +28239,11 @@ var AppendBlobImpl = class {
 			options
 		}, appendBlockFromUrlOperationSpec);
 	}
+	/**
+	* The Seal operation seals the Append Blob to make it read-only. Seal is supported only on version
+	* 2019-12-12 version or later.
+	* @param options The options parameters.
+	*/
 	seal(options) {
 		return this.client.sendOperationRequest({ options }, sealOperationSpec);
 	}
@@ -25091,11 +28401,25 @@ var sealOperationSpec = {
 	isXML: true,
 	serializer: xmlSerializer$1
 };
+/** Class containing BlockBlob operations. */
 var BlockBlobImpl = class {
 	client;
+	/**
+	* Initialize a new instance of the class BlockBlob class.
+	* @param client Reference to the service client
+	*/
 	constructor(client) {
 		this.client = client;
 	}
+	/**
+	* The Upload Block Blob operation updates the content of an existing block blob. Updating an existing
+	* block blob overwrites any existing metadata on the blob. Partial updates are not supported with Put
+	* Blob; the content of the existing blob is overwritten with the content of the new blob. To perform a
+	* partial update of the content of a block blob, use the Put Block List operation.
+	* @param contentLength The length of the request.
+	* @param body Initial data
+	* @param options The options parameters.
+	*/
 	upload(contentLength, body, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
@@ -25103,6 +28427,19 @@ var BlockBlobImpl = class {
 			options
 		}, uploadOperationSpec);
 	}
+	/**
+	* The Put Blob from URL operation creates a new Block Blob where the contents of the blob are read
+	* from a given URL.  This API is supported beginning with the 2020-04-08 version. Partial updates are
+	* not supported with Put Blob from URL; the content of an existing blob is overwritten with the
+	* content of the new blob.  To perform partial updates to a block blob’s contents using a source URL,
+	* use the Put Block from URL API in conjunction with Put Block List.
+	* @param contentLength The length of the request.
+	* @param copySource Specifies the name of the source page blob snapshot. This value is a URL of up to
+	*                   2 KB in length that specifies a page blob snapshot. The value should be URL-encoded as it would
+	*                   appear in a request URI. The source blob must either be public or must be authenticated via a shared
+	*                   access signature.
+	* @param options The options parameters.
+	*/
 	putBlobFromUrl(contentLength, copySource, options) {
 		return this.client.sendOperationRequest({
 			contentLength,
@@ -25110,6 +28447,15 @@ var BlockBlobImpl = class {
 			options
 		}, putBlobFromUrlOperationSpec);
 	}
+	/**
+	* The Stage Block operation creates a new block to be committed as part of a blob
+	* @param blockId A valid Base64 string value that identifies the block. Prior to encoding, the string
+	*                must be less than or equal to 64 bytes in size. For a given blob, the length of the value specified
+	*                for the blockid parameter must be the same size for each block.
+	* @param contentLength The length of the request.
+	* @param body Initial data
+	* @param options The options parameters.
+	*/
 	stageBlock(blockId, contentLength, body, options) {
 		return this.client.sendOperationRequest({
 			blockId,
@@ -25118,6 +28464,16 @@ var BlockBlobImpl = class {
 			options
 		}, stageBlockOperationSpec);
 	}
+	/**
+	* The Stage Block operation creates a new block to be committed as part of a blob where the contents
+	* are read from a URL.
+	* @param blockId A valid Base64 string value that identifies the block. Prior to encoding, the string
+	*                must be less than or equal to 64 bytes in size. For a given blob, the length of the value specified
+	*                for the blockid parameter must be the same size for each block.
+	* @param contentLength The length of the request.
+	* @param sourceUrl Specify a URL to the copy source.
+	* @param options The options parameters.
+	*/
 	stageBlockFromURL(blockId, contentLength, sourceUrl, options) {
 		return this.client.sendOperationRequest({
 			blockId,
@@ -25126,12 +28482,30 @@ var BlockBlobImpl = class {
 			options
 		}, stageBlockFromURLOperationSpec);
 	}
+	/**
+	* The Commit Block List operation writes a blob by specifying the list of block IDs that make up the
+	* blob. In order to be written as part of a blob, a block must have been successfully written to the
+	* server in a prior Put Block operation. You can call Put Block List to update a blob by uploading
+	* only those blocks that have changed, then committing the new and existing blocks together. You can
+	* do this by specifying whether to commit a block from the committed block list or from the
+	* uncommitted block list, or to commit the most recently uploaded version of the block, whichever list
+	* it may belong to.
+	* @param blocks Blob Blocks.
+	* @param options The options parameters.
+	*/
 	commitBlockList(blocks, options) {
 		return this.client.sendOperationRequest({
 			blocks,
 			options
 		}, commitBlockListOperationSpec);
 	}
+	/**
+	* The Get Block List operation retrieves the list of blocks that have been uploaded as part of a block
+	* blob
+	* @param listType Specifies whether to return the list of committed blocks, the list of uncommitted
+	*                 blocks, or both lists together.
+	* @param options The options parameters.
+	*/
 	getBlockList(listType, options) {
 		return this.client.sendOperationRequest({
 			listType,
@@ -25400,6 +28774,12 @@ var getBlockListOperationSpec = {
 var StorageClient$1 = class extends ExtendedServiceClient {
 	url;
 	version;
+	/**
+	* Initializes a new instance of the StorageClient class.
+	* @param url The URL of the service account, container, or blob that is the target of the desired
+	*            operation.
+	* @param options The parameter options
+	*/
 	constructor(url, options) {
 		if (url === void 0) throw new Error("'url' cannot be null");
 		if (!options) options = {};
@@ -25429,6 +28809,9 @@ var StorageClient$1 = class extends ExtendedServiceClient {
 	appendBlob;
 	blockBlob;
 };
+/**
+* @internal
+*/
 var StorageContextClient = class extends StorageClient$1 {
 	async sendOperationRequest(operationArguments, operationSpec) {
 		const operationSpecToSend = { ...operationSpec };
@@ -25436,6 +28819,58 @@ var StorageContextClient = class extends StorageClient$1 {
 		return super.sendOperationRequest(operationArguments, operationSpecToSend);
 	}
 };
+/**
+* Reserved URL characters must be properly escaped for Storage services like Blob or File.
+*
+* ## URL encode and escape strategy for JS SDKs
+*
+* When customers pass a URL string into XxxClient classes constructor, the URL string may already be URL encoded or not.
+* But before sending to Azure Storage server, the URL must be encoded. However, it's hard for a SDK to guess whether the URL
+* string has been encoded or not. We have 2 potential strategies, and chose strategy two for the XxxClient constructors.
+*
+* ### Strategy One: Assume the customer URL string is not encoded, and always encode URL string in SDK.
+*
+* This is what legacy V2 SDK does, simple and works for most of the cases.
+* - When customer URL string is "http://account.blob.core.windows.net/con/b:",
+*   SDK will encode it to "http://account.blob.core.windows.net/con/b%3A" and send to server. A blob named "b:" will be created.
+* - When customer URL string is "http://account.blob.core.windows.net/con/b%3A",
+*   SDK will encode it to "http://account.blob.core.windows.net/con/b%253A" and send to server. A blob named "b%3A" will be created.
+*
+* But this strategy will make it not possible to create a blob with "?" in it's name. Because when customer URL string is
+* "http://account.blob.core.windows.net/con/blob?name", the "?name" will be treated as URL paramter instead of blob name.
+* If customer URL string is "http://account.blob.core.windows.net/con/blob%3Fname", a blob named "blob%3Fname" will be created.
+* V2 SDK doesn't have this issue because it doesn't allow customer pass in a full URL, it accepts a separate blob name and encodeURIComponent for it.
+* We cannot accept a SDK cannot create a blob name with "?". So we implement strategy two:
+*
+* ### Strategy Two: SDK doesn't assume the URL has been encoded or not. It will just escape the special characters.
+*
+* This is what V10 Blob Go SDK does. It accepts a URL type in Go, and call url.EscapedPath() to escape the special chars unescaped.
+* - When customer URL string is "http://account.blob.core.windows.net/con/b:",
+*   SDK will escape ":" like "http://account.blob.core.windows.net/con/b%3A" and send to server. A blob named "b:" will be created.
+* - When customer URL string is "http://account.blob.core.windows.net/con/b%3A",
+*   There is no special characters, so send "http://account.blob.core.windows.net/con/b%3A" to server. A blob named "b:" will be created.
+* - When customer URL string is "http://account.blob.core.windows.net/con/b%253A",
+*   There is no special characters, so send "http://account.blob.core.windows.net/con/b%253A" to server. A blob named "b%3A" will be created.
+*
+* This strategy gives us flexibility to create with any special characters. But "%" will be treated as a special characters, if the URL string
+* is not encoded, there shouldn't a "%" in the URL string, otherwise the URL is not a valid URL.
+* If customer needs to create a blob with "%" in it's blob name, use "%25" instead of "%". Just like above 3rd sample.
+* And following URL strings are invalid:
+* - "http://account.blob.core.windows.net/con/b%"
+* - "http://account.blob.core.windows.net/con/b%2"
+* - "http://account.blob.core.windows.net/con/b%G"
+*
+* Another special character is "?", use "%2F" to represent a blob name with "?" in a URL string.
+*
+* ### Strategy for containerName, blobName or other specific XXXName parameters in methods such as `containerClient.getBlobClient(blobName)`
+*
+* We will apply strategy one, and call encodeURIComponent for these parameters like blobName. Because what customers passes in is a plain name instead of a URL.
+*
+* @see https://learn.microsoft.com/rest/api/storageservices/naming-and-referencing-containers--blobs--and-metadata
+* @see https://learn.microsoft.com/rest/api/storageservices/naming-and-referencing-shares--directories--files--and-metadata
+*
+* @param url -
+*/
 function escapeURLPath(url) {
 	const urlParsed = new URL(url);
 	let path = urlParsed.pathname;
@@ -25457,6 +28892,12 @@ function getValueInConnString(connectionString, argument) {
 	for (const element of elements) if (element.trim().startsWith(argument)) return element.trim().match(argument + "=(.*)")[1];
 	return "";
 }
+/**
+* Extracts the parts of an Azure Storage account connection string.
+*
+* @param connectionString - Connection string.
+* @returns String key value pairs of the storage account's url and credentials.
+*/
 function extractConnectionStringParts(connectionString) {
 	let proxyUri = "";
 	if (connectionString.startsWith("UseDevelopmentStorage=true")) {
@@ -25504,9 +28945,22 @@ function extractConnectionStringParts(connectionString) {
 		};
 	}
 }
+/**
+* Internal escape method implemented Strategy Two mentioned in escapeURL() description.
+*
+* @param text -
+*/
 function escape(text) {
 	return encodeURIComponent(text).replace(/%2F/g, "/").replace(/'/g, "%27").replace(/\+/g, "%20").replace(/%25/g, "%");
 }
+/**
+* Append a string to URL path. Will remove duplicated "/" in front of the string
+* when URL path ends with a "/".
+*
+* @param url - Source URL string
+* @param name - String to be appended to URL
+* @returns An updated URL string
+*/
 function appendToURLPath(url, name) {
 	const urlParsed = new URL(url);
 	let path = urlParsed.pathname;
@@ -25514,6 +28968,15 @@ function appendToURLPath(url, name) {
 	urlParsed.pathname = path;
 	return urlParsed.toString();
 }
+/**
+* Set URL parameter name and value. If name exists in URL parameters, old value
+* will be replaced by name key. If not provide value, the parameter will be deleted.
+*
+* @param url - Source URL string
+* @param name - Parameter name
+* @param value - Parameter value
+* @returns An updated URL string
+*/
 function setURLParameter(url, name, value) {
 	const urlParsed = new URL(url);
 	const encodedName = encodeURIComponent(name);
@@ -25528,9 +28991,20 @@ function setURLParameter(url, name, value) {
 	urlParsed.search = searchPieces.length ? `?${searchPieces.join("&")}` : "";
 	return urlParsed.toString();
 }
+/**
+* Get URL parameter by name.
+*
+* @param url -
+* @param name -
+*/
 function getURLParameter(url, name) {
 	return new URL(url).searchParams.get(name) ?? void 0;
 }
+/**
+* Get URL scheme from an URL string.
+*
+* @param url - Source URL string
+*/
 function getURLScheme(url) {
 	try {
 		const urlParsed = new URL(url);
@@ -25539,6 +29013,13 @@ function getURLScheme(url) {
 		return;
 	}
 }
+/**
+* Append a string to URL query.
+*
+* @param url - Source URL string.
+* @param queryParts - String to be appended to the URL query.
+* @returns An updated URL string.
+*/
 function appendToURLQuery(url, queryParts) {
 	const urlParsed = new URL(url);
 	let query = urlParsed.search;
@@ -25547,19 +29028,44 @@ function appendToURLQuery(url, queryParts) {
 	urlParsed.search = query;
 	return urlParsed.toString();
 }
+/**
+* Rounds a date off to seconds.
+*
+* @param date -
+* @param withMilliseconds - If true, YYYY-MM-DDThh:mm:ss.fffffffZ will be returned;
+*                                          If false, YYYY-MM-DDThh:mm:ssZ will be returned.
+* @returns Date string in ISO8061 format, with or without 7 milliseconds component
+*/
 function truncatedISO8061Date(date, withMilliseconds = true) {
 	const dateString = date.toISOString();
 	return withMilliseconds ? dateString.substring(0, dateString.length - 1) + "0000Z" : dateString.substring(0, dateString.length - 5) + "Z";
 }
+/**
+* Base64 encode.
+*
+* @param content -
+*/
 function base64encode(content) {
 	return !isNodeLike ? btoa(content) : Buffer.from(content).toString("base64");
 }
+/**
+* Generate a 64 bytes base64 block ID string.
+*
+* @param blockIndex -
+*/
 function generateBlockID(blockIDPrefix, blockIndex) {
 	const maxSourceStringLength = 48;
 	const maxAllowedBlockIDPrefixLength = maxSourceStringLength - 6;
 	if (blockIDPrefix.length > maxAllowedBlockIDPrefixLength) blockIDPrefix = blockIDPrefix.slice(0, maxAllowedBlockIDPrefixLength);
 	return base64encode(blockIDPrefix + padStart(blockIndex.toString(), maxSourceStringLength - blockIDPrefix.length, "0"));
 }
+/**
+* String.prototype.padStart()
+*
+* @param currentString -
+* @param targetLength -
+* @param padString -
+*/
 function padStart(currentString, targetLength, padString = " ") {
 	if (String.prototype.padStart) return currentString.padStart(targetLength, padString);
 	padString = padString || " ";
@@ -25570,9 +29076,20 @@ function padStart(currentString, targetLength, padString = " ") {
 		return padString.slice(0, targetLength) + currentString;
 	}
 }
+/**
+* If two strings are equal when compared case insensitive.
+*
+* @param str1 -
+* @param str2 -
+*/
 function iEqual(str1, str2) {
 	return str1.toLocaleLowerCase() === str2.toLocaleLowerCase();
 }
+/**
+* Extracts account name from the url
+* @param url - url to extract the account name from
+* @returns with the account name
+*/
 function getAccountNameFromUrl(url) {
 	const parsedUrl = new URL(url);
 	let accountName;
@@ -25589,6 +29106,11 @@ function isIpEndpointStyle(parsedUrl) {
 	const host = parsedUrl.host;
 	return /^.*:.*:.*$|^(localhost|host.docker.internal)(:[0-9]+)?$|^(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])(\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])){3}(:[0-9]+)?$/.test(host) || Boolean(parsedUrl.port) && PathStylePorts.includes(parsedUrl.port);
 }
+/**
+* Convert Tags to encoded string.
+*
+* @param tags -
+*/
 function toBlobTagsString(tags) {
 	if (tags === void 0) return;
 	const tagPairs = [];
@@ -25598,6 +29120,11 @@ function toBlobTagsString(tags) {
 	}
 	return tagPairs.join("&");
 }
+/**
+* Convert Tags type to BlobTags.
+*
+* @param tags -
+*/
 function toBlobTags(tags) {
 	if (tags === void 0) return;
 	const res = { blobTagSet: [] };
@@ -25610,12 +29137,22 @@ function toBlobTags(tags) {
 	}
 	return res;
 }
+/**
+* Covert BlobTags to Tags type.
+*
+* @param tags -
+*/
 function toTags(tags) {
 	if (tags === void 0) return;
 	const res = {};
 	for (const blobTag of tags.blobTagSet) res[blobTag.key] = blobTag.value;
 	return res;
 }
+/**
+* Convert BlobQueryTextConfiguration to QuerySerialization type.
+*
+* @param textConfiguration -
+*/
 function toQuerySerialization(textConfiguration) {
 	if (textConfiguration === void 0) return;
 	switch (textConfiguration.kind) {
@@ -25697,17 +29234,49 @@ function* ExtractPageRangeInfoItems(getPageRangesSegment) {
 		isClear: true
 	};
 }
+/**
+* A typesafe helper for ensuring that a given response object has
+* the original _response attached.
+* @param response - A response object from calling a client operation
+* @returns The same object, but with known _response property
+*/
 function assertResponse(response) {
 	if (`_response` in response) return response;
 	throw new TypeError(`Unexpected response object ${response}`);
 }
+/**
+* A StorageClient represents a based URL class for {@link BlobServiceClient}, {@link ContainerClient}
+* and etc.
+*/
 var StorageClient = class {
+	/**
+	* Encoded URL string value.
+	*/
 	url;
 	accountName;
+	/**
+	* Request policy pipeline.
+	*
+	* @internal
+	*/
 	pipeline;
+	/**
+	* Such as AnonymousCredential, StorageSharedKeyCredential or any credential from the `@azure/identity` package to authenticate requests to the service. You can also provide an object that implements the TokenCredential interface. If not specified, AnonymousCredential is used.
+	*/
 	credential;
+	/**
+	* StorageClient is a reference to protocol layer operations entry, which is
+	* generated by AutoRest generator.
+	*/
 	storageClientContext;
+	/**
+	*/
 	isHttps;
+	/**
+	* Creates an instance of StorageClient.
+	* @param url - url to resource
+	* @param pipeline - request policy pipeline.
+	*/
 	constructor(url, pipeline) {
 		this.url = escapeURLPath(url);
 		this.accountName = getAccountNameFromUrl(url);
@@ -25719,12 +29288,31 @@ var StorageClient = class {
 		storageClientContext.requestContentType = void 0;
 	}
 };
+/**
+* Creates a span using the global tracer.
+* @internal
+*/
 const tracingClient = createTracingClient({
 	packageName: "@azure/storage-blob",
 	packageVersion: SDK_VERSION,
 	namespace: "Microsoft.Storage"
 });
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a blob. Setting
+* a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all
+* the values are set, this should be serialized with toString and set as the permissions field on a
+* {@link BlobSASSignatureValues} object. It is possible to construct the permissions string without this class, but
+* the order of the permissions is particular and this class guarantees correctness.
+*/
 var BlobSASPermissions = class BlobSASPermissions {
+	/**
+	* Creates a {@link BlobSASPermissions} from the specified permissions string. This method will throw an
+	* Error if it encounters a character that does not correspond to a valid permission.
+	*
+	* @param permissions -
+	*/
 	static parse(permissions) {
 		const blobSASPermissions = new BlobSASPermissions();
 		for (const char of permissions) switch (char) {
@@ -25765,6 +29353,12 @@ var BlobSASPermissions = class BlobSASPermissions {
 		}
 		return blobSASPermissions;
 	}
+	/**
+	* Creates a {@link BlobSASPermissions} from a raw object which contains same keys as it
+	* and boolean values for them.
+	*
+	* @param permissionLike -
+	*/
 	static from(permissionLike) {
 		const blobSASPermissions = new BlobSASPermissions();
 		if (permissionLike.read) blobSASPermissions.read = true;
@@ -25780,17 +29374,56 @@ var BlobSASPermissions = class BlobSASPermissions {
 		if (permissionLike.permanentDelete) blobSASPermissions.permanentDelete = true;
 		return blobSASPermissions;
 	}
+	/**
+	* Specifies Read access granted.
+	*/
 	read = false;
+	/**
+	* Specifies Add access granted.
+	*/
 	add = false;
+	/**
+	* Specifies Create access granted.
+	*/
 	create = false;
+	/**
+	* Specifies Write access granted.
+	*/
 	write = false;
+	/**
+	* Specifies Delete access granted.
+	*/
 	delete = false;
+	/**
+	* Specifies Delete version access granted.
+	*/
 	deleteVersion = false;
+	/**
+	* Specfies Tag access granted.
+	*/
 	tag = false;
+	/**
+	* Specifies Move access granted.
+	*/
 	move = false;
+	/**
+	* Specifies Execute access granted.
+	*/
 	execute = false;
+	/**
+	* Specifies SetImmutabilityPolicy access granted.
+	*/
 	setImmutabilityPolicy = false;
+	/**
+	* Specifies that Permanent Delete is permitted.
+	*/
 	permanentDelete = false;
+	/**
+	* Converts the given permissions to a string. Using this method will guarantee the permissions are in an
+	* order accepted by the service.
+	*
+	* @returns A string which represents the BlobSASPermissions
+	*/
 	toString() {
 		const permissions = [];
 		if (this.read) permissions.push("r");
@@ -25807,7 +29440,20 @@ var BlobSASPermissions = class BlobSASPermissions {
 		return permissions.join("");
 	}
 };
+/**
+* This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a container.
+* Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation.
+* Once all the values are set, this should be serialized with toString and set as the permissions field on a
+* {@link BlobSASSignatureValues} object. It is possible to construct the permissions string without this class, but
+* the order of the permissions is particular and this class guarantees correctness.
+*/
 var ContainerSASPermissions = class ContainerSASPermissions {
+	/**
+	* Creates an {@link ContainerSASPermissions} from the specified permissions string. This method will throw an
+	* Error if it encounters a character that does not correspond to a valid permission.
+	*
+	* @param permissions -
+	*/
 	static parse(permissions) {
 		const containerSASPermissions = new ContainerSASPermissions();
 		for (const char of permissions) switch (char) {
@@ -25854,6 +29500,12 @@ var ContainerSASPermissions = class ContainerSASPermissions {
 		}
 		return containerSASPermissions;
 	}
+	/**
+	* Creates a {@link ContainerSASPermissions} from a raw object which contains same keys as it
+	* and boolean values for them.
+	*
+	* @param permissionLike -
+	*/
 	static from(permissionLike) {
 		const containerSASPermissions = new ContainerSASPermissions();
 		if (permissionLike.read) containerSASPermissions.read = true;
@@ -25871,19 +29523,66 @@ var ContainerSASPermissions = class ContainerSASPermissions {
 		if (permissionLike.filterByTags) containerSASPermissions.filterByTags = true;
 		return containerSASPermissions;
 	}
+	/**
+	* Specifies Read access granted.
+	*/
 	read = false;
+	/**
+	* Specifies Add access granted.
+	*/
 	add = false;
+	/**
+	* Specifies Create access granted.
+	*/
 	create = false;
+	/**
+	* Specifies Write access granted.
+	*/
 	write = false;
+	/**
+	* Specifies Delete access granted.
+	*/
 	delete = false;
+	/**
+	* Specifies Delete version access granted.
+	*/
 	deleteVersion = false;
+	/**
+	* Specifies List access granted.
+	*/
 	list = false;
+	/**
+	* Specfies Tag access granted.
+	*/
 	tag = false;
+	/**
+	* Specifies Move access granted.
+	*/
 	move = false;
+	/**
+	* Specifies Execute access granted.
+	*/
 	execute = false;
+	/**
+	* Specifies SetImmutabilityPolicy access granted.
+	*/
 	setImmutabilityPolicy = false;
+	/**
+	* Specifies that Permanent Delete is permitted.
+	*/
 	permanentDelete = false;
+	/**
+	* Specifies that Filter Blobs by Tags is permitted.
+	*/
 	filterByTags = false;
+	/**
+	* Converts the given permissions to a string. Using this method will guarantee the permissions are in an
+	* order accepted by the service.
+	*
+	* The order of the characters should be as specified here to ensure correctness.
+	* @see https://learn.microsoft.com/rest/api/storageservices/constructing-a-service-sas
+	*
+	*/
 	toString() {
 		const permissions = [];
 		if (this.read) permissions.push("r");
@@ -25902,41 +29601,168 @@ var ContainerSASPermissions = class ContainerSASPermissions {
 		return permissions.join("");
 	}
 };
+/**
+* Generate SasIPRange format string. For example:
+*
+* "8.8.8.8" or "1.1.1.1-255.255.255.255"
+*
+* @param ipRange -
+*/
 function ipRangeToString(ipRange) {
 	return ipRange.end ? `${ipRange.start}-${ipRange.end}` : ipRange.start;
 }
+/**
+* Protocols for generated SAS.
+*/
 var SASProtocol;
 (function(SASProtocol) {
+	/**
+	* Protocol that allows HTTPS only
+	*/
 	SASProtocol["Https"] = "https";
+	/**
+	* Protocol that allows both HTTPS and HTTP
+	*/
 	SASProtocol["HttpsAndHttp"] = "https,http";
 })(SASProtocol || (SASProtocol = {}));
+/**
+* Represents the components that make up an Azure Storage SAS' query parameters. This type is not constructed directly
+* by the user; it is only generated by the {@link AccountSASSignatureValues} and {@link BlobSASSignatureValues}
+* types. Once generated, it can be encoded into a {@link String} and appended to a URL directly (though caution should
+* be taken here in case there are existing query parameters, which might affect the appropriate means of appending
+* these query parameters).
+*
+* NOTE: Instances of this class are immutable.
+*/
 var SASQueryParameters = class {
+	/**
+	* The storage API version.
+	*/
 	version;
+	/**
+	* Optional. The allowed HTTP protocol(s).
+	*/
 	protocol;
+	/**
+	* Optional. The start time for this SAS token.
+	*/
 	startsOn;
+	/**
+	* Optional only when identifier is provided. The expiry time for this SAS token.
+	*/
 	expiresOn;
+	/**
+	* Optional only when identifier is provided.
+	* Please refer to {@link AccountSASPermissions}, {@link BlobSASPermissions}, or {@link ContainerSASPermissions} for
+	* more details.
+	*/
 	permissions;
+	/**
+	* Optional. The storage services being accessed (only for Account SAS). Please refer to {@link AccountSASServices}
+	* for more details.
+	*/
 	services;
+	/**
+	* Optional. The storage resource types being accessed (only for Account SAS). Please refer to
+	* {@link AccountSASResourceTypes} for more details.
+	*/
 	resourceTypes;
+	/**
+	* Optional. The signed identifier (only for {@link BlobSASSignatureValues}).
+	*
+	* @see https://learn.microsoft.com/rest/api/storageservices/establishing-a-stored-access-policy
+	*/
 	identifier;
+	/**
+	* Optional. Beginning in version 2025-07-05, this value specifies the Entra ID of the user would is authorized to
+	* use the resulting SAS URL.  The resulting SAS URL must be used in conjunction with an Entra ID token that has been
+	* issued to the user specified in this value.
+	*/
 	delegatedUserObjectId;
+	/**
+	* Optional. Encryption scope to use when sending requests authorized with this SAS URI.
+	*/
 	encryptionScope;
+	/**
+	* Optional. Specifies which resources are accessible via the SAS (only for {@link BlobSASSignatureValues}).
+	* @see https://learn.microsoft.com/rest/api/storageservices/create-service-sas#specifying-the-signed-resource-blob-service-only
+	*/
 	resource;
+	/**
+	* The signature for the SAS token.
+	*/
 	signature;
+	/**
+	* Value for cache-control header in Blob/File Service SAS.
+	*/
 	cacheControl;
+	/**
+	* Value for content-disposition header in Blob/File Service SAS.
+	*/
 	contentDisposition;
+	/**
+	* Value for content-encoding header in Blob/File Service SAS.
+	*/
 	contentEncoding;
+	/**
+	* Value for content-length header in Blob/File Service SAS.
+	*/
 	contentLanguage;
+	/**
+	* Value for content-type header in Blob/File Service SAS.
+	*/
 	contentType;
+	/**
+	* Inner value of getter ipRange.
+	*/
 	ipRangeInner;
+	/**
+	* The Azure Active Directory object ID in GUID format.
+	* Property of user delegation key.
+	*/
 	signedOid;
+	/**
+	* The Azure Active Directory tenant ID in GUID format.
+	* Property of user delegation key.
+	*/
 	signedTenantId;
+	/**
+	* The date-time the key is active.
+	* Property of user delegation key.
+	*/
 	signedStartsOn;
+	/**
+	* The date-time the key expires.
+	* Property of user delegation key.
+	*/
 	signedExpiresOn;
+	/**
+	* Abbreviation of the Azure Storage service that accepts the user delegation key.
+	* Property of user delegation key.
+	*/
 	signedService;
+	/**
+	* The service version that created the user delegation key.
+	* Property of user delegation key.
+	*/
 	signedVersion;
+	/**
+	* Authorized AAD Object ID in GUID format. The AAD Object ID of a user authorized by the owner of the User Delegation Key
+	* to perform the action granted by the SAS. The Azure Storage service will ensure that the owner of the user delegation key
+	* has the required permissions before granting access but no additional permission check for the user specified in
+	* this value will be performed. This is only used for User Delegation SAS.
+	*/
 	preauthorizedAgentObjectId;
+	/**
+	* A GUID value that will be logged in the storage diagnostic logs and can be used to correlate SAS generation with storage resource access.
+	* This is only used for User Delegation SAS.
+	*/
 	correlationId;
+	/**
+	* Optional. IP range allowed for this SAS.
+	*
+	* @readonly
+	*/
 	get ipRange() {
 		if (this.ipRangeInner) return {
 			end: this.ipRangeInner.end,
@@ -26002,6 +29828,10 @@ var SASQueryParameters = class {
 			}
 		}
 	}
+	/**
+	* Encodes all SAS query parameters into a string that can be appended to a URL.
+	*
+	*/
 	toString() {
 		const params = [
 			"sv",
@@ -26114,6 +29944,13 @@ var SASQueryParameters = class {
 		}
 		return queries.join("&");
 	}
+	/**
+	* A private helper method used to filter and append query key/value pairs into an array.
+	*
+	* @param queries -
+	* @param key -
+	* @param value -
+	*/
 	tryAppendQueryParameter(queries, key, value) {
 		if (!value) return;
 		key = encodeURIComponent(key);
@@ -26140,6 +29977,22 @@ function generateBlobSASQueryParametersInternal(blobSASSignatureValues, sharedKe
 	else throw new RangeError("'version' must be >= '2018-11-09' when generating user delegation SAS using user delegation key.");
 	throw new RangeError("'version' must be >= '2015-04-05'.");
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+* IMPLEMENTATION FOR API VERSION FROM 2015-04-05 AND BEFORE 2018-11-09.
+*
+* Creates an instance of SASQueryParameters.
+*
+* Only accepts required settings needed to create a SAS. For optional settings please
+* set corresponding properties directly, such as permissions, startsOn and identifier.
+*
+* WARNING: When identifier is not provided, permissions and expiresOn are required.
+* You MUST assign value to identifier or expiresOn & permissions manually if you initial with
+* this constructor.
+*
+* @param blobSASSignatureValues -
+* @param sharedKeyCredential -
+*/
 function generateBlobSASQueryParameters20150405(blobSASSignatureValues, sharedKeyCredential) {
 	blobSASSignatureValues = SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues);
 	if (!blobSASSignatureValues.identifier && !(blobSASSignatureValues.permissions && blobSASSignatureValues.expiresOn)) throw new RangeError("Must provide 'permissions' and 'expiresOn' for Blob SAS generation when 'identifier' is not provided.");
@@ -26169,6 +30022,22 @@ function generateBlobSASQueryParameters20150405(blobSASSignatureValues, sharedKe
 		stringToSign
 	};
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+* IMPLEMENTATION FOR API VERSION FROM 2018-11-09.
+*
+* Creates an instance of SASQueryParameters.
+*
+* Only accepts required settings needed to create a SAS. For optional settings please
+* set corresponding properties directly, such as permissions, startsOn and identifier.
+*
+* WARNING: When identifier is not provided, permissions and expiresOn are required.
+* You MUST assign value to identifier or expiresOn & permissions manually if you initial with
+* this constructor.
+*
+* @param blobSASSignatureValues -
+* @param sharedKeyCredential -
+*/
 function generateBlobSASQueryParameters20181109(blobSASSignatureValues, sharedKeyCredential) {
 	blobSASSignatureValues = SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues);
 	if (!blobSASSignatureValues.identifier && !(blobSASSignatureValues.permissions && blobSASSignatureValues.expiresOn)) throw new RangeError("Must provide 'permissions' and 'expiresOn' for Blob SAS generation when 'identifier' is not provided.");
@@ -26208,6 +30077,22 @@ function generateBlobSASQueryParameters20181109(blobSASSignatureValues, sharedKe
 		stringToSign
 	};
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+* IMPLEMENTATION FOR API VERSION FROM 2020-12-06.
+*
+* Creates an instance of SASQueryParameters.
+*
+* Only accepts required settings needed to create a SAS. For optional settings please
+* set corresponding properties directly, such as permissions, startsOn and identifier.
+*
+* WARNING: When identifier is not provided, permissions and expiresOn are required.
+* You MUST assign value to identifier or expiresOn & permissions manually if you initial with
+* this constructor.
+*
+* @param blobSASSignatureValues -
+* @param sharedKeyCredential -
+*/
 function generateBlobSASQueryParameters20201206(blobSASSignatureValues, sharedKeyCredential) {
 	blobSASSignatureValues = SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues);
 	if (!blobSASSignatureValues.identifier && !(blobSASSignatureValues.permissions && blobSASSignatureValues.expiresOn)) throw new RangeError("Must provide 'permissions' and 'expiresOn' for Blob SAS generation when 'identifier' is not provided.");
@@ -26248,6 +30133,20 @@ function generateBlobSASQueryParameters20201206(blobSASSignatureValues, sharedKe
 		stringToSign
 	};
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+* IMPLEMENTATION FOR API VERSION FROM 2018-11-09.
+*
+* Creates an instance of SASQueryParameters.
+*
+* Only accepts required settings needed to create a SAS. For optional settings please
+* set corresponding properties directly, such as permissions, startsOn.
+*
+* WARNING: identifier will be ignored, permissions and expiresOn are required.
+*
+* @param blobSASSignatureValues -
+* @param userDelegationKeyCredential -
+*/
 function generateBlobSASQueryParametersUDK20181109(blobSASSignatureValues, userDelegationKeyCredential) {
 	blobSASSignatureValues = SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues);
 	if (!blobSASSignatureValues.permissions || !blobSASSignatureValues.expiresOn) throw new RangeError("Must provide 'permissions' and 'expiresOn' for Blob SAS generation when generating user delegation SAS.");
@@ -26292,6 +30191,20 @@ function generateBlobSASQueryParametersUDK20181109(blobSASSignatureValues, userD
 		stringToSign
 	};
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+* IMPLEMENTATION FOR API VERSION FROM 2020-02-10.
+*
+* Creates an instance of SASQueryParameters.
+*
+* Only accepts required settings needed to create a SAS. For optional settings please
+* set corresponding properties directly, such as permissions, startsOn.
+*
+* WARNING: identifier will be ignored, permissions and expiresOn are required.
+*
+* @param blobSASSignatureValues -
+* @param userDelegationKeyCredential -
+*/
 function generateBlobSASQueryParametersUDK20200210(blobSASSignatureValues, userDelegationKeyCredential) {
 	blobSASSignatureValues = SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues);
 	if (!blobSASSignatureValues.permissions || !blobSASSignatureValues.expiresOn) throw new RangeError("Must provide 'permissions' and 'expiresOn' for Blob SAS generation when generating user delegation SAS.");
@@ -26339,6 +30252,20 @@ function generateBlobSASQueryParametersUDK20200210(blobSASSignatureValues, userD
 		stringToSign
 	};
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+* IMPLEMENTATION FOR API VERSION FROM 2020-12-06.
+*
+* Creates an instance of SASQueryParameters.
+*
+* Only accepts required settings needed to create a SAS. For optional settings please
+* set corresponding properties directly, such as permissions, startsOn.
+*
+* WARNING: identifier will be ignored, permissions and expiresOn are required.
+*
+* @param blobSASSignatureValues -
+* @param userDelegationKeyCredential -
+*/
 function generateBlobSASQueryParametersUDK20201206(blobSASSignatureValues, userDelegationKeyCredential) {
 	blobSASSignatureValues = SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues);
 	if (!blobSASSignatureValues.permissions || !blobSASSignatureValues.expiresOn) throw new RangeError("Must provide 'permissions' and 'expiresOn' for Blob SAS generation when generating user delegation SAS.");
@@ -26387,6 +30314,20 @@ function generateBlobSASQueryParametersUDK20201206(blobSASSignatureValues, userD
 		stringToSign
 	};
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+* IMPLEMENTATION FOR API VERSION FROM 2020-12-06.
+*
+* Creates an instance of SASQueryParameters.
+*
+* Only accepts required settings needed to create a SAS. For optional settings please
+* set corresponding properties directly, such as permissions, startsOn.
+*
+* WARNING: identifier will be ignored, permissions and expiresOn are required.
+*
+* @param blobSASSignatureValues -
+* @param userDelegationKeyCredential -
+*/
 function generateBlobSASQueryParametersUDK20250705(blobSASSignatureValues, userDelegationKeyCredential) {
 	blobSASSignatureValues = SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues);
 	if (!blobSASSignatureValues.permissions || !blobSASSignatureValues.expiresOn) throw new RangeError("Must provide 'permissions' and 'expiresOn' for Blob SAS generation when generating user delegation SAS.");
@@ -26459,17 +30400,35 @@ function SASSignatureValuesSanityCheckAndAutofill(blobSASSignatureValues) {
 	blobSASSignatureValues.version = version;
 	return blobSASSignatureValues;
 }
+/**
+* A client that manages leases for a {@link ContainerClient} or a {@link BlobClient}.
+*/
 var BlobLeaseClient = class {
 	_leaseId;
 	_url;
 	_containerOrBlobOperation;
 	_isContainer;
+	/**
+	* Gets the lease Id.
+	*
+	* @readonly
+	*/
 	get leaseId() {
 		return this._leaseId;
 	}
+	/**
+	* Gets the url.
+	*
+	* @readonly
+	*/
 	get url() {
 		return this._url;
 	}
+	/**
+	* Creates an instance of BlobLeaseClient.
+	* @param client - The client to make the lease operation requests.
+	* @param leaseId - Initial proposed lease id.
+	*/
 	constructor(client, leaseId) {
 		const clientContext = client.storageClientContext;
 		this._url = client.url;
@@ -26483,6 +30442,18 @@ var BlobLeaseClient = class {
 		if (!leaseId) leaseId = randomUUID();
 		this._leaseId = leaseId;
 	}
+	/**
+	* Establishes and manages a lock on a container for delete operations, or on a blob
+	* for write and delete operations.
+	* The lock duration can be 15 to 60 seconds, or can be infinite.
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-container
+	* and
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-blob
+	*
+	* @param duration - Must be between 15 to 60 seconds, or infinite (-1)
+	* @param options - option to configure lease management operations.
+	* @returns Response data for acquire lease operation.
+	*/
 	async acquireLease(duration, options = {}) {
 		if (this._isContainer && (options.conditions?.ifMatch && options.conditions?.ifMatch !== "" || options.conditions?.ifNoneMatch && options.conditions?.ifNoneMatch !== "" || options.conditions?.tagConditions)) throw new RangeError("The IfMatch, IfNoneMatch and tags access conditions are ignored by the service. Values other than undefined or their default values are not acceptable.");
 		return tracingClient.withSpan("BlobLeaseClient-acquireLease", options, async (updatedOptions) => {
@@ -26498,6 +30469,16 @@ var BlobLeaseClient = class {
 			}));
 		});
 	}
+	/**
+	* To change the ID of the lease.
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-container
+	* and
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-blob
+	*
+	* @param proposedLeaseId - the proposed new lease Id.
+	* @param options - option to configure lease management operations.
+	* @returns Response data for change lease operation.
+	*/
 	async changeLease(proposedLeaseId, options = {}) {
 		if (this._isContainer && (options.conditions?.ifMatch && options.conditions?.ifMatch !== "" || options.conditions?.ifNoneMatch && options.conditions?.ifNoneMatch !== "" || options.conditions?.tagConditions)) throw new RangeError("The IfMatch, IfNoneMatch and tags access conditions are ignored by the service. Values other than undefined or their default values are not acceptable.");
 		return tracingClient.withSpan("BlobLeaseClient-changeLease", options, async (updatedOptions) => {
@@ -26513,6 +30494,16 @@ var BlobLeaseClient = class {
 			return response;
 		});
 	}
+	/**
+	* To free the lease if it is no longer needed so that another client may
+	* immediately acquire a lease against the container or the blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-container
+	* and
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-blob
+	*
+	* @param options - option to configure lease management operations.
+	* @returns Response data for release lease operation.
+	*/
 	async releaseLease(options = {}) {
 		if (this._isContainer && (options.conditions?.ifMatch && options.conditions?.ifMatch !== "" || options.conditions?.ifNoneMatch && options.conditions?.ifNoneMatch !== "" || options.conditions?.tagConditions)) throw new RangeError("The IfMatch, IfNoneMatch and tags access conditions are ignored by the service. Values other than undefined or their default values are not acceptable.");
 		return tracingClient.withSpan("BlobLeaseClient-releaseLease", options, async (updatedOptions) => {
@@ -26526,6 +30517,15 @@ var BlobLeaseClient = class {
 			}));
 		});
 	}
+	/**
+	* To renew the lease.
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-container
+	* and
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-blob
+	*
+	* @param options - Optional option to configure lease management operations.
+	* @returns Response data for renew lease operation.
+	*/
 	async renewLease(options = {}) {
 		if (this._isContainer && (options.conditions?.ifMatch && options.conditions?.ifMatch !== "" || options.conditions?.ifNoneMatch && options.conditions?.ifNoneMatch !== "" || options.conditions?.tagConditions)) throw new RangeError("The IfMatch, IfNoneMatch and tags access conditions are ignored by the service. Values other than undefined or their default values are not acceptable.");
 		return tracingClient.withSpan("BlobLeaseClient-renewLease", options, async (updatedOptions) => {
@@ -26539,6 +30539,17 @@ var BlobLeaseClient = class {
 			});
 		});
 	}
+	/**
+	* To end the lease but ensure that another client cannot acquire a new lease
+	* until the current lease period has expired.
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-container
+	* and
+	* @see https://learn.microsoft.com/rest/api/storageservices/lease-blob
+	*
+	* @param breakPeriod - Break period
+	* @param options - Optional options to configure lease management operations.
+	* @returns Response data for break lease operation.
+	*/
 	async breakLease(breakPeriod, options = {}) {
 		if (this._isContainer && (options.conditions?.ifMatch && options.conditions?.ifMatch !== "" || options.conditions?.ifNoneMatch && options.conditions?.ifNoneMatch !== "" || options.conditions?.tagConditions)) throw new RangeError("The IfMatch, IfNoneMatch and tags access conditions are ignored by the service. Values other than undefined or their default values are not acceptable.");
 		return tracingClient.withSpan("BlobLeaseClient-breakLease", options, async (updatedOptions) => {
@@ -26555,6 +30566,11 @@ var BlobLeaseClient = class {
 		});
 	}
 };
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* A Node.js ReadableStream will internally retry when internal ReadableStream unexpected ends.
+*/
 var RetriableReadableStream = class extends Readable {
 	start;
 	offset;
@@ -26565,6 +30581,16 @@ var RetriableReadableStream = class extends Readable {
 	maxRetryRequests;
 	onProgress;
 	options;
+	/**
+	* Creates an instance of RetriableReadableStream.
+	*
+	* @param source - The current ReadableStream returned from getter
+	* @param getter - A method calling downloading request returning
+	*                                      a new ReadableStream from specified offset
+	* @param offset - Offset position in original data source to read
+	* @param count - How much data in original data source to read
+	* @param options -
+	*/
 	constructor(source, getter, offset, count, options = {}) {
 		super({ highWaterMark: options.highWaterMark });
 		this.getter = getter;
@@ -26632,150 +30658,461 @@ var RetriableReadableStream = class extends Readable {
 		callback(error === null ? void 0 : error);
 	}
 };
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* BlobDownloadResponse implements BlobDownloadResponseParsed interface, and in Node.js runtime it will
+* automatically retry when internal read stream unexpected ends. (This kind of unexpected ends cannot
+* trigger retries defined in pipeline retry policy.)
+*
+* The {@link readableStreamBody} stream will retry underlayer, you can just use it as a normal Node.js
+* Readable stream.
+*/
 var BlobDownloadResponse = class {
+	/**
+	* Indicates that the service supports
+	* requests for partial file content.
+	*
+	* @readonly
+	*/
 	get acceptRanges() {
 		return this.originalResponse.acceptRanges;
 	}
+	/**
+	* Returns if it was previously specified
+	* for the file.
+	*
+	* @readonly
+	*/
 	get cacheControl() {
 		return this.originalResponse.cacheControl;
 	}
+	/**
+	* Returns the value that was specified
+	* for the 'x-ms-content-disposition' header and specifies how to process the
+	* response.
+	*
+	* @readonly
+	*/
 	get contentDisposition() {
 		return this.originalResponse.contentDisposition;
 	}
+	/**
+	* Returns the value that was specified
+	* for the Content-Encoding request header.
+	*
+	* @readonly
+	*/
 	get contentEncoding() {
 		return this.originalResponse.contentEncoding;
 	}
+	/**
+	* Returns the value that was specified
+	* for the Content-Language request header.
+	*
+	* @readonly
+	*/
 	get contentLanguage() {
 		return this.originalResponse.contentLanguage;
 	}
+	/**
+	* The current sequence number for a
+	* page blob. This header is not returned for block blobs or append blobs.
+	*
+	* @readonly
+	*/
 	get blobSequenceNumber() {
 		return this.originalResponse.blobSequenceNumber;
 	}
+	/**
+	* The blob's type. Possible values include:
+	* 'BlockBlob', 'PageBlob', 'AppendBlob'.
+	*
+	* @readonly
+	*/
 	get blobType() {
 		return this.originalResponse.blobType;
 	}
+	/**
+	* The number of bytes present in the
+	* response body.
+	*
+	* @readonly
+	*/
 	get contentLength() {
 		return this.originalResponse.contentLength;
 	}
+	/**
+	* If the file has an MD5 hash and the
+	* request is to read the full file, this response header is returned so that
+	* the client can check for message content integrity. If the request is to
+	* read a specified range and the 'x-ms-range-get-content-md5' is set to
+	* true, then the request returns an MD5 hash for the range, as long as the
+	* range size is less than or equal to 4 MB. If neither of these sets of
+	* conditions is true, then no value is returned for the 'Content-MD5'
+	* header.
+	*
+	* @readonly
+	*/
 	get contentMD5() {
 		return this.originalResponse.contentMD5;
 	}
+	/**
+	* Indicates the range of bytes returned if
+	* the client requested a subset of the file by setting the Range request
+	* header.
+	*
+	* @readonly
+	*/
 	get contentRange() {
 		return this.originalResponse.contentRange;
 	}
+	/**
+	* The content type specified for the file.
+	* The default content type is 'application/octet-stream'
+	*
+	* @readonly
+	*/
 	get contentType() {
 		return this.originalResponse.contentType;
 	}
+	/**
+	* Conclusion time of the last attempted
+	* Copy File operation where this file was the destination file. This value
+	* can specify the time of a completed, aborted, or failed copy attempt.
+	*
+	* @readonly
+	*/
 	get copyCompletedOn() {
 		return this.originalResponse.copyCompletedOn;
 	}
+	/**
+	* String identifier for the last attempted Copy
+	* File operation where this file was the destination file.
+	*
+	* @readonly
+	*/
 	get copyId() {
 		return this.originalResponse.copyId;
 	}
+	/**
+	* Contains the number of bytes copied and
+	* the total bytes in the source in the last attempted Copy File operation
+	* where this file was the destination file. Can show between 0 and
+	* Content-Length bytes copied.
+	*
+	* @readonly
+	*/
 	get copyProgress() {
 		return this.originalResponse.copyProgress;
 	}
+	/**
+	* URL up to 2KB in length that specifies the
+	* source file used in the last attempted Copy File operation where this file
+	* was the destination file.
+	*
+	* @readonly
+	*/
 	get copySource() {
 		return this.originalResponse.copySource;
 	}
+	/**
+	* State of the copy operation
+	* identified by 'x-ms-copy-id'. Possible values include: 'pending',
+	* 'success', 'aborted', 'failed'
+	*
+	* @readonly
+	*/
 	get copyStatus() {
 		return this.originalResponse.copyStatus;
 	}
+	/**
+	* Only appears when
+	* x-ms-copy-status is failed or pending. Describes cause of fatal or
+	* non-fatal copy operation failure.
+	*
+	* @readonly
+	*/
 	get copyStatusDescription() {
 		return this.originalResponse.copyStatusDescription;
 	}
+	/**
+	* When a blob is leased,
+	* specifies whether the lease is of infinite or fixed duration. Possible
+	* values include: 'infinite', 'fixed'.
+	*
+	* @readonly
+	*/
 	get leaseDuration() {
 		return this.originalResponse.leaseDuration;
 	}
+	/**
+	* Lease state of the blob. Possible
+	* values include: 'available', 'leased', 'expired', 'breaking', 'broken'.
+	*
+	* @readonly
+	*/
 	get leaseState() {
 		return this.originalResponse.leaseState;
 	}
+	/**
+	* The current lease status of the
+	* blob. Possible values include: 'locked', 'unlocked'.
+	*
+	* @readonly
+	*/
 	get leaseStatus() {
 		return this.originalResponse.leaseStatus;
 	}
+	/**
+	* A UTC date/time value generated by the service that
+	* indicates the time at which the response was initiated.
+	*
+	* @readonly
+	*/
 	get date() {
 		return this.originalResponse.date;
 	}
+	/**
+	* The number of committed blocks
+	* present in the blob. This header is returned only for append blobs.
+	*
+	* @readonly
+	*/
 	get blobCommittedBlockCount() {
 		return this.originalResponse.blobCommittedBlockCount;
 	}
+	/**
+	* The ETag contains a value that you can use to
+	* perform operations conditionally, in quotes.
+	*
+	* @readonly
+	*/
 	get etag() {
 		return this.originalResponse.etag;
 	}
+	/**
+	* The number of tags associated with the blob
+	*
+	* @readonly
+	*/
 	get tagCount() {
 		return this.originalResponse.tagCount;
 	}
+	/**
+	* The error code.
+	*
+	* @readonly
+	*/
 	get errorCode() {
 		return this.originalResponse.errorCode;
 	}
+	/**
+	* The value of this header is set to
+	* true if the file data and application metadata are completely encrypted
+	* using the specified algorithm. Otherwise, the value is set to false (when
+	* the file is unencrypted, or if only parts of the file/application metadata
+	* are encrypted).
+	*
+	* @readonly
+	*/
 	get isServerEncrypted() {
 		return this.originalResponse.isServerEncrypted;
 	}
+	/**
+	* If the blob has a MD5 hash, and if
+	* request contains range header (Range or x-ms-range), this response header
+	* is returned with the value of the whole blob's MD5 value. This value may
+	* or may not be equal to the value returned in Content-MD5 header, with the
+	* latter calculated from the requested range.
+	*
+	* @readonly
+	*/
 	get blobContentMD5() {
 		return this.originalResponse.blobContentMD5;
 	}
+	/**
+	* Returns the date and time the file was last
+	* modified. Any operation that modifies the file or its properties updates
+	* the last modified time.
+	*
+	* @readonly
+	*/
 	get lastModified() {
 		return this.originalResponse.lastModified;
 	}
+	/**
+	* Returns the UTC date and time generated by the service that indicates the time at which the blob was
+	* last read or written to.
+	*
+	* @readonly
+	*/
 	get lastAccessed() {
 		return this.originalResponse.lastAccessed;
 	}
+	/**
+	* Returns the date and time the blob was created.
+	*
+	* @readonly
+	*/
 	get createdOn() {
 		return this.originalResponse.createdOn;
 	}
+	/**
+	* A name-value pair
+	* to associate with a file storage object.
+	*
+	* @readonly
+	*/
 	get metadata() {
 		return this.originalResponse.metadata;
 	}
+	/**
+	* This header uniquely identifies the request
+	* that was made and can be used for troubleshooting the request.
+	*
+	* @readonly
+	*/
 	get requestId() {
 		return this.originalResponse.requestId;
 	}
+	/**
+	* If a client request id header is sent in the request, this header will be present in the
+	* response with the same value.
+	*
+	* @readonly
+	*/
 	get clientRequestId() {
 		return this.originalResponse.clientRequestId;
 	}
+	/**
+	* Indicates the version of the Blob service used
+	* to execute the request.
+	*
+	* @readonly
+	*/
 	get version() {
 		return this.originalResponse.version;
 	}
+	/**
+	* Indicates the versionId of the downloaded blob version.
+	*
+	* @readonly
+	*/
 	get versionId() {
 		return this.originalResponse.versionId;
 	}
+	/**
+	* Indicates whether version of this blob is a current version.
+	*
+	* @readonly
+	*/
 	get isCurrentVersion() {
 		return this.originalResponse.isCurrentVersion;
 	}
+	/**
+	* The SHA-256 hash of the encryption key used to encrypt the blob. This value is only returned
+	* when the blob was encrypted with a customer-provided key.
+	*
+	* @readonly
+	*/
 	get encryptionKeySha256() {
 		return this.originalResponse.encryptionKeySha256;
 	}
+	/**
+	* If the request is to read a specified range and the x-ms-range-get-content-crc64 is set to
+	* true, then the request returns a crc64 for the range, as long as the range size is less than
+	* or equal to 4 MB. If both x-ms-range-get-content-crc64 & x-ms-range-get-content-md5 is
+	* specified in the same request, it will fail with 400(Bad Request)
+	*/
 	get contentCrc64() {
 		return this.originalResponse.contentCrc64;
 	}
+	/**
+	* Object Replication Policy Id of the destination blob.
+	*
+	* @readonly
+	*/
 	get objectReplicationDestinationPolicyId() {
 		return this.originalResponse.objectReplicationDestinationPolicyId;
 	}
+	/**
+	* Parsed Object Replication Policy Id, Rule Id(s) and status of the source blob.
+	*
+	* @readonly
+	*/
 	get objectReplicationSourceProperties() {
 		return this.originalResponse.objectReplicationSourceProperties;
 	}
+	/**
+	* If this blob has been sealed.
+	*
+	* @readonly
+	*/
 	get isSealed() {
 		return this.originalResponse.isSealed;
 	}
+	/**
+	* UTC date/time value generated by the service that indicates the time at which the blob immutability policy will expire.
+	*
+	* @readonly
+	*/
 	get immutabilityPolicyExpiresOn() {
 		return this.originalResponse.immutabilityPolicyExpiresOn;
 	}
+	/**
+	* Indicates immutability policy mode.
+	*
+	* @readonly
+	*/
 	get immutabilityPolicyMode() {
 		return this.originalResponse.immutabilityPolicyMode;
 	}
+	/**
+	* Indicates if a legal hold is present on the blob.
+	*
+	* @readonly
+	*/
 	get legalHold() {
 		return this.originalResponse.legalHold;
 	}
+	/**
+	* The response body as a browser Blob.
+	* Always undefined in node.js.
+	*
+	* @readonly
+	*/
 	get contentAsBlob() {
 		return this.originalResponse.blobBody;
 	}
+	/**
+	* The response body as a node.js Readable stream.
+	* Always undefined in the browser.
+	*
+	* It will automatically retry when internal read stream unexpected ends.
+	*
+	* @readonly
+	*/
 	get readableStreamBody() {
 		return isNodeLike ? this.blobDownloadStream : void 0;
 	}
+	/**
+	* The HTTP response.
+	*/
 	get _response() {
 		return this.originalResponse._response;
 	}
 	originalResponse;
 	blobDownloadStream;
+	/**
+	* Creates an instance of BlobDownloadResponse.
+	*
+	* @param originalResponse -
+	* @param getter -
+	* @param offset -
+	* @param count -
+	* @param options -
+	*/
 	constructor(originalResponse, getter, offset, count, options = {}) {
 		this.originalResponse = originalResponse;
 		this.blobDownloadStream = new RetriableReadableStream(this.originalResponse.readableStreamBody, getter, offset, count, options);
@@ -26790,11 +31127,24 @@ const AVRO_INIT_BYTES = new Uint8Array([
 const AVRO_CODEC_KEY = "avro.codec";
 const AVRO_SCHEMA_KEY = "avro.schema";
 var AvroParser = class AvroParser {
+	/**
+	* Reads a fixed number of bytes from the stream.
+	*
+	* @param stream -
+	* @param length -
+	* @param options -
+	*/
 	static async readFixedBytes(stream, length, options = {}) {
 		const bytes = await stream.read(length, { abortSignal: options.abortSignal });
 		if (bytes.length !== length) throw new Error("Hit stream end.");
 		return bytes;
 	}
+	/**
+	* Reads a single byte from the stream.
+	*
+	* @param stream -
+	* @param options -
+	*/
 	static async readByte(stream, options = {}) {
 		return (await AvroParser.readFixedBytes(stream, 1, options))[0];
 	}
@@ -26905,6 +31255,9 @@ var AvroPrimitive;
 	AvroPrimitive["STRING"] = "string";
 })(AvroPrimitive || (AvroPrimitive = {}));
 var AvroType = class AvroType {
+	/**
+	* Determines the AvroType from the Avro Schema.
+	*/
 	static fromSchema(schema) {
 		if (typeof schema === "string") return AvroType.fromStringSchema(schema);
 		else if (Array.isArray(schema)) return AvroType.fromArraySchema(schema);
@@ -27154,6 +31507,11 @@ var AvroReadableFromStream = class extends AvroReadable {
 		});
 	}
 };
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* A Node.js BlobQuickQueryStream will internally parse avro data stream for blob query.
+*/
 var BlobQuickQueryStream = class extends Readable {
 	source;
 	avroReader;
@@ -27161,6 +31519,12 @@ var BlobQuickQueryStream = class extends Readable {
 	avroPaused = true;
 	onProgress;
 	onError;
+	/**
+	* Creates an instance of BlobQuickQueryStream.
+	*
+	* @param source - The current ReadableStream returned from getter
+	* @param options -
+	*/
 	constructor(source, options = {}) {
 		super();
 		this.source = source;
@@ -27229,137 +31593,440 @@ var BlobQuickQueryStream = class extends Readable {
 		} while (!avroNext.done && !this.avroPaused);
 	}
 };
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* BlobQueryResponse implements BlobDownloadResponseModel interface, and in Node.js runtime it will
+* parse avro data returned by blob query.
+*/
 var BlobQueryResponse = class {
+	/**
+	* Indicates that the service supports
+	* requests for partial file content.
+	*
+	* @readonly
+	*/
 	get acceptRanges() {
 		return this.originalResponse.acceptRanges;
 	}
+	/**
+	* Returns if it was previously specified
+	* for the file.
+	*
+	* @readonly
+	*/
 	get cacheControl() {
 		return this.originalResponse.cacheControl;
 	}
+	/**
+	* Returns the value that was specified
+	* for the 'x-ms-content-disposition' header and specifies how to process the
+	* response.
+	*
+	* @readonly
+	*/
 	get contentDisposition() {
 		return this.originalResponse.contentDisposition;
 	}
+	/**
+	* Returns the value that was specified
+	* for the Content-Encoding request header.
+	*
+	* @readonly
+	*/
 	get contentEncoding() {
 		return this.originalResponse.contentEncoding;
 	}
+	/**
+	* Returns the value that was specified
+	* for the Content-Language request header.
+	*
+	* @readonly
+	*/
 	get contentLanguage() {
 		return this.originalResponse.contentLanguage;
 	}
+	/**
+	* The current sequence number for a
+	* page blob. This header is not returned for block blobs or append blobs.
+	*
+	* @readonly
+	*/
 	get blobSequenceNumber() {
 		return this.originalResponse.blobSequenceNumber;
 	}
+	/**
+	* The blob's type. Possible values include:
+	* 'BlockBlob', 'PageBlob', 'AppendBlob'.
+	*
+	* @readonly
+	*/
 	get blobType() {
 		return this.originalResponse.blobType;
 	}
+	/**
+	* The number of bytes present in the
+	* response body.
+	*
+	* @readonly
+	*/
 	get contentLength() {
 		return this.originalResponse.contentLength;
 	}
+	/**
+	* If the file has an MD5 hash and the
+	* request is to read the full file, this response header is returned so that
+	* the client can check for message content integrity. If the request is to
+	* read a specified range and the 'x-ms-range-get-content-md5' is set to
+	* true, then the request returns an MD5 hash for the range, as long as the
+	* range size is less than or equal to 4 MB. If neither of these sets of
+	* conditions is true, then no value is returned for the 'Content-MD5'
+	* header.
+	*
+	* @readonly
+	*/
 	get contentMD5() {
 		return this.originalResponse.contentMD5;
 	}
+	/**
+	* Indicates the range of bytes returned if
+	* the client requested a subset of the file by setting the Range request
+	* header.
+	*
+	* @readonly
+	*/
 	get contentRange() {
 		return this.originalResponse.contentRange;
 	}
+	/**
+	* The content type specified for the file.
+	* The default content type is 'application/octet-stream'
+	*
+	* @readonly
+	*/
 	get contentType() {
 		return this.originalResponse.contentType;
 	}
+	/**
+	* Conclusion time of the last attempted
+	* Copy File operation where this file was the destination file. This value
+	* can specify the time of a completed, aborted, or failed copy attempt.
+	*
+	* @readonly
+	*/
 	get copyCompletedOn() {}
+	/**
+	* String identifier for the last attempted Copy
+	* File operation where this file was the destination file.
+	*
+	* @readonly
+	*/
 	get copyId() {
 		return this.originalResponse.copyId;
 	}
+	/**
+	* Contains the number of bytes copied and
+	* the total bytes in the source in the last attempted Copy File operation
+	* where this file was the destination file. Can show between 0 and
+	* Content-Length bytes copied.
+	*
+	* @readonly
+	*/
 	get copyProgress() {
 		return this.originalResponse.copyProgress;
 	}
+	/**
+	* URL up to 2KB in length that specifies the
+	* source file used in the last attempted Copy File operation where this file
+	* was the destination file.
+	*
+	* @readonly
+	*/
 	get copySource() {
 		return this.originalResponse.copySource;
 	}
+	/**
+	* State of the copy operation
+	* identified by 'x-ms-copy-id'. Possible values include: 'pending',
+	* 'success', 'aborted', 'failed'
+	*
+	* @readonly
+	*/
 	get copyStatus() {
 		return this.originalResponse.copyStatus;
 	}
+	/**
+	* Only appears when
+	* x-ms-copy-status is failed or pending. Describes cause of fatal or
+	* non-fatal copy operation failure.
+	*
+	* @readonly
+	*/
 	get copyStatusDescription() {
 		return this.originalResponse.copyStatusDescription;
 	}
+	/**
+	* When a blob is leased,
+	* specifies whether the lease is of infinite or fixed duration. Possible
+	* values include: 'infinite', 'fixed'.
+	*
+	* @readonly
+	*/
 	get leaseDuration() {
 		return this.originalResponse.leaseDuration;
 	}
+	/**
+	* Lease state of the blob. Possible
+	* values include: 'available', 'leased', 'expired', 'breaking', 'broken'.
+	*
+	* @readonly
+	*/
 	get leaseState() {
 		return this.originalResponse.leaseState;
 	}
+	/**
+	* The current lease status of the
+	* blob. Possible values include: 'locked', 'unlocked'.
+	*
+	* @readonly
+	*/
 	get leaseStatus() {
 		return this.originalResponse.leaseStatus;
 	}
+	/**
+	* A UTC date/time value generated by the service that
+	* indicates the time at which the response was initiated.
+	*
+	* @readonly
+	*/
 	get date() {
 		return this.originalResponse.date;
 	}
+	/**
+	* The number of committed blocks
+	* present in the blob. This header is returned only for append blobs.
+	*
+	* @readonly
+	*/
 	get blobCommittedBlockCount() {
 		return this.originalResponse.blobCommittedBlockCount;
 	}
+	/**
+	* The ETag contains a value that you can use to
+	* perform operations conditionally, in quotes.
+	*
+	* @readonly
+	*/
 	get etag() {
 		return this.originalResponse.etag;
 	}
+	/**
+	* The error code.
+	*
+	* @readonly
+	*/
 	get errorCode() {
 		return this.originalResponse.errorCode;
 	}
+	/**
+	* The value of this header is set to
+	* true if the file data and application metadata are completely encrypted
+	* using the specified algorithm. Otherwise, the value is set to false (when
+	* the file is unencrypted, or if only parts of the file/application metadata
+	* are encrypted).
+	*
+	* @readonly
+	*/
 	get isServerEncrypted() {
 		return this.originalResponse.isServerEncrypted;
 	}
+	/**
+	* If the blob has a MD5 hash, and if
+	* request contains range header (Range or x-ms-range), this response header
+	* is returned with the value of the whole blob's MD5 value. This value may
+	* or may not be equal to the value returned in Content-MD5 header, with the
+	* latter calculated from the requested range.
+	*
+	* @readonly
+	*/
 	get blobContentMD5() {
 		return this.originalResponse.blobContentMD5;
 	}
+	/**
+	* Returns the date and time the file was last
+	* modified. Any operation that modifies the file or its properties updates
+	* the last modified time.
+	*
+	* @readonly
+	*/
 	get lastModified() {
 		return this.originalResponse.lastModified;
 	}
+	/**
+	* A name-value pair
+	* to associate with a file storage object.
+	*
+	* @readonly
+	*/
 	get metadata() {
 		return this.originalResponse.metadata;
 	}
+	/**
+	* This header uniquely identifies the request
+	* that was made and can be used for troubleshooting the request.
+	*
+	* @readonly
+	*/
 	get requestId() {
 		return this.originalResponse.requestId;
 	}
+	/**
+	* If a client request id header is sent in the request, this header will be present in the
+	* response with the same value.
+	*
+	* @readonly
+	*/
 	get clientRequestId() {
 		return this.originalResponse.clientRequestId;
 	}
+	/**
+	* Indicates the version of the File service used
+	* to execute the request.
+	*
+	* @readonly
+	*/
 	get version() {
 		return this.originalResponse.version;
 	}
+	/**
+	* The SHA-256 hash of the encryption key used to encrypt the blob. This value is only returned
+	* when the blob was encrypted with a customer-provided key.
+	*
+	* @readonly
+	*/
 	get encryptionKeySha256() {
 		return this.originalResponse.encryptionKeySha256;
 	}
+	/**
+	* If the request is to read a specified range and the x-ms-range-get-content-crc64 is set to
+	* true, then the request returns a crc64 for the range, as long as the range size is less than
+	* or equal to 4 MB. If both x-ms-range-get-content-crc64 & x-ms-range-get-content-md5 is
+	* specified in the same request, it will fail with 400(Bad Request)
+	*/
 	get contentCrc64() {
 		return this.originalResponse.contentCrc64;
 	}
+	/**
+	* The response body as a browser Blob.
+	* Always undefined in node.js.
+	*
+	* @readonly
+	*/
 	get blobBody() {}
+	/**
+	* The response body as a node.js Readable stream.
+	* Always undefined in the browser.
+	*
+	* It will parse avor data returned by blob query.
+	*
+	* @readonly
+	*/
 	get readableStreamBody() {
 		return isNodeLike ? this.blobDownloadStream : void 0;
 	}
+	/**
+	* The HTTP response.
+	*/
 	get _response() {
 		return this.originalResponse._response;
 	}
 	originalResponse;
 	blobDownloadStream;
+	/**
+	* Creates an instance of BlobQueryResponse.
+	*
+	* @param originalResponse -
+	* @param options -
+	*/
 	constructor(originalResponse, options = {}) {
 		this.originalResponse = originalResponse;
 		this.blobDownloadStream = new BlobQuickQueryStream(this.originalResponse.readableStreamBody, options);
 	}
 };
+/**
+* Represents the access tier on a blob.
+* For detailed information about block blob level tiering see {@link https://learn.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers|Hot, cool and archive storage tiers.}
+*/
 var BlockBlobTier;
 (function(BlockBlobTier) {
+	/**
+	* Optimized for storing data that is accessed frequently.
+	*/
 	BlockBlobTier["Hot"] = "Hot";
+	/**
+	* Optimized for storing data that is infrequently accessed and stored for at least 30 days.
+	*/
 	BlockBlobTier["Cool"] = "Cool";
+	/**
+	* Optimized for storing data that is rarely accessed.
+	*/
 	BlockBlobTier["Cold"] = "Cold";
+	/**
+	* Optimized for storing data that is rarely accessed and stored for at least 180 days
+	* with flexible latency requirements (on the order of hours).
+	*/
 	BlockBlobTier["Archive"] = "Archive";
 })(BlockBlobTier || (BlockBlobTier = {}));
+/**
+* Specifies the page blob tier to set the blob to. This is only applicable to page blobs on premium storage accounts.
+* Please see {@link https://learn.microsoft.com/azure/storage/storage-premium-storage#scalability-and-performance-targets|here}
+* for detailed information on the corresponding IOPS and throughput per PageBlobTier.
+*/
 var PremiumPageBlobTier;
 (function(PremiumPageBlobTier) {
+	/**
+	* P4 Tier.
+	*/
 	PremiumPageBlobTier["P4"] = "P4";
+	/**
+	* P6 Tier.
+	*/
 	PremiumPageBlobTier["P6"] = "P6";
+	/**
+	* P10 Tier.
+	*/
 	PremiumPageBlobTier["P10"] = "P10";
+	/**
+	* P15 Tier.
+	*/
 	PremiumPageBlobTier["P15"] = "P15";
+	/**
+	* P20 Tier.
+	*/
 	PremiumPageBlobTier["P20"] = "P20";
+	/**
+	* P30 Tier.
+	*/
 	PremiumPageBlobTier["P30"] = "P30";
+	/**
+	* P40 Tier.
+	*/
 	PremiumPageBlobTier["P40"] = "P40";
+	/**
+	* P50 Tier.
+	*/
 	PremiumPageBlobTier["P50"] = "P50";
+	/**
+	* P60 Tier.
+	*/
 	PremiumPageBlobTier["P60"] = "P60";
+	/**
+	* P70 Tier.
+	*/
 	PremiumPageBlobTier["P70"] = "P70";
+	/**
+	* P80 Tier.
+	*/
 	PremiumPageBlobTier["P80"] = "P80";
 })(PremiumPageBlobTier || (PremiumPageBlobTier = {}));
 function toAccessTier(tier) {
@@ -27370,11 +32037,26 @@ function ensureCpkIfSpecified(cpk, isHttps) {
 	if (cpk && !isHttps) throw new RangeError("Customer-provided encryption key must be used over HTTPS.");
 	if (cpk && !cpk.encryptionAlgorithm) cpk.encryptionAlgorithm = EncryptionAlgorithmAES25;
 }
+/**
+* Defines the known cloud audiences for Storage.
+*/
 var StorageBlobAudience;
 (function(StorageBlobAudience) {
+	/**
+	* The OAuth scope to use to retrieve an AAD token for Azure Storage.
+	*/
 	StorageBlobAudience["StorageOAuthScopes"] = "https://storage.azure.com/.default";
+	/**
+	* The OAuth scope to use to retrieve an AAD token for Azure Disk.
+	*/
 	StorageBlobAudience["DiskComputeOAuthScopes"] = "https://disk.compute.azure.com/.default";
 })(StorageBlobAudience || (StorageBlobAudience = {}));
+/**
+* Function that converts PageRange and ClearRange to a common Range object.
+* PageRange and ClearRange have start and end while Range offset and count
+* this function normalizes to Range.
+* @param response - Model PageBlob Range response
+*/
 function rangeResponseFromModel(response) {
 	const pageRange = (response._response.parsedBody.pageRange || []).map((x) => ({
 		offset: x.start,
@@ -27397,6 +32079,10 @@ function rangeResponseFromModel(response) {
 		}
 	};
 }
+/**
+* When a poller is manually stopped through the `stopPolling` method,
+* the poller will be rejected with an instance of the PollerStoppedError.
+*/
 var PollerStoppedError = class PollerStoppedError extends Error {
 	constructor(message) {
 		super(message);
@@ -27404,6 +32090,10 @@ var PollerStoppedError = class PollerStoppedError extends Error {
 		Object.setPrototypeOf(this, PollerStoppedError.prototype);
 	}
 };
+/**
+* When the operation is cancelled, the poller will be rejected with an instance
+* of the PollerCancelledError.
+*/
 var PollerCancelledError = class PollerCancelledError extends Error {
 	constructor(message) {
 		super(message);
@@ -27411,8 +32101,135 @@ var PollerCancelledError = class PollerCancelledError extends Error {
 		Object.setPrototypeOf(this, PollerCancelledError.prototype);
 	}
 };
+/**
+* A class that represents the definition of a program that polls through consecutive requests
+* until it reaches a state of completion.
+*
+* A poller can be executed manually, by polling request by request by calling to the `poll()` method repeatedly, until its operation is completed.
+* It also provides a way to wait until the operation completes, by calling `pollUntilDone()` and waiting until the operation finishes.
+* Pollers can also request the cancellation of the ongoing process to whom is providing the underlying long running operation.
+*
+* ```ts
+* const poller = new MyPoller();
+*
+* // Polling just once:
+* await poller.poll();
+*
+* // We can try to cancel the request here, by calling:
+* //
+* //     await poller.cancelOperation();
+* //
+*
+* // Getting the final result:
+* const result = await poller.pollUntilDone();
+* ```
+*
+* The Poller is defined by two types, a type representing the state of the poller, which
+* must include a basic set of properties from `PollOperationState<TResult>`,
+* and a return type defined by `TResult`, which can be anything.
+*
+* The Poller class implements the `PollerLike` interface, which allows poller implementations to avoid having
+* to export the Poller's class directly, and instead only export the already instantiated poller with the PollerLike type.
+*
+* ```ts
+* class Client {
+*   public async makePoller: PollerLike<MyOperationState, MyResult> {
+*     const poller = new MyPoller({});
+*     // It might be preferred to return the poller after the first request is made,
+*     // so that some information can be obtained right away.
+*     await poller.poll();
+*     return poller;
+*   }
+* }
+*
+* const poller: PollerLike<MyOperationState, MyResult> = myClient.makePoller();
+* ```
+*
+* A poller can be created through its constructor, then it can be polled until it's completed.
+* At any point in time, the state of the poller can be obtained without delay through the getOperationState method.
+* At any point in time, the intermediate forms of the result type can be requested without delay.
+* Once the underlying operation is marked as completed, the poller will stop and the final value will be returned.
+*
+* ```ts
+* const poller = myClient.makePoller();
+* const state: MyOperationState = poller.getOperationState();
+*
+* // The intermediate result can be obtained at any time.
+* const result: MyResult | undefined = poller.getResult();
+*
+* // The final result can only be obtained after the poller finishes.
+* const result: MyResult = await poller.pollUntilDone();
+* ```
+*
+*/
 var Poller = class {
+	/**
+	* A poller needs to be initialized by passing in at least the basic properties of the `PollOperation<TState, TResult>`.
+	*
+	* When writing an implementation of a Poller, this implementation needs to deal with the initialization
+	* of any custom state beyond the basic definition of the poller. The basic poller assumes that the poller's
+	* operation has already been defined, at least its basic properties. The code below shows how to approach
+	* the definition of the constructor of a new custom poller.
+	*
+	* ```ts
+	* export class MyPoller extends Poller<MyOperationState, string> {
+	*   constructor({
+	*     // Anything you might need outside of the basics
+	*   }) {
+	*     let state: MyOperationState = {
+	*       privateProperty: private,
+	*       publicProperty: public,
+	*     };
+	*
+	*     const operation = {
+	*       state,
+	*       update,
+	*       cancel,
+	*       toString
+	*     }
+	*
+	*     // Sending the operation to the parent's constructor.
+	*     super(operation);
+	*
+	*     // You can assign more local properties here.
+	*   }
+	* }
+	* ```
+	*
+	* Inside of this constructor, a new promise is created. This will be used to
+	* tell the user when the poller finishes (see `pollUntilDone()`). The promise's
+	* resolve and reject methods are also used internally to control when to resolve
+	* or reject anyone waiting for the poller to finish.
+	*
+	* The constructor of a custom implementation of a poller is where any serialized version of
+	* a previous poller's operation should be deserialized into the operation sent to the
+	* base constructor. For example:
+	*
+	* ```ts
+	* export class MyPoller extends Poller<MyOperationState, string> {
+	*   constructor(
+	*     baseOperation: string | undefined
+	*   ) {
+	*     let state: MyOperationState = {};
+	*     if (baseOperation) {
+	*       state = {
+	*         ...JSON.parse(baseOperation).state,
+	*         ...state
+	*       };
+	*     }
+	*     const operation = {
+	*       state,
+	*       // ...
+	*     }
+	*     super(operation);
+	*   }
+	* }
+	* ```
+	*
+	* @param operation - Must contain the basic properties of `PollOperation<State, TResult>`.
+	*/
 	constructor(operation) {
+		/** controls whether to throw an error if the operation failed or was canceled. */
 		this.resolveOnUnsuccessful = false;
 		this.stopped = true;
 		this.pollProgressCallbacks = [];
@@ -27423,6 +32240,10 @@ var Poller = class {
 		});
 		this.promise.catch(() => {});
 	}
+	/**
+	* Starts a loop that will break only if the poller is done
+	* or if the poller is stopped.
+	*/
 	async startPolling(pollOptions = {}) {
 		if (this.stopped) this.stopped = false;
 		while (!this.isStopped() && !this.isDone()) {
@@ -27430,6 +32251,14 @@ var Poller = class {
 			await this.delay();
 		}
 	}
+	/**
+	* pollOnce does one polling, by calling to the update method of the underlying
+	* poll operation to make any relevant change effective.
+	*
+	* It only optionally receives an object with an abortSignal property, from \@azure/abort-controller's AbortSignalLike.
+	*
+	* @param options - Optional properties passed to the operation's update method.
+	*/
 	async pollOnce(options = {}) {
 		if (!this.isDone()) this.operation = await this.operation.update({
 			abortSignal: options.abortSignal,
@@ -27437,12 +32266,31 @@ var Poller = class {
 		});
 		this.processUpdatedState();
 	}
+	/**
+	* fireProgress calls the functions passed in via onProgress the method of the poller.
+	*
+	* It loops over all of the callbacks received from onProgress, and executes them, sending them
+	* the current operation state.
+	*
+	* @param state - The current operation state.
+	*/
 	fireProgress(state) {
 		for (const callback of this.pollProgressCallbacks) callback(state);
 	}
+	/**
+	* Invokes the underlying operation's cancel method.
+	*/
 	async cancelOnce(options = {}) {
 		this.operation = await this.operation.cancel(options);
 	}
+	/**
+	* Returns a promise that will resolve once a single polling request finishes.
+	* It does this by calling the update method of the Poller's operation.
+	*
+	* It only optionally receives an object with an abortSignal property, from \@azure/abort-controller's AbortSignalLike.
+	*
+	* @param options - Optional properties passed to the operation's update method.
+	*/
 	poll(options = {}) {
 		if (!this.pollOncePromise) {
 			this.pollOncePromise = this.pollOnce(options);
@@ -27471,45 +32319,136 @@ var Poller = class {
 		}
 		if (this.isDone() && this.resolve) this.resolve(this.getResult());
 	}
+	/**
+	* Returns a promise that will resolve once the underlying operation is completed.
+	*/
 	async pollUntilDone(pollOptions = {}) {
 		if (this.stopped) this.startPolling(pollOptions).catch(this.reject);
 		this.processUpdatedState();
 		return this.promise;
 	}
+	/**
+	* Invokes the provided callback after each polling is completed,
+	* sending the current state of the poller's operation.
+	*
+	* It returns a method that can be used to stop receiving updates on the given callback function.
+	*/
 	onProgress(callback) {
 		this.pollProgressCallbacks.push(callback);
 		return () => {
 			this.pollProgressCallbacks = this.pollProgressCallbacks.filter((c) => c !== callback);
 		};
 	}
+	/**
+	* Returns true if the poller has finished polling.
+	*/
 	isDone() {
 		const state = this.operation.state;
 		return Boolean(state.isCompleted || state.isCancelled || state.error);
 	}
+	/**
+	* Stops the poller from continuing to poll.
+	*/
 	stopPolling() {
 		if (!this.stopped) {
 			this.stopped = true;
 			if (this.reject) this.reject(new PollerStoppedError("This poller is already stopped"));
 		}
 	}
+	/**
+	* Returns true if the poller is stopped.
+	*/
 	isStopped() {
 		return this.stopped;
 	}
+	/**
+	* Attempts to cancel the underlying operation.
+	*
+	* It only optionally receives an object with an abortSignal property, from \@azure/abort-controller's AbortSignalLike.
+	*
+	* If it's called again before it finishes, it will throw an error.
+	*
+	* @param options - Optional properties passed to the operation's update method.
+	*/
 	cancelOperation(options = {}) {
 		if (!this.cancelPromise) this.cancelPromise = this.cancelOnce(options);
 		else if (options.abortSignal) throw new Error("A cancel request is currently pending");
 		return this.cancelPromise;
 	}
+	/**
+	* Returns the state of the operation.
+	*
+	* Even though TState will be the same type inside any of the methods of any extension of the Poller class,
+	* implementations of the pollers can customize what's shared with the public by writing their own
+	* version of the `getOperationState` method, and by defining two types, one representing the internal state of the poller
+	* and a public type representing a safe to share subset of the properties of the internal state.
+	* Their definition of getOperationState can then return their public type.
+	*
+	* Example:
+	*
+	* ```ts
+	* // Let's say we have our poller's operation state defined as:
+	* interface MyOperationState extends PollOperationState<ResultType> {
+	*   privateProperty?: string;
+	*   publicProperty?: string;
+	* }
+	*
+	* // To allow us to have a true separation of public and private state, we have to define another interface:
+	* interface PublicState extends PollOperationState<ResultType> {
+	*   publicProperty?: string;
+	* }
+	*
+	* // Then, we define our Poller as follows:
+	* export class MyPoller extends Poller<MyOperationState, ResultType> {
+	*   // ... More content is needed here ...
+	*
+	*   public getOperationState(): PublicState {
+	*     const state: PublicState = this.operation.state;
+	*     return {
+	*       // Properties from PollOperationState<TResult>
+	*       isStarted: state.isStarted,
+	*       isCompleted: state.isCompleted,
+	*       isCancelled: state.isCancelled,
+	*       error: state.error,
+	*       result: state.result,
+	*
+	*       // The only other property needed by PublicState.
+	*       publicProperty: state.publicProperty
+	*     }
+	*   }
+	* }
+	* ```
+	*
+	* You can see this in the tests of this repository, go to the file:
+	* `../test/utils/testPoller.ts`
+	* and look for the getOperationState implementation.
+	*/
 	getOperationState() {
 		return this.operation.state;
 	}
+	/**
+	* Returns the result value of the operation,
+	* regardless of the state of the poller.
+	* It can return undefined or an incomplete form of the final TResult value
+	* depending on the implementation.
+	*/
 	getResult() {
 		return this.operation.state.result;
 	}
+	/**
+	* Returns a serialized version of the poller's operation
+	* by invoking the operation's toString method.
+	*/
 	toString() {
 		return this.operation.toString();
 	}
 };
+/**
+* This is the poller returned by {@link BlobClient.beginCopyFromURL}.
+* This can not be instantiated directly outside of this package.
+*
+* @hidden
+*/
 var BlobBeginCopyFromUrlPoller = class extends Poller {
 	intervalInMs;
 	constructor(options) {
@@ -27530,6 +32469,12 @@ var BlobBeginCopyFromUrlPoller = class extends Poller {
 		return delay$1(this.intervalInMs);
 	}
 };
+/**
+* Note: Intentionally using function expression over arrow function expression
+* so that the function can be invoked with a different context.
+* This affects what `this` refers to.
+* @hidden
+*/
 var cancel = async function cancel(options = {}) {
 	const state = this.state;
 	const { copyId } = state;
@@ -27542,6 +32487,12 @@ var cancel = async function cancel(options = {}) {
 	state.isCancelled = true;
 	return makeBlobBeginCopyFromURLPollOperation(state);
 };
+/**
+* Note: Intentionally using function expression over arrow function expression
+* so that the function can be invoked with a different context.
+* This affects what `this` refers to.
+* @hidden
+*/
 var update = async function update(options = {}) {
 	const state = this.state;
 	const { blobClient, copySource, startCopyFromURLOptions } = state;
@@ -27572,12 +32523,22 @@ var update = async function update(options = {}) {
 	}
 	return makeBlobBeginCopyFromURLPollOperation(state);
 };
+/**
+* Note: Intentionally using function expression over arrow function expression
+* so that the function can be invoked with a different context.
+* This affects what `this` refers to.
+* @hidden
+*/
 var toString = function toString() {
 	return JSON.stringify({ state: this.state }, (key, value) => {
 		if (key === "blobClient") return;
 		return value;
 	});
 };
+/**
+* Creates a poll operation given the provided state.
+* @hidden
+*/
 function makeBlobBeginCopyFromURLPollOperation(state) {
 	return {
 		state: { ...state },
@@ -27586,29 +32547,75 @@ function makeBlobBeginCopyFromURLPollOperation(state) {
 		update
 	};
 }
+/**
+* Generate a range string. For example:
+*
+* "bytes=255-" or "bytes=0-511"
+*
+* @param iRange -
+*/
 function rangeToString(iRange) {
 	if (iRange.offset < 0) throw new RangeError(`Range.offset cannot be smaller than 0.`);
 	if (iRange.count && iRange.count <= 0) throw new RangeError(`Range.count must be larger than 0. Leave it undefined if you want a range from offset to the end.`);
 	return iRange.count ? `bytes=${iRange.offset}-${iRange.offset + iRange.count - 1}` : `bytes=${iRange.offset}-`;
 }
+/**
+* States for Batch.
+*/
 var BatchStates;
 (function(BatchStates) {
 	BatchStates[BatchStates["Good"] = 0] = "Good";
 	BatchStates[BatchStates["Error"] = 1] = "Error";
 })(BatchStates || (BatchStates = {}));
+/**
+* Batch provides basic parallel execution with concurrency limits.
+* Will stop execute left operations when one of the executed operation throws an error.
+* But Batch cannot cancel ongoing operations, you need to cancel them by yourself.
+*/
 var Batch = class {
+	/**
+	* Concurrency. Must be lager than 0.
+	*/
 	concurrency;
+	/**
+	* Number of active operations under execution.
+	*/
 	actives = 0;
+	/**
+	* Number of completed operations under execution.
+	*/
 	completed = 0;
+	/**
+	* Offset of next operation to be executed.
+	*/
 	offset = 0;
+	/**
+	* Operation array to be executed.
+	*/
 	operations = [];
+	/**
+	* States of Batch. When an error happens, state will turn into error.
+	* Batch will stop execute left operations.
+	*/
 	state = BatchStates.Good;
+	/**
+	* A private emitter used to pass events inside this class.
+	*/
 	emitter;
+	/**
+	* Creates an instance of Batch.
+	* @param concurrency -
+	*/
 	constructor(concurrency = 5) {
 		if (concurrency < 1) throw new RangeError("concurrency must be larger than 0");
 		this.concurrency = concurrency;
 		this.emitter = new EventEmitter();
 	}
+	/**
+	* Add a operation into queue.
+	*
+	* @param operation -
+	*/
 	addOperation(operation) {
 		this.operations.push(async () => {
 			try {
@@ -27622,6 +32629,10 @@ var Batch = class {
 			}
 		});
 	}
+	/**
+	* Start execute operations in the queue.
+	*
+	*/
 	async do() {
 		if (this.operations.length === 0) return Promise.resolve();
 		this.parallelExecute();
@@ -27633,10 +32644,19 @@ var Batch = class {
 			});
 		});
 	}
+	/**
+	* Get next operation to be executed. Return null when reaching ends.
+	*
+	*/
 	nextOperation() {
 		if (this.offset < this.operations.length) return this.operations[this.offset++];
 		return null;
 	}
+	/**
+	* Start execute operations. One one the most important difference between
+	* this method with do() is that do() wraps as an sync method.
+	*
+	*/
 	parallelExecute() {
 		if (this.state === BatchStates.Error) return;
 		if (this.completed >= this.operations.length) {
@@ -27650,6 +32670,15 @@ var Batch = class {
 		}
 	}
 };
+/**
+* Reads a readable stream into buffer. Fill the buffer from offset to end.
+*
+* @param stream - A Node.js Readable stream
+* @param buffer - Buffer to be filled, length must greater than or equal to offset
+* @param offset - From which position in the buffer to be filled, inclusive
+* @param end - To which position in the buffer to be filled, exclusive
+* @param encoding - Encoding of the Readable stream
+*/
 async function streamToBuffer(stream, buffer, offset, end, encoding) {
 	let pos = 0;
 	const count = end - offset;
@@ -27679,6 +32708,14 @@ async function streamToBuffer(stream, buffer, offset, end, encoding) {
 		});
 	});
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* Writes the content of a readstream to a local file. Returns a Promise which is completed after the file handle is closed.
+*
+* @param rs - The read stream.
+* @param file - Destination file path.
+*/
 async function readStreamToLocalFile(rs, file) {
 	return new Promise((resolve, reject) => {
 		const ws = fs.createWriteStream(file);
@@ -27692,17 +32729,35 @@ async function readStreamToLocalFile(rs, file) {
 		rs.pipe(ws);
 	});
 }
+/**
+* ONLY AVAILABLE IN NODE.JS RUNTIME.
+*
+* Promisified version of fs.stat().
+*/
 const fsStat = util.promisify(fs.stat);
 const fsCreateReadStream = fs.createReadStream;
+/**
+* A BlobClient represents a URL to an Azure Storage blob; the blob may be a block blob,
+* append blob, or page blob.
+*/
 var BlobClient = class BlobClient extends StorageClient {
+	/**
+	* blobContext provided by protocol layer.
+	*/
 	blobContext;
 	_name;
 	_containerName;
 	_versionId;
 	_snapshot;
+	/**
+	* The name of the blob.
+	*/
 	get name() {
 		return this._name;
 	}
+	/**
+	* The name of the storage container the blob is associated with.
+	*/
 	get containerName() {
 		return this._containerName;
 	}
@@ -27742,21 +32797,128 @@ var BlobClient = class BlobClient extends StorageClient {
 		this._snapshot = getURLParameter(this.url, URLConstants.Parameters.SNAPSHOT);
 		this._versionId = getURLParameter(this.url, URLConstants.Parameters.VERSIONID);
 	}
+	/**
+	* Creates a new BlobClient object identical to the source but with the specified snapshot timestamp.
+	* Provide "" will remove the snapshot and return a Client to the base blob.
+	*
+	* @param snapshot - The snapshot timestamp.
+	* @returns A new BlobClient object identical to the source but with the specified snapshot timestamp
+	*/
 	withSnapshot(snapshot) {
 		return new BlobClient(setURLParameter(this.url, URLConstants.Parameters.SNAPSHOT, snapshot.length === 0 ? void 0 : snapshot), this.pipeline);
 	}
+	/**
+	* Creates a new BlobClient object pointing to a version of this blob.
+	* Provide "" will remove the versionId and return a Client to the base blob.
+	*
+	* @param versionId - The versionId.
+	* @returns A new BlobClient object pointing to the version of this blob.
+	*/
 	withVersion(versionId) {
 		return new BlobClient(setURLParameter(this.url, URLConstants.Parameters.VERSIONID, versionId.length === 0 ? void 0 : versionId), this.pipeline);
 	}
+	/**
+	* Creates a AppendBlobClient object.
+	*
+	*/
 	getAppendBlobClient() {
 		return new AppendBlobClient(this.url, this.pipeline);
 	}
+	/**
+	* Creates a BlockBlobClient object.
+	*
+	*/
 	getBlockBlobClient() {
 		return new BlockBlobClient(this.url, this.pipeline);
 	}
+	/**
+	* Creates a PageBlobClient object.
+	*
+	*/
 	getPageBlobClient() {
 		return new PageBlobClient(this.url, this.pipeline);
 	}
+	/**
+	* Reads or downloads a blob from the system, including its metadata and properties.
+	* You can also call Get Blob to read a snapshot.
+	*
+	* * In Node.js, data returns in a Readable stream readableStreamBody
+	* * In browsers, data returns in a promise blobBody
+	*
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-blob
+	*
+	* @param offset - From which position of the blob to download, greater than or equal to 0
+	* @param count - How much data to be downloaded, greater than 0. Will download to the end when undefined
+	* @param options - Optional options to Blob Download operation.
+	*
+	*
+	* Example usage (Node.js):
+	*
+	* ```ts snippet:ReadmeSampleDownloadBlob_Node
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	* const blobClient = containerClient.getBlobClient(blobName);
+	*
+	* // Get blob content from position 0 to the end
+	* // In Node.js, get downloaded data by accessing downloadBlockBlobResponse.readableStreamBody
+	* const downloadBlockBlobResponse = await blobClient.download();
+	* if (downloadBlockBlobResponse.readableStreamBody) {
+	*   const downloaded = await streamToString(downloadBlockBlobResponse.readableStreamBody);
+	*   console.log(`Downloaded blob content: ${downloaded}`);
+	* }
+	*
+	* async function streamToString(stream: NodeJS.ReadableStream): Promise<string> {
+	*   const result = await new Promise<Buffer<ArrayBuffer>>((resolve, reject) => {
+	*     const chunks: Buffer[] = [];
+	*     stream.on("data", (data) => {
+	*       chunks.push(Buffer.isBuffer(data) ? data : Buffer.from(data));
+	*     });
+	*     stream.on("end", () => {
+	*       resolve(Buffer.concat(chunks));
+	*     });
+	*     stream.on("error", reject);
+	*   });
+	*   return result.toString();
+	* }
+	* ```
+	*
+	* Example usage (browser):
+	*
+	* ```ts snippet:ReadmeSampleDownloadBlob_Browser
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	* const blobClient = containerClient.getBlobClient(blobName);
+	*
+	* // Get blob content from position 0 to the end
+	* // In browsers, get downloaded data by accessing downloadBlockBlobResponse.blobBody
+	* const downloadBlockBlobResponse = await blobClient.download();
+	* const blobBody = await downloadBlockBlobResponse.blobBody;
+	* if (blobBody) {
+	*   const downloaded = await blobBody.text();
+	*   console.log(`Downloaded blob content: ${downloaded}`);
+	* }
+	* ```
+	*/
 	async download(offset = 0, count, options = {}) {
 		options.conditions = options.conditions || {};
 		options.conditions = options.conditions || {};
@@ -27819,6 +32981,15 @@ var BlobClient = class BlobClient extends StorageClient {
 			});
 		});
 	}
+	/**
+	* Returns true if the Azure blob resource represented by this client exists; false otherwise.
+	*
+	* NOTE: use this function with care since an existing blob might be deleted by other clients or
+	* applications. Vice versa new blobs might be added by other clients or applications after this
+	* function completes.
+	*
+	* @param options - options to Exists operation.
+	*/
 	async exists(options = {}) {
 		return tracingClient.withSpan("BlobClient-exists", options, async (updatedOptions) => {
 			try {
@@ -27837,6 +33008,18 @@ var BlobClient = class BlobClient extends StorageClient {
 			}
 		});
 	}
+	/**
+	* Returns all user-defined metadata, standard HTTP properties, and system properties
+	* for the blob. It does not return the content of the blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-blob-properties
+	*
+	* WARNING: The `metadata` object returned in the response will have its keys in lowercase, even if
+	* they originally contained uppercase characters. This differs from the metadata keys returned by
+	* the methods of {@link ContainerClient} that list blobs using the `includeMetadata` option, which
+	* will retain their original casing.
+	*
+	* @param options - Optional options to Get Properties operation.
+	*/
 	async getProperties(options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -27859,6 +33042,15 @@ var BlobClient = class BlobClient extends StorageClient {
 			};
 		});
 	}
+	/**
+	* Marks the specified blob or snapshot for deletion. The blob is later deleted
+	* during garbage collection. Note that in order to delete a blob, you must delete
+	* all of its snapshots. You can delete both at the same time with the Delete
+	* Blob operation.
+	* @see https://learn.microsoft.com/rest/api/storageservices/delete-blob
+	*
+	* @param options - Optional options to Blob Delete operation.
+	*/
 	async delete(options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("BlobClient-delete", options, async (updatedOptions) => {
@@ -27874,6 +33066,15 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Marks the specified blob or snapshot for deletion if it exists. The blob is later deleted
+	* during garbage collection. Note that in order to delete a blob, you must delete
+	* all of its snapshots. You can delete both at the same time with the Delete
+	* Blob operation.
+	* @see https://learn.microsoft.com/rest/api/storageservices/delete-blob
+	*
+	* @param options - Optional options to Blob Delete operation.
+	*/
 	async deleteIfExists(options = {}) {
 		return tracingClient.withSpan("BlobClient-deleteIfExists", options, async (updatedOptions) => {
 			try {
@@ -27893,6 +33094,14 @@ var BlobClient = class BlobClient extends StorageClient {
 			}
 		});
 	}
+	/**
+	* Restores the contents and metadata of soft deleted blob and any associated
+	* soft deleted snapshots. Undelete Blob is supported only on version 2017-07-29
+	* or later.
+	* @see https://learn.microsoft.com/rest/api/storageservices/undelete-blob
+	*
+	* @param options - Optional options to Blob Undelete operation.
+	*/
 	async undelete(options = {}) {
 		return tracingClient.withSpan("BlobClient-undelete", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.undelete({
@@ -27901,6 +33110,21 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Sets system properties on the blob.
+	*
+	* If no value provided, or no value provided for the specified blob HTTP headers,
+	* these blob HTTP headers without a value will be cleared.
+	* @see https://learn.microsoft.com/rest/api/storageservices/set-blob-properties
+	*
+	* @param blobHTTPHeaders - If no value provided, or no value provided for
+	*                                                   the specified blob HTTP headers, these blob HTTP
+	*                                                   headers without a value will be cleared.
+	*                                                   A common header to set is `blobContentType`
+	*                                                   enabling the browser to provide functionality
+	*                                                   based on file type.
+	* @param options - Optional options to Blob Set HTTP Headers operation.
+	*/
 	async setHTTPHeaders(blobHTTPHeaders, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -27917,6 +33141,17 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Sets user-defined metadata for the specified blob as one or more name-value pairs.
+	*
+	* If no option provided, or no metadata defined in the parameter, the blob
+	* metadata will be removed.
+	* @see https://learn.microsoft.com/rest/api/storageservices/set-blob-metadata
+	*
+	* @param metadata - Replace existing metadata with this value.
+	*                               If no value provided the existing metadata will be removed.
+	* @param options - Optional options to Set Metadata operation.
+	*/
 	async setMetadata(metadata, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -27935,6 +33170,15 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Sets tags on the underlying blob.
+	* A blob can have up to 10 tags. Tag keys must be between 1 and 128 characters.  Tag values must be between 0 and 256 characters.
+	* Valid tag key and value characters include lower and upper case letters, digits (0-9),
+	* space (' '), plus ('+'), minus ('-'), period ('.'), foward slash ('/'), colon (':'), equals ('='), and underscore ('_').
+	*
+	* @param tags -
+	* @param options -
+	*/
 	async setTags(tags, options = {}) {
 		return tracingClient.withSpan("BlobClient-setTags", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.setTags({
@@ -27950,6 +33194,11 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Gets the tags associated with the underlying blob.
+	*
+	* @param options -
+	*/
 	async getTags(options = {}) {
 		return tracingClient.withSpan("BlobClient-getTags", options, async (updatedOptions) => {
 			const response = assertResponse(await this.blobContext.getTags({
@@ -27969,9 +33218,21 @@ var BlobClient = class BlobClient extends StorageClient {
 			};
 		});
 	}
+	/**
+	* Get a {@link BlobLeaseClient} that manages leases on the blob.
+	*
+	* @param proposeLeaseId - Initial proposed lease Id.
+	* @returns A new BlobLeaseClient object for managing leases on the blob.
+	*/
 	getBlobLeaseClient(proposeLeaseId) {
 		return new BlobLeaseClient(this, proposeLeaseId);
 	}
+	/**
+	* Creates a read-only snapshot of a blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/snapshot-blob
+	*
+	* @param options - Optional options to the Blob Create Snapshot operation.
+	*/
 	async createSnapshot(options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -27990,6 +33251,79 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Asynchronously copies a blob to a destination within the storage account.
+	* This method returns a long running operation poller that allows you to wait
+	* indefinitely until the copy is completed.
+	* You can also cancel a copy before it is completed by calling `cancelOperation` on the poller.
+	* Note that the onProgress callback will not be invoked if the operation completes in the first
+	* request, and attempting to cancel a completed copy will result in an error being thrown.
+	*
+	* In version 2012-02-12 and later, the source for a Copy Blob operation can be
+	* a committed blob in any Azure storage account.
+	* Beginning with version 2015-02-21, the source for a Copy Blob operation can be
+	* an Azure file in any Azure storage account.
+	* Only storage accounts created on or after June 7th, 2012 allow the Copy Blob
+	* operation to copy from another storage account.
+	* @see https://learn.microsoft.com/rest/api/storageservices/copy-blob
+	*
+	* ```ts snippet:ClientsBeginCopyFromURL
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	* const blobClient = containerClient.getBlobClient(blobName);
+	*
+	* // Example using automatic polling
+	* const automaticCopyPoller = await blobClient.beginCopyFromURL("url");
+	* const automaticResult = await automaticCopyPoller.pollUntilDone();
+	*
+	* // Example using manual polling
+	* const manualCopyPoller = await blobClient.beginCopyFromURL("url");
+	* while (!manualCopyPoller.isDone()) {
+	*   await manualCopyPoller.poll();
+	* }
+	* const manualResult = manualCopyPoller.getResult();
+	*
+	* // Example using progress updates
+	* const progressUpdatesCopyPoller = await blobClient.beginCopyFromURL("url", {
+	*   onProgress(state) {
+	*     console.log(`Progress: ${state.copyProgress}`);
+	*   },
+	* });
+	* const progressUpdatesResult = await progressUpdatesCopyPoller.pollUntilDone();
+	*
+	* // Example using a changing polling interval (default 15 seconds)
+	* const pollingIntervalCopyPoller = await blobClient.beginCopyFromURL("url", {
+	*   intervalInMs: 1000, // poll blob every 1 second for copy progress
+	* });
+	* const pollingIntervalResult = await pollingIntervalCopyPoller.pollUntilDone();
+	*
+	* // Example using copy cancellation:
+	* const cancelCopyPoller = await blobClient.beginCopyFromURL("url");
+	* // cancel operation after starting it.
+	* try {
+	*   await cancelCopyPoller.cancelOperation();
+	*   // calls to get the result now throw PollerCancelledError
+	*   cancelCopyPoller.getResult();
+	* } catch (err: any) {
+	*   if (err.name === "PollerCancelledError") {
+	*     console.log("The copy was cancelled.");
+	*   }
+	* }
+	* ```
+	*
+	* @param copySource - url to the source Azure Blob/File.
+	* @param options - Optional options to the Blob Start Copy From URL operation.
+	*/
 	async beginCopyFromURL(copySource, options = {}) {
 		const poller = new BlobBeginCopyFromUrlPoller({
 			blobClient: {
@@ -28006,6 +33340,14 @@ var BlobClient = class BlobClient extends StorageClient {
 		await poller.poll();
 		return poller;
 	}
+	/**
+	* Aborts a pending asynchronous Copy Blob operation, and leaves a destination blob with zero
+	* length and full metadata. Version 2012-02-12 and newer.
+	* @see https://learn.microsoft.com/rest/api/storageservices/abort-copy-blob
+	*
+	* @param copyId - Id of the Copy From URL operation.
+	* @param options - Optional options to the Blob Abort Copy From URL operation.
+	*/
 	async abortCopyFromURL(copyId, options = {}) {
 		return tracingClient.withSpan("BlobClient-abortCopyFromURL", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.abortCopyFromURL(copyId, {
@@ -28015,6 +33357,14 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* The synchronous Copy From URL operation copies a blob or an internet resource to a new blob. It will not
+	* return a response until the copy is complete.
+	* @see https://learn.microsoft.com/rest/api/storageservices/copy-blob-from-url
+	*
+	* @param copySource - The source URL to copy from, Shared Access Signature(SAS) maybe needed for authentication
+	* @param options -
+	*/
 	async syncCopyFromURL(copySource, options = {}) {
 		options.conditions = options.conditions || {};
 		options.sourceConditions = options.sourceConditions || {};
@@ -28047,6 +33397,17 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Sets the tier on a blob. The operation is allowed on a page blob in a premium
+	* storage account and on a block blob in a blob storage account (locally redundant
+	* storage only). A premium page blob's tier determines the allowed size, IOPS,
+	* and bandwidth of the blob. A block blob's tier determines Hot/Cool/Archive
+	* storage type. This operation does not update the blob's ETag.
+	* @see https://learn.microsoft.com/rest/api/storageservices/set-blob-tier
+	*
+	* @param tier - The tier to be set on the blob. Valid values are Hot, Cool, or Archive.
+	* @param options - Optional options to the Blob Set Tier operation.
+	*/
 	async setAccessTier(tier, options = {}) {
 		return tracingClient.withSpan("BlobClient-setAccessTier", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.setTier(toAccessTier(tier), {
@@ -28116,6 +33477,22 @@ var BlobClient = class BlobClient extends StorageClient {
 			return buffer;
 		});
 	}
+	/**
+	* ONLY AVAILABLE IN NODE.JS RUNTIME.
+	*
+	* Downloads an Azure Blob to a local file.
+	* Fails if the the given file path already exits.
+	* Offset and count are optional, pass 0 and undefined respectively to download the entire blob.
+	*
+	* @param filePath -
+	* @param offset - From which position of the block blob to download.
+	* @param count - How much data to be downloaded. Will download to the end when passing undefined.
+	* @param options - Options to Blob download options.
+	* @returns The response data for blob download operation,
+	*                                                 but with readableStreamBody set to undefined since its
+	*                                                 content is already read and written into a local file
+	*                                                 at the specified path.
+	*/
 	async downloadToFile(filePath, offset = 0, count, options = {}) {
 		return tracingClient.withSpan("BlobClient-downloadToFile", options, async (updatedOptions) => {
 			const response = await this.download(offset, count, {
@@ -28157,6 +33534,19 @@ var BlobClient = class BlobClient extends StorageClient {
 			throw new Error("Unable to extract blobName and containerName with provided information.");
 		}
 	}
+	/**
+	* Asynchronously copies a blob to a destination within the storage account.
+	* In version 2012-02-12 and later, the source for a Copy Blob operation can be
+	* a committed blob in any Azure storage account.
+	* Beginning with version 2015-02-21, the source for a Copy Blob operation can be
+	* an Azure file in any Azure storage account.
+	* Only storage accounts created on or after June 7th, 2012 allow the Copy Blob
+	* operation to copy from another storage account.
+	* @see https://learn.microsoft.com/rest/api/storageservices/copy-blob
+	*
+	* @param copySource - url to the source Azure Blob/File.
+	* @param options - Optional options to the Blob Start Copy From URL operation.
+	*/
 	async startCopyFromURL(copySource, options = {}) {
 		return tracingClient.withSpan("BlobClient-startCopyFromURL", options, async (updatedOptions) => {
 			options.conditions = options.conditions || {};
@@ -28187,6 +33577,17 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Only available for BlobClient constructed with a shared key credential.
+	*
+	* Generates a Blob Service Shared Access Signature (SAS) URI based on the client properties
+	* and parameters passed in. The SAS is signed by the shared key credential of the client.
+	*
+	* @see https://learn.microsoft.com/rest/api/storageservices/constructing-a-service-sas
+	*
+	* @param options - Optional parameters.
+	* @returns The SAS URI consisting of the URI to the resource represented by this client, followed by the generated SAS token.
+	*/
 	generateSasUrl(options) {
 		return new Promise((resolve) => {
 			if (!(this.credential instanceof StorageSharedKeyCredential)) throw new RangeError("Can only generate the SAS when the client is initialized with a shared key credential");
@@ -28200,6 +33601,17 @@ var BlobClient = class BlobClient extends StorageClient {
 			resolve(appendToURLQuery(this.url, sas));
 		});
 	}
+	/**
+	* Only available for BlobClient constructed with a shared key credential.
+	*
+	* Generates string to sign for a Blob Service Shared Access Signature (SAS) URI based on
+	* the client properties and parameters passed in. The SAS is signed by the shared key credential of the client.
+	*
+	* @see https://learn.microsoft.com/rest/api/storageservices/constructing-a-service-sas
+	*
+	* @param options - Optional parameters.
+	* @returns The SAS URI consisting of the URI to the resource represented by this client, followed by the generated SAS token.
+	*/
 	generateSasStringToSign(options) {
 		if (!(this.credential instanceof StorageSharedKeyCredential)) throw new RangeError("Can only generate the SAS when the client is initialized with a shared key credential");
 		return generateBlobSASQueryParametersInternal({
@@ -28210,6 +33622,17 @@ var BlobClient = class BlobClient extends StorageClient {
 			...options
 		}, this.credential).stringToSign;
 	}
+	/**
+	*
+	* Generates a Blob Service Shared Access Signature (SAS) URI based on
+	* the client properties and parameters passed in. The SAS is signed by the input user delegation key.
+	*
+	* @see https://learn.microsoft.com/rest/api/storageservices/constructing-a-service-sas
+	*
+	* @param options - Optional parameters.
+	* @param userDelegationKey -  Return value of `blobServiceClient.getUserDelegationKey()`
+	* @returns The SAS URI consisting of the URI to the resource represented by this client, followed by the generated SAS token.
+	*/
 	generateUserDelegationSasUrl(options, userDelegationKey) {
 		return new Promise((resolve) => {
 			const sas = generateBlobSASQueryParameters({
@@ -28222,6 +33645,18 @@ var BlobClient = class BlobClient extends StorageClient {
 			resolve(appendToURLQuery(this.url, sas));
 		});
 	}
+	/**
+	* Only available for BlobClient constructed with a shared key credential.
+	*
+	* Generates string to sign for a Blob Service Shared Access Signature (SAS) URI based on
+	* the client properties and parameters passed in. The SAS is signed by the input user delegation key.
+	*
+	* @see https://learn.microsoft.com/rest/api/storageservices/constructing-a-service-sas
+	*
+	* @param options - Optional parameters.
+	* @param userDelegationKey -  Return value of `blobServiceClient.getUserDelegationKey()`
+	* @returns The SAS URI consisting of the URI to the resource represented by this client, followed by the generated SAS token.
+	*/
 	generateUserDelegationSasStringToSign(options, userDelegationKey) {
 		return generateBlobSASQueryParametersInternal({
 			containerName: this._containerName,
@@ -28231,11 +33666,21 @@ var BlobClient = class BlobClient extends StorageClient {
 			...options
 		}, userDelegationKey, this.accountName).stringToSign;
 	}
+	/**
+	* Delete the immutablility policy on the blob.
+	*
+	* @param options - Optional options to delete immutability policy on the blob.
+	*/
 	async deleteImmutabilityPolicy(options = {}) {
 		return tracingClient.withSpan("BlobClient-deleteImmutabilityPolicy", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.deleteImmutabilityPolicy({ tracingOptions: updatedOptions.tracingOptions }));
 		});
 	}
+	/**
+	* Set immutability policy on the blob.
+	*
+	* @param options - Optional options to set immutability policy on the blob.
+	*/
 	async setImmutabilityPolicy(immutabilityPolicy, options = {}) {
 		return tracingClient.withSpan("BlobClient-setImmutabilityPolicy", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.setImmutabilityPolicy({
@@ -28245,11 +33690,26 @@ var BlobClient = class BlobClient extends StorageClient {
 			}));
 		});
 	}
+	/**
+	* Set legal hold on the blob.
+	*
+	* @param options - Optional options to set legal hold on the blob.
+	*/
 	async setLegalHold(legalHoldEnabled, options = {}) {
 		return tracingClient.withSpan("BlobClient-setLegalHold", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.setLegalHold(legalHoldEnabled, { tracingOptions: updatedOptions.tracingOptions }));
 		});
 	}
+	/**
+	* The Get Account Information operation returns the sku name and account kind
+	* for the specified account.
+	* The Get Account Information operation is available on service versions beginning
+	* with version 2018-03-28.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-account-information
+	*
+	* @param options - Options to the Service Get Account Info operation.
+	* @returns Response data for the Service Get Account Info operation.
+	*/
 	async getAccountInfo(options = {}) {
 		return tracingClient.withSpan("BlobClient-getAccountInfo", options, async (updatedOptions) => {
 			return assertResponse(await this.blobContext.getAccountInfo({
@@ -28259,7 +33719,13 @@ var BlobClient = class BlobClient extends StorageClient {
 		});
 	}
 };
+/**
+* AppendBlobClient defines a set of operations applicable to append blobs.
+*/
 var AppendBlobClient = class AppendBlobClient extends BlobClient {
+	/**
+	* appendBlobsContext provided by protocol layer.
+	*/
 	appendBlobContext;
 	constructor(urlOrConnectionString, credentialOrPipelineOrContainerName, blobNameOrOptions, options) {
 		let pipeline;
@@ -28293,9 +33759,44 @@ var AppendBlobClient = class AppendBlobClient extends BlobClient {
 		super(url, pipeline);
 		this.appendBlobContext = this.storageClientContext.appendBlob;
 	}
+	/**
+	* Creates a new AppendBlobClient object identical to the source but with the
+	* specified snapshot timestamp.
+	* Provide "" will remove the snapshot and return a Client to the base blob.
+	*
+	* @param snapshot - The snapshot timestamp.
+	* @returns A new AppendBlobClient object identical to the source but with the specified snapshot timestamp.
+	*/
 	withSnapshot(snapshot) {
 		return new AppendBlobClient(setURLParameter(this.url, URLConstants.Parameters.SNAPSHOT, snapshot.length === 0 ? void 0 : snapshot), this.pipeline);
 	}
+	/**
+	* Creates a 0-length append blob. Call AppendBlock to append data to an append blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-blob
+	*
+	* @param options - Options to the Append Block Create operation.
+	*
+	*
+	* Example usage:
+	*
+	* ```ts snippet:ClientsCreateAppendBlob
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	*
+	* const appendBlobClient = containerClient.getAppendBlobClient(blobName);
+	* await appendBlobClient.create();
+	* ```
+	*/
 	async create(options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -28319,6 +33820,13 @@ var AppendBlobClient = class AppendBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Creates a 0-length append blob. Call AppendBlock to append data to an append blob.
+	* If the blob with the same name already exists, the content of the existing blob will remain unchanged.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-blob
+	*
+	* @param options -
+	*/
 	async createIfNotExists(options = {}) {
 		const conditions = { ifNoneMatch: "*" };
 		return tracingClient.withSpan("AppendBlobClient-createIfNotExists", options, async (updatedOptions) => {
@@ -28342,6 +33850,11 @@ var AppendBlobClient = class AppendBlobClient extends BlobClient {
 			}
 		});
 	}
+	/**
+	* Seals the append blob, making it read only.
+	*
+	* @param options -
+	*/
 	async seal(options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("AppendBlobClient-seal", options, async (updatedOptions) => {
@@ -28357,6 +33870,43 @@ var AppendBlobClient = class AppendBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Commits a new block of data to the end of the existing append blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/append-block
+	*
+	* @param body - Data to be appended.
+	* @param contentLength - Length of the body in bytes.
+	* @param options - Options to the Append Block operation.
+	*
+	*
+	* Example usage:
+	*
+	* ```ts snippet:ClientsAppendBlock
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	*
+	* const content = "Hello World!";
+	*
+	* // Create a new append blob and append data to the blob.
+	* const newAppendBlobClient = containerClient.getAppendBlobClient(blobName);
+	* await newAppendBlobClient.create();
+	* await newAppendBlobClient.appendBlock(content, content.length);
+	*
+	* // Append data to an existing append blob.
+	* const existingAppendBlobClient = containerClient.getAppendBlobClient(blobName);
+	* await existingAppendBlobClient.appendBlock(content, content.length);
+	* ```
+	*/
 	async appendBlock(body, contentLength, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -28378,6 +33928,20 @@ var AppendBlobClient = class AppendBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* The Append Block operation commits a new block of data to the end of an existing append blob
+	* where the contents are read from a source url.
+	* @see https://learn.microsoft.com/rest/api/storageservices/append-block-from-url
+	*
+	* @param sourceURL -
+	*                 The url to the blob that will be the source of the copy. A source blob in the same storage account can
+	*                 be authenticated via Shared Key. However, if the source is a blob in another account, the source blob
+	*                 must either be public or must be authenticated via a shared access signature. If the source blob is
+	*                 public, no authentication is required to perform the operation.
+	* @param sourceOffset - Offset in source to be appended
+	* @param count - Number of bytes to be appended as a block
+	* @param options -
+	*/
 	async appendBlockFromURL(sourceURL, sourceOffset, count, options = {}) {
 		options.conditions = options.conditions || {};
 		options.sourceConditions = options.sourceConditions || {};
@@ -28412,8 +33976,20 @@ var AppendBlobClient = class AppendBlobClient extends BlobClient {
 		});
 	}
 };
+/**
+* BlockBlobClient defines a set of operations applicable to block blobs.
+*/
 var BlockBlobClient = class BlockBlobClient extends BlobClient {
+	/**
+	* blobContext provided by protocol layer.
+	*
+	* Note. Ideally BlobClient should set BlobClient.blobContext to protected. However, API
+	* extractor has issue blocking that. Here we redecelare _blobContext in BlockBlobClient.
+	*/
 	_blobContext;
+	/**
+	* blockBlobContext provided by protocol layer.
+	*/
 	blockBlobContext;
 	constructor(urlOrConnectionString, credentialOrPipelineOrContainerName, blobNameOrOptions, options) {
 		let pipeline;
@@ -28449,9 +34025,64 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 		this.blockBlobContext = this.storageClientContext.blockBlob;
 		this._blobContext = this.storageClientContext.blob;
 	}
+	/**
+	* Creates a new BlockBlobClient object identical to the source but with the
+	* specified snapshot timestamp.
+	* Provide "" will remove the snapshot and return a URL to the base blob.
+	*
+	* @param snapshot - The snapshot timestamp.
+	* @returns A new BlockBlobClient object identical to the source but with the specified snapshot timestamp.
+	*/
 	withSnapshot(snapshot) {
 		return new BlockBlobClient(setURLParameter(this.url, URLConstants.Parameters.SNAPSHOT, snapshot.length === 0 ? void 0 : snapshot), this.pipeline);
 	}
+	/**
+	* ONLY AVAILABLE IN NODE.JS RUNTIME.
+	*
+	* Quick query for a JSON or CSV formatted blob.
+	*
+	* Example usage (Node.js):
+	*
+	* ```ts snippet:ClientsQuery
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	* const blockBlobClient = containerClient.getBlockBlobClient(blobName);
+	*
+	* // Query and convert a blob to a string
+	* const queryBlockBlobResponse = await blockBlobClient.query("select from BlobStorage");
+	* if (queryBlockBlobResponse.readableStreamBody) {
+	*   const downloadedBuffer = await streamToBuffer(queryBlockBlobResponse.readableStreamBody);
+	*   const downloaded = downloadedBuffer.toString();
+	*   console.log(`Query blob content: ${downloaded}`);
+	* }
+	*
+	* async function streamToBuffer(readableStream: NodeJS.ReadableStream): Promise<Buffer> {
+	*   return new Promise((resolve, reject) => {
+	*     const chunks: Buffer[] = [];
+	*     readableStream.on("data", (data) => {
+	*       chunks.push(data instanceof Buffer ? data : Buffer.from(data));
+	*     });
+	*     readableStream.on("end", () => {
+	*       resolve(Buffer.concat(chunks));
+	*     });
+	*     readableStream.on("error", reject);
+	*   });
+	* }
+	* ```
+	*
+	* @param query -
+	* @param options -
+	*/
 	async query(query, options = {}) {
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
 		if (!isNodeLike) throw new Error("This operation currently is only supported in Node.js.");
@@ -28478,6 +34109,47 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			});
 		});
 	}
+	/**
+	* Creates a new block blob, or updates the content of an existing block blob.
+	* Updating an existing block blob overwrites any existing metadata on the blob.
+	* Partial updates are not supported; the content of the existing blob is
+	* overwritten with the new content. To perform a partial update of a block blob's,
+	* use {@link stageBlock} and {@link commitBlockList}.
+	*
+	* This is a non-parallel uploading method, please use {@link uploadFile},
+	* {@link uploadStream} or {@link uploadBrowserData} for better performance
+	* with concurrency uploading.
+	*
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-blob
+	*
+	* @param body - Blob, string, ArrayBuffer, ArrayBufferView or a function
+	*                               which returns a new Readable stream whose offset is from data source beginning.
+	* @param contentLength - Length of body in bytes. Use Buffer.byteLength() to calculate body length for a
+	*                               string including non non-Base64/Hex-encoded characters.
+	* @param options - Options to the Block Blob Upload operation.
+	* @returns Response data for the Block Blob Upload operation.
+	*
+	* Example usage:
+	*
+	* ```ts snippet:ClientsUpload
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	* const blockBlobClient = containerClient.getBlockBlobClient(blobName);
+	*
+	* const content = "Hello world!";
+	* const uploadBlobResponse = await blockBlobClient.upload(content, content.length);
+	* ```
+	*/
 	async upload(body, contentLength, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -28503,6 +34175,24 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Creates a new Block Blob where the contents of the blob are read from a given URL.
+	* This API is supported beginning with the 2020-04-08 version. Partial updates
+	* are not supported with Put Blob from URL; the content of an existing blob is overwritten with
+	* the content of the new blob.  To perform partial updates to a block blob’s contents using a
+	* source URL, use {@link stageBlockFromURL} and {@link commitBlockList}.
+	*
+	* @param sourceURL - Specifies the URL of the blob. The value
+	*                           may be a URL of up to 2 KB in length that specifies a blob.
+	*                           The value should be URL-encoded as it would appear
+	*                           in a request URI. The source blob must either be public
+	*                           or must be authenticated via a shared access signature.
+	*                           If the source blob is public, no authentication is required
+	*                           to perform the operation. Here are some examples of source object URLs:
+	*                           - https://myaccount.blob.core.windows.net/mycontainer/myblob
+	*                           - https://myaccount.blob.core.windows.net/mycontainer/myblob?snapshot=<DateTime>
+	* @param options - Optional parameters.
+	*/
 	async syncUploadFromURL(sourceURL, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -28532,6 +34222,17 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Uploads the specified block to the block blob's "staging area" to be later
+	* committed by a call to commitBlockList.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-block
+	*
+	* @param blockId - A 64-byte value that is base64-encoded
+	* @param body - Data to upload to the staging area.
+	* @param contentLength - Number of bytes to upload.
+	* @param options - Options to the Block Blob Stage Block operation.
+	* @returns Response data for the Block Blob Stage Block operation.
+	*/
 	async stageBlock(blockId, body, contentLength, options = {}) {
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
 		return tracingClient.withSpan("BlockBlobClient-stageBlock", options, async (updatedOptions) => {
@@ -28547,6 +34248,27 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* The Stage Block From URL operation creates a new block to be committed as part
+	* of a blob where the contents are read from a URL.
+	* This API is available starting in version 2018-03-28.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-block-from-url
+	*
+	* @param blockId - A 64-byte value that is base64-encoded
+	* @param sourceURL - Specifies the URL of the blob. The value
+	*                           may be a URL of up to 2 KB in length that specifies a blob.
+	*                           The value should be URL-encoded as it would appear
+	*                           in a request URI. The source blob must either be public
+	*                           or must be authenticated via a shared access signature.
+	*                           If the source blob is public, no authentication is required
+	*                           to perform the operation. Here are some examples of source object URLs:
+	*                           - https://myaccount.blob.core.windows.net/mycontainer/myblob
+	*                           - https://myaccount.blob.core.windows.net/mycontainer/myblob?snapshot=<DateTime>
+	* @param offset - From which position of the blob to download, greater than or equal to 0
+	* @param count - How much data to be downloaded, greater than 0. Will download to the end when undefined
+	* @param options - Options to the Block Blob Stage Block From URL operation.
+	* @returns Response data for the Block Blob Stage Block From URL operation.
+	*/
 	async stageBlockFromURL(blockId, sourceURL, offset = 0, count, options = {}) {
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
 		return tracingClient.withSpan("BlockBlobClient-stageBlockFromURL", options, async (updatedOptions) => {
@@ -28567,6 +34289,18 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Writes a blob by specifying the list of block IDs that make up the blob.
+	* In order to be written as part of a blob, a block must have been successfully written
+	* to the server in a prior {@link stageBlock} operation. You can call {@link commitBlockList} to
+	* update a blob by uploading only those blocks that have changed, then committing the new and existing
+	* blocks together. Any blocks not specified in the block list and permanently deleted.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-block-list
+	*
+	* @param blocks -  Array of 64-byte value that is base64-encoded
+	* @param options - Options to the Block Blob Commit Block List operation.
+	* @returns Response data for the Block Blob Commit Block List operation.
+	*/
 	async commitBlockList(blocks, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -28591,6 +34325,16 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Returns the list of blocks that have been uploaded as part of a block blob
+	* using the specified block list filter.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-block-list
+	*
+	* @param listType - Specifies whether to return the list of committed blocks,
+	*                                        the list of uncommitted blocks, or both lists together.
+	* @param options - Options to the Block Blob Get Block List operation.
+	* @returns Response data for the Block Blob Get Block List operation.
+	*/
 	async getBlockList(listType, options = {}) {
 		return tracingClient.withSpan("BlockBlobClient-getBlockList", options, async (updatedOptions) => {
 			const res = assertResponse(await this.blockBlobContext.getBlockList(listType, {
@@ -28607,6 +34351,21 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			return res;
 		});
 	}
+	/**
+	* Uploads a Buffer(Node.js)/Blob(browsers)/ArrayBuffer/ArrayBufferView object to a BlockBlob.
+	*
+	* When data length is no more than the specifiled {@link BlockBlobParallelUploadOptions.maxSingleShotSize} (default is
+	* {@link BLOCK_BLOB_MAX_UPLOAD_BLOB_BYTES}), this method will use 1 {@link upload} call to finish the upload.
+	* Otherwise, this method will call {@link stageBlock} to upload blocks, and finally call {@link commitBlockList}
+	* to commit the block list.
+	*
+	* A common {@link BlockBlobParallelUploadOptions.blobHTTPHeaders} option to set is
+	* `blobContentType`, enabling the browser to provide
+	* functionality based on file type.
+	*
+	* @param data - Buffer(Node.js), Blob, ArrayBuffer or ArrayBufferView
+	* @param options -
+	*/
 	async uploadData(data, options = {}) {
 		return tracingClient.withSpan("BlockBlobClient-uploadData", options, async (updatedOptions) => {
 			if (isNodeLike) {
@@ -28624,12 +34383,46 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			}
 		});
 	}
+	/**
+	* ONLY AVAILABLE IN BROWSERS.
+	*
+	* Uploads a browser Blob/File/ArrayBuffer/ArrayBufferView object to block blob.
+	*
+	* When buffer length lesser than or equal to 256MB, this method will use 1 upload call to finish the upload.
+	* Otherwise, this method will call {@link stageBlock} to upload blocks, and finally call
+	* {@link commitBlockList} to commit the block list.
+	*
+	* A common {@link BlockBlobParallelUploadOptions.blobHTTPHeaders} option to set is
+	* `blobContentType`, enabling the browser to provide
+	* functionality based on file type.
+	*
+	* @deprecated Use {@link uploadData} instead.
+	*
+	* @param browserData - Blob, File, ArrayBuffer or ArrayBufferView
+	* @param options - Options to upload browser data.
+	* @returns Response data for the Blob Upload operation.
+	*/
 	async uploadBrowserData(browserData, options = {}) {
 		return tracingClient.withSpan("BlockBlobClient-uploadBrowserData", options, async (updatedOptions) => {
 			const browserBlob = new Blob([browserData]);
 			return this.uploadSeekableInternal((offset, size) => browserBlob.slice(offset, offset + size), browserBlob.size, updatedOptions);
 		});
 	}
+	/**
+	*
+	* Uploads data to block blob. Requires a bodyFactory as the data source,
+	* which need to return a {@link HttpRequestBody} object with the offset and size provided.
+	*
+	* When data length is no more than the specified {@link BlockBlobParallelUploadOptions.maxSingleShotSize} (default is
+	* {@link BLOCK_BLOB_MAX_UPLOAD_BLOB_BYTES}), this method will use 1 {@link upload} call to finish the upload.
+	* Otherwise, this method will call {@link stageBlock} to upload blocks, and finally call {@link commitBlockList}
+	* to commit the block list.
+	*
+	* @param bodyFactory -
+	* @param size - size of the data to upload.
+	* @param options - Options to Upload to Block Blob operation.
+	* @returns Response data for the Blob Upload operation.
+	*/
 	async uploadSeekableInternal(bodyFactory, size, options = {}) {
 		let blockSize = options.blockSize ?? 0;
 		if (blockSize < 0 || blockSize > 4194304e3) throw new RangeError(`blockSize option must be >= 0 and <= ${BLOCK_BLOB_MAX_STAGE_BLOCK_BYTES}`);
@@ -28670,6 +34463,19 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			return this.commitBlockList(blockList, updatedOptions);
 		});
 	}
+	/**
+	* ONLY AVAILABLE IN NODE.JS RUNTIME.
+	*
+	* Uploads a local file in blocks to a block blob.
+	*
+	* When file size lesser than or equal to 256MB, this method will use 1 upload call to finish the upload.
+	* Otherwise, this method will call stageBlock to upload blocks, and finally call commitBlockList
+	* to commit the block list.
+	*
+	* @param filePath - Full path of local file
+	* @param options - Options to Upload to Block Blob operation.
+	* @returns Response data for the Blob Upload operation.
+	*/
 	async uploadFile(filePath, options = {}) {
 		return tracingClient.withSpan("BlockBlobClient-uploadFile", options, async (updatedOptions) => {
 			const size = (await fsStat(filePath)).size;
@@ -28685,6 +34491,22 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 			});
 		});
 	}
+	/**
+	* ONLY AVAILABLE IN NODE.JS RUNTIME.
+	*
+	* Uploads a Node.js Readable stream into block blob.
+	*
+	* PERFORMANCE IMPROVEMENT TIPS:
+	* * Input stream highWaterMark is better to set a same value with bufferSize
+	*    parameter, which will avoid Buffer.concat() operations.
+	*
+	* @param stream - Node.js Readable stream
+	* @param bufferSize - Size of every buffer allocated, also the block size in the uploaded block blob. Default value is 8MB
+	* @param maxConcurrency -  Max concurrency indicates the max number of buffers that can be allocated,
+	*                                 positive correlation with max uploading concurrency. Default value is 5
+	* @param options - Options to Upload Stream to Block Blob operation.
+	* @returns Response data for the Blob Upload operation.
+	*/
 	async uploadStream(stream, bufferSize = DEFAULT_BLOCK_BUFFER_SIZE_BYTES, maxConcurrency = 5, options = {}) {
 		if (!options.blobHTTPHeaders) options.blobHTTPHeaders = {};
 		if (!options.conditions) options.conditions = {};
@@ -28713,7 +34535,13 @@ var BlockBlobClient = class BlockBlobClient extends BlobClient {
 		});
 	}
 };
+/**
+* PageBlobClient defines a set of operations applicable to page blobs.
+*/
 var PageBlobClient = class PageBlobClient extends BlobClient {
+	/**
+	* pageBlobsContext provided by protocol layer.
+	*/
 	pageBlobContext;
 	constructor(urlOrConnectionString, credentialOrPipelineOrContainerName, blobNameOrOptions, options) {
 		let pipeline;
@@ -28747,9 +34575,26 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 		super(url, pipeline);
 		this.pageBlobContext = this.storageClientContext.pageBlob;
 	}
+	/**
+	* Creates a new PageBlobClient object identical to the source but with the
+	* specified snapshot timestamp.
+	* Provide "" will remove the snapshot and return a Client to the base blob.
+	*
+	* @param snapshot - The snapshot timestamp.
+	* @returns A new PageBlobClient object identical to the source but with the specified snapshot timestamp.
+	*/
 	withSnapshot(snapshot) {
 		return new PageBlobClient(setURLParameter(this.url, URLConstants.Parameters.SNAPSHOT, snapshot.length === 0 ? void 0 : snapshot), this.pipeline);
 	}
+	/**
+	* Creates a page blob of the specified length. Call uploadPages to upload data
+	* data to a page blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-blob
+	*
+	* @param size - size of the page blob.
+	* @param options - Options to the Page Blob Create operation.
+	* @returns Response data for the Page Blob Create operation.
+	*/
 	async create(size, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -28775,6 +34620,15 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Creates a page blob of the specified length. Call uploadPages to upload data
+	* data to a page blob. If the blob with the same name already exists, the content
+	* of the existing blob will remain unchanged.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-blob
+	*
+	* @param size - size of the page blob.
+	* @param options -
+	*/
 	async createIfNotExists(size, options = {}) {
 		return tracingClient.withSpan("PageBlobClient-createIfNotExists", options, async (updatedOptions) => {
 			try {
@@ -28799,6 +34653,16 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}
 		});
 	}
+	/**
+	* Writes 1 or more pages to the page blob. The start and end offsets must be a multiple of 512.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-page
+	*
+	* @param body - Data to upload
+	* @param offset - Offset of destination page blob
+	* @param count - Content length of the body, also number of bytes to be uploaded
+	* @param options - Options to the Page Blob Upload Pages operation.
+	* @returns Response data for the Page Blob Upload Pages operation.
+	*/
 	async uploadPages(body, offset, count, options = {}) {
 		options.conditions = options.conditions || {};
 		ensureCpkIfSpecified(options.customerProvidedKey, this.isHttps);
@@ -28824,6 +34688,17 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* The Upload Pages operation writes a range of pages to a page blob where the
+	* contents are read from a URL.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-page-from-url
+	*
+	* @param sourceURL - Specify a URL to the copy source, Shared Access Signature(SAS) maybe needed for authentication
+	* @param sourceOffset - The source offset to copy from. Pass 0 to copy from the beginning of source page blob
+	* @param destOffset - Offset of destination page blob
+	* @param count - Number of bytes to be uploaded from source page blob
+	* @param options -
+	*/
 	async uploadPagesFromURL(sourceURL, sourceOffset, destOffset, count, options = {}) {
 		options.conditions = options.conditions || {};
 		options.sourceConditions = options.sourceConditions || {};
@@ -28859,6 +34734,15 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Frees the specified pages from the page blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/put-page
+	*
+	* @param offset - Starting byte position of the pages to clear.
+	* @param count - Number of bytes to clear.
+	* @param options - Options to the Page Blob Clear Pages operation.
+	* @returns Response data for the Page Blob Clear Pages operation.
+	*/
 	async clearPages(offset = 0, count, options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("PageBlobClient-clearPages", options, async (updatedOptions) => {
@@ -28880,6 +34764,15 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Returns the list of valid page ranges for a page blob or snapshot of a page blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-page-ranges
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param options - Options to the Page Blob Get Ranges operation.
+	* @returns Response data for the Page Blob Get Ranges operation.
+	*/
 	async getPageRanges(offset = 0, count, options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("PageBlobClient-getPageRanges", options, async (updatedOptions) => {
@@ -28898,6 +34791,18 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			})));
 		});
 	}
+	/**
+	* getPageRangesSegment returns a single segment of page ranges starting from the
+	* specified Marker. Use an empty Marker to start enumeration from the beginning.
+	* After getting a segment, process it, and then call getPageRangesSegment again
+	* (passing the the previously-returned Marker) to get the next segment.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-page-ranges
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param marker - A string value that identifies the portion of the list to be returned with the next list operation.
+	* @param options - Options to PageBlob Get Page Ranges Segment operation.
+	*/
 	async listPageRangesSegment(offset = 0, count, marker, options = {}) {
 		return tracingClient.withSpan("PageBlobClient-getPageRangesSegment", options, async (updatedOptions) => {
 			return assertResponse(await this.pageBlobContext.getPageRanges({
@@ -28917,6 +34822,20 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Returns an AsyncIterableIterator for {@link PageBlobGetPageRangesResponseModel}
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param marker - A string value that identifies the portion of
+	*                          the get of page ranges to be returned with the next getting operation. The
+	*                          operation returns the ContinuationToken value within the response body if the
+	*                          getting operation did not return all page ranges remaining within the current page.
+	*                          The ContinuationToken value can be used as the value for
+	*                          the marker parameter in a subsequent call to request the next page of get
+	*                          items. The marker value is opaque to the client.
+	* @param options - Options to List Page Ranges operation.
+	*/
 	async *listPageRangeItemSegments(offset = 0, count, marker, options = {}) {
 		let getPageRangeItemSegmentsResponse;
 		if (!!marker || marker === void 0) do {
@@ -28925,10 +34844,89 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			yield await getPageRangeItemSegmentsResponse;
 		} while (marker);
 	}
+	/**
+	* Returns an AsyncIterableIterator of {@link PageRangeInfo} objects
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param options - Options to List Page Ranges operation.
+	*/
 	async *listPageRangeItems(offset = 0, count, options = {}) {
 		let marker;
 		for await (const getPageRangesSegment of this.listPageRangeItemSegments(offset, count, marker, options)) yield* ExtractPageRangeInfoItems(getPageRangesSegment);
 	}
+	/**
+	* Returns an async iterable iterator to list of page ranges for a page blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-page-ranges
+	*
+	*  .byPage() returns an async iterable iterator to list of page ranges for a page blob.
+	*
+	* ```ts snippet:ClientsListPageBlobs
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	* const pageBlobClient = containerClient.getPageBlobClient(blobName);
+	*
+	* // Example using `for await` syntax
+	* let i = 1;
+	* for await (const pageRange of pageBlobClient.listPageRanges()) {
+	*   console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	* }
+	*
+	* // Example using `iter.next()` syntax
+	* i = 1;
+	* const iter = pageBlobClient.listPageRanges();
+	* let { value, done } = await iter.next();
+	* while (!done) {
+	*   console.log(`Page range ${i++}: ${value.start} - ${value.end}`);
+	*   ({ value, done } = await iter.next());
+	* }
+	*
+	* // Example using `byPage()` syntax
+	* i = 1;
+	* for await (const page of pageBlobClient.listPageRanges().byPage({ maxPageSize: 20 })) {
+	*   for (const pageRange of page.pageRange || []) {
+	*     console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	*   }
+	* }
+	*
+	* // Example using paging with a marker
+	* i = 1;
+	* let iterator = pageBlobClient.listPageRanges().byPage({ maxPageSize: 2 });
+	* let response = (await iterator.next()).value;
+	* // Prints 2 page ranges
+	* if (response.pageRange) {
+	*   for (const pageRange of response.pageRange) {
+	*     console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	*   }
+	* }
+	* // Gets next marker
+	* let marker = response.continuationToken;
+	* // Passing next marker as continuationToken
+	* iterator = pageBlobClient.listPageRanges().byPage({ continuationToken: marker, maxPageSize: 10 });
+	* response = (await iterator.next()).value;
+	* // Prints 10 page ranges
+	* if (response.pageRange) {
+	*   for (const pageRange of response.pageRange) {
+	*     console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	*   }
+	* }
+	* ```
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param options - Options to the Page Blob Get Ranges operation.
+	* @returns An asyncIterableIterator that supports paging.
+	*/
 	listPageRanges(offset = 0, count, options = {}) {
 		options.conditions = options.conditions || {};
 		const iter = this.listPageRangeItems(offset, count, options);
@@ -28947,6 +34945,16 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}
 		};
 	}
+	/**
+	* Gets the collection of page ranges that differ between a specified snapshot and this page blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-page-ranges
+	*
+	* @param offset - Starting byte position of the page blob
+	* @param count - Number of bytes to get ranges diff.
+	* @param prevSnapshot - Timestamp of snapshot to retrieve the difference.
+	* @param options - Options to the Page Blob Get Page Ranges Diff operation.
+	* @returns Response data for the Page Blob Get Page Range Diff operation.
+	*/
 	async getPageRangesDiff(offset, count, prevSnapshot, options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("PageBlobClient-getPageRangesDiff", options, async (updatedOptions) => {
@@ -28966,6 +34974,20 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			})));
 		});
 	}
+	/**
+	* getPageRangesDiffSegment returns a single segment of page ranges starting from the
+	* specified Marker for difference between previous snapshot and the target page blob.
+	* Use an empty Marker to start enumeration from the beginning.
+	* After getting a segment, process it, and then call getPageRangesDiffSegment again
+	* (passing the the previously-returned Marker) to get the next segment.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-page-ranges
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param prevSnapshotOrUrl - Timestamp of snapshot to retrieve the difference or URL of snapshot to retrieve the difference.
+	* @param marker - A string value that identifies the portion of the get to be returned with the next get operation.
+	* @param options - Options to the Page Blob Get Page Ranges Diff operation.
+	*/
 	async listPageRangesDiffSegment(offset, count, prevSnapshotOrUrl, marker, options = {}) {
 		return tracingClient.withSpan("PageBlobClient-getPageRangesDiffSegment", options, async (updatedOptions) => {
 			return assertResponse(await this.pageBlobContext.getPageRangesDiff({
@@ -28986,6 +35008,22 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Returns an AsyncIterableIterator for {@link PageBlobGetPageRangesDiffResponseModel}
+	*
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param prevSnapshotOrUrl - Timestamp of snapshot to retrieve the difference or URL of snapshot to retrieve the difference.
+	* @param marker - A string value that identifies the portion of
+	*                          the get of page ranges to be returned with the next getting operation. The
+	*                          operation returns the ContinuationToken value within the response body if the
+	*                          getting operation did not return all page ranges remaining within the current page.
+	*                          The ContinuationToken value can be used as the value for
+	*                          the marker parameter in a subsequent call to request the next page of get
+	*                          items. The marker value is opaque to the client.
+	* @param options - Options to the Page Blob Get Page Ranges Diff operation.
+	*/
 	async *listPageRangeDiffItemSegments(offset, count, prevSnapshotOrUrl, marker, options) {
 		let getPageRangeItemSegmentsResponse;
 		if (!!marker || marker === void 0) do {
@@ -28994,10 +35032,100 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			yield await getPageRangeItemSegmentsResponse;
 		} while (marker);
 	}
+	/**
+	* Returns an AsyncIterableIterator of {@link PageRangeInfo} objects
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param prevSnapshotOrUrl - Timestamp of snapshot to retrieve the difference or URL of snapshot to retrieve the difference.
+	* @param options - Options to the Page Blob Get Page Ranges Diff operation.
+	*/
 	async *listPageRangeDiffItems(offset, count, prevSnapshotOrUrl, options) {
 		let marker;
 		for await (const getPageRangesSegment of this.listPageRangeDiffItemSegments(offset, count, prevSnapshotOrUrl, marker, options)) yield* ExtractPageRangeInfoItems(getPageRangesSegment);
 	}
+	/**
+	* Returns an async iterable iterator to list of page ranges that differ between a specified snapshot and this page blob.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-page-ranges
+	*
+	*  .byPage() returns an async iterable iterator to list of page ranges that differ between a specified snapshot and this page blob.
+	*
+	* ```ts snippet:ClientsListPageBlobsDiff
+	* import { BlobServiceClient } from "@azure/storage-blob";
+	* import { DefaultAzureCredential } from "@azure/identity";
+	*
+	* const account = "<account>";
+	* const blobServiceClient = new BlobServiceClient(
+	*   `https://${account}.blob.core.windows.net`,
+	*   new DefaultAzureCredential(),
+	* );
+	*
+	* const containerName = "<container name>";
+	* const blobName = "<blob name>";
+	* const containerClient = blobServiceClient.getContainerClient(containerName);
+	* const pageBlobClient = containerClient.getPageBlobClient(blobName);
+	*
+	* const offset = 0;
+	* const count = 1024;
+	* const previousSnapshot = "<previous snapshot>";
+	* // Example using `for await` syntax
+	* let i = 1;
+	* for await (const pageRange of pageBlobClient.listPageRangesDiff(offset, count, previousSnapshot)) {
+	*   console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	* }
+	*
+	* // Example using `iter.next()` syntax
+	* i = 1;
+	* const iter = pageBlobClient.listPageRangesDiff(offset, count, previousSnapshot);
+	* let { value, done } = await iter.next();
+	* while (!done) {
+	*   console.log(`Page range ${i++}: ${value.start} - ${value.end}`);
+	*   ({ value, done } = await iter.next());
+	* }
+	*
+	* // Example using `byPage()` syntax
+	* i = 1;
+	* for await (const page of pageBlobClient
+	*   .listPageRangesDiff(offset, count, previousSnapshot)
+	*   .byPage({ maxPageSize: 20 })) {
+	*   for (const pageRange of page.pageRange || []) {
+	*     console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	*   }
+	* }
+	*
+	* // Example using paging with a marker
+	* i = 1;
+	* let iterator = pageBlobClient
+	*   .listPageRangesDiff(offset, count, previousSnapshot)
+	*   .byPage({ maxPageSize: 2 });
+	* let response = (await iterator.next()).value;
+	* // Prints 2 page ranges
+	* if (response.pageRange) {
+	*   for (const pageRange of response.pageRange) {
+	*     console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	*   }
+	* }
+	* // Gets next marker
+	* let marker = response.continuationToken;
+	* // Passing next marker as continuationToken
+	* iterator = pageBlobClient
+	*   .listPageRangesDiff(offset, count, previousSnapshot)
+	*   .byPage({ continuationToken: marker, maxPageSize: 10 });
+	* response = (await iterator.next()).value;
+	* // Prints 10 page ranges
+	* if (response.pageRange) {
+	*   for (const pageRange of response.pageRange) {
+	*     console.log(`Page range ${i++}: ${pageRange.start} - ${pageRange.end}`);
+	*   }
+	* }
+	* ```
+	*
+	* @param offset - Starting byte position of the page ranges.
+	* @param count - Number of bytes to get.
+	* @param prevSnapshot - Timestamp of snapshot to retrieve the difference.
+	* @param options - Options to the Page Blob Get Ranges operation.
+	* @returns An asyncIterableIterator that supports paging.
+	*/
 	listPageRangesDiff(offset, count, prevSnapshot, options = {}) {
 		options.conditions = options.conditions || {};
 		const iter = this.listPageRangeDiffItems(offset, count, prevSnapshot, { ...options });
@@ -29016,6 +35144,16 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}
 		};
 	}
+	/**
+	* Gets the collection of page ranges that differ between a specified snapshot and this page blob for managed disks.
+	* @see https://learn.microsoft.com/rest/api/storageservices/get-page-ranges
+	*
+	* @param offset - Starting byte position of the page blob
+	* @param count - Number of bytes to get ranges diff.
+	* @param prevSnapshotUrl - URL of snapshot to retrieve the difference.
+	* @param options - Options to the Page Blob Get Page Ranges Diff operation.
+	* @returns Response data for the Page Blob Get Page Range Diff operation.
+	*/
 	async getPageRangesDiffForManagedDisks(offset, count, prevSnapshotUrl, options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("PageBlobClient-GetPageRangesDiffForManagedDisks", options, async (updatedOptions) => {
@@ -29035,6 +35173,14 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			})));
 		});
 	}
+	/**
+	* Resizes the page blob to the specified size (which must be a multiple of 512).
+	* @see https://learn.microsoft.com/rest/api/storageservices/set-blob-properties
+	*
+	* @param size - Target size
+	* @param options - Options to the Page Blob Resize operation.
+	* @returns Response data for the Page Blob Resize operation.
+	*/
 	async resize(size, options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("PageBlobClient-resize", options, async (updatedOptions) => {
@@ -29050,6 +35196,15 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Sets a page blob's sequence number.
+	* @see https://learn.microsoft.com/rest/api/storageservices/set-blob-properties
+	*
+	* @param sequenceNumberAction - Indicates how the service should modify the blob's sequence number.
+	* @param sequenceNumber - Required if sequenceNumberAction is max or update
+	* @param options - Options to the Page Blob Update Sequence Number operation.
+	* @returns Response data for the Page Blob Update Sequence Number operation.
+	*/
 	async updateSequenceNumber(sequenceNumberAction, sequenceNumber, options = {}) {
 		options.conditions = options.conditions || {};
 		return tracingClient.withSpan("PageBlobClient-updateSequenceNumber", options, async (updatedOptions) => {
@@ -29065,6 +35220,19 @@ var PageBlobClient = class PageBlobClient extends BlobClient {
 			}));
 		});
 	}
+	/**
+	* Begins an operation to start an incremental copy from one page blob's snapshot to this page blob.
+	* The snapshot is copied such that only the differential changes between the previously
+	* copied snapshot are transferred to the destination.
+	* The copied snapshots are complete copies of the original snapshot and can be read or copied from as usual.
+	* @see https://learn.microsoft.com/rest/api/storageservices/incremental-copy-blob
+	* @see https://learn.microsoft.com/azure/virtual-machines/windows/incremental-snapshots
+	*
+	* @param copySource - Specifies the name of the source page blob snapshot. For example,
+	*                            https://myaccount.blob.core.windows.net/mycontainer/myblob?snapshot=<DateTime>
+	* @param options - Options to the Page Blob Copy Incremental operation.
+	* @returns Response data for the Page Blob Copy Incremental operation.
+	*/
 	async startCopyIncremental(copySource, options = {}) {
 		return tracingClient.withSpan("PageBlobClient-startCopyIncremental", options, async (updatedOptions) => {
 			return assertResponse(await this.pageBlobContext.copyIncremental(copySource, {
@@ -30128,6 +36296,51 @@ var async_exports = /* @__PURE__ */ __exportAll({
 	whilst: () => whilst$1,
 	wrapSync: () => asyncify
 });
+/**
+* Creates a continuation function with some arguments already applied.
+*
+* Useful as a shorthand when combined with other control flow functions. Any
+* arguments passed to the returned function are added to the arguments
+* originally passed to apply.
+*
+* @name apply
+* @static
+* @memberOf module:Utils
+* @method
+* @category Util
+* @param {Function} fn - The function you want to eventually apply all
+* arguments to. Invokes with (arguments...).
+* @param {...*} arguments... - Any number of arguments to automatically apply
+* when the continuation is called.
+* @returns {Function} the partially-applied function
+* @example
+*
+* // using apply
+* async.parallel([
+*     async.apply(fs.writeFile, 'testfile1', 'test1'),
+*     async.apply(fs.writeFile, 'testfile2', 'test2')
+* ]);
+*
+*
+* // the same process without using apply
+* async.parallel([
+*     function(callback) {
+*         fs.writeFile('testfile1', 'test1', callback);
+*     },
+*     function(callback) {
+*         fs.writeFile('testfile2', 'test2', callback);
+*     }
+* ]);
+*
+* // It's possible to pass any number of additional arguments when calling the
+* // continuation:
+*
+* node> var fn = async.apply(sys.puts, 'one');
+* node> fn('two', 'three');
+* one
+* two
+* three
+*/
 function apply(fn, ...args) {
 	return (...callArgs) => fn(...args, ...callArgs);
 }
@@ -30143,6 +36356,62 @@ function fallback(fn) {
 function wrap(defer) {
 	return (fn, ...args) => defer(() => fn(...args));
 }
+/**
+* Take a sync function and make it async, passing its return value to a
+* callback. This is useful for plugging sync functions into a waterfall,
+* series, or other async functions. Any arguments passed to the generated
+* function will be passed to the wrapped function (except for the final
+* callback argument). Errors thrown will be passed to the callback.
+*
+* If the function passed to `asyncify` returns a Promise, that promises's
+* resolved/rejected state will be used to call the callback, rather than simply
+* the synchronous return value.
+*
+* This also means you can asyncify ES2017 `async` functions.
+*
+* @name asyncify
+* @static
+* @memberOf module:Utils
+* @method
+* @alias wrapSync
+* @category Util
+* @param {Function} func - The synchronous function, or Promise-returning
+* function to convert to an {@link AsyncFunction}.
+* @returns {AsyncFunction} An asynchronous wrapper of the `func`. To be
+* invoked with `(args..., callback)`.
+* @example
+*
+* // passing a regular synchronous function
+* async.waterfall([
+*     async.apply(fs.readFile, filename, "utf8"),
+*     async.asyncify(JSON.parse),
+*     function (data, next) {
+*         // data is the result of parsing the text.
+*         // If there was a parsing error, it would have been caught.
+*     }
+* ], callback);
+*
+* // passing a function returning a promise
+* async.waterfall([
+*     async.apply(fs.readFile, filename, "utf8"),
+*     async.asyncify(function (contents) {
+*         return db.model.create(contents);
+*     }),
+*     function (model, next) {
+*         // `model` is the instantiated model object.
+*         // If there was an error, this function would be skipped.
+*     }
+* ], callback);
+*
+* // es2017 example, though `asyncify` is not needed if your JS environment
+* // supports async functions out of the box
+* var q = async.queue(async.asyncify(async function(file) {
+*     var intermediateStep = await processFile(file);
+*     return await somePromise(intermediateStep)
+* }));
+*
+* q.push(files);
+*/
 function asyncify(func) {
 	if (isAsync(func)) return function(...args) {
 		const callback = args.pop();
@@ -30338,6 +36607,27 @@ function asyncEachOfLimit(generator, limit, iteratee, callback) {
 	}
 	replenish();
 }
+/**
+* The same as [`eachOf`]{@link module:Collections.eachOf} but runs a maximum of `limit` async operations at a
+* time.
+*
+* @name eachOfLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.eachOf]{@link module:Collections.eachOf}
+* @alias forEachOfLimit
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - An async function to apply to each
+* item in `coll`. The `key` is the item's key, or index in the case of an
+* array.
+* Invoked with (item, key, callback).
+* @param {Function} [callback] - A callback which is called when all
+* `iteratee` functions have finished, or an error occurs. Invoked with (err).
+* @returns {Promise} a promise, if a callback is omitted
+*/
 function eachOfLimit(coll, limit, iteratee, callback) {
 	return eachOfLimit$2(limit)(coll, wrapAsync(iteratee), callback);
 }
@@ -30356,15 +36646,278 @@ function eachOfArrayLike(coll, iteratee, callback) {
 function eachOfGeneric(coll, iteratee, callback) {
 	return eachOfLimit$1(coll, Infinity, iteratee, callback);
 }
+/**
+* Like [`each`]{@link module:Collections.each}, except that it passes the key (or index) as the second argument
+* to the iteratee.
+*
+* @name eachOf
+* @static
+* @memberOf module:Collections
+* @method
+* @alias forEachOf
+* @category Collection
+* @see [async.each]{@link module:Collections.each}
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - A function to apply to each
+* item in `coll`.
+* The `key` is the item's key, or index in the case of an array.
+* Invoked with (item, key, callback).
+* @param {Function} [callback] - A callback which is called when all
+* `iteratee` functions have finished, or an error occurs. Invoked with (err).
+* @returns {Promise} a promise, if a callback is omitted
+* @example
+*
+* // dev.json is a file containing a valid json object config for dev environment
+* // dev.json is a file containing a valid json object config for test environment
+* // prod.json is a file containing a valid json object config for prod environment
+* // invalid.json is a file with a malformed json object
+*
+* let configs = {}; //global variable
+* let validConfigFileMap = {dev: 'dev.json', test: 'test.json', prod: 'prod.json'};
+* let invalidConfigFileMap = {dev: 'dev.json', test: 'test.json', invalid: 'invalid.json'};
+*
+* // asynchronous function that reads a json file and parses the contents as json object
+* function parseFile(file, key, callback) {
+*     fs.readFile(file, "utf8", function(err, data) {
+*         if (err) return calback(err);
+*         try {
+*             configs[key] = JSON.parse(data);
+*         } catch (e) {
+*             return callback(e);
+*         }
+*         callback();
+*     });
+* }
+*
+* // Using callbacks
+* async.forEachOf(validConfigFileMap, parseFile, function (err) {
+*     if (err) {
+*         console.error(err);
+*     } else {
+*         console.log(configs);
+*         // configs is now a map of JSON data, e.g.
+*         // { dev: //parsed dev.json, test: //parsed test.json, prod: //parsed prod.json}
+*     }
+* });
+*
+* //Error handing
+* async.forEachOf(invalidConfigFileMap, parseFile, function (err) {
+*     if (err) {
+*         console.error(err);
+*         // JSON parse error exception
+*     } else {
+*         console.log(configs);
+*     }
+* });
+*
+* // Using Promises
+* async.forEachOf(validConfigFileMap, parseFile)
+* .then( () => {
+*     console.log(configs);
+*     // configs is now a map of JSON data, e.g.
+*     // { dev: //parsed dev.json, test: //parsed test.json, prod: //parsed prod.json}
+* }).catch( err => {
+*     console.error(err);
+* });
+*
+* //Error handing
+* async.forEachOf(invalidConfigFileMap, parseFile)
+* .then( () => {
+*     console.log(configs);
+* }).catch( err => {
+*     console.error(err);
+*     // JSON parse error exception
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.forEachOf(validConfigFileMap, parseFile);
+*         console.log(configs);
+*         // configs is now a map of JSON data, e.g.
+*         // { dev: //parsed dev.json, test: //parsed test.json, prod: //parsed prod.json}
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* //Error handing
+* async () => {
+*     try {
+*         let result = await async.forEachOf(invalidConfigFileMap, parseFile);
+*         console.log(configs);
+*     }
+*     catch (err) {
+*         console.log(err);
+*         // JSON parse error exception
+*     }
+* }
+*
+*/
 function eachOf(coll, iteratee, callback) {
 	return (isArrayLike(coll) ? eachOfArrayLike : eachOfGeneric)(coll, wrapAsync(iteratee), callback);
 }
+/**
+* Produces a new collection of values by mapping each value in `coll` through
+* the `iteratee` function. The `iteratee` is called with an item from `coll`
+* and a callback for when it has finished processing. Each of these callbacks
+* takes 2 arguments: an `error`, and the transformed item from `coll`. If
+* `iteratee` passes an error to its callback, the main `callback` (for the
+* `map` function) is immediately called with the error.
+*
+* Note, that since this function applies the `iteratee` to each item in
+* parallel, there is no guarantee that the `iteratee` functions will complete
+* in order. However, the results array will be in the same order as the
+* original `coll`.
+*
+* If `map` is passed an Object, the results will be an Array.  The results
+* will roughly be in the order of the original Objects' keys (but this can
+* vary across JavaScript engines).
+*
+* @name map
+* @static
+* @memberOf module:Collections
+* @method
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The iteratee should complete with the transformed item.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. Results is an Array of the
+* transformed items from the `coll`. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback is passed
+* @example
+*
+* // file1.txt is a file that is 1000 bytes in size
+* // file2.txt is a file that is 2000 bytes in size
+* // file3.txt is a file that is 3000 bytes in size
+* // file4.txt does not exist
+*
+* const fileList = ['file1.txt','file2.txt','file3.txt'];
+* const withMissingFileList = ['file1.txt','file2.txt','file4.txt'];
+*
+* // asynchronous function that returns the file size in bytes
+* function getFileSizeInBytes(file, callback) {
+*     fs.stat(file, function(err, stat) {
+*         if (err) {
+*             return callback(err);
+*         }
+*         callback(null, stat.size);
+*     });
+* }
+*
+* // Using callbacks
+* async.map(fileList, getFileSizeInBytes, function(err, results) {
+*     if (err) {
+*         console.log(err);
+*     } else {
+*         console.log(results);
+*         // results is now an array of the file size in bytes for each file, e.g.
+*         // [ 1000, 2000, 3000]
+*     }
+* });
+*
+* // Error Handling
+* async.map(withMissingFileList, getFileSizeInBytes, function(err, results) {
+*     if (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*     } else {
+*         console.log(results);
+*     }
+* });
+*
+* // Using Promises
+* async.map(fileList, getFileSizeInBytes)
+* .then( results => {
+*     console.log(results);
+*     // results is now an array of the file size in bytes for each file, e.g.
+*     // [ 1000, 2000, 3000]
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Error Handling
+* async.map(withMissingFileList, getFileSizeInBytes)
+* .then( results => {
+*     console.log(results);
+* }).catch( err => {
+*     console.log(err);
+*     // [ Error: ENOENT: no such file or directory ]
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let results = await async.map(fileList, getFileSizeInBytes);
+*         console.log(results);
+*         // results is now an array of the file size in bytes for each file, e.g.
+*         // [ 1000, 2000, 3000]
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* // Error Handling
+* async () => {
+*     try {
+*         let results = await async.map(withMissingFileList, getFileSizeInBytes);
+*         console.log(results);
+*     }
+*     catch (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*     }
+* }
+*
+*/
 function map(coll, iteratee, callback) {
 	return _asyncMap(eachOf$1, coll, iteratee, callback);
 }
+/**
+* The same as [`eachOf`]{@link module:Collections.eachOf} but runs only a single async operation at a time.
+*
+* @name eachOfSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.eachOf]{@link module:Collections.eachOf}
+* @alias forEachOfSeries
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* Invoked with (item, key, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. Invoked with (err).
+* @returns {Promise} a promise, if a callback is omitted
+*/
 function eachOfSeries(coll, iteratee, callback) {
 	return eachOfLimit$1(coll, 1, iteratee, callback);
 }
+/**
+* The same as [`map`]{@link module:Collections.map} but runs only a single async operation at a time.
+*
+* @name mapSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.map]{@link module:Collections.map}
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The iteratee should complete with the transformed item.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. Results is an array of the
+* transformed items from the `coll`. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback is passed
+*/
 function mapSeries(coll, iteratee, callback) {
 	return _asyncMap(eachOfSeries$1, coll, iteratee, callback);
 }
@@ -30379,6 +36932,151 @@ function promiseCallback() {
 	});
 	return callback;
 }
+/**
+* Determines the best order for running the {@link AsyncFunction}s in `tasks`, based on
+* their requirements. Each function can optionally depend on other functions
+* being completed first, and each function is run as soon as its requirements
+* are satisfied.
+*
+* If any of the {@link AsyncFunction}s pass an error to their callback, the `auto` sequence
+* will stop. Further tasks will not execute (so any other functions depending
+* on it will not run), and the main `callback` is immediately called with the
+* error.
+*
+* {@link AsyncFunction}s also receive an object containing the results of functions which
+* have completed so far as the first argument, if they have dependencies. If a
+* task function has no dependencies, it will only be passed a callback.
+*
+* @name auto
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {Object} tasks - An object. Each of its properties is either a
+* function or an array of requirements, with the {@link AsyncFunction} itself the last item
+* in the array. The object's key of a property serves as the name of the task
+* defined by that property, i.e. can be used when specifying requirements for
+* other tasks. The function receives one or two arguments:
+* * a `results` object, containing the results of the previously executed
+*   functions, only passed if the task has any dependencies,
+* * a `callback(err, result)` function, which must be called when finished,
+*   passing an `error` (which can be `null`) and the result of the function's
+*   execution.
+* @param {number} [concurrency=Infinity] - An optional `integer` for
+* determining the maximum number of tasks that can be run in parallel. By
+* default, as many as possible.
+* @param {Function} [callback] - An optional callback which is called when all
+* the tasks have been completed. It receives the `err` argument if any `tasks`
+* pass an error to their callback. Results are always returned; however, if an
+* error occurs, no further `tasks` will be performed, and the results object
+* will only contain partial results. Invoked with (err, results).
+* @returns {Promise} a promise, if a callback is not passed
+* @example
+*
+* //Using Callbacks
+* async.auto({
+*     get_data: function(callback) {
+*         // async code to get some data
+*         callback(null, 'data', 'converted to array');
+*     },
+*     make_folder: function(callback) {
+*         // async code to create a directory to store a file in
+*         // this is run at the same time as getting the data
+*         callback(null, 'folder');
+*     },
+*     write_file: ['get_data', 'make_folder', function(results, callback) {
+*         // once there is some data and the directory exists,
+*         // write the data to a file in the directory
+*         callback(null, 'filename');
+*     }],
+*     email_link: ['write_file', function(results, callback) {
+*         // once the file is written let's email a link to it...
+*         callback(null, {'file':results.write_file, 'email':'user@example.com'});
+*     }]
+* }, function(err, results) {
+*     if (err) {
+*         console.log('err = ', err);
+*     }
+*     console.log('results = ', results);
+*     // results = {
+*     //     get_data: ['data', 'converted to array']
+*     //     make_folder; 'folder',
+*     //     write_file: 'filename'
+*     //     email_link: { file: 'filename', email: 'user@example.com' }
+*     // }
+* });
+*
+* //Using Promises
+* async.auto({
+*     get_data: function(callback) {
+*         console.log('in get_data');
+*         // async code to get some data
+*         callback(null, 'data', 'converted to array');
+*     },
+*     make_folder: function(callback) {
+*         console.log('in make_folder');
+*         // async code to create a directory to store a file in
+*         // this is run at the same time as getting the data
+*         callback(null, 'folder');
+*     },
+*     write_file: ['get_data', 'make_folder', function(results, callback) {
+*         // once there is some data and the directory exists,
+*         // write the data to a file in the directory
+*         callback(null, 'filename');
+*     }],
+*     email_link: ['write_file', function(results, callback) {
+*         // once the file is written let's email a link to it...
+*         callback(null, {'file':results.write_file, 'email':'user@example.com'});
+*     }]
+* }).then(results => {
+*     console.log('results = ', results);
+*     // results = {
+*     //     get_data: ['data', 'converted to array']
+*     //     make_folder; 'folder',
+*     //     write_file: 'filename'
+*     //     email_link: { file: 'filename', email: 'user@example.com' }
+*     // }
+* }).catch(err => {
+*     console.log('err = ', err);
+* });
+*
+* //Using async/await
+* async () => {
+*     try {
+*         let results = await async.auto({
+*             get_data: function(callback) {
+*                 // async code to get some data
+*                 callback(null, 'data', 'converted to array');
+*             },
+*             make_folder: function(callback) {
+*                 // async code to create a directory to store a file in
+*                 // this is run at the same time as getting the data
+*                 callback(null, 'folder');
+*             },
+*             write_file: ['get_data', 'make_folder', function(results, callback) {
+*                 // once there is some data and the directory exists,
+*                 // write the data to a file in the directory
+*                 callback(null, 'filename');
+*             }],
+*             email_link: ['write_file', function(results, callback) {
+*                 // once the file is written let's email a link to it...
+*                 callback(null, {'file':results.write_file, 'email':'user@example.com'});
+*             }]
+*         });
+*         console.log('results = ', results);
+*         // results = {
+*         //     get_data: ['data', 'converted to array']
+*         //     make_folder; 'folder',
+*         //     write_file: 'filename'
+*         //     email_link: { file: 'filename', email: 'user@example.com' }
+*         // }
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function auto(tasks, concurrency, callback) {
 	if (typeof concurrency !== "number") {
 		callback = concurrency;
@@ -30519,6 +37217,89 @@ function parseParams(func) {
 	let [, args] = match;
 	return args.replace(/\s/g, "").split(FN_ARG_SPLIT).map((arg) => arg.replace(FN_ARG, "").trim());
 }
+/**
+* A dependency-injected version of the [async.auto]{@link module:ControlFlow.auto} function. Dependent
+* tasks are specified as parameters to the function, after the usual callback
+* parameter, with the parameter names matching the names of the tasks it
+* depends on. This can provide even more readable task graphs which can be
+* easier to maintain.
+*
+* If a final callback is specified, the task results are similarly injected,
+* specified as named parameters after the initial error parameter.
+*
+* The autoInject function is purely syntactic sugar and its semantics are
+* otherwise equivalent to [async.auto]{@link module:ControlFlow.auto}.
+*
+* @name autoInject
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.auto]{@link module:ControlFlow.auto}
+* @category Control Flow
+* @param {Object} tasks - An object, each of whose properties is an {@link AsyncFunction} of
+* the form 'func([dependencies...], callback). The object's key of a property
+* serves as the name of the task defined by that property, i.e. can be used
+* when specifying requirements for other tasks.
+* * The `callback` parameter is a `callback(err, result)` which must be called
+*   when finished, passing an `error` (which can be `null`) and the result of
+*   the function's execution. The remaining parameters name other tasks on
+*   which the task is dependent, and the results from those tasks are the
+*   arguments of those parameters.
+* @param {Function} [callback] - An optional callback which is called when all
+* the tasks have been completed. It receives the `err` argument if any `tasks`
+* pass an error to their callback, and a `results` object with any completed
+* task results, similar to `auto`.
+* @returns {Promise} a promise, if no callback is passed
+* @example
+*
+* //  The example from `auto` can be rewritten as follows:
+* async.autoInject({
+*     get_data: function(callback) {
+*         // async code to get some data
+*         callback(null, 'data', 'converted to array');
+*     },
+*     make_folder: function(callback) {
+*         // async code to create a directory to store a file in
+*         // this is run at the same time as getting the data
+*         callback(null, 'folder');
+*     },
+*     write_file: function(get_data, make_folder, callback) {
+*         // once there is some data and the directory exists,
+*         // write the data to a file in the directory
+*         callback(null, 'filename');
+*     },
+*     email_link: function(write_file, callback) {
+*         // once the file is written let's email a link to it...
+*         // write_file contains the filename returned by write_file.
+*         callback(null, {'file':write_file, 'email':'user@example.com'});
+*     }
+* }, function(err, results) {
+*     console.log('err = ', err);
+*     console.log('email_link = ', results.email_link);
+* });
+*
+* // If you are using a JS minifier that mangles parameter names, `autoInject`
+* // will not work with plain functions, since the parameter names will be
+* // collapsed to a single letter identifier.  To work around this, you can
+* // explicitly specify the names of the parameters your task function needs
+* // in an array, similar to Angular.js dependency injection.
+*
+* // This still has an advantage over plain `auto`, since the results a task
+* // depends on are still spread into arguments.
+* async.autoInject({
+*     //...
+*     write_file: ['get_data', 'make_folder', function(get_data, make_folder, callback) {
+*         callback(null, 'filename');
+*     }],
+*     email_link: ['write_file', function(write_file, callback) {
+*         callback(null, {'file':write_file, 'email':'user@example.com'});
+*     }]
+*     //...
+* }, function(err, results) {
+*     console.log('err = ', err);
+*     console.log('email_link = ', results.email_link);
+* });
+*/
 function autoInject(tasks, callback) {
 	var newTasks = {};
 	Object.keys(tasks).forEach((key) => {
@@ -30755,12 +37536,229 @@ function queue$1(worker, concurrency, payload) {
 	});
 	return q;
 }
+/**
+* Creates a `cargo` object with the specified payload. Tasks added to the
+* cargo will be processed altogether (up to the `payload` limit). If the
+* `worker` is in progress, the task is queued until it becomes available. Once
+* the `worker` has completed some tasks, each callback of those tasks is
+* called. Check out [these](https://camo.githubusercontent.com/6bbd36f4cf5b35a0f11a96dcd2e97711ffc2fb37/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130382f62626330636662302d356632392d313165322d393734662d3333393763363464633835382e676966) [animations](https://camo.githubusercontent.com/f4810e00e1c5f5f8addbe3e9f49064fd5d102699/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130312f38346339323036362d356632392d313165322d383134662d3964336430323431336266642e676966)
+* for how `cargo` and `queue` work.
+*
+* While [`queue`]{@link module:ControlFlow.queue} passes only one task to one of a group of workers
+* at a time, cargo passes an array of tasks to a single worker, repeating
+* when the worker is finished.
+*
+* @name cargo
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.queue]{@link module:ControlFlow.queue}
+* @category Control Flow
+* @param {AsyncFunction} worker - An asynchronous function for processing an array
+* of queued tasks. Invoked with `(tasks, callback)`.
+* @param {number} [payload=Infinity] - An optional `integer` for determining
+* how many tasks should be processed per round; if omitted, the default is
+* unlimited.
+* @returns {module:ControlFlow.QueueObject} A cargo object to manage the tasks. Callbacks can
+* attached as certain properties to listen for specific events during the
+* lifecycle of the cargo and inner queue.
+* @example
+*
+* // create a cargo object with payload 2
+* var cargo = async.cargo(function(tasks, callback) {
+*     for (var i=0; i<tasks.length; i++) {
+*         console.log('hello ' + tasks[i].name);
+*     }
+*     callback();
+* }, 2);
+*
+* // add some items
+* cargo.push({name: 'foo'}, function(err) {
+*     console.log('finished processing foo');
+* });
+* cargo.push({name: 'bar'}, function(err) {
+*     console.log('finished processing bar');
+* });
+* await cargo.push({name: 'baz'});
+* console.log('finished processing baz');
+*/
 function cargo$1(worker, payload) {
 	return queue$1(worker, 1, payload);
 }
+/**
+* Creates a `cargoQueue` object with the specified payload. Tasks added to the
+* cargoQueue will be processed together (up to the `payload` limit) in `concurrency` parallel workers.
+* If the all `workers` are in progress, the task is queued until one becomes available. Once
+* a `worker` has completed some tasks, each callback of those tasks is
+* called. Check out [these](https://camo.githubusercontent.com/6bbd36f4cf5b35a0f11a96dcd2e97711ffc2fb37/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130382f62626330636662302d356632392d313165322d393734662d3333393763363464633835382e676966) [animations](https://camo.githubusercontent.com/f4810e00e1c5f5f8addbe3e9f49064fd5d102699/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130312f38346339323036362d356632392d313165322d383134662d3964336430323431336266642e676966)
+* for how `cargo` and `queue` work.
+*
+* While [`queue`]{@link module:ControlFlow.queue} passes only one task to one of a group of workers
+* at a time, and [`cargo`]{@link module:ControlFlow.cargo} passes an array of tasks to a single worker,
+* the cargoQueue passes an array of tasks to multiple parallel workers.
+*
+* @name cargoQueue
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.queue]{@link module:ControlFlow.queue}
+* @see [async.cargo]{@link module:ControlFLow.cargo}
+* @category Control Flow
+* @param {AsyncFunction} worker - An asynchronous function for processing an array
+* of queued tasks. Invoked with `(tasks, callback)`.
+* @param {number} [concurrency=1] - An `integer` for determining how many
+* `worker` functions should be run in parallel.  If omitted, the concurrency
+* defaults to `1`.  If the concurrency is `0`, an error is thrown.
+* @param {number} [payload=Infinity] - An optional `integer` for determining
+* how many tasks should be processed per round; if omitted, the default is
+* unlimited.
+* @returns {module:ControlFlow.QueueObject} A cargoQueue object to manage the tasks. Callbacks can
+* attached as certain properties to listen for specific events during the
+* lifecycle of the cargoQueue and inner queue.
+* @example
+*
+* // create a cargoQueue object with payload 2 and concurrency 2
+* var cargoQueue = async.cargoQueue(function(tasks, callback) {
+*     for (var i=0; i<tasks.length; i++) {
+*         console.log('hello ' + tasks[i].name);
+*     }
+*     callback();
+* }, 2, 2);
+*
+* // add some items
+* cargoQueue.push({name: 'foo'}, function(err) {
+*     console.log('finished processing foo');
+* });
+* cargoQueue.push({name: 'bar'}, function(err) {
+*     console.log('finished processing bar');
+* });
+* cargoQueue.push({name: 'baz'}, function(err) {
+*     console.log('finished processing baz');
+* });
+* cargoQueue.push({name: 'boo'}, function(err) {
+*     console.log('finished processing boo');
+* });
+*/
 function cargo(worker, concurrency, payload) {
 	return queue$1(worker, concurrency, payload);
 }
+/**
+* Reduces `coll` into a single value using an async `iteratee` to return each
+* successive step. `memo` is the initial state of the reduction. This function
+* only operates in series.
+*
+* For performance reasons, it may make sense to split a call to this function
+* into a parallel map, and then use the normal `Array.prototype.reduce` on the
+* results. This function is for situations where each step in the reduction
+* needs to be async; if you can get the data before reducing it, then it's
+* probably a good idea to do so.
+*
+* @name reduce
+* @static
+* @memberOf module:Collections
+* @method
+* @alias inject
+* @alias foldl
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {*} memo - The initial state of the reduction.
+* @param {AsyncFunction} iteratee - A function applied to each item in the
+* array to produce the next step in the reduction.
+* The `iteratee` should complete with the next state of the reduction.
+* If the iteratee completes with an error, the reduction is stopped and the
+* main `callback` is immediately called with the error.
+* Invoked with (memo, item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Result is the reduced value. Invoked with
+* (err, result).
+* @returns {Promise} a promise, if no callback is passed
+* @example
+*
+* // file1.txt is a file that is 1000 bytes in size
+* // file2.txt is a file that is 2000 bytes in size
+* // file3.txt is a file that is 3000 bytes in size
+* // file4.txt does not exist
+*
+* const fileList = ['file1.txt','file2.txt','file3.txt'];
+* const withMissingFileList = ['file1.txt','file2.txt','file3.txt', 'file4.txt'];
+*
+* // asynchronous function that computes the file size in bytes
+* // file size is added to the memoized value, then returned
+* function getFileSizeInBytes(memo, file, callback) {
+*     fs.stat(file, function(err, stat) {
+*         if (err) {
+*             return callback(err);
+*         }
+*         callback(null, memo + stat.size);
+*     });
+* }
+*
+* // Using callbacks
+* async.reduce(fileList, 0, getFileSizeInBytes, function(err, result) {
+*     if (err) {
+*         console.log(err);
+*     } else {
+*         console.log(result);
+*         // 6000
+*         // which is the sum of the file sizes of the three files
+*     }
+* });
+*
+* // Error Handling
+* async.reduce(withMissingFileList, 0, getFileSizeInBytes, function(err, result) {
+*     if (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*     } else {
+*         console.log(result);
+*     }
+* });
+*
+* // Using Promises
+* async.reduce(fileList, 0, getFileSizeInBytes)
+* .then( result => {
+*     console.log(result);
+*     // 6000
+*     // which is the sum of the file sizes of the three files
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Error Handling
+* async.reduce(withMissingFileList, 0, getFileSizeInBytes)
+* .then( result => {
+*     console.log(result);
+* }).catch( err => {
+*     console.log(err);
+*     // [ Error: ENOENT: no such file or directory ]
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.reduce(fileList, 0, getFileSizeInBytes);
+*         console.log(result);
+*         // 6000
+*         // which is the sum of the file sizes of the three files
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* // Error Handling
+* async () => {
+*     try {
+*         let result = await async.reduce(withMissingFileList, 0, getFileSizeInBytes);
+*         console.log(result);
+*     }
+*     catch (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*     }
+* }
+*
+*/
 function reduce(coll, memo, iteratee, callback) {
 	callback = once(callback);
 	var _iteratee = wrapAsync(iteratee);
@@ -30771,6 +37769,44 @@ function reduce(coll, memo, iteratee, callback) {
 		});
 	}, (err) => callback(err, memo));
 }
+/**
+* Version of the compose function that is more natural to read. Each function
+* consumes the return value of the previous function. It is the equivalent of
+* [compose]{@link module:ControlFlow.compose} with the arguments reversed.
+*
+* Each function is executed with the `this` binding of the composed function.
+*
+* @name seq
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.compose]{@link module:ControlFlow.compose}
+* @category Control Flow
+* @param {...AsyncFunction} functions - the asynchronous functions to compose
+* @returns {Function} a function that composes the `functions` in order
+* @example
+*
+* // Requires lodash (or underscore), express3 and dresende's orm2.
+* // Part of an app, that fetches cats of the logged user.
+* // This example uses `seq` function to avoid overnesting and error
+* // handling clutter.
+* app.get('/cats', function(request, response) {
+*     var User = request.models.User;
+*     async.seq(
+*         User.get.bind(User),  // 'User.get' has signature (id, callback(err, data))
+*         function(user, fn) {
+*             user.getCats(fn);      // 'getCats' has signature (callback(err, data))
+*         }
+*     )(req.session.user_id, function (err, cats) {
+*         if (err) {
+*             console.error(err);
+*             response.json({ status: 'error', message: err.message });
+*         } else {
+*             response.json({ status: 'ok', message: 'Cats found', data: cats });
+*         }
+*     });
+* });
+*/
 function seq(...functions) {
 	var _functions = functions.map(wrapAsync);
 	return function(...args) {
@@ -30786,12 +37822,90 @@ function seq(...functions) {
 		return cb[PROMISE_SYMBOL];
 	};
 }
+/**
+* Creates a function which is a composition of the passed asynchronous
+* functions. Each function consumes the return value of the function that
+* follows. Composing functions `f()`, `g()`, and `h()` would produce the result
+* of `f(g(h()))`, only this version uses callbacks to obtain the return values.
+*
+* If the last argument to the composed function is not a function, a promise
+* is returned when you call it.
+*
+* Each function is executed with the `this` binding of the composed function.
+*
+* @name compose
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {...AsyncFunction} functions - the asynchronous functions to compose
+* @returns {Function} an asynchronous function that is the composed
+* asynchronous `functions`
+* @example
+*
+* function add1(n, callback) {
+*     setTimeout(function () {
+*         callback(null, n + 1);
+*     }, 10);
+* }
+*
+* function mul3(n, callback) {
+*     setTimeout(function () {
+*         callback(null, n * 3);
+*     }, 10);
+* }
+*
+* var add1mul3 = async.compose(mul3, add1);
+* add1mul3(4, function (err, result) {
+*     // result now equals 15
+* });
+*/
 function compose(...args) {
 	return seq(...args.reverse());
 }
+/**
+* The same as [`map`]{@link module:Collections.map} but runs a maximum of `limit` async operations at a time.
+*
+* @name mapLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.map]{@link module:Collections.map}
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The iteratee should complete with the transformed item.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. Results is an array of the
+* transformed items from the `coll`. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback is passed
+*/
 function mapLimit(coll, limit, iteratee, callback) {
 	return _asyncMap(eachOfLimit$2(limit), coll, iteratee, callback);
 }
+/**
+* The same as [`concat`]{@link module:Collections.concat} but runs a maximum of `limit` async operations at a time.
+*
+* @name concatLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.concat]{@link module:Collections.concat}
+* @category Collection
+* @alias flatMapLimit
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - A function to apply to each item in `coll`,
+* which should use an array as its result. Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished, or an error occurs. Results is an array
+* containing the concatenated results of the `iteratee` function. Invoked with
+* (err, results).
+* @returns A Promise, if no callback is passed
+*/
 function concatLimit(coll, limit, iteratee, callback) {
 	var _iteratee = wrapAsync(iteratee);
 	return mapLimit$1(coll, limit, (val, iterCb) => {
@@ -30805,12 +37919,168 @@ function concatLimit(coll, limit, iteratee, callback) {
 		return callback(err, result);
 	});
 }
+/**
+* Applies `iteratee` to each item in `coll`, concatenating the results. Returns
+* the concatenated list. The `iteratee`s are called in parallel, and the
+* results are concatenated as they return. The results array will be returned in
+* the original order of `coll` passed to the `iteratee` function.
+*
+* @name concat
+* @static
+* @memberOf module:Collections
+* @method
+* @category Collection
+* @alias flatMap
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - A function to apply to each item in `coll`,
+* which should use an array as its result. Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished, or an error occurs. Results is an array
+* containing the concatenated results of the `iteratee` function. Invoked with
+* (err, results).
+* @returns A Promise, if no callback is passed
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+* // dir4 does not exist
+*
+* let directoryList = ['dir1','dir2','dir3'];
+* let withMissingDirectoryList = ['dir1','dir2','dir3', 'dir4'];
+*
+* // Using callbacks
+* async.concat(directoryList, fs.readdir, function(err, results) {
+*    if (err) {
+*        console.log(err);
+*    } else {
+*        console.log(results);
+*        // [ 'file1.txt', 'file2.txt', 'file3.txt', 'file4.txt', file5.txt ]
+*    }
+* });
+*
+* // Error Handling
+* async.concat(withMissingDirectoryList, fs.readdir, function(err, results) {
+*    if (err) {
+*        console.log(err);
+*        // [ Error: ENOENT: no such file or directory ]
+*        // since dir4 does not exist
+*    } else {
+*        console.log(results);
+*    }
+* });
+*
+* // Using Promises
+* async.concat(directoryList, fs.readdir)
+* .then(results => {
+*     console.log(results);
+*     // [ 'file1.txt', 'file2.txt', 'file3.txt', 'file4.txt', file5.txt ]
+* }).catch(err => {
+*      console.log(err);
+* });
+*
+* // Error Handling
+* async.concat(withMissingDirectoryList, fs.readdir)
+* .then(results => {
+*     console.log(results);
+* }).catch(err => {
+*     console.log(err);
+*     // [ Error: ENOENT: no such file or directory ]
+*     // since dir4 does not exist
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let results = await async.concat(directoryList, fs.readdir);
+*         console.log(results);
+*         // [ 'file1.txt', 'file2.txt', 'file3.txt', 'file4.txt', file5.txt ]
+*     } catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* // Error Handling
+* async () => {
+*     try {
+*         let results = await async.concat(withMissingDirectoryList, fs.readdir);
+*         console.log(results);
+*     } catch (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*         // since dir4 does not exist
+*     }
+* }
+*
+*/
 function concat(coll, iteratee, callback) {
 	return concatLimit$1(coll, Infinity, iteratee, callback);
 }
+/**
+* The same as [`concat`]{@link module:Collections.concat} but runs only a single async operation at a time.
+*
+* @name concatSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.concat]{@link module:Collections.concat}
+* @category Collection
+* @alias flatMapSeries
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - A function to apply to each item in `coll`.
+* The iteratee should complete with an array an array of results.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished, or an error occurs. Results is an array
+* containing the concatenated results of the `iteratee` function. Invoked with
+* (err, results).
+* @returns A Promise, if no callback is passed
+*/
 function concatSeries(coll, iteratee, callback) {
 	return concatLimit$1(coll, 1, iteratee, callback);
 }
+/**
+* Returns a function that when called, calls-back with the values provided.
+* Useful as the first function in a [`waterfall`]{@link module:ControlFlow.waterfall}, or for plugging values in to
+* [`auto`]{@link module:ControlFlow.auto}.
+*
+* @name constant
+* @static
+* @memberOf module:Utils
+* @method
+* @category Util
+* @param {...*} arguments... - Any number of arguments to automatically invoke
+* callback with.
+* @returns {AsyncFunction} Returns a function that when invoked, automatically
+* invokes the callback with the previous given arguments.
+* @example
+*
+* async.waterfall([
+*     async.constant(42),
+*     function (value, next) {
+*         // value === 42
+*     },
+*     //...
+* ], callback);
+*
+* async.waterfall([
+*     async.constant(filename, "utf8"),
+*     fs.readFile,
+*     function (fileData, next) {
+*         //...
+*     }
+*     //...
+* ], callback);
+*
+* async.auto({
+*     hostname: async.constant("https://server.net/"),
+*     port: findFreePort,
+*     launchServer: ["hostname", "port", function (options, cb) {
+*         startServer(options, cb);
+*     }],
+*     //...
+* }, callback);
+*/
 function constant$1(...args) {
 	return function(...ignoredArgs) {
 		return ignoredArgs.pop()(null, ...args);
@@ -30837,12 +38107,127 @@ function _createTester(check, getResult) {
 		});
 	};
 }
+/**
+* Returns the first value in `coll` that passes an async truth test. The
+* `iteratee` is applied in parallel, meaning the first iteratee to return
+* `true` will fire the detect `callback` with that result. That means the
+* result might not be the first item in the original `coll` (in terms of order)
+* that passes the test.
+
+* If order within the original `coll` is important, then look at
+* [`detectSeries`]{@link module:Collections.detectSeries}.
+*
+* @name detect
+* @static
+* @memberOf module:Collections
+* @method
+* @alias find
+* @category Collections
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - A truth test to apply to each item in `coll`.
+* The iteratee must complete with a boolean value as its result.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called as soon as any
+* iteratee returns `true`, or after all the `iteratee` functions have finished.
+* Result will be the first item in the array that passes the truth test
+* (iteratee) or the value `undefined` if none passed. Invoked with
+* (err, result).
+* @returns {Promise} a promise, if a callback is omitted
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+*
+* // asynchronous function that checks if a file exists
+* function fileExists(file, callback) {
+*    fs.access(file, fs.constants.F_OK, (err) => {
+*        callback(null, !err);
+*    });
+* }
+*
+* async.detect(['file3.txt','file2.txt','dir1/file1.txt'], fileExists,
+*    function(err, result) {
+*        console.log(result);
+*        // dir1/file1.txt
+*        // result now equals the first file in the list that exists
+*    }
+*);
+*
+* // Using Promises
+* async.detect(['file3.txt','file2.txt','dir1/file1.txt'], fileExists)
+* .then(result => {
+*     console.log(result);
+*     // dir1/file1.txt
+*     // result now equals the first file in the list that exists
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.detect(['file3.txt','file2.txt','dir1/file1.txt'], fileExists);
+*         console.log(result);
+*         // dir1/file1.txt
+*         // result now equals the file in the list that exists
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function detect(coll, iteratee, callback) {
 	return _createTester((bool) => bool, (res, item) => item)(eachOf$1, coll, iteratee, callback);
 }
+/**
+* The same as [`detect`]{@link module:Collections.detect} but runs a maximum of `limit` async operations at a
+* time.
+*
+* @name detectLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.detect]{@link module:Collections.detect}
+* @alias findLimit
+* @category Collections
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - A truth test to apply to each item in `coll`.
+* The iteratee must complete with a boolean value as its result.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called as soon as any
+* iteratee returns `true`, or after all the `iteratee` functions have finished.
+* Result will be the first item in the array that passes the truth test
+* (iteratee) or the value `undefined` if none passed. Invoked with
+* (err, result).
+* @returns {Promise} a promise, if a callback is omitted
+*/
 function detectLimit(coll, limit, iteratee, callback) {
 	return _createTester((bool) => bool, (res, item) => item)(eachOfLimit$2(limit), coll, iteratee, callback);
 }
+/**
+* The same as [`detect`]{@link module:Collections.detect} but runs only a single async operation at a time.
+*
+* @name detectSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.detect]{@link module:Collections.detect}
+* @alias findSeries
+* @category Collections
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - A truth test to apply to each item in `coll`.
+* The iteratee must complete with a boolean value as its result.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called as soon as any
+* iteratee returns `true`, or after all the `iteratee` functions have finished.
+* Result will be the first item in the array that passes the truth test
+* (iteratee) or the value `undefined` if none passed. Invoked with
+* (err, result).
+* @returns {Promise} a promise, if a callback is omitted
+*/
 function detectSeries(coll, iteratee, callback) {
 	return _createTester((bool) => bool, (res, item) => item)(eachOfLimit$2(1), coll, iteratee, callback);
 }
@@ -30858,6 +38243,29 @@ function consoleFunc(name) {
 		}
 	});
 }
+/**
+* The post-check version of [`whilst`]{@link module:ControlFlow.whilst}. To reflect the difference in
+* the order of operations, the arguments `test` and `iteratee` are switched.
+*
+* `doWhilst` is to `whilst` as `do while` is to `while` in plain JavaScript.
+*
+* @name doWhilst
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.whilst]{@link module:ControlFlow.whilst}
+* @category Control Flow
+* @param {AsyncFunction} iteratee - A function which is called each time `test`
+* passes. Invoked with (callback).
+* @param {AsyncFunction} test - asynchronous truth test to perform after each
+* execution of `iteratee`. Invoked with (...args, callback), where `...args` are the
+* non-error args from the previous callback of `iteratee`.
+* @param {Function} [callback] - A callback which is called after the test
+* function has failed and repeated execution of `iteratee` has stopped.
+* `callback` will be passed an error and any arguments passed to the final
+* `iteratee`'s callback. Invoked with (err, [results]);
+* @returns {Promise} a promise, if no callback is passed
+*/
 function doWhilst(iteratee, test, callback) {
 	callback = onlyOnce(callback);
 	var _fn = wrapAsync(iteratee);
@@ -30877,6 +38285,27 @@ function doWhilst(iteratee, test, callback) {
 	}
 	return check(null, true);
 }
+/**
+* Like ['doWhilst']{@link module:ControlFlow.doWhilst}, except the `test` is inverted. Note the
+* argument ordering differs from `until`.
+*
+* @name doUntil
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.doWhilst]{@link module:ControlFlow.doWhilst}
+* @category Control Flow
+* @param {AsyncFunction} iteratee - An async function which is called each time
+* `test` fails. Invoked with (callback).
+* @param {AsyncFunction} test - asynchronous truth test to perform after each
+* execution of `iteratee`. Invoked with (...args, callback), where `...args` are the
+* non-error args from the previous callback of `iteratee`
+* @param {Function} [callback] - A callback which is called after the test
+* function has passed and repeated execution of `iteratee` has stopped. `callback`
+* will be passed an error and any arguments passed to the final `iteratee`'s
+* callback. Invoked with (err, [results]);
+* @returns {Promise} a promise, if no callback is passed
+*/
 function doUntil(iteratee, test, callback) {
 	const _test = wrapAsync(test);
 	return doWhilst$1(iteratee, (...args) => {
@@ -30887,15 +38316,193 @@ function doUntil(iteratee, test, callback) {
 function _withoutIndex(iteratee) {
 	return (value, index, callback) => iteratee(value, callback);
 }
+/**
+* Applies the function `iteratee` to each item in `coll`, in parallel.
+* The `iteratee` is called with an item from the list, and a callback for when
+* it has finished. If the `iteratee` passes an error to its `callback`, the
+* main `callback` (for the `each` function) is immediately called with the
+* error.
+*
+* Note, that since this function applies `iteratee` to each item in parallel,
+* there is no guarantee that the iteratee functions will complete in order.
+*
+* @name each
+* @static
+* @memberOf module:Collections
+* @method
+* @alias forEach
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to
+* each item in `coll`. Invoked with (item, callback).
+* The array index is not passed to the iteratee.
+* If you need the index, use `eachOf`.
+* @param {Function} [callback] - A callback which is called when all
+* `iteratee` functions have finished, or an error occurs. Invoked with (err).
+* @returns {Promise} a promise, if a callback is omitted
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+* // dir4 does not exist
+*
+* const fileList = [ 'dir1/file2.txt', 'dir2/file3.txt', 'dir/file5.txt'];
+* const withMissingFileList = ['dir1/file1.txt', 'dir4/file2.txt'];
+*
+* // asynchronous function that deletes a file
+* const deleteFile = function(file, callback) {
+*     fs.unlink(file, callback);
+* };
+*
+* // Using callbacks
+* async.each(fileList, deleteFile, function(err) {
+*     if( err ) {
+*         console.log(err);
+*     } else {
+*         console.log('All files have been deleted successfully');
+*     }
+* });
+*
+* // Error Handling
+* async.each(withMissingFileList, deleteFile, function(err){
+*     console.log(err);
+*     // [ Error: ENOENT: no such file or directory ]
+*     // since dir4/file2.txt does not exist
+*     // dir1/file1.txt could have been deleted
+* });
+*
+* // Using Promises
+* async.each(fileList, deleteFile)
+* .then( () => {
+*     console.log('All files have been deleted successfully');
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Error Handling
+* async.each(fileList, deleteFile)
+* .then( () => {
+*     console.log('All files have been deleted successfully');
+* }).catch( err => {
+*     console.log(err);
+*     // [ Error: ENOENT: no such file or directory ]
+*     // since dir4/file2.txt does not exist
+*     // dir1/file1.txt could have been deleted
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         await async.each(files, deleteFile);
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* // Error Handling
+* async () => {
+*     try {
+*         await async.each(withMissingFileList, deleteFile);
+*     }
+*     catch (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*         // since dir4/file2.txt does not exist
+*         // dir1/file1.txt could have been deleted
+*     }
+* }
+*
+*/
 function eachLimit$2(coll, iteratee, callback) {
 	return eachOf$1(coll, _withoutIndex(wrapAsync(iteratee)), callback);
 }
+/**
+* The same as [`each`]{@link module:Collections.each} but runs a maximum of `limit` async operations at a time.
+*
+* @name eachLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.each]{@link module:Collections.each}
+* @alias forEachLimit
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The array index is not passed to the iteratee.
+* If you need the index, use `eachOfLimit`.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called when all
+* `iteratee` functions have finished, or an error occurs. Invoked with (err).
+* @returns {Promise} a promise, if a callback is omitted
+*/
 function eachLimit(coll, limit, iteratee, callback) {
 	return eachOfLimit$2(limit)(coll, _withoutIndex(wrapAsync(iteratee)), callback);
 }
+/**
+* The same as [`each`]{@link module:Collections.each} but runs only a single async operation at a time.
+*
+* Note, that unlike [`each`]{@link module:Collections.each}, this function applies iteratee to each item
+* in series and therefore the iteratee functions will complete in order.
+
+* @name eachSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.each]{@link module:Collections.each}
+* @alias forEachSeries
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to each
+* item in `coll`.
+* The array index is not passed to the iteratee.
+* If you need the index, use `eachOfSeries`.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called when all
+* `iteratee` functions have finished, or an error occurs. Invoked with (err).
+* @returns {Promise} a promise, if a callback is omitted
+*/
 function eachSeries(coll, iteratee, callback) {
 	return eachLimit$1(coll, 1, iteratee, callback);
 }
+/**
+* Wrap an async function and ensure it calls its callback on a later tick of
+* the event loop.  If the function already calls its callback on a next tick,
+* no extra deferral is added. This is useful for preventing stack overflows
+* (`RangeError: Maximum call stack size exceeded`) and generally keeping
+* [Zalgo](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony)
+* contained. ES2017 `async` functions are returned as-is -- they are immune
+* to Zalgo's corrupting influences, as they always resolve on a later tick.
+*
+* @name ensureAsync
+* @static
+* @memberOf module:Utils
+* @method
+* @category Util
+* @param {AsyncFunction} fn - an async function, one that expects a node-style
+* callback as its last argument.
+* @returns {AsyncFunction} Returns a wrapped function with the exact same call
+* signature as the function passed in.
+* @example
+*
+* function sometimesAsync(arg, callback) {
+*     if (cache[arg]) {
+*         return callback(null, cache[arg]); // this would be synchronous!!
+*     } else {
+*         doSomeIO(arg, callback); // this IO would be asynchronous
+*     }
+* }
+*
+* // this has a risk of stack overflows if many results are cached in a row
+* async.mapSeries(args, sometimesAsync, done);
+*
+* // this will defer sometimesAsync's callback if necessary,
+* // preventing stack overflows
+* async.mapSeries(args, async.ensureAsync(sometimesAsync), done);
+*/
 function ensureAsync(fn) {
 	if (isAsync(fn)) return fn;
 	return function(...args) {
@@ -30909,12 +38516,147 @@ function ensureAsync(fn) {
 		sync = false;
 	};
 }
+/**
+* Returns `true` if every element in `coll` satisfies an async test. If any
+* iteratee call returns `false`, the main `callback` is immediately called.
+*
+* @name every
+* @static
+* @memberOf module:Collections
+* @method
+* @alias all
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async truth test to apply to each item
+* in the collection in parallel.
+* The iteratee must complete with a boolean result value.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Result will be either `true` or `false`
+* depending on the values of the async tests. Invoked with (err, result).
+* @returns {Promise} a promise, if no callback provided
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+* // dir4 does not exist
+*
+* const fileList = ['dir1/file1.txt','dir2/file3.txt','dir3/file5.txt'];
+* const withMissingFileList = ['file1.txt','file2.txt','file4.txt'];
+*
+* // asynchronous function that checks if a file exists
+* function fileExists(file, callback) {
+*    fs.access(file, fs.constants.F_OK, (err) => {
+*        callback(null, !err);
+*    });
+* }
+*
+* // Using callbacks
+* async.every(fileList, fileExists, function(err, result) {
+*     console.log(result);
+*     // true
+*     // result is true since every file exists
+* });
+*
+* async.every(withMissingFileList, fileExists, function(err, result) {
+*     console.log(result);
+*     // false
+*     // result is false since NOT every file exists
+* });
+*
+* // Using Promises
+* async.every(fileList, fileExists)
+* .then( result => {
+*     console.log(result);
+*     // true
+*     // result is true since every file exists
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* async.every(withMissingFileList, fileExists)
+* .then( result => {
+*     console.log(result);
+*     // false
+*     // result is false since NOT every file exists
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.every(fileList, fileExists);
+*         console.log(result);
+*         // true
+*         // result is true since every file exists
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* async () => {
+*     try {
+*         let result = await async.every(withMissingFileList, fileExists);
+*         console.log(result);
+*         // false
+*         // result is false since NOT every file exists
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function every(coll, iteratee, callback) {
 	return _createTester((bool) => !bool, (res) => !res)(eachOf$1, coll, iteratee, callback);
 }
+/**
+* The same as [`every`]{@link module:Collections.every} but runs a maximum of `limit` async operations at a time.
+*
+* @name everyLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.every]{@link module:Collections.every}
+* @alias allLimit
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - An async truth test to apply to each item
+* in the collection in parallel.
+* The iteratee must complete with a boolean result value.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Result will be either `true` or `false`
+* depending on the values of the async tests. Invoked with (err, result).
+* @returns {Promise} a promise, if no callback provided
+*/
 function everyLimit(coll, limit, iteratee, callback) {
 	return _createTester((bool) => !bool, (res) => !res)(eachOfLimit$2(limit), coll, iteratee, callback);
 }
+/**
+* The same as [`every`]{@link module:Collections.every} but runs only a single async operation at a time.
+*
+* @name everySeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.every]{@link module:Collections.every}
+* @alias allSeries
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async truth test to apply to each item
+* in the collection in series.
+* The iteratee must complete with a boolean result value.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Result will be either `true` or `false`
+* depending on the values of the async tests. Invoked with (err, result).
+* @returns {Promise} a promise, if no callback provided
+*/
 function everySeries(coll, iteratee, callback) {
 	return _createTester((bool) => !bool, (res) => !res)(eachOfSeries$1, coll, iteratee, callback);
 }
@@ -30951,15 +38693,152 @@ function filterGeneric(eachfn, coll, iteratee, callback) {
 function _filter(eachfn, coll, iteratee, callback) {
 	return (isArrayLike(coll) ? filterArray : filterGeneric)(eachfn, coll, wrapAsync(iteratee), callback);
 }
+/**
+* Returns a new array of all the values in `coll` which pass an async truth
+* test. This operation is performed in parallel, but the results array will be
+* in the same order as the original.
+*
+* @name filter
+* @static
+* @memberOf module:Collections
+* @method
+* @alias select
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {Function} iteratee - A truth test to apply to each item in `coll`.
+* The `iteratee` is passed a `callback(err, truthValue)`, which must be called
+* with a boolean argument once it has completed. Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback provided
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+*
+* const files = ['dir1/file1.txt','dir2/file3.txt','dir3/file6.txt'];
+*
+* // asynchronous function that checks if a file exists
+* function fileExists(file, callback) {
+*    fs.access(file, fs.constants.F_OK, (err) => {
+*        callback(null, !err);
+*    });
+* }
+*
+* // Using callbacks
+* async.filter(files, fileExists, function(err, results) {
+*    if(err) {
+*        console.log(err);
+*    } else {
+*        console.log(results);
+*        // [ 'dir1/file1.txt', 'dir2/file3.txt' ]
+*        // results is now an array of the existing files
+*    }
+* });
+*
+* // Using Promises
+* async.filter(files, fileExists)
+* .then(results => {
+*     console.log(results);
+*     // [ 'dir1/file1.txt', 'dir2/file3.txt' ]
+*     // results is now an array of the existing files
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let results = await async.filter(files, fileExists);
+*         console.log(results);
+*         // [ 'dir1/file1.txt', 'dir2/file3.txt' ]
+*         // results is now an array of the existing files
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function filter(coll, iteratee, callback) {
 	return _filter(eachOf$1, coll, iteratee, callback);
 }
+/**
+* The same as [`filter`]{@link module:Collections.filter} but runs a maximum of `limit` async operations at a
+* time.
+*
+* @name filterLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.filter]{@link module:Collections.filter}
+* @alias selectLimit
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {Function} iteratee - A truth test to apply to each item in `coll`.
+* The `iteratee` is passed a `callback(err, truthValue)`, which must be called
+* with a boolean argument once it has completed. Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback provided
+*/
 function filterLimit(coll, limit, iteratee, callback) {
 	return _filter(eachOfLimit$2(limit), coll, iteratee, callback);
 }
+/**
+* The same as [`filter`]{@link module:Collections.filter} but runs only a single async operation at a time.
+*
+* @name filterSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.filter]{@link module:Collections.filter}
+* @alias selectSeries
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {Function} iteratee - A truth test to apply to each item in `coll`.
+* The `iteratee` is passed a `callback(err, truthValue)`, which must be called
+* with a boolean argument once it has completed. Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Invoked with (err, results)
+* @returns {Promise} a promise, if no callback provided
+*/
 function filterSeries(coll, iteratee, callback) {
 	return _filter(eachOfSeries$1, coll, iteratee, callback);
 }
+/**
+* Calls the asynchronous function `fn` with a callback parameter that allows it
+* to call itself again, in series, indefinitely.
+
+* If an error is passed to the callback then `errback` is called with the
+* error, and execution stops, otherwise it will never be called.
+*
+* @name forever
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {AsyncFunction} fn - an async function to call repeatedly.
+* Invoked with (next).
+* @param {Function} [errback] - when `fn` passes an error to it's callback,
+* this function will be called, and execution stops. Invoked with (err).
+* @returns {Promise} a promise that rejects if an error occurs and an errback
+* is not passed
+* @example
+*
+* async.forever(
+*     function(next) {
+*         // next is suitable for passing to things that need a callback(err [, whatever]);
+*         // it will result in this function being called again.
+*     },
+*     function(err) {
+*         // if next is called with a value in its first parameter, it will appear
+*         // in here as 'err', and execution will stop.
+*     }
+* );
+*/
 function forever(fn, errback) {
 	var done = onlyOnce(errback);
 	var task = wrapAsync(ensureAsync(fn));
@@ -30970,6 +38849,26 @@ function forever(fn, errback) {
 	}
 	return next();
 }
+/**
+* The same as [`groupBy`]{@link module:Collections.groupBy} but runs a maximum of `limit` async operations at a time.
+*
+* @name groupByLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.groupBy]{@link module:Collections.groupBy}
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The iteratee should complete with a `key` to group the value under.
+* Invoked with (value, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. Result is an `Object` whoses
+* properties are arrays of values which returned the corresponding key.
+* @returns {Promise} a promise, if no callback is passed
+*/
 function groupByLimit(coll, limit, iteratee, callback) {
 	var _iteratee = wrapAsync(iteratee);
 	return mapLimit$1(coll, limit, (val, iterCb) => {
@@ -30992,12 +38891,144 @@ function groupByLimit(coll, limit, iteratee, callback) {
 		return callback(err, result);
 	});
 }
+/**
+* Returns a new object, where each value corresponds to an array of items, from
+* `coll`, that returned the corresponding key. That is, the keys of the object
+* correspond to the values passed to the `iteratee` callback.
+*
+* Note: Since this function applies the `iteratee` to each item in parallel,
+* there is no guarantee that the `iteratee` functions will complete in order.
+* However, the values for each key in the `result` will be in the same order as
+* the original `coll`. For Objects, the values will roughly be in the order of
+* the original Objects' keys (but this can vary across JavaScript engines).
+*
+* @name groupBy
+* @static
+* @memberOf module:Collections
+* @method
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The iteratee should complete with a `key` to group the value under.
+* Invoked with (value, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. Result is an `Object` whoses
+* properties are arrays of values which returned the corresponding key.
+* @returns {Promise} a promise, if no callback is passed
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+* // dir4 does not exist
+*
+* const files = ['dir1/file1.txt','dir2','dir4']
+*
+* // asynchronous function that detects file type as none, file, or directory
+* function detectFile(file, callback) {
+*     fs.stat(file, function(err, stat) {
+*         if (err) {
+*             return callback(null, 'none');
+*         }
+*         callback(null, stat.isDirectory() ? 'directory' : 'file');
+*     });
+* }
+*
+* //Using callbacks
+* async.groupBy(files, detectFile, function(err, result) {
+*     if(err) {
+*         console.log(err);
+*     } else {
+*	       console.log(result);
+*         // {
+*         //     file: [ 'dir1/file1.txt' ],
+*         //     none: [ 'dir4' ],
+*         //     directory: [ 'dir2']
+*         // }
+*         // result is object containing the files grouped by type
+*     }
+* });
+*
+* // Using Promises
+* async.groupBy(files, detectFile)
+* .then( result => {
+*     console.log(result);
+*     // {
+*     //     file: [ 'dir1/file1.txt' ],
+*     //     none: [ 'dir4' ],
+*     //     directory: [ 'dir2']
+*     // }
+*     // result is object containing the files grouped by type
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.groupBy(files, detectFile);
+*         console.log(result);
+*         // {
+*         //     file: [ 'dir1/file1.txt' ],
+*         //     none: [ 'dir4' ],
+*         //     directory: [ 'dir2']
+*         // }
+*         // result is object containing the files grouped by type
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function groupBy(coll, iteratee, callback) {
 	return groupByLimit$1(coll, Infinity, iteratee, callback);
 }
+/**
+* The same as [`groupBy`]{@link module:Collections.groupBy} but runs only a single async operation at a time.
+*
+* @name groupBySeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.groupBy]{@link module:Collections.groupBy}
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The iteratee should complete with a `key` to group the value under.
+* Invoked with (value, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. Result is an `Object` whose
+* properties are arrays of values which returned the corresponding key.
+* @returns {Promise} a promise, if no callback is passed
+*/
 function groupBySeries(coll, iteratee, callback) {
 	return groupByLimit$1(coll, 1, iteratee, callback);
 }
+/**
+* The same as [`mapValues`]{@link module:Collections.mapValues} but runs a maximum of `limit` async operations at a
+* time.
+*
+* @name mapValuesLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.mapValues]{@link module:Collections.mapValues}
+* @category Collection
+* @param {Object} obj - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - A function to apply to each value and key
+* in `coll`.
+* The iteratee should complete with the transformed value as its result.
+* Invoked with (value, key, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. `result` is a new object consisting
+* of each key from `obj`, with each transformed value on the right-hand side.
+* Invoked with (err, result).
+* @returns {Promise} a promise, if no callback is passed
+*/
 function mapValuesLimit(obj, limit, iteratee, callback) {
 	callback = once(callback);
 	var newObj = {};
@@ -31010,12 +39041,207 @@ function mapValuesLimit(obj, limit, iteratee, callback) {
 		});
 	}, (err) => callback(err, newObj));
 }
+/**
+* A relative of [`map`]{@link module:Collections.map}, designed for use with objects.
+*
+* Produces a new Object by mapping each value of `obj` through the `iteratee`
+* function. The `iteratee` is called each `value` and `key` from `obj` and a
+* callback for when it has finished processing. Each of these callbacks takes
+* two arguments: an `error`, and the transformed item from `obj`. If `iteratee`
+* passes an error to its callback, the main `callback` (for the `mapValues`
+* function) is immediately called with the error.
+*
+* Note, the order of the keys in the result is not guaranteed.  The keys will
+* be roughly in the order they complete, (but this is very engine-specific)
+*
+* @name mapValues
+* @static
+* @memberOf module:Collections
+* @method
+* @category Collection
+* @param {Object} obj - A collection to iterate over.
+* @param {AsyncFunction} iteratee - A function to apply to each value and key
+* in `coll`.
+* The iteratee should complete with the transformed value as its result.
+* Invoked with (value, key, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. `result` is a new object consisting
+* of each key from `obj`, with each transformed value on the right-hand side.
+* Invoked with (err, result).
+* @returns {Promise} a promise, if no callback is passed
+* @example
+*
+* // file1.txt is a file that is 1000 bytes in size
+* // file2.txt is a file that is 2000 bytes in size
+* // file3.txt is a file that is 3000 bytes in size
+* // file4.txt does not exist
+*
+* const fileMap = {
+*     f1: 'file1.txt',
+*     f2: 'file2.txt',
+*     f3: 'file3.txt'
+* };
+*
+* const withMissingFileMap = {
+*     f1: 'file1.txt',
+*     f2: 'file2.txt',
+*     f3: 'file4.txt'
+* };
+*
+* // asynchronous function that returns the file size in bytes
+* function getFileSizeInBytes(file, key, callback) {
+*     fs.stat(file, function(err, stat) {
+*         if (err) {
+*             return callback(err);
+*         }
+*         callback(null, stat.size);
+*     });
+* }
+*
+* // Using callbacks
+* async.mapValues(fileMap, getFileSizeInBytes, function(err, result) {
+*     if (err) {
+*         console.log(err);
+*     } else {
+*         console.log(result);
+*         // result is now a map of file size in bytes for each file, e.g.
+*         // {
+*         //     f1: 1000,
+*         //     f2: 2000,
+*         //     f3: 3000
+*         // }
+*     }
+* });
+*
+* // Error handling
+* async.mapValues(withMissingFileMap, getFileSizeInBytes, function(err, result) {
+*     if (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*     } else {
+*         console.log(result);
+*     }
+* });
+*
+* // Using Promises
+* async.mapValues(fileMap, getFileSizeInBytes)
+* .then( result => {
+*     console.log(result);
+*     // result is now a map of file size in bytes for each file, e.g.
+*     // {
+*     //     f1: 1000,
+*     //     f2: 2000,
+*     //     f3: 3000
+*     // }
+* }).catch (err => {
+*     console.log(err);
+* });
+*
+* // Error Handling
+* async.mapValues(withMissingFileMap, getFileSizeInBytes)
+* .then( result => {
+*     console.log(result);
+* }).catch (err => {
+*     console.log(err);
+*     // [ Error: ENOENT: no such file or directory ]
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.mapValues(fileMap, getFileSizeInBytes);
+*         console.log(result);
+*         // result is now a map of file size in bytes for each file, e.g.
+*         // {
+*         //     f1: 1000,
+*         //     f2: 2000,
+*         //     f3: 3000
+*         // }
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* // Error Handling
+* async () => {
+*     try {
+*         let result = await async.mapValues(withMissingFileMap, getFileSizeInBytes);
+*         console.log(result);
+*     }
+*     catch (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*     }
+* }
+*
+*/
 function mapValues(obj, iteratee, callback) {
 	return mapValuesLimit$1(obj, Infinity, iteratee, callback);
 }
+/**
+* The same as [`mapValues`]{@link module:Collections.mapValues} but runs only a single async operation at a time.
+*
+* @name mapValuesSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.mapValues]{@link module:Collections.mapValues}
+* @category Collection
+* @param {Object} obj - A collection to iterate over.
+* @param {AsyncFunction} iteratee - A function to apply to each value and key
+* in `coll`.
+* The iteratee should complete with the transformed value as its result.
+* Invoked with (value, key, callback).
+* @param {Function} [callback] - A callback which is called when all `iteratee`
+* functions have finished, or an error occurs. `result` is a new object consisting
+* of each key from `obj`, with each transformed value on the right-hand side.
+* Invoked with (err, result).
+* @returns {Promise} a promise, if no callback is passed
+*/
 function mapValuesSeries(obj, iteratee, callback) {
 	return mapValuesLimit$1(obj, 1, iteratee, callback);
 }
+/**
+* Caches the results of an async function. When creating a hash to store
+* function results against, the callback is omitted from the hash and an
+* optional hash function can be used.
+*
+* **Note: if the async function errs, the result will not be cached and
+* subsequent calls will call the wrapped function.**
+*
+* If no hash function is specified, the first argument is used as a hash key,
+* which may work reasonably if it is a string or a data type that converts to a
+* distinct string. Note that objects and arrays will not behave reasonably.
+* Neither will cases where the other arguments are significant. In such cases,
+* specify your own hash function.
+*
+* The cache of results is exposed as the `memo` property of the function
+* returned by `memoize`.
+*
+* @name memoize
+* @static
+* @memberOf module:Utils
+* @method
+* @category Util
+* @param {AsyncFunction} fn - The async function to proxy and cache results from.
+* @param {Function} hasher - An optional function for generating a custom hash
+* for storing results. It has all the arguments applied to it apart from the
+* callback, and must be synchronous.
+* @returns {AsyncFunction} a memoized version of `fn`
+* @example
+*
+* var slow_fn = function(name, callback) {
+*     // do something
+*     callback(null, result);
+* };
+* var fn = async.memoize(slow_fn);
+*
+* // fn can now be used as if it were slow_fn
+* fn('some name', function() {
+*     // callback
+* });
+*/
 function memoize(fn, hasher = (v) => v) {
 	var memo = Object.create(null);
 	var queues = Object.create(null);
@@ -31038,12 +39264,332 @@ function memoize(fn, hasher = (v) => v) {
 	memoized.unmemoized = fn;
 	return memoized;
 }
+/**
+* Run the `tasks` collection of functions in parallel, without waiting until
+* the previous function has completed. If any of the functions pass an error to
+* its callback, the main `callback` is immediately called with the value of the
+* error. Once the `tasks` have completed, the results are passed to the final
+* `callback` as an array.
+*
+* **Note:** `parallel` is about kicking-off I/O tasks in parallel, not about
+* parallel execution of code.  If your tasks do not use any timers or perform
+* any I/O, they will actually be executed in series.  Any synchronous setup
+* sections for each task will happen one after the other.  JavaScript remains
+* single-threaded.
+*
+* **Hint:** Use [`reflect`]{@link module:Utils.reflect} to continue the
+* execution of other tasks when a task fails.
+*
+* It is also possible to use an object instead of an array. Each property will
+* be run as a function and the results will be passed to the final `callback`
+* as an object instead of an array. This can be a more readable way of handling
+* results from {@link async.parallel}.
+*
+* @name parallel
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {Array|Iterable|AsyncIterable|Object} tasks - A collection of
+* [async functions]{@link AsyncFunction} to run.
+* Each async function can complete with any number of optional `result` values.
+* @param {Function} [callback] - An optional callback to run once all the
+* functions have completed successfully. This function gets a results array
+* (or object) containing all the result arguments passed to the task callbacks.
+* Invoked with (err, results).
+* @returns {Promise} a promise, if a callback is not passed
+*
+* @example
+*
+* //Using Callbacks
+* async.parallel([
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'one');
+*         }, 200);
+*     },
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'two');
+*         }, 100);
+*     }
+* ], function(err, results) {
+*     console.log(results);
+*     // results is equal to ['one','two'] even though
+*     // the second function had a shorter timeout.
+* });
+*
+* // an example using an object instead of an array
+* async.parallel({
+*     one: function(callback) {
+*         setTimeout(function() {
+*             callback(null, 1);
+*         }, 200);
+*     },
+*     two: function(callback) {
+*         setTimeout(function() {
+*             callback(null, 2);
+*         }, 100);
+*     }
+* }, function(err, results) {
+*     console.log(results);
+*     // results is equal to: { one: 1, two: 2 }
+* });
+*
+* //Using Promises
+* async.parallel([
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'one');
+*         }, 200);
+*     },
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'two');
+*         }, 100);
+*     }
+* ]).then(results => {
+*     console.log(results);
+*     // results is equal to ['one','two'] even though
+*     // the second function had a shorter timeout.
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* // an example using an object instead of an array
+* async.parallel({
+*     one: function(callback) {
+*         setTimeout(function() {
+*             callback(null, 1);
+*         }, 200);
+*     },
+*     two: function(callback) {
+*         setTimeout(function() {
+*             callback(null, 2);
+*         }, 100);
+*     }
+* }).then(results => {
+*     console.log(results);
+*     // results is equal to: { one: 1, two: 2 }
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* //Using async/await
+* async () => {
+*     try {
+*         let results = await async.parallel([
+*             function(callback) {
+*                 setTimeout(function() {
+*                     callback(null, 'one');
+*                 }, 200);
+*             },
+*             function(callback) {
+*                 setTimeout(function() {
+*                     callback(null, 'two');
+*                 }, 100);
+*             }
+*         ]);
+*         console.log(results);
+*         // results is equal to ['one','two'] even though
+*         // the second function had a shorter timeout.
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* // an example using an object instead of an array
+* async () => {
+*     try {
+*         let results = await async.parallel({
+*             one: function(callback) {
+*                 setTimeout(function() {
+*                     callback(null, 1);
+*                 }, 200);
+*             },
+*            two: function(callback) {
+*                 setTimeout(function() {
+*                     callback(null, 2);
+*                 }, 100);
+*            }
+*         });
+*         console.log(results);
+*         // results is equal to: { one: 1, two: 2 }
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function parallel(tasks, callback) {
 	return _parallel(eachOf$1, tasks, callback);
 }
+/**
+* The same as [`parallel`]{@link module:ControlFlow.parallel} but runs a maximum of `limit` async operations at a
+* time.
+*
+* @name parallelLimit
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.parallel]{@link module:ControlFlow.parallel}
+* @category Control Flow
+* @param {Array|Iterable|AsyncIterable|Object} tasks - A collection of
+* [async functions]{@link AsyncFunction} to run.
+* Each async function can complete with any number of optional `result` values.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {Function} [callback] - An optional callback to run once all the
+* functions have completed successfully. This function gets a results array
+* (or object) containing all the result arguments passed to the task callbacks.
+* Invoked with (err, results).
+* @returns {Promise} a promise, if a callback is not passed
+*/
 function parallelLimit(tasks, limit, callback) {
 	return _parallel(eachOfLimit$2(limit), tasks, callback);
 }
+/**
+* A queue of tasks for the worker function to complete.
+* @typedef {Iterable} QueueObject
+* @memberOf module:ControlFlow
+* @property {Function} length - a function returning the number of items
+* waiting to be processed. Invoke with `queue.length()`.
+* @property {boolean} started - a boolean indicating whether or not any
+* items have been pushed and processed by the queue.
+* @property {Function} running - a function returning the number of items
+* currently being processed. Invoke with `queue.running()`.
+* @property {Function} workersList - a function returning the array of items
+* currently being processed. Invoke with `queue.workersList()`.
+* @property {Function} idle - a function returning false if there are items
+* waiting or being processed, or true if not. Invoke with `queue.idle()`.
+* @property {number} concurrency - an integer for determining how many `worker`
+* functions should be run in parallel. This property can be changed after a
+* `queue` is created to alter the concurrency on-the-fly.
+* @property {number} payload - an integer that specifies how many items are
+* passed to the worker function at a time. only applies if this is a
+* [cargo]{@link module:ControlFlow.cargo} object
+* @property {AsyncFunction} push - add a new task to the `queue`. Calls `callback`
+* once the `worker` has finished processing the task. Instead of a single task,
+* a `tasks` array can be submitted. The respective callback is used for every
+* task in the list. Invoke with `queue.push(task, [callback])`,
+* @property {AsyncFunction} unshift - add a new task to the front of the `queue`.
+* Invoke with `queue.unshift(task, [callback])`.
+* @property {AsyncFunction} pushAsync - the same as `q.push`, except this returns
+* a promise that rejects if an error occurs.
+* @property {AsyncFunction} unshiftAsync - the same as `q.unshift`, except this returns
+* a promise that rejects if an error occurs.
+* @property {Function} remove - remove items from the queue that match a test
+* function.  The test function will be passed an object with a `data` property,
+* and a `priority` property, if this is a
+* [priorityQueue]{@link module:ControlFlow.priorityQueue} object.
+* Invoked with `queue.remove(testFn)`, where `testFn` is of the form
+* `function ({data, priority}) {}` and returns a Boolean.
+* @property {Function} saturated - a function that sets a callback that is
+* called when the number of running workers hits the `concurrency` limit, and
+* further tasks will be queued.  If the callback is omitted, `q.saturated()`
+* returns a promise for the next occurrence.
+* @property {Function} unsaturated - a function that sets a callback that is
+* called when the number of running workers is less than the `concurrency` &
+* `buffer` limits, and further tasks will not be queued. If the callback is
+* omitted, `q.unsaturated()` returns a promise for the next occurrence.
+* @property {number} buffer - A minimum threshold buffer in order to say that
+* the `queue` is `unsaturated`.
+* @property {Function} empty - a function that sets a callback that is called
+* when the last item from the `queue` is given to a `worker`. If the callback
+* is omitted, `q.empty()` returns a promise for the next occurrence.
+* @property {Function} drain - a function that sets a callback that is called
+* when the last item from the `queue` has returned from the `worker`. If the
+* callback is omitted, `q.drain()` returns a promise for the next occurrence.
+* @property {Function} error - a function that sets a callback that is called
+* when a task errors. Has the signature `function(error, task)`. If the
+* callback is omitted, `error()` returns a promise that rejects on the next
+* error.
+* @property {boolean} paused - a boolean for determining whether the queue is
+* in a paused state.
+* @property {Function} pause - a function that pauses the processing of tasks
+* until `resume()` is called. Invoke with `queue.pause()`.
+* @property {Function} resume - a function that resumes the processing of
+* queued tasks when the queue is paused. Invoke with `queue.resume()`.
+* @property {Function} kill - a function that removes the `drain` callback and
+* empties remaining tasks from the queue forcing it to go idle. No more tasks
+* should be pushed to the queue after calling this function. Invoke with `queue.kill()`.
+*
+* @example
+* const q = async.queue(worker, 2)
+* q.push(item1)
+* q.push(item2)
+* q.push(item3)
+* // queues are iterable, spread into an array to inspect
+* const items = [...q] // [item1, item2, item3]
+* // or use for of
+* for (let item of q) {
+*     console.log(item)
+* }
+*
+* q.drain(() => {
+*     console.log('all done')
+* })
+* // or
+* await q.drain()
+*/
+/**
+* Creates a `queue` object with the specified `concurrency`. Tasks added to the
+* `queue` are processed in parallel (up to the `concurrency` limit). If all
+* `worker`s are in progress, the task is queued until one becomes available.
+* Once a `worker` completes a `task`, that `task`'s callback is called.
+*
+* @name queue
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {AsyncFunction} worker - An async function for processing a queued task.
+* If you want to handle errors from an individual task, pass a callback to
+* `q.push()`. Invoked with (task, callback).
+* @param {number} [concurrency=1] - An `integer` for determining how many
+* `worker` functions should be run in parallel.  If omitted, the concurrency
+* defaults to `1`.  If the concurrency is `0`, an error is thrown.
+* @returns {module:ControlFlow.QueueObject} A queue object to manage the tasks. Callbacks can be
+* attached as certain properties to listen for specific events during the
+* lifecycle of the queue.
+* @example
+*
+* // create a queue object with concurrency 2
+* var q = async.queue(function(task, callback) {
+*     console.log('hello ' + task.name);
+*     callback();
+* }, 2);
+*
+* // assign a callback
+* q.drain(function() {
+*     console.log('all items have been processed');
+* });
+* // or await the end
+* await q.drain()
+*
+* // assign an error callback
+* q.error(function(err, task) {
+*     console.error('task experienced an error');
+* });
+*
+* // add some items to the queue
+* q.push({name: 'foo'}, function(err) {
+*     console.log('finished processing foo');
+* });
+* // callback is optional
+* q.push({name: 'bar'});
+*
+* // add some items to the queue (batch-wise)
+* q.push([{name: 'baz'},{name: 'bay'},{name: 'bax'}], function(err) {
+*     console.log('finished processing item');
+* });
+*
+* // add some items to the front of the queue
+* q.unshift({name: 'bar'}, function (err) {
+*     console.log('finished processing bar');
+* });
+*/
 function queue(worker, concurrency) {
 	var _worker = wrapAsync(worker);
 	return queue$1((items, cb) => {
@@ -31060,6 +39606,31 @@ function smaller(x, y) {
 	if (x.priority !== y.priority) return x.priority < y.priority;
 	else return x.pushCount < y.pushCount;
 }
+/**
+* The same as [async.queue]{@link module:ControlFlow.queue} only tasks are assigned a priority and
+* completed in ascending priority order.
+*
+* @name priorityQueue
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.queue]{@link module:ControlFlow.queue}
+* @category Control Flow
+* @param {AsyncFunction} worker - An async function for processing a queued task.
+* If you want to handle errors from an individual task, pass a callback to
+* `q.push()`.
+* Invoked with (task, callback).
+* @param {number} concurrency - An `integer` for determining how many `worker`
+* functions should be run in parallel.  If omitted, the concurrency defaults to
+* `1`.  If the concurrency is `0`, an error is thrown.
+* @returns {module:ControlFlow.QueueObject} A priorityQueue object to manage the tasks. There are three
+* differences between `queue` and `priorityQueue` objects:
+* * `push(task, priority, [callback])` - `priority` should be a number. If an
+*   array of `tasks` is given, all tasks will be assigned the same priority.
+* * `pushAsync(task, priority, [callback])` - the same as `priorityQueue.push`,
+*   except this returns a promise that rejects if an error occurs.
+* * The `unshift` and `unshiftAsync` methods were removed.
+*/
 function priorityQueue(worker, concurrency) {
 	var q = queue(worker, concurrency);
 	var { push, pushAsync } = q;
@@ -31093,15 +39664,113 @@ function priorityQueue(worker, concurrency) {
 	delete q.unshiftAsync;
 	return q;
 }
+/**
+* Runs the `tasks` array of functions in parallel, without waiting until the
+* previous function has completed. Once any of the `tasks` complete or pass an
+* error to its callback, the main `callback` is immediately called. It's
+* equivalent to `Promise.race()`.
+*
+* @name race
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {Array} tasks - An array containing [async functions]{@link AsyncFunction}
+* to run. Each function can complete with an optional `result` value.
+* @param {Function} callback - A callback to run once any of the functions have
+* completed. This function gets an error or result from the first function that
+* completed. Invoked with (err, result).
+* @returns {Promise} a promise, if a callback is omitted
+* @example
+*
+* async.race([
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'one');
+*         }, 200);
+*     },
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'two');
+*         }, 100);
+*     }
+* ],
+* // main callback
+* function(err, result) {
+*     // the result will be equal to 'two' as it finishes earlier
+* });
+*/
 function race(tasks, callback) {
 	callback = once(callback);
 	if (!Array.isArray(tasks)) return callback(/* @__PURE__ */ new TypeError("First argument to race must be an array of functions"));
 	if (!tasks.length) return callback();
 	for (var i = 0, l = tasks.length; i < l; i++) wrapAsync(tasks[i])(callback);
 }
+/**
+* Same as [`reduce`]{@link module:Collections.reduce}, only operates on `array` in reverse order.
+*
+* @name reduceRight
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.reduce]{@link module:Collections.reduce}
+* @alias foldr
+* @category Collection
+* @param {Array} array - A collection to iterate over.
+* @param {*} memo - The initial state of the reduction.
+* @param {AsyncFunction} iteratee - A function applied to each item in the
+* array to produce the next step in the reduction.
+* The `iteratee` should complete with the next state of the reduction.
+* If the iteratee completes with an error, the reduction is stopped and the
+* main `callback` is immediately called with the error.
+* Invoked with (memo, item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Result is the reduced value. Invoked with
+* (err, result).
+* @returns {Promise} a promise, if no callback is passed
+*/
 function reduceRight(array, memo, iteratee, callback) {
 	return reduce$1([...array].reverse(), memo, iteratee, callback);
 }
+/**
+* Wraps the async function in another function that always completes with a
+* result object, even when it errors.
+*
+* The result object has either the property `error` or `value`.
+*
+* @name reflect
+* @static
+* @memberOf module:Utils
+* @method
+* @category Util
+* @param {AsyncFunction} fn - The async function you want to wrap
+* @returns {Function} - A function that always passes null to it's callback as
+* the error. The second argument to the callback will be an `object` with
+* either an `error` or a `value` property.
+* @example
+*
+* async.parallel([
+*     async.reflect(function(callback) {
+*         // do some stuff ...
+*         callback(null, 'one');
+*     }),
+*     async.reflect(function(callback) {
+*         // do some more stuff but error ...
+*         callback('bad stuff happened');
+*     }),
+*     async.reflect(function(callback) {
+*         // do some more stuff ...
+*         callback(null, 'two');
+*     })
+* ],
+* // optional callback
+* function(err, results) {
+*     // values
+*     // results[0].value = 'one'
+*     // results[1].error = 'bad stuff happened'
+*     // results[2].value = 'two'
+* });
+*/
 function reflect(fn) {
 	var _fn = wrapAsync(fn);
 	return initialParams(function reflectOn(args, reflectCallback) {
@@ -31118,6 +39787,73 @@ function reflect(fn) {
 		return _fn.apply(this, args);
 	});
 }
+/**
+* A helper function that wraps an array or an object of functions with `reflect`.
+*
+* @name reflectAll
+* @static
+* @memberOf module:Utils
+* @method
+* @see [async.reflect]{@link module:Utils.reflect}
+* @category Util
+* @param {Array|Object|Iterable} tasks - The collection of
+* [async functions]{@link AsyncFunction} to wrap in `async.reflect`.
+* @returns {Array} Returns an array of async functions, each wrapped in
+* `async.reflect`
+* @example
+*
+* let tasks = [
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'one');
+*         }, 200);
+*     },
+*     function(callback) {
+*         // do some more stuff but error ...
+*         callback(new Error('bad stuff happened'));
+*     },
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'two');
+*         }, 100);
+*     }
+* ];
+*
+* async.parallel(async.reflectAll(tasks),
+* // optional callback
+* function(err, results) {
+*     // values
+*     // results[0].value = 'one'
+*     // results[1].error = Error('bad stuff happened')
+*     // results[2].value = 'two'
+* });
+*
+* // an example using an object instead of an array
+* let tasks = {
+*     one: function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'one');
+*         }, 200);
+*     },
+*     two: function(callback) {
+*         callback('two');
+*     },
+*     three: function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'three');
+*         }, 100);
+*     }
+* };
+*
+* async.parallel(async.reflectAll(tasks),
+* // optional callback
+* function(err, results) {
+*     // values
+*     // results.one.value = 'one'
+*     // results.two.error = 'two'
+*     // results.three.value = 'three'
+* });
+*/
 function reflectAll(tasks) {
 	var results;
 	if (Array.isArray(tasks)) results = tasks.map(reflect);
@@ -31137,12 +39873,112 @@ function reject$2(eachfn, arr, _iteratee, callback) {
 		});
 	}, callback);
 }
+/**
+* The opposite of [`filter`]{@link module:Collections.filter}. Removes values that pass an `async` truth test.
+*
+* @name reject
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.filter]{@link module:Collections.filter}
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {Function} iteratee - An async truth test to apply to each item in
+* `coll`.
+* The should complete with a boolean value as its `result`.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback is passed
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+*
+* const fileList = ['dir1/file1.txt','dir2/file3.txt','dir3/file6.txt'];
+*
+* // asynchronous function that checks if a file exists
+* function fileExists(file, callback) {
+*    fs.access(file, fs.constants.F_OK, (err) => {
+*        callback(null, !err);
+*    });
+* }
+*
+* // Using callbacks
+* async.reject(fileList, fileExists, function(err, results) {
+*    // [ 'dir3/file6.txt' ]
+*    // results now equals an array of the non-existing files
+* });
+*
+* // Using Promises
+* async.reject(fileList, fileExists)
+* .then( results => {
+*     console.log(results);
+*     // [ 'dir3/file6.txt' ]
+*     // results now equals an array of the non-existing files
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let results = await async.reject(fileList, fileExists);
+*         console.log(results);
+*         // [ 'dir3/file6.txt' ]
+*         // results now equals an array of the non-existing files
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function reject(coll, iteratee, callback) {
 	return reject$2(eachOf$1, coll, iteratee, callback);
 }
+/**
+* The same as [`reject`]{@link module:Collections.reject} but runs a maximum of `limit` async operations at a
+* time.
+*
+* @name rejectLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.reject]{@link module:Collections.reject}
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {Function} iteratee - An async truth test to apply to each item in
+* `coll`.
+* The should complete with a boolean value as its `result`.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback is passed
+*/
 function rejectLimit(coll, limit, iteratee, callback) {
 	return reject$2(eachOfLimit$2(limit), coll, iteratee, callback);
 }
+/**
+* The same as [`reject`]{@link module:Collections.reject} but runs only a single async operation at a time.
+*
+* @name rejectSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.reject]{@link module:Collections.reject}
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {Function} iteratee - An async truth test to apply to each item in
+* `coll`.
+* The should complete with a boolean value as its `result`.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback is passed
+*/
 function rejectSeries(coll, iteratee, callback) {
 	return reject$2(eachOfSeries$1, coll, iteratee, callback);
 }
@@ -31184,6 +40020,35 @@ function parseTimes(acc, t) {
 	} else if (typeof t === "number" || typeof t === "string") acc.times = +t || DEFAULT_TIMES;
 	else throw new Error("Invalid arguments for async.retry");
 }
+/**
+* A close relative of [`retry`]{@link module:ControlFlow.retry}.  This method
+* wraps a task and makes it retryable, rather than immediately calling it
+* with retries.
+*
+* @name retryable
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.retry]{@link module:ControlFlow.retry}
+* @category Control Flow
+* @param {Object|number} [opts = {times: 5, interval: 0}| 5] - optional
+* options, exactly the same as from `retry`, except for a `opts.arity` that
+* is the arity of the `task` function, defaulting to `task.length`
+* @param {AsyncFunction} task - the asynchronous function to wrap.
+* This function will be passed any arguments passed to the returned wrapper.
+* Invoked with (...args, callback).
+* @returns {AsyncFunction} The wrapped function, which when invoked, will
+* retry on an error, based on the parameters specified in `opts`.
+* This function will accept the same parameters as `task`.
+* @example
+*
+* async.auto({
+*     dep1: async.retryable(3, getFromFlakyService),
+*     process: ["dep1", async.retryable(3, function (results, cb) {
+*         maybeProcessData(results.dep1, cb);
+*     })]
+* }, callback);
+*/
 function retryable(opts, task) {
 	if (!task) {
 		task = opts;
@@ -31205,18 +40070,473 @@ function retryable(opts, task) {
 		return callback[PROMISE_SYMBOL];
 	});
 }
+/**
+* Run the functions in the `tasks` collection in series, each one running once
+* the previous function has completed. If any functions in the series pass an
+* error to its callback, no more functions are run, and `callback` is
+* immediately called with the value of the error. Otherwise, `callback`
+* receives an array of results when `tasks` have completed.
+*
+* It is also possible to use an object instead of an array. Each property will
+* be run as a function, and the results will be passed to the final `callback`
+* as an object instead of an array. This can be a more readable way of handling
+*  results from {@link async.series}.
+*
+* **Note** that while many implementations preserve the order of object
+* properties, the [ECMAScript Language Specification](http://www.ecma-international.org/ecma-262/5.1/#sec-8.6)
+* explicitly states that
+*
+* > The mechanics and order of enumerating the properties is not specified.
+*
+* So if you rely on the order in which your series of functions are executed,
+* and want this to work on all platforms, consider using an array.
+*
+* @name series
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {Array|Iterable|AsyncIterable|Object} tasks - A collection containing
+* [async functions]{@link AsyncFunction} to run in series.
+* Each function can complete with any number of optional `result` values.
+* @param {Function} [callback] - An optional callback to run once all the
+* functions have completed. This function gets a results array (or object)
+* containing all the result arguments passed to the `task` callbacks. Invoked
+* with (err, result).
+* @return {Promise} a promise, if no callback is passed
+* @example
+*
+* //Using Callbacks
+* async.series([
+*     function(callback) {
+*         setTimeout(function() {
+*             // do some async task
+*             callback(null, 'one');
+*         }, 200);
+*     },
+*     function(callback) {
+*         setTimeout(function() {
+*             // then do another async task
+*             callback(null, 'two');
+*         }, 100);
+*     }
+* ], function(err, results) {
+*     console.log(results);
+*     // results is equal to ['one','two']
+* });
+*
+* // an example using objects instead of arrays
+* async.series({
+*     one: function(callback) {
+*         setTimeout(function() {
+*             // do some async task
+*             callback(null, 1);
+*         }, 200);
+*     },
+*     two: function(callback) {
+*         setTimeout(function() {
+*             // then do another async task
+*             callback(null, 2);
+*         }, 100);
+*     }
+* }, function(err, results) {
+*     console.log(results);
+*     // results is equal to: { one: 1, two: 2 }
+* });
+*
+* //Using Promises
+* async.series([
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'one');
+*         }, 200);
+*     },
+*     function(callback) {
+*         setTimeout(function() {
+*             callback(null, 'two');
+*         }, 100);
+*     }
+* ]).then(results => {
+*     console.log(results);
+*     // results is equal to ['one','two']
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* // an example using an object instead of an array
+* async.series({
+*     one: function(callback) {
+*         setTimeout(function() {
+*             // do some async task
+*             callback(null, 1);
+*         }, 200);
+*     },
+*     two: function(callback) {
+*         setTimeout(function() {
+*             // then do another async task
+*             callback(null, 2);
+*         }, 100);
+*     }
+* }).then(results => {
+*     console.log(results);
+*     // results is equal to: { one: 1, two: 2 }
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* //Using async/await
+* async () => {
+*     try {
+*         let results = await async.series([
+*             function(callback) {
+*                 setTimeout(function() {
+*                     // do some async task
+*                     callback(null, 'one');
+*                 }, 200);
+*             },
+*             function(callback) {
+*                 setTimeout(function() {
+*                     // then do another async task
+*                     callback(null, 'two');
+*                 }, 100);
+*             }
+*         ]);
+*         console.log(results);
+*         // results is equal to ['one','two']
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* // an example using an object instead of an array
+* async () => {
+*     try {
+*         let results = await async.parallel({
+*             one: function(callback) {
+*                 setTimeout(function() {
+*                     // do some async task
+*                     callback(null, 1);
+*                 }, 200);
+*             },
+*            two: function(callback) {
+*                 setTimeout(function() {
+*                     // then do another async task
+*                     callback(null, 2);
+*                 }, 100);
+*            }
+*         });
+*         console.log(results);
+*         // results is equal to: { one: 1, two: 2 }
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function series(tasks, callback) {
 	return _parallel(eachOfSeries$1, tasks, callback);
 }
+/**
+* Returns `true` if at least one element in the `coll` satisfies an async test.
+* If any iteratee call returns `true`, the main `callback` is immediately
+* called.
+*
+* @name some
+* @static
+* @memberOf module:Collections
+* @method
+* @alias any
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async truth test to apply to each item
+* in the collections in parallel.
+* The iteratee should complete with a boolean `result` value.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called as soon as any
+* iteratee returns `true`, or after all the iteratee functions have finished.
+* Result will be either `true` or `false` depending on the values of the async
+* tests. Invoked with (err, result).
+* @returns {Promise} a promise, if no callback provided
+* @example
+*
+* // dir1 is a directory that contains file1.txt, file2.txt
+* // dir2 is a directory that contains file3.txt, file4.txt
+* // dir3 is a directory that contains file5.txt
+* // dir4 does not exist
+*
+* // asynchronous function that checks if a file exists
+* function fileExists(file, callback) {
+*    fs.access(file, fs.constants.F_OK, (err) => {
+*        callback(null, !err);
+*    });
+* }
+*
+* // Using callbacks
+* async.some(['dir1/missing.txt','dir2/missing.txt','dir3/file5.txt'], fileExists,
+*    function(err, result) {
+*        console.log(result);
+*        // true
+*        // result is true since some file in the list exists
+*    }
+*);
+*
+* async.some(['dir1/missing.txt','dir2/missing.txt','dir4/missing.txt'], fileExists,
+*    function(err, result) {
+*        console.log(result);
+*        // false
+*        // result is false since none of the files exists
+*    }
+*);
+*
+* // Using Promises
+* async.some(['dir1/missing.txt','dir2/missing.txt','dir3/file5.txt'], fileExists)
+* .then( result => {
+*     console.log(result);
+*     // true
+*     // result is true since some file in the list exists
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* async.some(['dir1/missing.txt','dir2/missing.txt','dir4/missing.txt'], fileExists)
+* .then( result => {
+*     console.log(result);
+*     // false
+*     // result is false since none of the files exists
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.some(['dir1/missing.txt','dir2/missing.txt','dir3/file5.txt'], fileExists);
+*         console.log(result);
+*         // true
+*         // result is true since some file in the list exists
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+* async () => {
+*     try {
+*         let result = await async.some(['dir1/missing.txt','dir2/missing.txt','dir4/missing.txt'], fileExists);
+*         console.log(result);
+*         // false
+*         // result is false since none of the files exists
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function some(coll, iteratee, callback) {
 	return _createTester(Boolean, (res) => res)(eachOf$1, coll, iteratee, callback);
 }
+/**
+* The same as [`some`]{@link module:Collections.some} but runs a maximum of `limit` async operations at a time.
+*
+* @name someLimit
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.some]{@link module:Collections.some}
+* @alias anyLimit
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - An async truth test to apply to each item
+* in the collections in parallel.
+* The iteratee should complete with a boolean `result` value.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called as soon as any
+* iteratee returns `true`, or after all the iteratee functions have finished.
+* Result will be either `true` or `false` depending on the values of the async
+* tests. Invoked with (err, result).
+* @returns {Promise} a promise, if no callback provided
+*/
 function someLimit(coll, limit, iteratee, callback) {
 	return _createTester(Boolean, (res) => res)(eachOfLimit$2(limit), coll, iteratee, callback);
 }
+/**
+* The same as [`some`]{@link module:Collections.some} but runs only a single async operation at a time.
+*
+* @name someSeries
+* @static
+* @memberOf module:Collections
+* @method
+* @see [async.some]{@link module:Collections.some}
+* @alias anySeries
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async truth test to apply to each item
+* in the collections in series.
+* The iteratee should complete with a boolean `result` value.
+* Invoked with (item, callback).
+* @param {Function} [callback] - A callback which is called as soon as any
+* iteratee returns `true`, or after all the iteratee functions have finished.
+* Result will be either `true` or `false` depending on the values of the async
+* tests. Invoked with (err, result).
+* @returns {Promise} a promise, if no callback provided
+*/
 function someSeries(coll, iteratee, callback) {
 	return _createTester(Boolean, (res) => res)(eachOfSeries$1, coll, iteratee, callback);
 }
+/**
+* Sorts a list by the results of running each `coll` value through an async
+* `iteratee`.
+*
+* @name sortBy
+* @static
+* @memberOf module:Collections
+* @method
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {AsyncFunction} iteratee - An async function to apply to each item in
+* `coll`.
+* The iteratee should complete with a value to use as the sort criteria as
+* its `result`.
+* Invoked with (item, callback).
+* @param {Function} callback - A callback which is called after all the
+* `iteratee` functions have finished, or an error occurs. Results is the items
+* from the original `coll` sorted by the values returned by the `iteratee`
+* calls. Invoked with (err, results).
+* @returns {Promise} a promise, if no callback passed
+* @example
+*
+* // bigfile.txt is a file that is 251100 bytes in size
+* // mediumfile.txt is a file that is 11000 bytes in size
+* // smallfile.txt is a file that is 121 bytes in size
+*
+* // asynchronous function that returns the file size in bytes
+* function getFileSizeInBytes(file, callback) {
+*     fs.stat(file, function(err, stat) {
+*         if (err) {
+*             return callback(err);
+*         }
+*         callback(null, stat.size);
+*     });
+* }
+*
+* // Using callbacks
+* async.sortBy(['mediumfile.txt','smallfile.txt','bigfile.txt'], getFileSizeInBytes,
+*     function(err, results) {
+*         if (err) {
+*             console.log(err);
+*         } else {
+*             console.log(results);
+*             // results is now the original array of files sorted by
+*             // file size (ascending by default), e.g.
+*             // [ 'smallfile.txt', 'mediumfile.txt', 'bigfile.txt']
+*         }
+*     }
+* );
+*
+* // By modifying the callback parameter the
+* // sorting order can be influenced:
+*
+* // ascending order
+* async.sortBy(['mediumfile.txt','smallfile.txt','bigfile.txt'], function(file, callback) {
+*     getFileSizeInBytes(file, function(getFileSizeErr, fileSize) {
+*         if (getFileSizeErr) return callback(getFileSizeErr);
+*         callback(null, fileSize);
+*     });
+* }, function(err, results) {
+*         if (err) {
+*             console.log(err);
+*         } else {
+*             console.log(results);
+*             // results is now the original array of files sorted by
+*             // file size (ascending by default), e.g.
+*             // [ 'smallfile.txt', 'mediumfile.txt', 'bigfile.txt']
+*         }
+*     }
+* );
+*
+* // descending order
+* async.sortBy(['bigfile.txt','mediumfile.txt','smallfile.txt'], function(file, callback) {
+*     getFileSizeInBytes(file, function(getFileSizeErr, fileSize) {
+*         if (getFileSizeErr) {
+*             return callback(getFileSizeErr);
+*         }
+*         callback(null, fileSize * -1);
+*     });
+* }, function(err, results) {
+*         if (err) {
+*             console.log(err);
+*         } else {
+*             console.log(results);
+*             // results is now the original array of files sorted by
+*             // file size (ascending by default), e.g.
+*             // [ 'bigfile.txt', 'mediumfile.txt', 'smallfile.txt']
+*         }
+*     }
+* );
+*
+* // Error handling
+* async.sortBy(['mediumfile.txt','smallfile.txt','missingfile.txt'], getFileSizeInBytes,
+*     function(err, results) {
+*         if (err) {
+*             console.log(err);
+*             // [ Error: ENOENT: no such file or directory ]
+*         } else {
+*             console.log(results);
+*         }
+*     }
+* );
+*
+* // Using Promises
+* async.sortBy(['mediumfile.txt','smallfile.txt','bigfile.txt'], getFileSizeInBytes)
+* .then( results => {
+*     console.log(results);
+*     // results is now the original array of files sorted by
+*     // file size (ascending by default), e.g.
+*     // [ 'smallfile.txt', 'mediumfile.txt', 'bigfile.txt']
+* }).catch( err => {
+*     console.log(err);
+* });
+*
+* // Error handling
+* async.sortBy(['mediumfile.txt','smallfile.txt','missingfile.txt'], getFileSizeInBytes)
+* .then( results => {
+*     console.log(results);
+* }).catch( err => {
+*     console.log(err);
+*     // [ Error: ENOENT: no such file or directory ]
+* });
+*
+* // Using async/await
+* (async () => {
+*     try {
+*         let results = await async.sortBy(['bigfile.txt','mediumfile.txt','smallfile.txt'], getFileSizeInBytes);
+*         console.log(results);
+*         // results is now the original array of files sorted by
+*         // file size (ascending by default), e.g.
+*         // [ 'smallfile.txt', 'mediumfile.txt', 'bigfile.txt']
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* })();
+*
+* // Error handling
+* async () => {
+*     try {
+*         let results = await async.sortBy(['missingfile.txt','mediumfile.txt','smallfile.txt'], getFileSizeInBytes);
+*         console.log(results);
+*     }
+*     catch (err) {
+*         console.log(err);
+*         // [ Error: ENOENT: no such file or directory ]
+*     }
+* }
+*
+*/
 function sortBy(coll, iteratee, callback) {
 	var _iteratee = wrapAsync(iteratee);
 	return map$1(coll, (x, iterCb) => {
@@ -31236,6 +40556,47 @@ function sortBy(coll, iteratee, callback) {
 		return a < b ? -1 : a > b ? 1 : 0;
 	}
 }
+/**
+* Sets a time limit on an asynchronous function. If the function does not call
+* its callback within the specified milliseconds, it will be called with a
+* timeout error. The code property for the error object will be `'ETIMEDOUT'`.
+*
+* @name timeout
+* @static
+* @memberOf module:Utils
+* @method
+* @category Util
+* @param {AsyncFunction} asyncFn - The async function to limit in time.
+* @param {number} milliseconds - The specified time limit.
+* @param {*} [info] - Any variable you want attached (`string`, `object`, etc)
+* to timeout Error for more information..
+* @returns {AsyncFunction} Returns a wrapped function that can be used with any
+* of the control flow functions.
+* Invoke this function with the same parameters as you would `asyncFunc`.
+* @example
+*
+* function myFunction(foo, callback) {
+*     doAsyncTask(foo, function(err, data) {
+*         // handle errors
+*         if (err) return callback(err);
+*
+*         // do some stuff ...
+*
+*         // return processed data
+*         return callback(null, data);
+*     });
+* }
+*
+* var wrapped = async.timeout(myFunction, 1000);
+*
+* // call `wrapped` as you would `myFunction`
+* wrapped({ bar: 'bar' }, function(err, data) {
+*     // if `myFunction` takes < 1000 ms to execute, `err`
+*     // and `data` will have their expected values
+*
+*     // else `err` will be an Error with the code 'ETIMEDOUT'
+* });
+*/
 function timeout(asyncFn, milliseconds, info) {
 	var fn = wrapAsync(asyncFn);
 	return initialParams((args, callback) => {
@@ -31264,16 +40625,216 @@ function range(size) {
 	while (size--) result[size] = size;
 	return result;
 }
+/**
+* The same as [times]{@link module:ControlFlow.times} but runs a maximum of `limit` async operations at a
+* time.
+*
+* @name timesLimit
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.times]{@link module:ControlFlow.times}
+* @category Control Flow
+* @param {number} count - The number of times to run the function.
+* @param {number} limit - The maximum number of async operations at a time.
+* @param {AsyncFunction} iteratee - The async function to call `n` times.
+* Invoked with the iteration index and a callback: (n, next).
+* @param {Function} callback - see [async.map]{@link module:Collections.map}.
+* @returns {Promise} a promise, if no callback is provided
+*/
 function timesLimit(count, limit, iteratee, callback) {
 	var _iteratee = wrapAsync(iteratee);
 	return mapLimit$1(range(count), limit, _iteratee, callback);
 }
+/**
+* Calls the `iteratee` function `n` times, and accumulates results in the same
+* manner you would use with [map]{@link module:Collections.map}.
+*
+* @name times
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.map]{@link module:Collections.map}
+* @category Control Flow
+* @param {number} n - The number of times to run the function.
+* @param {AsyncFunction} iteratee - The async function to call `n` times.
+* Invoked with the iteration index and a callback: (n, next).
+* @param {Function} callback - see {@link module:Collections.map}.
+* @returns {Promise} a promise, if no callback is provided
+* @example
+*
+* // Pretend this is some complicated async factory
+* var createUser = function(id, callback) {
+*     callback(null, {
+*         id: 'user' + id
+*     });
+* };
+*
+* // generate 5 users
+* async.times(5, function(n, next) {
+*     createUser(n, function(err, user) {
+*         next(err, user);
+*     });
+* }, function(err, users) {
+*     // we should now have 5 users
+* });
+*/
 function times(n, iteratee, callback) {
 	return timesLimit(n, Infinity, iteratee, callback);
 }
+/**
+* The same as [times]{@link module:ControlFlow.times} but runs only a single async operation at a time.
+*
+* @name timesSeries
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.times]{@link module:ControlFlow.times}
+* @category Control Flow
+* @param {number} n - The number of times to run the function.
+* @param {AsyncFunction} iteratee - The async function to call `n` times.
+* Invoked with the iteration index and a callback: (n, next).
+* @param {Function} callback - see {@link module:Collections.map}.
+* @returns {Promise} a promise, if no callback is provided
+*/
 function timesSeries(n, iteratee, callback) {
 	return timesLimit(n, 1, iteratee, callback);
 }
+/**
+* A relative of `reduce`.  Takes an Object or Array, and iterates over each
+* element in parallel, each step potentially mutating an `accumulator` value.
+* The type of the accumulator defaults to the type of collection passed in.
+*
+* @name transform
+* @static
+* @memberOf module:Collections
+* @method
+* @category Collection
+* @param {Array|Iterable|AsyncIterable|Object} coll - A collection to iterate over.
+* @param {*} [accumulator] - The initial state of the transform.  If omitted,
+* it will default to an empty Object or Array, depending on the type of `coll`
+* @param {AsyncFunction} iteratee - A function applied to each item in the
+* collection that potentially modifies the accumulator.
+* Invoked with (accumulator, item, key, callback).
+* @param {Function} [callback] - A callback which is called after all the
+* `iteratee` functions have finished. Result is the transformed accumulator.
+* Invoked with (err, result).
+* @returns {Promise} a promise, if no callback provided
+* @example
+*
+* // file1.txt is a file that is 1000 bytes in size
+* // file2.txt is a file that is 2000 bytes in size
+* // file3.txt is a file that is 3000 bytes in size
+*
+* // helper function that returns human-readable size format from bytes
+* function formatBytes(bytes, decimals = 2) {
+*   // implementation not included for brevity
+*   return humanReadbleFilesize;
+* }
+*
+* const fileList = ['file1.txt','file2.txt','file3.txt'];
+*
+* // asynchronous function that returns the file size, transformed to human-readable format
+* // e.g. 1024 bytes = 1KB, 1234 bytes = 1.21 KB, 1048576 bytes = 1MB, etc.
+* function transformFileSize(acc, value, key, callback) {
+*     fs.stat(value, function(err, stat) {
+*         if (err) {
+*             return callback(err);
+*         }
+*         acc[key] = formatBytes(stat.size);
+*         callback(null);
+*     });
+* }
+*
+* // Using callbacks
+* async.transform(fileList, transformFileSize, function(err, result) {
+*     if(err) {
+*         console.log(err);
+*     } else {
+*         console.log(result);
+*         // [ '1000 Bytes', '1.95 KB', '2.93 KB' ]
+*     }
+* });
+*
+* // Using Promises
+* async.transform(fileList, transformFileSize)
+* .then(result => {
+*     console.log(result);
+*     // [ '1000 Bytes', '1.95 KB', '2.93 KB' ]
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* (async () => {
+*     try {
+*         let result = await async.transform(fileList, transformFileSize);
+*         console.log(result);
+*         // [ '1000 Bytes', '1.95 KB', '2.93 KB' ]
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* })();
+*
+* @example
+*
+* // file1.txt is a file that is 1000 bytes in size
+* // file2.txt is a file that is 2000 bytes in size
+* // file3.txt is a file that is 3000 bytes in size
+*
+* // helper function that returns human-readable size format from bytes
+* function formatBytes(bytes, decimals = 2) {
+*   // implementation not included for brevity
+*   return humanReadbleFilesize;
+* }
+*
+* const fileMap = { f1: 'file1.txt', f2: 'file2.txt', f3: 'file3.txt' };
+*
+* // asynchronous function that returns the file size, transformed to human-readable format
+* // e.g. 1024 bytes = 1KB, 1234 bytes = 1.21 KB, 1048576 bytes = 1MB, etc.
+* function transformFileSize(acc, value, key, callback) {
+*     fs.stat(value, function(err, stat) {
+*         if (err) {
+*             return callback(err);
+*         }
+*         acc[key] = formatBytes(stat.size);
+*         callback(null);
+*     });
+* }
+*
+* // Using callbacks
+* async.transform(fileMap, transformFileSize, function(err, result) {
+*     if(err) {
+*         console.log(err);
+*     } else {
+*         console.log(result);
+*         // { f1: '1000 Bytes', f2: '1.95 KB', f3: '2.93 KB' }
+*     }
+* });
+*
+* // Using Promises
+* async.transform(fileMap, transformFileSize)
+* .then(result => {
+*     console.log(result);
+*     // { f1: '1000 Bytes', f2: '1.95 KB', f3: '2.93 KB' }
+* }).catch(err => {
+*     console.log(err);
+* });
+*
+* // Using async/await
+* async () => {
+*     try {
+*         let result = await async.transform(fileMap, transformFileSize);
+*         console.log(result);
+*         // { f1: '1000 Bytes', f2: '1.95 KB', f3: '2.93 KB' }
+*     }
+*     catch (err) {
+*         console.log(err);
+*     }
+* }
+*
+*/
 function transform(coll, accumulator, iteratee, callback) {
 	if (arguments.length <= 3 && typeof accumulator === "function") {
 		callback = iteratee;
@@ -31287,6 +40848,44 @@ function transform(coll, accumulator, iteratee, callback) {
 	}, (err) => callback(err, accumulator));
 	return callback[PROMISE_SYMBOL];
 }
+/**
+* It runs each task in series but stops whenever any of the functions were
+* successful. If one of the tasks were successful, the `callback` will be
+* passed the result of the successful task. If all tasks fail, the callback
+* will be passed the error and result (if any) of the final attempt.
+*
+* @name tryEach
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {Array|Iterable|AsyncIterable|Object} tasks - A collection containing functions to
+* run, each function is passed a `callback(err, result)` it must call on
+* completion with an error `err` (which can be `null`) and an optional `result`
+* value.
+* @param {Function} [callback] - An optional callback which is called when one
+* of the tasks has succeeded, or all have failed. It receives the `err` and
+* `result` arguments of the last attempt at completing the `task`. Invoked with
+* (err, results).
+* @returns {Promise} a promise, if no callback is passed
+* @example
+* async.tryEach([
+*     function getDataFromFirstWebsite(callback) {
+*         // Try getting the data from the first website
+*         callback(err, data);
+*     },
+*     function getDataFromSecondWebsite(callback) {
+*         // First website failed,
+*         // Try getting the data from the backup website
+*         callback(err, data);
+*     }
+* ],
+* // optional callback
+* function(err, results) {
+*     Now do something with the data.
+* });
+*
+*/
 function tryEach(tasks, callback) {
 	var error = null;
 	var result;
@@ -31300,11 +40899,58 @@ function tryEach(tasks, callback) {
 		});
 	}, () => callback(error, result));
 }
+/**
+* Undoes a [memoize]{@link module:Utils.memoize}d function, reverting it to the original,
+* unmemoized form. Handy for testing.
+*
+* @name unmemoize
+* @static
+* @memberOf module:Utils
+* @method
+* @see [async.memoize]{@link module:Utils.memoize}
+* @category Util
+* @param {AsyncFunction} fn - the memoized function
+* @returns {AsyncFunction} a function that calls the original unmemoized function
+*/
 function unmemoize(fn) {
 	return (...args) => {
 		return (fn.unmemoized || fn)(...args);
 	};
 }
+/**
+* Repeatedly call `iteratee`, while `test` returns `true`. Calls `callback` when
+* stopped, or an error occurs.
+*
+* @name whilst
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {AsyncFunction} test - asynchronous truth test to perform before each
+* execution of `iteratee`. Invoked with (callback).
+* @param {AsyncFunction} iteratee - An async function which is called each time
+* `test` passes. Invoked with (callback).
+* @param {Function} [callback] - A callback which is called after the test
+* function has failed and repeated execution of `iteratee` has stopped. `callback`
+* will be passed an error and any arguments passed to the final `iteratee`'s
+* callback. Invoked with (err, [results]);
+* @returns {Promise} a promise, if no callback is passed
+* @example
+*
+* var count = 0;
+* async.whilst(
+*     function test(cb) { cb(null, count < 5); },
+*     function iter(callback) {
+*         count++;
+*         setTimeout(function() {
+*             callback(null, count);
+*         }, 1000);
+*     },
+*     function (err, n) {
+*         // 5 seconds have passed, n = 5
+*     }
+* );
+*/
 function whilst(test, iteratee, callback) {
 	callback = onlyOnce(callback);
 	var _fn = wrapAsync(iteratee);
@@ -31324,10 +40970,106 @@ function whilst(test, iteratee, callback) {
 	}
 	return _test(check);
 }
+/**
+* Repeatedly call `iteratee` until `test` returns `true`. Calls `callback` when
+* stopped, or an error occurs. `callback` will be passed an error and any
+* arguments passed to the final `iteratee`'s callback.
+*
+* The inverse of [whilst]{@link module:ControlFlow.whilst}.
+*
+* @name until
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @see [async.whilst]{@link module:ControlFlow.whilst}
+* @category Control Flow
+* @param {AsyncFunction} test - asynchronous truth test to perform before each
+* execution of `iteratee`. Invoked with (callback).
+* @param {AsyncFunction} iteratee - An async function which is called each time
+* `test` fails. Invoked with (callback).
+* @param {Function} [callback] - A callback which is called after the test
+* function has passed and repeated execution of `iteratee` has stopped. `callback`
+* will be passed an error and any arguments passed to the final `iteratee`'s
+* callback. Invoked with (err, [results]);
+* @returns {Promise} a promise, if a callback is not passed
+*
+* @example
+* const results = []
+* let finished = false
+* async.until(function test(cb) {
+*     cb(null, finished)
+* }, function iter(next) {
+*     fetchPage(url, (err, body) => {
+*         if (err) return next(err)
+*         results = results.concat(body.objects)
+*         finished = !!body.next
+*         next(err)
+*     })
+* }, function done (err) {
+*     // all pages have been fetched
+* })
+*/
 function until(test, iteratee, callback) {
 	const _test = wrapAsync(test);
 	return whilst$1((cb) => _test((err, truth) => cb(err, !truth)), iteratee, callback);
 }
+/**
+* Runs the `tasks` array of functions in series, each passing their results to
+* the next in the array. However, if any of the `tasks` pass an error to their
+* own callback, the next function is not executed, and the main `callback` is
+* immediately called with the error.
+*
+* @name waterfall
+* @static
+* @memberOf module:ControlFlow
+* @method
+* @category Control Flow
+* @param {Array} tasks - An array of [async functions]{@link AsyncFunction}
+* to run.
+* Each function should complete with any number of `result` values.
+* The `result` values will be passed as arguments, in order, to the next task.
+* @param {Function} [callback] - An optional callback to run once all the
+* functions have completed. This will be passed the results of the last task's
+* callback. Invoked with (err, [results]).
+* @returns {Promise} a promise, if a callback is omitted
+* @example
+*
+* async.waterfall([
+*     function(callback) {
+*         callback(null, 'one', 'two');
+*     },
+*     function(arg1, arg2, callback) {
+*         // arg1 now equals 'one' and arg2 now equals 'two'
+*         callback(null, 'three');
+*     },
+*     function(arg1, callback) {
+*         // arg1 now equals 'three'
+*         callback(null, 'done');
+*     }
+* ], function (err, result) {
+*     // result now equals 'done'
+* });
+*
+* // Or, with named functions:
+* async.waterfall([
+*     myFirstFunction,
+*     mySecondFunction,
+*     myLastFunction,
+* ], function (err, result) {
+*     // result now equals 'done'
+* });
+* function myFirstFunction(callback) {
+*     callback(null, 'one', 'two');
+* }
+* function mySecondFunction(arg1, arg2, callback) {
+*     // arg1 now equals 'one' and arg2 now equals 'two'
+*     callback(null, 'three');
+* }
+* function myLastFunction(arg1, callback) {
+*     // arg1 now equals 'three'
+*     callback(null, 'done');
+* }
+*/
 function waterfall(tasks, callback) {
 	callback = once(callback);
 	if (!Array.isArray(tasks)) return callback(/* @__PURE__ */ new Error("First argument to waterfall must be an array of functions"));
@@ -32710,6 +42452,9 @@ var require_destroy$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_node = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* For Node.js, simply re-export the core `util.deprecate` function.
+	*/
 	module.exports = __require("util").deprecate;
 }));
 var require__stream_writable = /* @__PURE__ */ __commonJSMin(((exports, module) => {
@@ -34203,12 +43948,38 @@ var require_normalize_path = /* @__PURE__ */ __commonJSMin(((exports, module) =>
 	};
 }));
 var require_identity$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This method returns the first argument it receives.
+	*
+	* @static
+	* @since 0.1.0
+	* @memberOf _
+	* @category Util
+	* @param {*} value Any value.
+	* @returns {*} Returns `value`.
+	* @example
+	*
+	* var object = { 'a': 1 };
+	*
+	* console.log(_.identity(object) === object);
+	* // => true
+	*/
 	function identity(value) {
 		return value;
 	}
 	module.exports = identity;
 }));
 var require__apply = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* A faster alternative to `Function#apply`, this function invokes `func`
+	* with the `this` binding of `thisArg` and the arguments of `args`.
+	*
+	* @private
+	* @param {Function} func The function to invoke.
+	* @param {*} thisArg The `this` binding of `func`.
+	* @param {Array} args The arguments to invoke `func` with.
+	* @returns {*} Returns the result of `func`.
+	*/
 	function apply(func, thisArg, args) {
 		switch (args.length) {
 			case 0: return func.call(thisArg);
@@ -34223,6 +43994,15 @@ var require__apply = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 var require__overRest = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var apply = require__apply();
 	var nativeMax = Math.max;
+	/**
+	* A specialized version of `baseRest` which transforms the rest array.
+	*
+	* @private
+	* @param {Function} func The function to apply a rest parameter to.
+	* @param {number} [start=func.length-1] The start position of the rest parameter.
+	* @param {Function} transform The rest array transform.
+	* @returns {Function} Returns the new function.
+	*/
 	function overRest(func, start, transform) {
 		start = nativeMax(start === void 0 ? func.length - 1 : start, 0);
 		return function() {
@@ -34238,6 +44018,25 @@ var require__overRest = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = overRest;
 }));
 var require_constant = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Creates a function that returns `value`.
+	*
+	* @static
+	* @memberOf _
+	* @since 2.4.0
+	* @category Util
+	* @param {*} value The value to return from the new function.
+	* @returns {Function} Returns the new constant function.
+	* @example
+	*
+	* var objects = _.times(2, _.constant({ 'a': 1 }));
+	*
+	* console.log(objects);
+	* // => [{ 'a': 1 }, { 'a': 1 }]
+	*
+	* console.log(objects[0] === objects[1]);
+	* // => true
+	*/
 	function constant(value) {
 		return function() {
 			return value;
@@ -34250,6 +44049,7 @@ var require__freeGlobal = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__root = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var freeGlobal = require__freeGlobal();
+	/** Detect free variable `self`. */
 	var freeSelf = typeof self == "object" && self && self.Object === Object && self;
 	module.exports = freeGlobal || freeSelf || Function("return this")();
 }));
@@ -34258,10 +44058,25 @@ var require__Symbol = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__getRawTag = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var Symbol = require__Symbol();
+	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
+	/**
+	* Used to resolve the
+	* [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+	* of values.
+	*/
 	var nativeObjectToString = objectProto.toString;
+	/** Built-in value references. */
 	var symToStringTag = Symbol ? Symbol.toStringTag : void 0;
+	/**
+	* A specialized version of `baseGetTag` which ignores `Symbol.toStringTag` values.
+	*
+	* @private
+	* @param {*} value The value to query.
+	* @returns {string} Returns the raw `toStringTag`.
+	*/
 	function getRawTag(value) {
 		var isOwn = hasOwnProperty.call(value, symToStringTag), tag = value[symToStringTag];
 		try {
@@ -34276,7 +44091,19 @@ var require__getRawTag = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = getRawTag;
 }));
 var require__objectToString = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Used to resolve the
+	* [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+	* of values.
+	*/
 	var nativeObjectToString = Object.prototype.toString;
+	/**
+	* Converts `value` to a string using `Object.prototype.toString`.
+	*
+	* @private
+	* @param {*} value The value to convert.
+	* @returns {string} Returns the converted string.
+	*/
 	function objectToString(value) {
 		return nativeObjectToString.call(value);
 	}
@@ -34284,8 +44111,17 @@ var require__objectToString = /* @__PURE__ */ __commonJSMin(((exports, module) =
 }));
 var require__baseGetTag = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var Symbol = require__Symbol(), getRawTag = require__getRawTag(), objectToString = require__objectToString();
+	/** `Object#toString` result references. */
 	var nullTag = "[object Null]", undefinedTag = "[object Undefined]";
+	/** Built-in value references. */
 	var symToStringTag = Symbol ? Symbol.toStringTag : void 0;
+	/**
+	* The base implementation of `getTag` without fallbacks for buggy environments.
+	*
+	* @private
+	* @param {*} value The value to query.
+	* @returns {string} Returns the `toStringTag`.
+	*/
 	function baseGetTag(value) {
 		if (value == null) return value === void 0 ? undefinedTag : nullTag;
 		return symToStringTag && symToStringTag in Object(value) ? getRawTag(value) : objectToString(value);
@@ -34293,6 +44129,31 @@ var require__baseGetTag = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = baseGetTag;
 }));
 var require_isObject = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Checks if `value` is the
+	* [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+	* of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+	*
+	* @static
+	* @memberOf _
+	* @since 0.1.0
+	* @category Lang
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is an object, else `false`.
+	* @example
+	*
+	* _.isObject({});
+	* // => true
+	*
+	* _.isObject([1, 2, 3]);
+	* // => true
+	*
+	* _.isObject(_.noop);
+	* // => true
+	*
+	* _.isObject(null);
+	* // => false
+	*/
 	function isObject(value) {
 		var type = typeof value;
 		return value != null && (type == "object" || type == "function");
@@ -34301,7 +44162,25 @@ var require_isObject = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require_isFunction = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseGetTag = require__baseGetTag(), isObject = require_isObject();
+	/** `Object#toString` result references. */
 	var asyncTag = "[object AsyncFunction]", funcTag = "[object Function]", genTag = "[object GeneratorFunction]", proxyTag = "[object Proxy]";
+	/**
+	* Checks if `value` is classified as a `Function` object.
+	*
+	* @static
+	* @memberOf _
+	* @since 0.1.0
+	* @category Lang
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is a function, else `false`.
+	* @example
+	*
+	* _.isFunction(_);
+	* // => true
+	*
+	* _.isFunction(/abc/);
+	* // => false
+	*/
 	function isFunction(value) {
 		if (!isObject(value)) return false;
 		var tag = baseGetTag(value);
@@ -34314,17 +44193,33 @@ var require__coreJsData = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__isMasked = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var coreJsData = require__coreJsData();
+	/** Used to detect methods masquerading as native. */
 	var maskSrcKey = function() {
 		var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || "");
 		return uid ? "Symbol(src)_1." + uid : "";
 	}();
+	/**
+	* Checks if `func` has its source masked.
+	*
+	* @private
+	* @param {Function} func The function to check.
+	* @returns {boolean} Returns `true` if `func` is masked, else `false`.
+	*/
 	function isMasked(func) {
 		return !!maskSrcKey && maskSrcKey in func;
 	}
 	module.exports = isMasked;
 }));
 var require__toSource = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/** Used to resolve the decompiled source of functions. */
 	var funcToString = Function.prototype.toString;
+	/**
+	* Converts `func` to its source code.
+	*
+	* @private
+	* @param {Function} func The function to convert.
+	* @returns {string} Returns the source code.
+	*/
 	function toSource(func) {
 		if (func != null) {
 			try {
@@ -34340,12 +44235,29 @@ var require__toSource = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__baseIsNative = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var isFunction = require_isFunction(), isMasked = require__isMasked(), isObject = require_isObject(), toSource = require__toSource();
+	/**
+	* Used to match `RegExp`
+	* [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
+	*/
 	var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+	/** Used to detect host constructors (Safari). */
 	var reIsHostCtor = /^\[object .+?Constructor\]$/;
+	/** Used for built-in method references. */
 	var funcProto = Function.prototype, objectProto = Object.prototype;
+	/** Used to resolve the decompiled source of functions. */
 	var funcToString = funcProto.toString;
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
+	/** Used to detect if a method is native. */
 	var reIsNative = RegExp("^" + funcToString.call(hasOwnProperty).replace(reRegExpChar, "\\$&").replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, "$1.*?") + "$");
+	/**
+	* The base implementation of `_.isNative` without bad shim checks.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is a native function,
+	*  else `false`.
+	*/
 	function baseIsNative(value) {
 		if (!isObject(value) || isMasked(value)) return false;
 		return (isFunction(value) ? reIsNative : reIsHostCtor).test(toSource(value));
@@ -34353,6 +44265,14 @@ var require__baseIsNative = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 	module.exports = baseIsNative;
 }));
 var require__getValue = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Gets the value at `key` of `object`.
+	*
+	* @private
+	* @param {Object} [object] The object to query.
+	* @param {string} key The key of the property to get.
+	* @returns {*} Returns the property value.
+	*/
 	function getValue(object, key) {
 		return object == null ? void 0 : object[key];
 	}
@@ -34360,6 +44280,14 @@ var require__getValue = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__getNative = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseIsNative = require__baseIsNative(), getValue = require__getValue();
+	/**
+	* Gets the native function at `key` of `object`.
+	*
+	* @private
+	* @param {Object} object The object to query.
+	* @param {string} key The key of the method to get.
+	* @returns {*} Returns the function if it's native, else `undefined`.
+	*/
 	function getNative(object, key) {
 		var value = getValue(object, key);
 		return baseIsNative(value) ? value : void 0;
@@ -34388,8 +44316,18 @@ var require__baseSetToString = /* @__PURE__ */ __commonJSMin(((exports, module) 
 	};
 }));
 var require__shortOut = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/** Used to detect hot functions by number of calls within a span of milliseconds. */
 	var HOT_COUNT = 800, HOT_SPAN = 16;
 	var nativeNow = Date.now;
+	/**
+	* Creates a function that'll short out and invoke `identity` instead
+	* of `func` when it's called `HOT_COUNT` or more times in `HOT_SPAN`
+	* milliseconds.
+	*
+	* @private
+	* @param {Function} func The function to restrict.
+	* @returns {Function} Returns the new shortable function.
+	*/
 	function shortOut(func) {
 		var count = 0, lastCalled = 0;
 		return function() {
@@ -34409,19 +44347,86 @@ var require__setToString = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__baseRest = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var identity = require_identity$1(), overRest = require__overRest(), setToString = require__setToString();
+	/**
+	* The base implementation of `_.rest` which doesn't validate or coerce arguments.
+	*
+	* @private
+	* @param {Function} func The function to apply a rest parameter to.
+	* @param {number} [start=func.length-1] The start position of the rest parameter.
+	* @returns {Function} Returns the new function.
+	*/
 	function baseRest(func, start) {
 		return setToString(overRest(func, start, identity), func + "");
 	}
 	module.exports = baseRest;
 }));
 var require_eq = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Performs a
+	* [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+	* comparison between two values to determine if they are equivalent.
+	*
+	* @static
+	* @memberOf _
+	* @since 4.0.0
+	* @category Lang
+	* @param {*} value The value to compare.
+	* @param {*} other The other value to compare.
+	* @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+	* @example
+	*
+	* var object = { 'a': 1 };
+	* var other = { 'a': 1 };
+	*
+	* _.eq(object, object);
+	* // => true
+	*
+	* _.eq(object, other);
+	* // => false
+	*
+	* _.eq('a', 'a');
+	* // => true
+	*
+	* _.eq('a', Object('a'));
+	* // => false
+	*
+	* _.eq(NaN, NaN);
+	* // => true
+	*/
 	function eq(value, other) {
 		return value === other || value !== value && other !== other;
 	}
 	module.exports = eq;
 }));
 var require_isLength = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/** Used as references for various `Number` constants. */
 	var MAX_SAFE_INTEGER = 9007199254740991;
+	/**
+	* Checks if `value` is a valid array-like length.
+	*
+	* **Note:** This method is loosely based on
+	* [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
+	*
+	* @static
+	* @memberOf _
+	* @since 4.0.0
+	* @category Lang
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+	* @example
+	*
+	* _.isLength(3);
+	* // => true
+	*
+	* _.isLength(Number.MIN_VALUE);
+	* // => false
+	*
+	* _.isLength(Infinity);
+	* // => false
+	*
+	* _.isLength('3');
+	* // => false
+	*/
 	function isLength(value) {
 		return typeof value == "number" && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
 	}
@@ -34429,14 +44434,49 @@ var require_isLength = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require_isArrayLike = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var isFunction = require_isFunction(), isLength = require_isLength();
+	/**
+	* Checks if `value` is array-like. A value is considered array-like if it's
+	* not a function and has a `value.length` that's an integer greater than or
+	* equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
+	*
+	* @static
+	* @memberOf _
+	* @since 4.0.0
+	* @category Lang
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+	* @example
+	*
+	* _.isArrayLike([1, 2, 3]);
+	* // => true
+	*
+	* _.isArrayLike(document.body.children);
+	* // => true
+	*
+	* _.isArrayLike('abc');
+	* // => true
+	*
+	* _.isArrayLike(_.noop);
+	* // => false
+	*/
 	function isArrayLike(value) {
 		return value != null && isLength(value.length) && !isFunction(value);
 	}
 	module.exports = isArrayLike;
 }));
 var require__isIndex = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/** Used as references for various `Number` constants. */
 	var MAX_SAFE_INTEGER = 9007199254740991;
+	/** Used to detect unsigned integer values. */
 	var reIsUint = /^(?:0|[1-9]\d*)$/;
+	/**
+	* Checks if `value` is a valid array-like index.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+	* @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+	*/
 	function isIndex(value, length) {
 		var type = typeof value;
 		length = length == null ? MAX_SAFE_INTEGER : length;
@@ -34446,6 +44486,16 @@ var require__isIndex = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__isIterateeCall = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var eq = require_eq(), isArrayLike = require_isArrayLike(), isIndex = require__isIndex(), isObject = require_isObject();
+	/**
+	* Checks if the given arguments are from an iteratee call.
+	*
+	* @private
+	* @param {*} value The potential iteratee value argument.
+	* @param {*} index The potential iteratee index or key argument.
+	* @param {*} object The potential iteratee object argument.
+	* @returns {boolean} Returns `true` if the arguments are from an iteratee call,
+	*  else `false`.
+	*/
 	function isIterateeCall(value, index, object) {
 		if (!isObject(object)) return false;
 		var type = typeof index;
@@ -34455,6 +44505,15 @@ var require__isIterateeCall = /* @__PURE__ */ __commonJSMin(((exports, module) =
 	module.exports = isIterateeCall;
 }));
 var require__baseTimes = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* The base implementation of `_.times` without support for iteratee shorthands
+	* or max array length checks.
+	*
+	* @private
+	* @param {number} n The number of times to invoke `iteratee`.
+	* @param {Function} iteratee The function invoked per iteration.
+	* @returns {Array} Returns the array of results.
+	*/
 	function baseTimes(n, iteratee) {
 		var index = -1, result = Array(n);
 		while (++index < n) result[index] = iteratee(index);
@@ -34463,6 +44522,30 @@ var require__baseTimes = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = baseTimes;
 }));
 var require_isObjectLike = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Checks if `value` is object-like. A value is object-like if it's not `null`
+	* and has a `typeof` result of "object".
+	*
+	* @static
+	* @memberOf _
+	* @since 4.0.0
+	* @category Lang
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+	* @example
+	*
+	* _.isObjectLike({});
+	* // => true
+	*
+	* _.isObjectLike([1, 2, 3]);
+	* // => true
+	*
+	* _.isObjectLike(_.noop);
+	* // => false
+	*
+	* _.isObjectLike(null);
+	* // => false
+	*/
 	function isObjectLike(value) {
 		return value != null && typeof value == "object";
 	}
@@ -34470,7 +44553,15 @@ var require_isObjectLike = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__baseIsArguments = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseGetTag = require__baseGetTag(), isObjectLike = require_isObjectLike();
+	/** `Object#toString` result references. */
 	var argsTag = "[object Arguments]";
+	/**
+	* The base implementation of `_.isArguments`.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is an `arguments` object,
+	*/
 	function baseIsArguments(value) {
 		return isObjectLike(value) && baseGetTag(value) == argsTag;
 	}
@@ -34478,8 +44569,11 @@ var require__baseIsArguments = /* @__PURE__ */ __commonJSMin(((exports, module) 
 }));
 var require_isArguments = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseIsArguments = require__baseIsArguments(), isObjectLike = require_isObjectLike();
+	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
+	/** Built-in value references. */
 	var propertyIsEnumerable = objectProto.propertyIsEnumerable;
 	module.exports = baseIsArguments(function() {
 		return arguments;
@@ -34491,6 +44585,19 @@ var require_isArray = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = Array.isArray;
 }));
 var require_stubFalse = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This method returns `false`.
+	*
+	* @static
+	* @memberOf _
+	* @since 4.13.0
+	* @category Util
+	* @returns {boolean} Returns `false`.
+	* @example
+	*
+	* _.times(2, _.stubFalse);
+	* // => [false, false]
+	*/
 	function stubFalse() {
 		return false;
 	}
@@ -34498,24 +44605,43 @@ var require_stubFalse = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require_isBuffer = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var root = require__root(), stubFalse = require_stubFalse();
+	/** Detect free variable `exports`. */
 	var freeExports = typeof exports == "object" && exports && !exports.nodeType && exports;
+	/** Detect free variable `module`. */
 	var freeModule = freeExports && typeof module == "object" && module && !module.nodeType && module;
+	/** Built-in value references. */
 	var Buffer = freeModule && freeModule.exports === freeExports ? root.Buffer : void 0;
 	module.exports = (Buffer ? Buffer.isBuffer : void 0) || stubFalse;
 }));
 var require__baseIsTypedArray = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseGetTag = require__baseGetTag(), isLength = require_isLength(), isObjectLike = require_isObjectLike();
+	/** `Object#toString` result references. */
 	var argsTag = "[object Arguments]", arrayTag = "[object Array]", boolTag = "[object Boolean]", dateTag = "[object Date]", errorTag = "[object Error]", funcTag = "[object Function]", mapTag = "[object Map]", numberTag = "[object Number]", objectTag = "[object Object]", regexpTag = "[object RegExp]", setTag = "[object Set]", stringTag = "[object String]", weakMapTag = "[object WeakMap]";
 	var arrayBufferTag = "[object ArrayBuffer]", dataViewTag = "[object DataView]", float32Tag = "[object Float32Array]", float64Tag = "[object Float64Array]", int8Tag = "[object Int8Array]", int16Tag = "[object Int16Array]", int32Tag = "[object Int32Array]", uint8Tag = "[object Uint8Array]", uint8ClampedTag = "[object Uint8ClampedArray]", uint16Tag = "[object Uint16Array]", uint32Tag = "[object Uint32Array]";
+	/** Used to identify `toStringTag` values of typed arrays. */
 	var typedArrayTags = {};
 	typedArrayTags[float32Tag] = typedArrayTags[float64Tag] = typedArrayTags[int8Tag] = typedArrayTags[int16Tag] = typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] = typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] = typedArrayTags[uint32Tag] = true;
 	typedArrayTags[argsTag] = typedArrayTags[arrayTag] = typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] = typedArrayTags[dataViewTag] = typedArrayTags[dateTag] = typedArrayTags[errorTag] = typedArrayTags[funcTag] = typedArrayTags[mapTag] = typedArrayTags[numberTag] = typedArrayTags[objectTag] = typedArrayTags[regexpTag] = typedArrayTags[setTag] = typedArrayTags[stringTag] = typedArrayTags[weakMapTag] = false;
+	/**
+	* The base implementation of `_.isTypedArray` without Node.js optimizations.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+	*/
 	function baseIsTypedArray(value) {
 		return isObjectLike(value) && isLength(value.length) && !!typedArrayTags[baseGetTag(value)];
 	}
 	module.exports = baseIsTypedArray;
 }));
 var require__baseUnary = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* The base implementation of `_.unary` without support for storing metadata.
+	*
+	* @private
+	* @param {Function} func The function to cap arguments for.
+	* @returns {Function} Returns the new capped function.
+	*/
 	function baseUnary(func) {
 		return function(value) {
 			return func(value);
@@ -34525,8 +44651,11 @@ var require__baseUnary = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__nodeUtil = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var freeGlobal = require__freeGlobal();
+	/** Detect free variable `exports`. */
 	var freeExports = typeof exports == "object" && exports && !exports.nodeType && exports;
+	/** Detect free variable `module`. */
 	var freeModule = freeExports && typeof module == "object" && module && !module.nodeType && module;
+	/** Detect free variable `process` from Node.js. */
 	var freeProcess = freeModule && freeModule.exports === freeExports && freeGlobal.process;
 	module.exports = function() {
 		try {
@@ -34543,7 +44672,16 @@ var require_isTypedArray = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__arrayLikeKeys = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseTimes = require__baseTimes(), isArguments = require_isArguments(), isArray = require_isArray(), isBuffer = require_isBuffer(), isIndex = require__isIndex(), isTypedArray = require_isTypedArray();
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
+	/**
+	* Creates an array of the enumerable property names of the array-like `value`.
+	*
+	* @private
+	* @param {*} value The value to query.
+	* @param {boolean} inherited Specify returning inherited property names.
+	* @returns {Array} Returns the array of property names.
+	*/
 	function arrayLikeKeys(value, inherited) {
 		var isArr = isArray(value), isArg = !isArr && isArguments(value), isBuff = !isArr && !isArg && isBuffer(value), isType = !isArr && !isArg && !isBuff && isTypedArray(value), skipIndexes = isArr || isArg || isBuff || isType, result = skipIndexes ? baseTimes(value.length, String) : [], length = result.length;
 		for (var key in value) if ((inherited || hasOwnProperty.call(value, key)) && !(skipIndexes && (key == "length" || isBuff && (key == "offset" || key == "parent") || isType && (key == "buffer" || key == "byteLength" || key == "byteOffset") || isIndex(key, length)))) result.push(key);
@@ -34552,7 +44690,15 @@ var require__arrayLikeKeys = /* @__PURE__ */ __commonJSMin(((exports, module) =>
 	module.exports = arrayLikeKeys;
 }));
 var require__isPrototype = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
+	/**
+	* Checks if `value` is likely a prototype object.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
+	*/
 	function isPrototype(value) {
 		var Ctor = value && value.constructor;
 		return value === (typeof Ctor == "function" && Ctor.prototype || objectProto);
@@ -34560,6 +44706,15 @@ var require__isPrototype = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = isPrototype;
 }));
 var require__nativeKeysIn = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This function is like
+	* [`Object.keys`](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+	* except that it includes inherited enumerable properties.
+	*
+	* @private
+	* @param {Object} object The object to query.
+	* @returns {Array} Returns the array of property names.
+	*/
 	function nativeKeysIn(object) {
 		var result = [];
 		if (object != null) for (var key in Object(object)) result.push(key);
@@ -34569,7 +44724,15 @@ var require__nativeKeysIn = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 }));
 var require__baseKeysIn = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var isObject = require_isObject(), isPrototype = require__isPrototype(), nativeKeysIn = require__nativeKeysIn();
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
+	/**
+	* The base implementation of `_.keysIn` which doesn't treat sparse arrays as dense.
+	*
+	* @private
+	* @param {Object} object The object to query.
+	* @returns {Array} Returns the array of property names.
+	*/
 	function baseKeysIn(object) {
 		if (!isObject(object)) return nativeKeysIn(object);
 		var isProto = isPrototype(object), result = [];
@@ -34580,6 +44743,29 @@ var require__baseKeysIn = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require_keysIn = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var arrayLikeKeys = require__arrayLikeKeys(), baseKeysIn = require__baseKeysIn(), isArrayLike = require_isArrayLike();
+	/**
+	* Creates an array of the own and inherited enumerable property names of `object`.
+	*
+	* **Note:** Non-object values are coerced to objects.
+	*
+	* @static
+	* @memberOf _
+	* @since 3.0.0
+	* @category Object
+	* @param {Object} object The object to query.
+	* @returns {Array} Returns the array of property names.
+	* @example
+	*
+	* function Foo() {
+	*   this.a = 1;
+	*   this.b = 2;
+	* }
+	*
+	* Foo.prototype.c = 3;
+	*
+	* _.keysIn(new Foo);
+	* // => ['a', 'b', 'c'] (iteration order is not guaranteed)
+	*/
 	function keysIn(object) {
 		return isArrayLike(object) ? arrayLikeKeys(object, true) : baseKeysIn(object);
 	}
@@ -34587,7 +44773,9 @@ var require_keysIn = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require_defaults = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseRest = require__baseRest(), eq = require_eq(), isIterateeCall = require__isIterateeCall(), keysIn = require_keysIn();
+	/** Used for built-in method references. */
 	var objectProto = Object.prototype;
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
 	module.exports = baseRest(function(object, sources) {
 		object = Object(object);
@@ -34992,11 +45180,21 @@ var require_errors$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		codes
 	};
 }));
+/**
+* Get private data.
+* @param {Event} event The event object to get private data.
+* @returns {PrivateData} The private data of the event.
+* @private
+*/
 function pd(event) {
 	const retv = privateData.get(event);
 	console.assert(retv != null, "'this' is expected an Event object, but got", event);
 	return retv;
 }
+/**
+* https://dom.spec.whatwg.org/#set-the-canceled-flag
+* @param data {PrivateData} private data.
+*/
 function setCancelFlag(data) {
 	if (data.passiveListener != null) {
 		if (typeof console !== "undefined" && typeof console.error === "function") console.error("Unable to preventDefault inside passive event listener invocation.", data.passiveListener);
@@ -35006,6 +45204,16 @@ function setCancelFlag(data) {
 	data.canceled = true;
 	if (typeof data.event.preventDefault === "function") data.event.preventDefault();
 }
+/**
+* @see https://dom.spec.whatwg.org/#interface-event
+* @private
+*/
+/**
+* The event wrapper.
+* @constructor
+* @param {EventTarget} eventTarget The event target of this dispatching.
+* @param {Event|{type:string}} event The original event to wrap.
+*/
 function Event(eventTarget, event) {
 	privateData.set(this, {
 		eventTarget,
@@ -35028,6 +45236,12 @@ function Event(eventTarget, event) {
 		if (!(key in this)) Object.defineProperty(this, key, defineRedirectDescriptor(key));
 	}
 }
+/**
+* Get the property descriptor to redirect a given property.
+* @param {string} key Property name to define property descriptor.
+* @returns {PropertyDescriptor} The property descriptor to redirect the property.
+* @private
+*/
 function defineRedirectDescriptor(key) {
 	return {
 		get() {
@@ -35040,6 +45254,12 @@ function defineRedirectDescriptor(key) {
 		enumerable: true
 	};
 }
+/**
+* Get the property descriptor to call a given method property.
+* @param {string} key Property name to define property descriptor.
+* @returns {PropertyDescriptor} The property descriptor to call the method property.
+* @private
+*/
 function defineCallDescriptor(key) {
 	return {
 		value() {
@@ -35050,9 +45270,17 @@ function defineCallDescriptor(key) {
 		enumerable: true
 	};
 }
+/**
+* Define new wrapper class.
+* @param {Function} BaseEvent The base wrapper class.
+* @param {Object} proto The prototype of the original event.
+* @returns {Function} The defined wrapper class.
+* @private
+*/
 function defineWrapper(BaseEvent, proto) {
 	const keys = Object.keys(proto);
 	if (keys.length === 0) return BaseEvent;
+	/** CustomEvent */
 	function CustomEvent(eventTarget, event) {
 		BaseEvent.call(this, eventTarget, event);
 	}
@@ -35070,6 +45298,12 @@ function defineWrapper(BaseEvent, proto) {
 	}
 	return CustomEvent;
 }
+/**
+* Get the wrapper class of a given prototype.
+* @param {Object} proto The prototype of the original event to get its wrapper.
+* @returns {Function} The wrapper class.
+* @private
+*/
 function getWrapper(proto) {
 	if (proto == null || proto === Object.prototype) return Event;
 	let wrapper = wrappers.get(proto);
@@ -35079,29 +45313,80 @@ function getWrapper(proto) {
 	}
 	return wrapper;
 }
+/**
+* Wrap a given event to management a dispatching.
+* @param {EventTarget} eventTarget The event target of this dispatching.
+* @param {Object} event The event to wrap.
+* @returns {Event} The wrapper instance.
+* @private
+*/
 function wrapEvent(eventTarget, event) {
 	return new (getWrapper(Object.getPrototypeOf(event)))(eventTarget, event);
 }
+/**
+* Get the immediateStopped flag of a given event.
+* @param {Event} event The event to get.
+* @returns {boolean} The flag to stop propagation immediately.
+* @private
+*/
 function isStopped(event) {
 	return pd(event).immediateStopped;
 }
+/**
+* Set the current event phase of a given event.
+* @param {Event} event The event to set current target.
+* @param {number} eventPhase New event phase.
+* @returns {void}
+* @private
+*/
 function setEventPhase(event, eventPhase) {
 	pd(event).eventPhase = eventPhase;
 }
+/**
+* Set the current target of a given event.
+* @param {Event} event The event to set current target.
+* @param {EventTarget|null} currentTarget New current target.
+* @returns {void}
+* @private
+*/
 function setCurrentTarget(event, currentTarget) {
 	pd(event).currentTarget = currentTarget;
 }
+/**
+* Set a passive listener of a given event.
+* @param {Event} event The event to set current target.
+* @param {Function|null} passiveListener New passive listener.
+* @returns {void}
+* @private
+*/
 function setPassiveListener(event, passiveListener) {
 	pd(event).passiveListener = passiveListener;
 }
+/**
+* Check whether a given value is an object or not.
+* @param {any} x The value to check.
+* @returns {boolean} `true` if the value is an object.
+*/
 function isObject(x) {
 	return x !== null && typeof x === "object";
 }
+/**
+* Get listeners.
+* @param {EventTarget} eventTarget The event target to get.
+* @returns {Map<string, ListenerNode>} The listeners.
+* @private
+*/
 function getListeners(eventTarget) {
 	const listeners = listenersMap.get(eventTarget);
 	if (listeners == null) throw new TypeError("'this' is expected an EventTarget object, but got another value.");
 	return listeners;
 }
+/**
+* Get the property descriptor for the event attribute of a given event.
+* @param {string} eventName The event name to get property descriptor.
+* @returns {PropertyDescriptor} The property descriptor.
+* @private
+*/
 function defineEventAttributeDescriptor(eventName) {
 	return {
 		get() {
@@ -35140,10 +45425,23 @@ function defineEventAttributeDescriptor(eventName) {
 		enumerable: true
 	};
 }
+/**
+* Define an event attribute (e.g. `eventTarget.onclick`).
+* @param {Object} eventTargetPrototype The event target prototype to define an event attrbite.
+* @param {string} eventName The event name to define.
+* @returns {void}
+*/
 function defineEventAttribute(eventTargetPrototype, eventName) {
 	Object.defineProperty(eventTargetPrototype, `on${eventName}`, defineEventAttributeDescriptor(eventName));
 }
+/**
+* Define a custom EventTarget with event attributes.
+* @param {string[]} eventNames Event names for event attributes.
+* @returns {EventTarget} The custom EventTarget.
+* @private
+*/
 function defineCustomEventTarget(eventNames) {
+	/** CustomEventTarget */
 	function CustomEventTarget() {
 		EventTarget.call(this);
 	}
@@ -35155,6 +45453,19 @@ function defineCustomEventTarget(eventNames) {
 	for (let i = 0; i < eventNames.length; ++i) defineEventAttribute(CustomEventTarget.prototype, eventNames[i]);
 	return CustomEventTarget;
 }
+/**
+* EventTarget.
+*
+* - This is constructor if no arguments.
+* - This is a function which returns a CustomEventTarget constructor if there are arguments.
+*
+* For example:
+*
+*     class A extends EventTarget {}
+*     class B extends EventTarget("message") {}
+*     class C extends EventTarget("message", "error") {}
+*     class D extends EventTarget(["message", "error"]) {}
+*/
 function EventTarget() {
 	if (this instanceof EventTarget) {
 		listenersMap.set(this, /* @__PURE__ */ new Map());
@@ -35347,32 +45658,47 @@ var init_event_target_shim = __esmMin((() => {
 var abort_controller_exports = /* @__PURE__ */ __exportAll({
 	AbortController: () => AbortController$1,
 	AbortSignal: () => AbortSignal$1,
-	default: () => abort_controller_default
+	default: () => AbortController$1
 });
+/**
+* Create an AbortSignal object.
+*/
 function createAbortSignal() {
 	const signal = Object.create(AbortSignal$1.prototype);
 	EventTarget.call(signal);
 	abortedFlags.set(signal, false);
 	return signal;
 }
+/**
+* Abort a given signal.
+*/
 function abortSignal(signal) {
 	if (abortedFlags.get(signal) !== false) return;
 	abortedFlags.set(signal, true);
 	signal.dispatchEvent({ type: "abort" });
 }
+/**
+* Get the associated signal of a given controller.
+*/
 function getSignal(controller) {
 	const signal = signals.get(controller);
 	if (signal == null) throw new TypeError(`Expected 'this' to be an 'AbortController' object, but got ${controller === null ? "null" : typeof controller}`);
 	return signal;
 }
-var AbortSignal$1, abortedFlags, AbortController$1, signals, abort_controller_default;
+var AbortSignal$1, abortedFlags, AbortController$1, signals;
 var init_abort_controller = __esmMin((() => {
 	init_event_target_shim();
 	AbortSignal$1 = class extends EventTarget {
+		/**
+		* AbortSignal cannot be constructed directly.
+		*/
 		constructor() {
 			super();
 			throw new TypeError("AbortSignal cannot be constructed directly");
 		}
+		/**
+		* Returns `true` if this `AbortSignal`'s `AbortController` has signaled to abort, and `false` otherwise.
+		*/
 		get aborted() {
 			const aborted = abortedFlags.get(this);
 			if (typeof aborted !== "boolean") throw new TypeError(`Expected 'this' to be an 'AbortSignal' object, but got ${this === null ? "null" : typeof this}`);
@@ -35387,12 +45713,21 @@ var init_abort_controller = __esmMin((() => {
 		value: "AbortSignal"
 	});
 	AbortController$1 = class {
+		/**
+		* Initialize this controller.
+		*/
 		constructor() {
 			signals.set(this, createAbortSignal());
 		}
+		/**
+		* Returns the `AbortSignal` object associated with this object.
+		*/
 		get signal() {
 			return getSignal(this);
 		}
+		/**
+		* Abort and signal to any observers that the associated activity is to be aborted.
+		*/
 		abort() {
 			abortSignal(getSignal(this));
 		}
@@ -35406,7 +45741,6 @@ var init_abort_controller = __esmMin((() => {
 		configurable: true,
 		value: "AbortController"
 	});
-	abort_controller_default = AbortController$1;
 }));
 var require_util$2 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var bufferModule$1 = __require("buffer");
@@ -35522,14 +45856,33 @@ var require_validators = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var { normalizeEncoding } = require_util$2();
 	var { isAsyncFunction, isArrayBufferView } = require_util$2().types;
 	var signals = {};
+	/**
+	* @param {*} value
+	* @returns {boolean}
+	*/
 	function isInt32(value) {
 		return value === (value | 0);
 	}
+	/**
+	* @param {*} value
+	* @returns {boolean}
+	*/
 	function isUint32(value) {
 		return value === value >>> 0;
 	}
 	var octalReg = /^[0-7]+$/;
 	var modeDesc = "must be a 32-bit unsigned integer or an octal string";
+	/**
+	* Parse and validate values that will be converted into mode_t (the S_*
+	* constants). Only valid numbers and octal strings are allowed. They could be
+	* converted to 32-bit unsigned integers or non-negative signed integers in the
+	* C++ land, but any value higher than 0o777 will result in platform-specific
+	* behaviors.
+	* @param {*} value Values to be validated
+	* @param {string} name Name of the argument
+	* @param {number} [def] If specified, will be returned for invalid values
+	* @returns {number}
+	*/
 	function parseFileMode(value, name, def) {
 		if (typeof value === "undefined") value = def;
 		if (typeof value === "string") {
@@ -35539,16 +45892,42 @@ var require_validators = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		validateUint32(value, name);
 		return value;
 	}
+	/**
+	* @callback validateInteger
+	* @param {*} value
+	* @param {string} name
+	* @param {number} [min]
+	* @param {number} [max]
+	* @returns {asserts value is number}
+	*/
+	/** @type {validateInteger} */
 	var validateInteger = hideStackFrames((value, name, min = NumberMIN_SAFE_INTEGER, max = NumberMAX_SAFE_INTEGER) => {
 		if (typeof value !== "number") throw new ERR_INVALID_ARG_TYPE(name, "number", value);
 		if (!NumberIsInteger(value)) throw new ERR_OUT_OF_RANGE(name, "an integer", value);
 		if (value < min || value > max) throw new ERR_OUT_OF_RANGE(name, `>= ${min} && <= ${max}`, value);
 	});
+	/**
+	* @callback validateInt32
+	* @param {*} value
+	* @param {string} name
+	* @param {number} [min]
+	* @param {number} [max]
+	* @returns {asserts value is number}
+	*/
+	/** @type {validateInt32} */
 	var validateInt32 = hideStackFrames((value, name, min = -2147483648, max = 2147483647) => {
 		if (typeof value !== "number") throw new ERR_INVALID_ARG_TYPE(name, "number", value);
 		if (!NumberIsInteger(value)) throw new ERR_OUT_OF_RANGE(name, "an integer", value);
 		if (value < min || value > max) throw new ERR_OUT_OF_RANGE(name, `>= ${min} && <= ${max}`, value);
 	});
+	/**
+	* @callback validateUint32
+	* @param {*} value
+	* @param {string} name
+	* @param {number|boolean} [positive=false]
+	* @returns {asserts value is number}
+	*/
+	/** @type {validateUint32} */
 	var validateUint32 = hideStackFrames((value, name, positive = false) => {
 		if (typeof value !== "number") throw new ERR_INVALID_ARG_TYPE(name, "number", value);
 		if (!NumberIsInteger(value)) throw new ERR_OUT_OF_RANGE(name, "an integer", value);
@@ -35556,42 +45935,130 @@ var require_validators = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		const max = 4294967295;
 		if (value < min || value > max) throw new ERR_OUT_OF_RANGE(name, `>= ${min} && <= ${max}`, value);
 	});
+	/**
+	* @callback validateString
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is string}
+	*/
+	/** @type {validateString} */
 	function validateString(value, name) {
 		if (typeof value !== "string") throw new ERR_INVALID_ARG_TYPE(name, "string", value);
 	}
+	/**
+	* @callback validateNumber
+	* @param {*} value
+	* @param {string} name
+	* @param {number} [min]
+	* @param {number} [max]
+	* @returns {asserts value is number}
+	*/
+	/** @type {validateNumber} */
 	function validateNumber(value, name, min = void 0, max) {
 		if (typeof value !== "number") throw new ERR_INVALID_ARG_TYPE(name, "number", value);
 		if (min != null && value < min || max != null && value > max || (min != null || max != null) && NumberIsNaN(value)) throw new ERR_OUT_OF_RANGE(name, `${min != null ? `>= ${min}` : ""}${min != null && max != null ? " && " : ""}${max != null ? `<= ${max}` : ""}`, value);
 	}
+	/**
+	* @callback validateOneOf
+	* @template T
+	* @param {T} value
+	* @param {string} name
+	* @param {T[]} oneOf
+	*/
+	/** @type {validateOneOf} */
 	var validateOneOf = hideStackFrames((value, name, oneOf) => {
 		if (!ArrayPrototypeIncludes(oneOf, value)) throw new ERR_INVALID_ARG_VALUE(name, value, "must be one of: " + ArrayPrototypeJoin(ArrayPrototypeMap(oneOf, (v) => typeof v === "string" ? `'${v}'` : String(v)), ", "));
 	});
+	/**
+	* @callback validateBoolean
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is boolean}
+	*/
+	/** @type {validateBoolean} */
 	function validateBoolean(value, name) {
 		if (typeof value !== "boolean") throw new ERR_INVALID_ARG_TYPE(name, "boolean", value);
 	}
+	/**
+	* @param {any} options
+	* @param {string} key
+	* @param {boolean} defaultValue
+	* @returns {boolean}
+	*/
 	function getOwnPropertyValueOrDefault(options, key, defaultValue) {
 		return options == null || !ObjectPrototypeHasOwnProperty(options, key) ? defaultValue : options[key];
 	}
+	/**
+	* @callback validateObject
+	* @param {*} value
+	* @param {string} name
+	* @param {{
+	*   allowArray?: boolean,
+	*   allowFunction?: boolean,
+	*   nullable?: boolean
+	* }} [options]
+	*/
+	/** @type {validateObject} */
 	var validateObject = hideStackFrames((value, name, options = null) => {
 		const allowArray = getOwnPropertyValueOrDefault(options, "allowArray", false);
 		const allowFunction = getOwnPropertyValueOrDefault(options, "allowFunction", false);
 		if (!getOwnPropertyValueOrDefault(options, "nullable", false) && value === null || !allowArray && ArrayIsArray(value) || typeof value !== "object" && (!allowFunction || typeof value !== "function")) throw new ERR_INVALID_ARG_TYPE(name, "Object", value);
 	});
+	/**
+	* @callback validateDictionary - We are using the Web IDL Standard definition
+	*                                of "dictionary" here, which means any value
+	*                                whose Type is either Undefined, Null, or
+	*                                Object (which includes functions).
+	* @param {*} value
+	* @param {string} name
+	* @see https://webidl.spec.whatwg.org/#es-dictionary
+	* @see https://tc39.es/ecma262/#table-typeof-operator-results
+	*/
+	/** @type {validateDictionary} */
 	var validateDictionary = hideStackFrames((value, name) => {
 		if (value != null && typeof value !== "object" && typeof value !== "function") throw new ERR_INVALID_ARG_TYPE(name, "a dictionary", value);
 	});
+	/**
+	* @callback validateArray
+	* @param {*} value
+	* @param {string} name
+	* @param {number} [minLength]
+	* @returns {asserts value is any[]}
+	*/
+	/** @type {validateArray} */
 	var validateArray = hideStackFrames((value, name, minLength = 0) => {
 		if (!ArrayIsArray(value)) throw new ERR_INVALID_ARG_TYPE(name, "Array", value);
 		if (value.length < minLength) throw new ERR_INVALID_ARG_VALUE(name, value, `must be longer than ${minLength}`);
 	});
+	/**
+	* @callback validateStringArray
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is string[]}
+	*/
+	/** @type {validateStringArray} */
 	function validateStringArray(value, name) {
 		validateArray(value, name);
 		for (let i = 0; i < value.length; i++) validateString(value[i], `${name}[${i}]`);
 	}
+	/**
+	* @callback validateBooleanArray
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is boolean[]}
+	*/
+	/** @type {validateBooleanArray} */
 	function validateBooleanArray(value, name) {
 		validateArray(value, name);
 		for (let i = 0; i < value.length; i++) validateBoolean(value[i], `${name}[${i}]`);
 	}
+	/**
+	* @callback validateAbortSignalArray
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is AbortSignal[]}
+	*/
+	/** @type {validateAbortSignalArray} */
 	function validateAbortSignalArray(value, name) {
 		validateArray(value, name);
 		for (let i = 0; i < value.length; i++) {
@@ -35601,6 +46068,11 @@ var require_validators = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			validateAbortSignal(signal, indexedName);
 		}
 	}
+	/**
+	* @param {*} signal
+	* @param {string} [name='signal']
+	* @returns {asserts signal is keyof signals}
+	*/
 	function validateSignalName(signal, name = "signal") {
 		validateString(signal, name);
 		if (signals[signal] === void 0) {
@@ -35608,6 +46080,13 @@ var require_validators = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			throw new ERR_UNKNOWN_SIGNAL(signal);
 		}
 	}
+	/**
+	* @callback validateBuffer
+	* @param {*} buffer
+	* @param {string} [name='buffer']
+	* @returns {asserts buffer is ArrayBufferView}
+	*/
+	/** @type {validateBuffer} */
 	var validateBuffer = hideStackFrames((buffer, name = "buffer") => {
 		if (!isArrayBufferView(buffer)) throw new ERR_INVALID_ARG_TYPE(name, [
 			"Buffer",
@@ -35615,34 +46094,87 @@ var require_validators = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			"DataView"
 		], buffer);
 	});
+	/**
+	* @param {string} data
+	* @param {string} encoding
+	*/
 	function validateEncoding(data, encoding) {
 		const normalizedEncoding = normalizeEncoding(encoding);
 		const length = data.length;
 		if (normalizedEncoding === "hex" && length % 2 !== 0) throw new ERR_INVALID_ARG_VALUE("encoding", encoding, `is invalid for data of length ${length}`);
 	}
+	/**
+	* Check that the port number is not NaN when coerced to a number,
+	* is an integer and that it falls within the legal range of port numbers.
+	* @param {*} port
+	* @param {string} [name='Port']
+	* @param {boolean} [allowZero=true]
+	* @returns {number}
+	*/
 	function validatePort(port, name = "Port", allowZero = true) {
 		if (typeof port !== "number" && typeof port !== "string" || typeof port === "string" && StringPrototypeTrim(port).length === 0 || +port !== +port >>> 0 || port > 65535 || port === 0 && !allowZero) throw new ERR_SOCKET_BAD_PORT(name, port, allowZero);
 		return port | 0;
 	}
+	/**
+	* @callback validateAbortSignal
+	* @param {*} signal
+	* @param {string} name
+	*/
+	/** @type {validateAbortSignal} */
 	var validateAbortSignal = hideStackFrames((signal, name) => {
 		if (signal !== void 0 && (signal === null || typeof signal !== "object" || !("aborted" in signal))) throw new ERR_INVALID_ARG_TYPE(name, "AbortSignal", signal);
 	});
+	/**
+	* @callback validateFunction
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is Function}
+	*/
+	/** @type {validateFunction} */
 	var validateFunction = hideStackFrames((value, name) => {
 		if (typeof value !== "function") throw new ERR_INVALID_ARG_TYPE(name, "Function", value);
 	});
+	/**
+	* @callback validatePlainFunction
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is Function}
+	*/
+	/** @type {validatePlainFunction} */
 	var validatePlainFunction = hideStackFrames((value, name) => {
 		if (typeof value !== "function" || isAsyncFunction(value)) throw new ERR_INVALID_ARG_TYPE(name, "Function", value);
 	});
+	/**
+	* @callback validateUndefined
+	* @param {*} value
+	* @param {string} name
+	* @returns {asserts value is undefined}
+	*/
+	/** @type {validateUndefined} */
 	var validateUndefined = hideStackFrames((value, name) => {
 		if (value !== void 0) throw new ERR_INVALID_ARG_TYPE(name, "undefined", value);
 	});
+	/**
+	* @template T
+	* @param {T} value
+	* @param {string} name
+	* @param {T[]} union
+	*/
 	function validateUnion(value, name, union) {
 		if (!ArrayPrototypeIncludes(union, value)) throw new ERR_INVALID_ARG_TYPE(name, `('${ArrayPrototypeJoin(union, "|")}')`, value);
 	}
 	var linkValueRegExp = /^(?:<[^>]*>)(?:\s*;\s*[^;"\s]+(?:=(")?[^;"\s]*\1)?)*$/;
+	/**
+	* @param {any} value
+	* @param {string} name
+	*/
 	function validateLinkHeaderFormat(value, name) {
 		if (typeof value === "undefined" || !RegExpPrototypeExec(linkValueRegExp, value)) throw new ERR_INVALID_ARG_VALUE(name, value, "must be an array or string of format \"</styles.css>; rel=preload; as=style\"");
 	}
+	/**
+	* @param {any} hints
+	* @return {string}
+	*/
 	function validateLinkHeaderValue(hints) {
 		if (typeof hints === "string") {
 			validateLinkHeaderFormat(hints, "hints");
@@ -39489,6 +50021,14 @@ var require_ours = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports.default = module.exports;
 }));
 var require__arrayPush = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Appends the elements of `values` to `array`.
+	*
+	* @private
+	* @param {Array} array The array to modify.
+	* @param {Array} values The values to append.
+	* @returns {Array} Returns `array`.
+	*/
 	function arrayPush(array, values) {
 		var index = -1, length = values.length, offset = array.length;
 		while (++index < length) array[offset + index] = values[index];
@@ -39498,7 +50038,15 @@ var require__arrayPush = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__isFlattenable = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var Symbol = require__Symbol(), isArguments = require_isArguments(), isArray = require_isArray();
+	/** Built-in value references. */
 	var spreadableSymbol = Symbol ? Symbol.isConcatSpreadable : void 0;
+	/**
+	* Checks if `value` is a flattenable `arguments` object or array.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is flattenable, else `false`.
+	*/
 	function isFlattenable(value) {
 		return isArray(value) || isArguments(value) || !!(spreadableSymbol && value && value[spreadableSymbol]);
 	}
@@ -39506,6 +50054,17 @@ var require__isFlattenable = /* @__PURE__ */ __commonJSMin(((exports, module) =>
 }));
 var require__baseFlatten = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var arrayPush = require__arrayPush(), isFlattenable = require__isFlattenable();
+	/**
+	* The base implementation of `_.flatten` with support for restricting flattening.
+	*
+	* @private
+	* @param {Array} array The array to flatten.
+	* @param {number} depth The maximum recursion depth.
+	* @param {boolean} [predicate=isFlattenable] The function invoked per iteration.
+	* @param {boolean} [isStrict] Restrict to values that pass `predicate` checks.
+	* @param {Array} [result=[]] The initial result value.
+	* @returns {Array} Returns the new flattened array.
+	*/
 	function baseFlatten(array, depth, predicate, isStrict, result) {
 		var index = -1, length = array.length;
 		predicate || (predicate = isFlattenable);
@@ -39522,6 +50081,20 @@ var require__baseFlatten = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require_flatten = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseFlatten = require__baseFlatten();
+	/**
+	* Flattens `array` a single level deep.
+	*
+	* @static
+	* @memberOf _
+	* @since 0.1.0
+	* @category Array
+	* @param {Array} array The array to flatten.
+	* @returns {Array} Returns the new flattened array.
+	* @example
+	*
+	* _.flatten([1, [2, [3, [4]], 5]]);
+	* // => [1, 2, [3, [4]], 5]
+	*/
 	function flatten(array) {
 		return (array == null ? 0 : array.length) ? baseFlatten(array, 1) : [];
 	}
@@ -39532,6 +50105,13 @@ var require__nativeCreate = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 }));
 var require__hashClear = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var nativeCreate = require__nativeCreate();
+	/**
+	* Removes all key-value entries from the hash.
+	*
+	* @private
+	* @name clear
+	* @memberOf Hash
+	*/
 	function hashClear() {
 		this.__data__ = nativeCreate ? nativeCreate(null) : {};
 		this.size = 0;
@@ -39539,6 +50119,16 @@ var require__hashClear = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = hashClear;
 }));
 var require__hashDelete = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Removes `key` and its value from the hash.
+	*
+	* @private
+	* @name delete
+	* @memberOf Hash
+	* @param {Object} hash The hash to modify.
+	* @param {string} key The key of the value to remove.
+	* @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	*/
 	function hashDelete(key) {
 		var result = this.has(key) && delete this.__data__[key];
 		this.size -= result ? 1 : 0;
@@ -39548,8 +50138,19 @@ var require__hashDelete = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__hashGet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var nativeCreate = require__nativeCreate();
+	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = "__lodash_hash_undefined__";
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
+	/**
+	* Gets the hash value for `key`.
+	*
+	* @private
+	* @name get
+	* @memberOf Hash
+	* @param {string} key The key of the value to get.
+	* @returns {*} Returns the entry value.
+	*/
 	function hashGet(key) {
 		var data = this.__data__;
 		if (nativeCreate) {
@@ -39562,7 +50163,17 @@ var require__hashGet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__hashHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var nativeCreate = require__nativeCreate();
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
+	/**
+	* Checks if a hash value for `key` exists.
+	*
+	* @private
+	* @name has
+	* @memberOf Hash
+	* @param {string} key The key of the entry to check.
+	* @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	*/
 	function hashHas(key) {
 		var data = this.__data__;
 		return nativeCreate ? data[key] !== void 0 : hasOwnProperty.call(data, key);
@@ -39571,7 +50182,18 @@ var require__hashHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__hashSet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var nativeCreate = require__nativeCreate();
+	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = "__lodash_hash_undefined__";
+	/**
+	* Sets the hash `key` to `value`.
+	*
+	* @private
+	* @name set
+	* @memberOf Hash
+	* @param {string} key The key of the value to set.
+	* @param {*} value The value to set.
+	* @returns {Object} Returns the hash instance.
+	*/
 	function hashSet(key, value) {
 		var data = this.__data__;
 		this.size += this.has(key) ? 0 : 1;
@@ -39582,6 +50204,13 @@ var require__hashSet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__Hash = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var hashClear = require__hashClear(), hashDelete = require__hashDelete(), hashGet = require__hashGet(), hashHas = require__hashHas(), hashSet = require__hashSet();
+	/**
+	* Creates a hash object.
+	*
+	* @private
+	* @constructor
+	* @param {Array} [entries] The key-value pairs to cache.
+	*/
 	function Hash(entries) {
 		var index = -1, length = entries == null ? 0 : entries.length;
 		this.clear();
@@ -39598,6 +50227,13 @@ var require__Hash = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = Hash;
 }));
 var require__listCacheClear = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Removes all key-value entries from the list cache.
+	*
+	* @private
+	* @name clear
+	* @memberOf ListCache
+	*/
 	function listCacheClear() {
 		this.__data__ = [];
 		this.size = 0;
@@ -39606,6 +50242,14 @@ var require__listCacheClear = /* @__PURE__ */ __commonJSMin(((exports, module) =
 }));
 var require__assocIndexOf = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var eq = require_eq();
+	/**
+	* Gets the index at which the `key` is found in `array` of key-value pairs.
+	*
+	* @private
+	* @param {Array} array The array to inspect.
+	* @param {*} key The key to search for.
+	* @returns {number} Returns the index of the matched value, else `-1`.
+	*/
 	function assocIndexOf(array, key) {
 		var length = array.length;
 		while (length--) if (eq(array[length][0], key)) return length;
@@ -39615,7 +50259,17 @@ var require__assocIndexOf = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 }));
 var require__listCacheDelete = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var assocIndexOf = require__assocIndexOf();
+	/** Built-in value references. */
 	var splice = Array.prototype.splice;
+	/**
+	* Removes `key` and its value from the list cache.
+	*
+	* @private
+	* @name delete
+	* @memberOf ListCache
+	* @param {string} key The key of the value to remove.
+	* @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	*/
 	function listCacheDelete(key) {
 		var data = this.__data__, index = assocIndexOf(data, key);
 		if (index < 0) return false;
@@ -39628,6 +50282,15 @@ var require__listCacheDelete = /* @__PURE__ */ __commonJSMin(((exports, module) 
 }));
 var require__listCacheGet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var assocIndexOf = require__assocIndexOf();
+	/**
+	* Gets the list cache value for `key`.
+	*
+	* @private
+	* @name get
+	* @memberOf ListCache
+	* @param {string} key The key of the value to get.
+	* @returns {*} Returns the entry value.
+	*/
 	function listCacheGet(key) {
 		var data = this.__data__, index = assocIndexOf(data, key);
 		return index < 0 ? void 0 : data[index][1];
@@ -39636,6 +50299,15 @@ var require__listCacheGet = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 }));
 var require__listCacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var assocIndexOf = require__assocIndexOf();
+	/**
+	* Checks if a list cache value for `key` exists.
+	*
+	* @private
+	* @name has
+	* @memberOf ListCache
+	* @param {string} key The key of the entry to check.
+	* @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	*/
 	function listCacheHas(key) {
 		return assocIndexOf(this.__data__, key) > -1;
 	}
@@ -39643,6 +50315,16 @@ var require__listCacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 }));
 var require__listCacheSet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var assocIndexOf = require__assocIndexOf();
+	/**
+	* Sets the list cache `key` to `value`.
+	*
+	* @private
+	* @name set
+	* @memberOf ListCache
+	* @param {string} key The key of the value to set.
+	* @param {*} value The value to set.
+	* @returns {Object} Returns the list cache instance.
+	*/
 	function listCacheSet(key, value) {
 		var data = this.__data__, index = assocIndexOf(data, key);
 		if (index < 0) {
@@ -39655,6 +50337,13 @@ var require__listCacheSet = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 }));
 var require__ListCache = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var listCacheClear = require__listCacheClear(), listCacheDelete = require__listCacheDelete(), listCacheGet = require__listCacheGet(), listCacheHas = require__listCacheHas(), listCacheSet = require__listCacheSet();
+	/**
+	* Creates an list cache object.
+	*
+	* @private
+	* @constructor
+	* @param {Array} [entries] The key-value pairs to cache.
+	*/
 	function ListCache(entries) {
 		var index = -1, length = entries == null ? 0 : entries.length;
 		this.clear();
@@ -39675,6 +50364,13 @@ var require__Map = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__mapCacheClear = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var Hash = require__Hash(), ListCache = require__ListCache(), Map = require__Map();
+	/**
+	* Removes all key-value entries from the map.
+	*
+	* @private
+	* @name clear
+	* @memberOf MapCache
+	*/
 	function mapCacheClear() {
 		this.size = 0;
 		this.__data__ = {
@@ -39686,6 +50382,13 @@ var require__mapCacheClear = /* @__PURE__ */ __commonJSMin(((exports, module) =>
 	module.exports = mapCacheClear;
 }));
 var require__isKeyable = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Checks if `value` is suitable for use as unique object key.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+	*/
 	function isKeyable(value) {
 		var type = typeof value;
 		return type == "string" || type == "number" || type == "symbol" || type == "boolean" ? value !== "__proto__" : value === null;
@@ -39694,6 +50397,14 @@ var require__isKeyable = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__getMapData = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var isKeyable = require__isKeyable();
+	/**
+	* Gets the data for `map`.
+	*
+	* @private
+	* @param {Object} map The map to query.
+	* @param {string} key The reference key.
+	* @returns {*} Returns the map data.
+	*/
 	function getMapData(map, key) {
 		var data = map.__data__;
 		return isKeyable(key) ? data[typeof key == "string" ? "string" : "hash"] : data.map;
@@ -39702,6 +50413,15 @@ var require__getMapData = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__mapCacheDelete = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var getMapData = require__getMapData();
+	/**
+	* Removes `key` and its value from the map.
+	*
+	* @private
+	* @name delete
+	* @memberOf MapCache
+	* @param {string} key The key of the value to remove.
+	* @returns {boolean} Returns `true` if the entry was removed, else `false`.
+	*/
 	function mapCacheDelete(key) {
 		var result = getMapData(this, key)["delete"](key);
 		this.size -= result ? 1 : 0;
@@ -39711,6 +50431,15 @@ var require__mapCacheDelete = /* @__PURE__ */ __commonJSMin(((exports, module) =
 }));
 var require__mapCacheGet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var getMapData = require__getMapData();
+	/**
+	* Gets the map value for `key`.
+	*
+	* @private
+	* @name get
+	* @memberOf MapCache
+	* @param {string} key The key of the value to get.
+	* @returns {*} Returns the entry value.
+	*/
 	function mapCacheGet(key) {
 		return getMapData(this, key).get(key);
 	}
@@ -39718,6 +50447,15 @@ var require__mapCacheGet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__mapCacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var getMapData = require__getMapData();
+	/**
+	* Checks if a map value for `key` exists.
+	*
+	* @private
+	* @name has
+	* @memberOf MapCache
+	* @param {string} key The key of the entry to check.
+	* @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	*/
 	function mapCacheHas(key) {
 		return getMapData(this, key).has(key);
 	}
@@ -39725,6 +50463,16 @@ var require__mapCacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__mapCacheSet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var getMapData = require__getMapData();
+	/**
+	* Sets the map `key` to `value`.
+	*
+	* @private
+	* @name set
+	* @memberOf MapCache
+	* @param {string} key The key of the value to set.
+	* @param {*} value The value to set.
+	* @returns {Object} Returns the map cache instance.
+	*/
 	function mapCacheSet(key, value) {
 		var data = getMapData(this, key), size = data.size;
 		data.set(key, value);
@@ -39735,6 +50483,13 @@ var require__mapCacheSet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__MapCache = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var mapCacheClear = require__mapCacheClear(), mapCacheDelete = require__mapCacheDelete(), mapCacheGet = require__mapCacheGet(), mapCacheHas = require__mapCacheHas(), mapCacheSet = require__mapCacheSet();
+	/**
+	* Creates a map cache object to store key-value pairs.
+	*
+	* @private
+	* @constructor
+	* @param {Array} [entries] The key-value pairs to cache.
+	*/
 	function MapCache(entries) {
 		var index = -1, length = entries == null ? 0 : entries.length;
 		this.clear();
@@ -39751,7 +50506,18 @@ var require__MapCache = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = MapCache;
 }));
 var require__setCacheAdd = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/** Used to stand-in for `undefined` hash values. */
 	var HASH_UNDEFINED = "__lodash_hash_undefined__";
+	/**
+	* Adds `value` to the array cache.
+	*
+	* @private
+	* @name add
+	* @memberOf SetCache
+	* @alias push
+	* @param {*} value The value to cache.
+	* @returns {Object} Returns the cache instance.
+	*/
 	function setCacheAdd(value) {
 		this.__data__.set(value, HASH_UNDEFINED);
 		return this;
@@ -39759,6 +50525,15 @@ var require__setCacheAdd = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = setCacheAdd;
 }));
 var require__setCacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Checks if `value` is in the array cache.
+	*
+	* @private
+	* @name has
+	* @memberOf SetCache
+	* @param {*} value The value to search for.
+	* @returns {number} Returns `true` if `value` is found, else `false`.
+	*/
 	function setCacheHas(value) {
 		return this.__data__.has(value);
 	}
@@ -39766,6 +50541,14 @@ var require__setCacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__SetCache = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var MapCache = require__MapCache(), setCacheAdd = require__setCacheAdd(), setCacheHas = require__setCacheHas();
+	/**
+	*
+	* Creates an array cache object to store unique values.
+	*
+	* @private
+	* @constructor
+	* @param {Array} [values] The values to cache.
+	*/
 	function SetCache(values) {
 		var index = -1, length = values == null ? 0 : values.length;
 		this.__data__ = new MapCache();
@@ -39776,6 +50559,17 @@ var require__SetCache = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = SetCache;
 }));
 var require__baseFindIndex = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* The base implementation of `_.findIndex` and `_.findLastIndex` without
+	* support for iteratee shorthands.
+	*
+	* @private
+	* @param {Array} array The array to inspect.
+	* @param {Function} predicate The function invoked per iteration.
+	* @param {number} fromIndex The index to search from.
+	* @param {boolean} [fromRight] Specify iterating from right to left.
+	* @returns {number} Returns the index of the matched value, else `-1`.
+	*/
 	function baseFindIndex(array, predicate, fromIndex, fromRight) {
 		var length = array.length, index = fromIndex + (fromRight ? 1 : -1);
 		while (fromRight ? index-- : ++index < length) if (predicate(array[index], index, array)) return index;
@@ -39784,12 +50578,29 @@ var require__baseFindIndex = /* @__PURE__ */ __commonJSMin(((exports, module) =>
 	module.exports = baseFindIndex;
 }));
 var require__baseIsNaN = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* The base implementation of `_.isNaN` without support for number objects.
+	*
+	* @private
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is `NaN`, else `false`.
+	*/
 	function baseIsNaN(value) {
 		return value !== value;
 	}
 	module.exports = baseIsNaN;
 }));
 var require__strictIndexOf = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* A specialized version of `_.indexOf` which performs strict equality
+	* comparisons of values, i.e. `===`.
+	*
+	* @private
+	* @param {Array} array The array to inspect.
+	* @param {*} value The value to search for.
+	* @param {number} fromIndex The index to search from.
+	* @returns {number} Returns the index of the matched value, else `-1`.
+	*/
 	function strictIndexOf(array, value, fromIndex) {
 		var index = fromIndex - 1, length = array.length;
 		while (++index < length) if (array[index] === value) return index;
@@ -39799,6 +50610,15 @@ var require__strictIndexOf = /* @__PURE__ */ __commonJSMin(((exports, module) =>
 }));
 var require__baseIndexOf = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseFindIndex = require__baseFindIndex(), baseIsNaN = require__baseIsNaN(), strictIndexOf = require__strictIndexOf();
+	/**
+	* The base implementation of `_.indexOf` without `fromIndex` bounds checks.
+	*
+	* @private
+	* @param {Array} array The array to inspect.
+	* @param {*} value The value to search for.
+	* @param {number} fromIndex The index to search from.
+	* @returns {number} Returns the index of the matched value, else `-1`.
+	*/
 	function baseIndexOf(array, value, fromIndex) {
 		return value === value ? strictIndexOf(array, value, fromIndex) : baseFindIndex(array, baseIsNaN, fromIndex);
 	}
@@ -39806,12 +50626,30 @@ var require__baseIndexOf = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__arrayIncludes = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseIndexOf = require__baseIndexOf();
+	/**
+	* A specialized version of `_.includes` for arrays without support for
+	* specifying an index to search from.
+	*
+	* @private
+	* @param {Array} [array] The array to inspect.
+	* @param {*} target The value to search for.
+	* @returns {boolean} Returns `true` if `target` is found, else `false`.
+	*/
 	function arrayIncludes(array, value) {
 		return !!(array == null ? 0 : array.length) && baseIndexOf(array, value, 0) > -1;
 	}
 	module.exports = arrayIncludes;
 }));
 var require__arrayIncludesWith = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This function is like `arrayIncludes` except that it accepts a comparator.
+	*
+	* @private
+	* @param {Array} [array] The array to inspect.
+	* @param {*} target The value to search for.
+	* @param {Function} comparator The comparator invoked per element.
+	* @returns {boolean} Returns `true` if `target` is found, else `false`.
+	*/
 	function arrayIncludesWith(array, value, comparator) {
 		var index = -1, length = array == null ? 0 : array.length;
 		while (++index < length) if (comparator(value, array[index])) return true;
@@ -39820,6 +50658,15 @@ var require__arrayIncludesWith = /* @__PURE__ */ __commonJSMin(((exports, module
 	module.exports = arrayIncludesWith;
 }));
 var require__arrayMap = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* A specialized version of `_.map` for arrays without support for iteratee
+	* shorthands.
+	*
+	* @private
+	* @param {Array} [array] The array to iterate over.
+	* @param {Function} iteratee The function invoked per iteration.
+	* @returns {Array} Returns the new mapped array.
+	*/
 	function arrayMap(array, iteratee) {
 		var index = -1, length = array == null ? 0 : array.length, result = Array(length);
 		while (++index < length) result[index] = iteratee(array[index], index, array);
@@ -39828,6 +50675,14 @@ var require__arrayMap = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = arrayMap;
 }));
 var require__cacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Checks if a `cache` value for `key` exists.
+	*
+	* @private
+	* @param {Object} cache The cache to query.
+	* @param {string} key The key of the entry to check.
+	* @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+	*/
 	function cacheHas(cache, key) {
 		return cache.has(key);
 	}
@@ -39835,7 +50690,19 @@ var require__cacheHas = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__baseDifference = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var SetCache = require__SetCache(), arrayIncludes = require__arrayIncludes(), arrayIncludesWith = require__arrayIncludesWith(), arrayMap = require__arrayMap(), baseUnary = require__baseUnary(), cacheHas = require__cacheHas();
+	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
+	/**
+	* The base implementation of methods like `_.difference` without support
+	* for excluding multiple arrays or iteratee shorthands.
+	*
+	* @private
+	* @param {Array} array The array to inspect.
+	* @param {Array} values The values to exclude.
+	* @param {Function} [iteratee] The iteratee invoked per element.
+	* @param {Function} [comparator] The comparator invoked per element.
+	* @returns {Array} Returns the new array of filtered values.
+	*/
 	function baseDifference(array, values, iteratee, comparator) {
 		var index = -1, includes = arrayIncludes, isCommon = true, length = array.length, result = [], valuesLength = values.length;
 		if (!length) return result;
@@ -39863,6 +50730,31 @@ var require__baseDifference = /* @__PURE__ */ __commonJSMin(((exports, module) =
 }));
 var require_isArrayLikeObject = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var isArrayLike = require_isArrayLike(), isObjectLike = require_isObjectLike();
+	/**
+	* This method is like `_.isArrayLike` except that it also checks if `value`
+	* is an object.
+	*
+	* @static
+	* @memberOf _
+	* @since 4.0.0
+	* @category Lang
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is an array-like object,
+	*  else `false`.
+	* @example
+	*
+	* _.isArrayLikeObject([1, 2, 3]);
+	* // => true
+	*
+	* _.isArrayLikeObject(document.body.children);
+	* // => true
+	*
+	* _.isArrayLikeObject('abc');
+	* // => false
+	*
+	* _.isArrayLikeObject(_.noop);
+	* // => false
+	*/
 	function isArrayLikeObject(value) {
 		return isObjectLike(value) && isArrayLike(value);
 	}
@@ -39878,10 +50770,29 @@ var require__Set = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require__getNative()(require__root(), "Set");
 }));
 var require_noop = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This method returns `undefined`.
+	*
+	* @static
+	* @memberOf _
+	* @since 2.3.0
+	* @category Util
+	* @example
+	*
+	* _.times(2, _.noop);
+	* // => [undefined, undefined]
+	*/
 	function noop() {}
 	module.exports = noop;
 }));
 var require__setToArray = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Converts `set` to an array of its values.
+	*
+	* @private
+	* @param {Object} set The set to convert.
+	* @returns {Array} Returns the values.
+	*/
 	function setToArray(set) {
 		var index = -1, result = Array(set.size);
 		set.forEach(function(value) {
@@ -39899,7 +50810,17 @@ var require__createSet = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 }));
 var require__baseUniq = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var SetCache = require__SetCache(), arrayIncludes = require__arrayIncludes(), arrayIncludesWith = require__arrayIncludesWith(), cacheHas = require__cacheHas(), createSet = require__createSet(), setToArray = require__setToArray();
+	/** Used as the size to enable large array optimizations. */
 	var LARGE_ARRAY_SIZE = 200;
+	/**
+	* The base implementation of `_.uniqBy` without support for iteratee shorthands.
+	*
+	* @private
+	* @param {Array} array The array to inspect.
+	* @param {Function} [iteratee] The iteratee invoked per element.
+	* @param {Function} [comparator] The comparator invoked per element.
+	* @returns {Array} Returns the new duplicate free array.
+	*/
 	function baseUniq(array, iteratee, comparator) {
 		var index = -1, includes = arrayIncludes, length = array.length, isCommon = true, result = [], seen = result;
 		if (comparator) {
@@ -39936,6 +50857,14 @@ var require_union = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	});
 }));
 var require__overArg = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* Creates a unary function that invokes `func` with its argument transformed.
+	*
+	* @private
+	* @param {Function} func The function to wrap.
+	* @param {Function} transform The argument transform.
+	* @returns {Function} Returns the new function.
+	*/
 	function overArg(func, transform) {
 		return function(arg) {
 			return func(transform(arg));
@@ -39948,11 +50877,44 @@ var require__getPrototype = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 }));
 var require_isPlainObject = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var baseGetTag = require__baseGetTag(), getPrototype = require__getPrototype(), isObjectLike = require_isObjectLike();
+	/** `Object#toString` result references. */
 	var objectTag = "[object Object]";
+	/** Used for built-in method references. */
 	var funcProto = Function.prototype, objectProto = Object.prototype;
+	/** Used to resolve the decompiled source of functions. */
 	var funcToString = funcProto.toString;
+	/** Used to check objects for own properties. */
 	var hasOwnProperty = objectProto.hasOwnProperty;
+	/** Used to infer the `Object` constructor. */
 	var objectCtorString = funcToString.call(Object);
+	/**
+	* Checks if `value` is a plain object, that is, an object created by the
+	* `Object` constructor or one with a `[[Prototype]]` of `null`.
+	*
+	* @static
+	* @memberOf _
+	* @since 0.8.0
+	* @category Lang
+	* @param {*} value The value to check.
+	* @returns {boolean} Returns `true` if `value` is a plain object, else `false`.
+	* @example
+	*
+	* function Foo() {
+	*   this.a = 1;
+	* }
+	*
+	* _.isPlainObject(new Foo);
+	* // => false
+	*
+	* _.isPlainObject([1, 2, 3]);
+	* // => false
+	*
+	* _.isPlainObject({ 'x': 0, 'y': 0 });
+	* // => true
+	*
+	* _.isPlainObject(Object.create(null));
+	* // => true
+	*/
 	function isPlainObject(value) {
 		if (!isObjectLike(value) || baseGetTag(value) != objectTag) return false;
 		var proto = getPrototype(value);
@@ -40227,6 +51189,20 @@ var require_brace_expressions = /* @__PURE__ */ __commonJSMin(((exports) => {
 var require_unescape = /* @__PURE__ */ __commonJSMin(((exports) => {
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.unescape = void 0;
+	/**
+	* Un-escape a string that has been escaped with {@link escape}.
+	*
+	* If the {@link windowsPathsNoEscape} option is used, then square-brace
+	* escapes are removed, but not backslash escapes.  For example, it will turn
+	* the string `'[*]'` into `*`, but it will not turn `'\\*'` into `'*'`,
+	* becuase `\` is a path separator in `windowsPathsNoEscape` mode.
+	*
+	* When `windowsPathsNoEscape` is not set, then both brace escapes and
+	* backslash escapes are removed.
+	*
+	* Slashes (and backslashes in `windowsPathsNoEscape` mode) cannot be escaped
+	* or unescaped.
+	*/
 	var unescape = (s, { windowsPathsNoEscape = false } = {}) => {
 		return windowsPathsNoEscape ? s.replace(/\[([^\/\\])\]/g, "$1") : s.replace(/((?!\\).|^)\[([^\/\\])\]/g, "$1$2").replace(/\\([^\/])/g, "$1");
 	};
@@ -40600,6 +51576,15 @@ var require_ast = /* @__PURE__ */ __commonJSMin(((exports) => {
 var require_escape = /* @__PURE__ */ __commonJSMin(((exports) => {
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.escape = void 0;
+	/**
+	* Escape all magic characters in a glob pattern.
+	*
+	* If the {@link windowsPathsNoEscape | GlobOptions.windowsPathsNoEscape}
+	* option is used, then characters are escaped by wrapping in `[]`, because
+	* a magic character wrapped in a character class can only be satisfied by
+	* that exact character.  In this mode, `\` is _not_ escaped, because it is
+	* not interpreted as a magic character, but instead as a path separator.
+	*/
 	var escape = (s, { windowsPathsNoEscape = false } = {}) => {
 		return windowsPathsNoEscape ? s.replace(/[?*()[\]]/g, "[$&]") : s.replace(/[?*()[\]\\]/g, "\\$&");
 	};
@@ -41211,6 +52196,9 @@ var require_commonjs$4 = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.minimatch.unescape = unescape_js_1.unescape;
 }));
 var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
+	/**
+	* @module LRUCache
+	*/
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.LRUCache = void 0;
 	var perf = typeof performance === "object" && performance && typeof performance.now === "function" ? performance : Date;
@@ -41299,20 +52287,65 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		#disposeAfter;
 		#fetchMethod;
 		#memoMethod;
+		/**
+		* {@link LRUCache.OptionsBase.ttl}
+		*/
 		ttl;
+		/**
+		* {@link LRUCache.OptionsBase.ttlResolution}
+		*/
 		ttlResolution;
+		/**
+		* {@link LRUCache.OptionsBase.ttlAutopurge}
+		*/
 		ttlAutopurge;
+		/**
+		* {@link LRUCache.OptionsBase.updateAgeOnGet}
+		*/
 		updateAgeOnGet;
+		/**
+		* {@link LRUCache.OptionsBase.updateAgeOnHas}
+		*/
 		updateAgeOnHas;
+		/**
+		* {@link LRUCache.OptionsBase.allowStale}
+		*/
 		allowStale;
+		/**
+		* {@link LRUCache.OptionsBase.noDisposeOnSet}
+		*/
 		noDisposeOnSet;
+		/**
+		* {@link LRUCache.OptionsBase.noUpdateTTL}
+		*/
 		noUpdateTTL;
+		/**
+		* {@link LRUCache.OptionsBase.maxEntrySize}
+		*/
 		maxEntrySize;
+		/**
+		* {@link LRUCache.OptionsBase.sizeCalculation}
+		*/
 		sizeCalculation;
+		/**
+		* {@link LRUCache.OptionsBase.noDeleteOnFetchRejection}
+		*/
 		noDeleteOnFetchRejection;
+		/**
+		* {@link LRUCache.OptionsBase.noDeleteOnStaleGet}
+		*/
 		noDeleteOnStaleGet;
+		/**
+		* {@link LRUCache.OptionsBase.allowStaleOnFetchAbort}
+		*/
 		allowStaleOnFetchAbort;
+		/**
+		* {@link LRUCache.OptionsBase.allowStaleOnFetchRejection}
+		*/
 		allowStaleOnFetchRejection;
+		/**
+		* {@link LRUCache.OptionsBase.ignoreFetchAbort}
+		*/
 		ignoreFetchAbort;
 		#size;
 		#calculatedSize;
@@ -41331,6 +52364,15 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		#hasDispose;
 		#hasFetchMethod;
 		#hasDisposeAfter;
+		/**
+		* Do not call this method unless you need to inspect the
+		* inner workings of the cache.  If anything returned by this
+		* object is modified in any way, strange breakage may occur.
+		*
+		* These fields are private for a reason!
+		*
+		* @internal
+		*/
 		static unsafeExposeInternals(c) {
 			return {
 				starts: c.#starts,
@@ -41356,27 +52398,48 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				isStale: (index) => c.#isStale(index)
 			};
 		}
+		/**
+		* {@link LRUCache.OptionsBase.max} (read-only)
+		*/
 		get max() {
 			return this.#max;
 		}
+		/**
+		* {@link LRUCache.OptionsBase.maxSize} (read-only)
+		*/
 		get maxSize() {
 			return this.#maxSize;
 		}
+		/**
+		* The total computed size of items in the cache (read-only)
+		*/
 		get calculatedSize() {
 			return this.#calculatedSize;
 		}
+		/**
+		* The number of items stored in the cache (read-only)
+		*/
 		get size() {
 			return this.#size;
 		}
+		/**
+		* {@link LRUCache.OptionsBase.fetchMethod} (read-only)
+		*/
 		get fetchMethod() {
 			return this.#fetchMethod;
 		}
 		get memoMethod() {
 			return this.#memoMethod;
 		}
+		/**
+		* {@link LRUCache.OptionsBase.dispose} (read-only)
+		*/
 		get dispose() {
 			return this.#dispose;
 		}
+		/**
+		* {@link LRUCache.OptionsBase.disposeAfter} (read-only)
+		*/
 		get disposeAfter() {
 			return this.#disposeAfter;
 		}
@@ -41451,6 +52514,10 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				}
 			}
 		}
+		/**
+		* Return the number of ms left in the item's TTL. If item is not in cache,
+		* returns `0`. Returns `Infinity` if item is in cache without a defined TTL.
+		*/
 		getRemainingTTL(key) {
 			return this.#keyMap.has(key) ? Infinity : 0;
 		}
@@ -41570,34 +52637,77 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		#isValidIndex(index) {
 			return index !== void 0 && this.#keyMap.get(this.#keyList[index]) === index;
 		}
+		/**
+		* Return a generator yielding `[key, value]` pairs,
+		* in order from most recently used to least recently used.
+		*/
 		*entries() {
 			for (const i of this.#indexes()) if (this.#valList[i] !== void 0 && this.#keyList[i] !== void 0 && !this.#isBackgroundFetch(this.#valList[i])) yield [this.#keyList[i], this.#valList[i]];
 		}
+		/**
+		* Inverse order version of {@link LRUCache.entries}
+		*
+		* Return a generator yielding `[key, value]` pairs,
+		* in order from least recently used to most recently used.
+		*/
 		*rentries() {
 			for (const i of this.#rindexes()) if (this.#valList[i] !== void 0 && this.#keyList[i] !== void 0 && !this.#isBackgroundFetch(this.#valList[i])) yield [this.#keyList[i], this.#valList[i]];
 		}
+		/**
+		* Return a generator yielding the keys in the cache,
+		* in order from most recently used to least recently used.
+		*/
 		*keys() {
 			for (const i of this.#indexes()) {
 				const k = this.#keyList[i];
 				if (k !== void 0 && !this.#isBackgroundFetch(this.#valList[i])) yield k;
 			}
 		}
+		/**
+		* Inverse order version of {@link LRUCache.keys}
+		*
+		* Return a generator yielding the keys in the cache,
+		* in order from least recently used to most recently used.
+		*/
 		*rkeys() {
 			for (const i of this.#rindexes()) {
 				const k = this.#keyList[i];
 				if (k !== void 0 && !this.#isBackgroundFetch(this.#valList[i])) yield k;
 			}
 		}
+		/**
+		* Return a generator yielding the values in the cache,
+		* in order from most recently used to least recently used.
+		*/
 		*values() {
 			for (const i of this.#indexes()) if (this.#valList[i] !== void 0 && !this.#isBackgroundFetch(this.#valList[i])) yield this.#valList[i];
 		}
+		/**
+		* Inverse order version of {@link LRUCache.values}
+		*
+		* Return a generator yielding the values in the cache,
+		* in order from least recently used to most recently used.
+		*/
 		*rvalues() {
 			for (const i of this.#rindexes()) if (this.#valList[i] !== void 0 && !this.#isBackgroundFetch(this.#valList[i])) yield this.#valList[i];
 		}
+		/**
+		* Iterating over the cache itself yields the same results as
+		* {@link LRUCache.entries}
+		*/
 		[Symbol.iterator]() {
 			return this.entries();
 		}
+		/**
+		* A String value that is used in the creation of the default string
+		* description of an object. Called by the built-in method
+		* `Object.prototype.toString`.
+		*/
 		[Symbol.toStringTag] = "LRUCache";
+		/**
+		* Find a value for which the supplied fn method returns a truthy value,
+		* similar to `Array.find()`. fn is called as `fn(value, key, cache)`.
+		*/
 		find(fn, getOptions = {}) {
 			for (const i of this.#indexes()) {
 				const v = this.#valList[i];
@@ -41606,6 +52716,17 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				if (fn(value, this.#keyList[i], this)) return this.get(this.#keyList[i], getOptions);
 			}
 		}
+		/**
+		* Call the supplied function on each item in the cache, in order from most
+		* recently used to least recently used.
+		*
+		* `fn` is called as `fn(value, key, cache)`.
+		*
+		* If `thisp` is provided, function will be called in the `this`-context of
+		* the provided object, or the cache if no `thisp` object is provided.
+		*
+		* Does not update age or recenty of use, or iterate over stale values.
+		*/
 		forEach(fn, thisp = this) {
 			for (const i of this.#indexes()) {
 				const v = this.#valList[i];
@@ -41614,6 +52735,10 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				fn.call(thisp, value, this.#keyList[i], this);
 			}
 		}
+		/**
+		* The same as {@link LRUCache.forEach} but items are iterated over in
+		* reverse order.  (ie, less recently used items are iterated over first.)
+		*/
 		rforEach(fn, thisp = this) {
 			for (const i of this.#rindexes()) {
 				const v = this.#valList[i];
@@ -41622,6 +52747,10 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				fn.call(thisp, value, this.#keyList[i], this);
 			}
 		}
+		/**
+		* Delete any stale entries. Returns true if anything was removed,
+		* false otherwise.
+		*/
 		purgeStale() {
 			let deleted = false;
 			for (const i of this.#rindexes({ allowStale: true })) if (this.#isStale(i)) {
@@ -41630,6 +52759,18 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return deleted;
 		}
+		/**
+		* Get the extended info about a given entry, to get its value, size, and
+		* TTL info simultaneously. Returns `undefined` if the key is not present.
+		*
+		* Unlike {@link LRUCache#dump}, which is designed to be portable and survive
+		* serialization, the `start` value is always the current timestamp, and the
+		* `ttl` is a calculated remaining time to live (negative if expired).
+		*
+		* Always returns stale values, if their info is found in the cache, so be
+		* sure to check for expirations (ie, a negative {@link LRUCache.Entry#ttl})
+		* if relevant.
+		*/
 		info(key) {
 			const i = this.#keyMap.get(key);
 			if (i === void 0) return void 0;
@@ -41648,6 +52789,19 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (this.#sizes) entry.size = this.#sizes[i];
 			return entry;
 		}
+		/**
+		* Return an array of [key, {@link LRUCache.Entry}] tuples which can be
+		* passed to {@link LRLUCache#load}.
+		*
+		* The `start` fields are calculated relative to a portable `Date.now()`
+		* timestamp, even if `performance.now()` is available.
+		*
+		* Stale entries are always included in the `dump`, even if
+		* {@link LRUCache.OptionsBase.allowStale} is false.
+		*
+		* Note: this returns an actual array, not a generator, so it can be more
+		* easily passed around.
+		*/
 		dump() {
 			const arr = [];
 			for (const i of this.#indexes({ allowStale: true })) {
@@ -41666,6 +52820,15 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return arr;
 		}
+		/**
+		* Reset the cache and load in the items in entries in the order listed.
+		*
+		* The shape of the resulting cache may be different if the same options are
+		* not used in both caches.
+		*
+		* The `start` fields are assumed to be calculated relative to a portable
+		* `Date.now()` timestamp, even if `performance.now()` is available.
+		*/
 		load(arr) {
 			this.clear();
 			for (const [key, entry] of arr) {
@@ -41676,6 +52839,36 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				this.set(key, entry.value, entry);
 			}
 		}
+		/**
+		* Add a value to the cache.
+		*
+		* Note: if `undefined` is specified as a value, this is an alias for
+		* {@link LRUCache#delete}
+		*
+		* Fields on the {@link LRUCache.SetOptions} options param will override
+		* their corresponding values in the constructor options for the scope
+		* of this single `set()` operation.
+		*
+		* If `start` is provided, then that will set the effective start
+		* time for the TTL calculation. Note that this must be a previous
+		* value of `performance.now()` if supported, or a previous value of
+		* `Date.now()` if not.
+		*
+		* Options object may also include `size`, which will prevent
+		* calling the `sizeCalculation` function and just use the specified
+		* number if it is a positive integer, and `noDisposeOnSet` which
+		* will prevent calling a `dispose` function in the case of
+		* overwrites.
+		*
+		* If the `size` (or return value of `sizeCalculation`) for a given
+		* entry is greater than `maxEntrySize`, then the item will not be
+		* added to the cache.
+		*
+		* Will update the recency of the entry.
+		*
+		* If the value is `undefined`, then this is an alias for
+		* `cache.delete(key)`. `undefined` is never stored in the cache.
+		*/
 		set(k, v, setOptions = {}) {
 			if (v === void 0) {
 				this.delete(k);
@@ -41750,6 +52943,10 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return this;
 		}
+		/**
+		* Evict the least recently used item, returning its value or
+		* `undefined` if cache is empty.
+		*/
 		pop() {
 			try {
 				while (this.#size) {
@@ -41794,6 +52991,22 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.#size--;
 			return head;
 		}
+		/**
+		* Check if a key is in the cache, without updating the recency of use.
+		* Will return false if the item is stale, even though it is technically
+		* in the cache.
+		*
+		* Check if a key is in the cache, without updating the recency of
+		* use. Age is updated if {@link LRUCache.OptionsBase.updateAgeOnHas} is set
+		* to `true` in either the options or the constructor.
+		*
+		* Will return `false` if the item is stale, even though it is technically in
+		* the cache. The difference can be determined (if it matters) by using a
+		* `status` argument, and inspecting the `has` field.
+		*
+		* Will not update item age unless
+		* {@link LRUCache.OptionsBase.updateAgeOnHas} is set.
+		*/
 		has(k, hasOptions = {}) {
 			const { updateAgeOnHas = this.updateAgeOnHas, status } = hasOptions;
 			const index = this.#keyMap.get(k);
@@ -41814,6 +53027,13 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			} else if (status) status.has = "miss";
 			return false;
 		}
+		/**
+		* Like {@link LRUCache#get} but doesn't update recency or delete stale
+		* items.
+		*
+		* Returns `undefined` if the item is stale, unless
+		* {@link LRUCache.OptionsBase.allowStale} is set.
+		*/
 		peek(k, peekOptions = {}) {
 			const { allowStale = this.allowStale } = peekOptions;
 			const index = this.#keyMap.get(k);
@@ -41980,6 +53200,12 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.set(k, vv, options);
 			return vv;
 		}
+		/**
+		* Return a value from the cache. Will update the recency of the cache
+		* entry found.
+		*
+		* If the key is not found, get() will return `undefined`.
+		*/
 		get(k, getOptions = {}) {
 			const { allowStale = this.allowStale, updateAgeOnGet = this.updateAgeOnGet, noDeleteOnStaleGet = this.noDeleteOnStaleGet, status } = getOptions;
 			const index = this.#keyMap.get(k);
@@ -42018,6 +53244,11 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				this.#tail = index;
 			}
 		}
+		/**
+		* Deletes a key out of the cache.
+		*
+		* Returns true if the key was deleted, false otherwise.
+		*/
 		delete(k) {
 			return this.#delete(k, "delete");
 		}
@@ -42063,6 +53294,9 @@ var require_commonjs$3 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return deleted;
 		}
+		/**
+		* Clear the cache entirely, throwing away all values.
+		*/
 		clear() {
 			return this.#clear("delete");
 		}
@@ -42114,10 +53348,20 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var node_events_1 = __require("node:events");
 	var node_stream_1 = __importDefault(__require("node:stream"));
 	var node_string_decoder_1 = __require("node:string_decoder");
+	/**
+	* Return true if the argument is a Minipass stream, Node stream, or something
+	* else that Minipass can interact with.
+	*/
 	var isStream = (s) => !!s && typeof s === "object" && (s instanceof Minipass || s instanceof node_stream_1.default || (0, exports.isReadable)(s) || (0, exports.isWritable)(s));
 	exports.isStream = isStream;
+	/**
+	* Return true if the argument is a valid {@link Minipass.Readable}
+	*/
 	var isReadable = (s) => !!s && typeof s === "object" && s instanceof node_events_1.EventEmitter && typeof s.pipe === "function" && s.pipe !== node_stream_1.default.Writable.prototype.pipe;
 	exports.isReadable = isReadable;
+	/**
+	* Return true if the argument is a valid {@link Minipass.Writable}
+	*/
 	var isWritable = (s) => !!s && typeof s === "object" && s instanceof node_events_1.EventEmitter && typeof s.write === "function" && typeof s.end === "function";
 	exports.isWritable = isWritable;
 	var EOF = Symbol("EOF");
@@ -42156,6 +53400,11 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var isEndish = (ev) => ev === "end" || ev === "finish" || ev === "prefinish";
 	var isArrayBufferLike = (b) => b instanceof ArrayBuffer || !!b && typeof b === "object" && b.constructor && b.constructor.name === "ArrayBuffer" && b.byteLength >= 0;
 	var isArrayBufferView = (b) => !Buffer.isBuffer(b) && ArrayBuffer.isView(b);
+	/**
+	* Internal class representing a pipe to a destination stream.
+	*
+	* @internal
+	*/
 	var Pipe = class {
 		src;
 		dest;
@@ -42179,6 +53428,12 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (this.opts.end) this.dest.end();
 		}
 	};
+	/**
+	* Internal class representing a pipe to a destination stream where
+	* errors are proxied.
+	*
+	* @internal
+	*/
 	var PipeProxyErrors = class extends Pipe {
 		unpipe() {
 			this.src.removeListener("error", this.proxyErrors);
@@ -42192,6 +53447,17 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 	};
 	var isObjectModeOptions = (o) => !!o.objectMode;
 	var isEncodingOptions = (o) => !o.objectMode && !!o.encoding && o.encoding !== "buffer";
+	/**
+	* Main export, the Minipass class
+	*
+	* `RType` is the type of data emitted, defaults to Buffer
+	*
+	* `WType` is the type of data to be written, if RType is buffer or string,
+	* then any {@link Minipass.ContiguousData} is allowed.
+	*
+	* `Events` is the set of event handler signatures that this object
+	* will emit, see {@link Minipass.Events}
+	*/
 	var Minipass = class extends node_events_1.EventEmitter {
 		[FLOWING] = false;
 		[PAUSED] = false;
@@ -42212,8 +53478,20 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		[ABORTED] = false;
 		[DATALISTENERS] = 0;
 		[DISCARDED] = false;
+		/**
+		* true if the stream can be written
+		*/
 		writable = true;
+		/**
+		* true if the stream can be read
+		*/
 		readable = true;
+		/**
+		* If `RType` is Buffer, then options do not need to be provided.
+		* Otherwise, an options object must be provided to specify either
+		* {@link Minipass.SharedOptions.objectMode} or
+		* {@link Minipass.SharedOptions.encoding}, as appropriate.
+		*/
 		constructor(...args) {
 			const options = args[0] || {};
 			super();
@@ -42239,27 +53517,61 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				else signal.addEventListener("abort", () => this[ABORT]());
 			}
 		}
+		/**
+		* The amount of data stored in the buffer waiting to be read.
+		*
+		* For Buffer strings, this will be the total byte length.
+		* For string encoding streams, this will be the string character length,
+		* according to JavaScript's `string.length` logic.
+		* For objectMode streams, this is a count of the items waiting to be
+		* emitted.
+		*/
 		get bufferLength() {
 			return this[BUFFERLENGTH];
 		}
+		/**
+		* The `BufferEncoding` currently in use, or `null`
+		*/
 		get encoding() {
 			return this[ENCODING];
 		}
+		/**
+		* @deprecated - This is a read only property
+		*/
 		set encoding(_enc) {
 			throw new Error("Encoding must be set at instantiation time");
 		}
+		/**
+		* @deprecated - Encoding may only be set at instantiation time
+		*/
 		setEncoding(_enc) {
 			throw new Error("Encoding must be set at instantiation time");
 		}
+		/**
+		* True if this is an objectMode stream
+		*/
 		get objectMode() {
 			return this[OBJECTMODE];
 		}
+		/**
+		* @deprecated - This is a read-only property
+		*/
 		set objectMode(_om) {
 			throw new Error("objectMode must be set at instantiation time");
 		}
+		/**
+		* true if this is an async stream
+		*/
 		get ["async"]() {
 			return this[ASYNC];
 		}
+		/**
+		* Set to true to make this stream async.
+		*
+		* Once set, it cannot be unset, as this would potentially cause incorrect
+		* behavior.  Ie, a sync stream can be made async, but an async stream
+		* cannot be safely made sync.
+		*/
 		set ["async"](a) {
 			this[ASYNC] = this[ASYNC] || !!a;
 		}
@@ -42268,9 +53580,16 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.emit("abort", this[SIGNAL]?.reason);
 			this.destroy(this[SIGNAL]?.reason);
 		}
+		/**
+		* True if the stream has been aborted.
+		*/
 		get aborted() {
 			return this[ABORTED];
 		}
+		/**
+		* No-op setter. Stream aborted status is set via the AbortSignal provided
+		* in the constructor options.
+		*/
 		set aborted(_) {}
 		write(chunk, encoding, cb) {
 			if (this[ABORTED]) return false;
@@ -42314,6 +53633,19 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (cb) fn(cb);
 			return this[FLOWING];
 		}
+		/**
+		* Low-level explicit read method.
+		*
+		* In objectMode, the argument is ignored, and one item is returned if
+		* available.
+		*
+		* `n` is the number of bytes (or in the case of encoding streams,
+		* characters) to consume. If `n` is not provided, then the entire buffer
+		* is returned, or `null` is returned if no data is available.
+		*
+		* If `n` is greater that the amount of data in the internal buffer,
+		* then `null` is returned.
+		*/
 		read(n) {
 			if (this[DESTROYED]) return null;
 			this[DISCARDED] = false;
@@ -42372,20 +53704,42 @@ var require_commonjs$2 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			else if (this[EOF]) this[MAYBE_EMIT_END]();
 			else this.emit("drain");
 		}
+		/**
+		* Resume the stream if it is currently in a paused state
+		*
+		* If called when there are no pipe destinations or `data` event listeners,
+		* this will place the stream in a "discarded" state, where all data will
+		* be thrown away. The discarded state is removed if a pipe destination or
+		* data handler is added, if pause() is called, or if any synchronous or
+		* asynchronous iteration is started.
+		*/
 		resume() {
 			return this[RESUME]();
 		}
+		/**
+		* Pause the stream
+		*/
 		pause() {
 			this[FLOWING] = false;
 			this[PAUSED] = true;
 			this[DISCARDED] = false;
 		}
+		/**
+		* true if the stream has been forcibly destroyed
+		*/
 		get destroyed() {
 			return this[DESTROYED];
 		}
+		/**
+		* true if the stream is currently in a flowing state, meaning that
+		* any writes will be immediately emitted.
+		*/
 		get flowing() {
 			return this[FLOWING];
 		}
+		/**
+		* true if the stream is currently in a paused state
+		*/
 		get paused() {
 			return this[PAUSED];
 		}
@@ -42408,6 +53762,11 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			this.emit("data", chunk);
 			return this[FLOWING];
 		}
+		/**
+		* Pipe all data emitted by this stream into the destination provided.
+		*
+		* Triggers the flow of data.
+		*/
 		pipe(dest, opts) {
 			if (this[DESTROYED]) return dest;
 			this[DISCARDED] = false;
@@ -42425,6 +53784,14 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			}
 			return dest;
 		}
+		/**
+		* Fully unhook a piped destination stream.
+		*
+		* If the destination stream was the only consumer of this stream (ie,
+		* there are no other piped destinations or `'data'` event listeners)
+		* then the flow of data will stop until there is another consumer or
+		* {@link Minipass#resume} is explicitly called.
+		*/
 		unpipe(dest) {
 			const p = this[PIPES].find((p) => p.dest === dest);
 			if (p) {
@@ -42435,9 +53802,29 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 				p.unpipe();
 			}
 		}
+		/**
+		* Alias for {@link Minipass#on}
+		*/
 		addListener(ev, handler) {
 			return this.on(ev, handler);
 		}
+		/**
+		* Mostly identical to `EventEmitter.on`, with the following
+		* behavior differences to prevent data loss and unnecessary hangs:
+		*
+		* - Adding a 'data' event handler will trigger the flow of data
+		*
+		* - Adding a 'readable' event handler when there is data waiting to be read
+		*   will cause 'readable' to be emitted immediately.
+		*
+		* - Adding an 'endish' event handler ('end', 'finish', etc.) which has
+		*   already passed will cause the event to be emitted immediately and all
+		*   handlers removed.
+		*
+		* - Adding an 'error' event handler after an error has been emitted will
+		*   cause the event to be re-emitted immediately with the error previously
+		*   raised.
+		*/
 		on(ev, handler) {
 			const ret = super.on(ev, handler);
 			if (ev === "data") {
@@ -42455,9 +53842,20 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			}
 			return ret;
 		}
+		/**
+		* Alias for {@link Minipass#off}
+		*/
 		removeListener(ev, handler) {
 			return this.off(ev, handler);
 		}
+		/**
+		* Mostly identical to `EventEmitter.off`
+		*
+		* If a 'data' event handler is removed, and it was the last consumer
+		* (ie, there are no pipe destinations or other 'data' event listeners),
+		* then the flow of data will stop until there is another consumer or
+		* {@link Minipass#resume} is explicitly called.
+		*/
 		off(ev, handler) {
 			const ret = super.off(ev, handler);
 			if (ev === "data") {
@@ -42466,6 +53864,14 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			}
 			return ret;
 		}
+		/**
+		* Mostly identical to `EventEmitter.removeAllListeners`
+		*
+		* If all 'data' event handlers are removed, and they were the last consumer
+		* (ie, there are no pipe destinations), then the flow of data will stop
+		* until there is another consumer or {@link Minipass#resume} is explicitly
+		* called.
+		*/
 		removeAllListeners(ev) {
 			const ret = super.removeAllListeners(ev);
 			if (ev === "data" || ev === void 0) {
@@ -42474,6 +53880,9 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			}
 			return ret;
 		}
+		/**
+		* true if the 'end' event has been emitted
+		*/
 		get emittedEnd() {
 			return this[EMITTED_END];
 		}
@@ -42487,6 +53896,30 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 				this[EMITTING_END] = false;
 			}
 		}
+		/**
+		* Mostly identical to `EventEmitter.emit`, with the following
+		* behavior differences to prevent data loss and unnecessary hangs:
+		*
+		* If the stream has been destroyed, and the event is something other
+		* than 'close' or 'error', then `false` is returned and no handlers
+		* are called.
+		*
+		* If the event is 'end', and has already been emitted, then the event
+		* is ignored. If the stream is in a paused or non-flowing state, then
+		* the event will be deferred until data flow resumes. If the stream is
+		* async, then handlers will be called on the next tick rather than
+		* immediately.
+		*
+		* If the event is 'close', and 'end' has not yet been emitted, then
+		* the event will be deferred until after 'end' is emitted.
+		*
+		* If the event is 'error', and an AbortSignal was provided for the stream,
+		* and there are no listeners, then the event is ignored, matching the
+		* behavior of node core streams in the presense of an AbortSignal.
+		*
+		* If the event is 'finish' or 'prefinish', then all listeners will be
+		* removed after emitting the event, to prevent double-firing.
+		*/
 		emit(ev, ...args) {
 			const data = args[0];
 			if (ev !== "error" && ev !== "close" && ev !== DESTROYED && this[DESTROYED]) return false;
@@ -42542,6 +53975,10 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			this.removeAllListeners("end");
 			return ret;
 		}
+		/**
+		* Return a Promise that resolves to an array of all emitted data once
+		* the stream ends.
+		*/
 		async collect() {
 			const buf = Object.assign([], { dataLength: 0 });
 			if (!this[OBJECTMODE]) buf.dataLength = 0;
@@ -42553,11 +53990,20 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			await p;
 			return buf;
 		}
+		/**
+		* Return a Promise that resolves to the concatenation of all emitted data
+		* once the stream ends.
+		*
+		* Not allowed on objectMode streams.
+		*/
 		async concat() {
 			if (this[OBJECTMODE]) throw new Error("cannot concat in objectMode");
 			const buf = await this.collect();
 			return this[ENCODING] ? buf.join("") : Buffer.concat(buf, buf.dataLength);
 		}
+		/**
+		* Return a void Promise that resolves once the stream ends.
+		*/
 		async promise() {
 			return new Promise((resolve, reject) => {
 				this.on(DESTROYED, () => reject(/* @__PURE__ */ new Error("stream destroyed")));
@@ -42565,6 +54011,11 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 				this.on("end", () => resolve());
 			});
 		}
+		/**
+		* Asynchronous `for await of` iteration.
+		*
+		* This will continue emitting all chunks until the stream terminates.
+		*/
 		[Symbol.asyncIterator]() {
 			this[DISCARDED] = false;
 			let stopped = false;
@@ -42632,6 +54083,12 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 				}
 			};
 		}
+		/**
+		* Synchronous `for of` iteration.
+		*
+		* The iteration will terminate when the internal buffer runs out, even
+		* if the stream has not yet terminated.
+		*/
 		[Symbol.iterator]() {
 			this[DISCARDED] = false;
 			let stopped = false;
@@ -42666,6 +54123,18 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 				}
 			};
 		}
+		/**
+		* Destroy a stream, preventing it from being used for any further purpose.
+		*
+		* If the stream has a `close()` method, then it will be called on
+		* destruction.
+		*
+		* After destruction, any attempt to write data, read data, or emit most
+		* events will be ignored.
+		*
+		* If an error argument is provided, then it will be emitted in an
+		* 'error' event.
+		*/
 		destroy(er) {
 			if (this[DESTROYED]) {
 				if (er) this.emit("error", er);
@@ -42682,6 +54151,13 @@ while (this[FLUSHCHUNK](this[BUFFERSHIFT]()) && this[BUFFER].length);
 			else this.emit(DESTROYED);
 			return this;
 		}
+		/**
+		* Alias for {@link isStream}
+		*
+		* Former export location, maintained for backwards compatibility.
+		*
+		* @deprecated
+		*/
 		static get isStream() {
 			return exports.isStream;
 		}
@@ -42789,12 +54265,20 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		normalizeNocaseCache.set(s, n);
 		return n;
 	};
+	/**
+	* An LRUCache for storing resolved path strings or Path objects.
+	* @internal
+	*/
 	var ResolveCache = class extends lru_cache_1.LRUCache {
 		constructor() {
 			super({ max: 256 });
 		}
 	};
 	exports.ResolveCache = ResolveCache;
+	/**
+	* an LRUCache for storing child entries.
+	* @internal
+	*/
 	var ChildrenCache = class extends lru_cache_1.LRUCache {
 		constructor(maxSize = 16 * 1024) {
 			super({
@@ -42805,12 +54289,57 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 	};
 	exports.ChildrenCache = ChildrenCache;
 	var setAsCwd = Symbol("PathScurry setAsCwd");
+	/**
+	* Path objects are sort of like a super-powered
+	* {@link https://nodejs.org/docs/latest/api/fs.html#class-fsdirent fs.Dirent}
+	*
+	* Each one represents a single filesystem entry on disk, which may or may not
+	* exist. It includes methods for reading various types of information via
+	* lstat, readlink, and readdir, and caches all information to the greatest
+	* degree possible.
+	*
+	* Note that fs operations that would normally throw will instead return an
+	* "empty" value. This is in order to prevent excessive overhead from error
+	* stack traces.
+	*/
 	var PathBase = class {
+		/**
+		* the basename of this path
+		*
+		* **Important**: *always* test the path name against any test string
+		* usingthe {@link isNamed} method, and not by directly comparing this
+		* string. Otherwise, unicode path strings that the system sees as identical
+		* will not be properly treated as the same path, leading to incorrect
+		* behavior and possible security issues.
+		*/
 		name;
+		/**
+		* the Path entry corresponding to the path root.
+		*
+		* @internal
+		*/
 		root;
+		/**
+		* All roots found within the current PathScurry family
+		*
+		* @internal
+		*/
 		roots;
+		/**
+		* a reference to the parent path, or undefined in the case of root entries
+		*
+		* @internal
+		*/
 		parent;
+		/**
+		* boolean indicating whether paths are compared case-insensitively
+		* @internal
+		*/
 		nocase;
+		/**
+		* boolean indicating that this path is the current working directory
+		* of the PathScurry collection that contains it.
+		*/
 		isCWD = false;
 		#fs;
 		#dev;
@@ -42895,12 +54424,28 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		#children;
 		#linkTarget;
 		#realpath;
+		/**
+		* This property is for compatibility with the Dirent class as of
+		* Node v20, where Dirent['parentPath'] refers to the path of the
+		* directory that was passed to readdir. For root entries, it's the path
+		* to the entry itself.
+		*/
 		get parentPath() {
 			return (this.parent || this).fullpath();
 		}
+		/**
+		* Deprecated alias for Dirent['parentPath'] Somewhat counterintuitively,
+		* this property refers to the *parent* path, not the path object itself.
+		*/
 		get path() {
 			return this.parentPath;
 		}
+		/**
+		* Do not create new Path objects directly.  They should always be accessed
+		* via the PathScurry class or other methods on the Path class.
+		*
+		* @internal
+		*/
 		constructor(name, type = UNKNOWN, root, roots, nocase, children, opts) {
 			this.name = name;
 			this.#matchName = nocase ? normalizeNocase(name) : normalize(name);
@@ -42916,14 +54461,25 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (this.parent) this.#fs = this.parent.#fs;
 			else this.#fs = fsFromOption(opts.fs);
 		}
+		/**
+		* Returns the depth of the Path object from its root.
+		*
+		* For example, a path at `/foo/bar` would have a depth of 2.
+		*/
 		depth() {
 			if (this.#depth !== void 0) return this.#depth;
 			if (!this.parent) return this.#depth = 0;
 			return this.#depth = this.parent.depth() + 1;
 		}
+		/**
+		* @internal
+		*/
 		childrenCache() {
 			return this.#children;
 		}
+		/**
+		* Get the Path object referenced by the string path, resolved from this Path
+		*/
 		resolve(path) {
 			if (!path) return this;
 			const rootPath = this.getRootString(path);
@@ -42935,6 +54491,14 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			for (const part of dirParts) p = p.child(part);
 			return p;
 		}
+		/**
+		* Returns the cached children Path objects, if still available.  If they
+		* have fallen out of the cache, then returns an empty array, and resets the
+		* READDIR_CALLED bit, so that future calls to readdir() will require an fs
+		* lookup.
+		*
+		* @internal
+		*/
 		children() {
 			const cached = this.#children.get(this);
 			if (cached) return cached;
@@ -42943,6 +54507,19 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.#type &= ~READDIR_CALLED;
 			return children;
 		}
+		/**
+		* Resolves a path portion and returns or creates the child Path.
+		*
+		* Returns `this` if pathPart is `''` or `'.'`, or `parent` if pathPart is
+		* `'..'`.
+		*
+		* This should not be called directly.  If `pathPart` contains any path
+		* separators, it will lead to unsafe undefined behavior.
+		*
+		* Use `Path.resolve()` instead.
+		*
+		* @internal
+		*/
 		child(pathPart, opts) {
 			if (pathPart === "" || pathPart === ".") return this;
 			if (pathPart === "..") return this.parent || this;
@@ -42960,6 +54537,10 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			children.push(pchild);
 			return pchild;
 		}
+		/**
+		* The relative path from the cwd. If it does not share an ancestor with
+		* the cwd, then this ends up being equivalent to the fullpath()
+		*/
 		relative() {
 			if (this.isCWD) return "";
 			if (this.#relative !== void 0) return this.#relative;
@@ -42969,6 +54550,12 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			const pv = p.relative();
 			return pv + (!pv || !p.parent ? "" : this.sep) + name;
 		}
+		/**
+		* The relative path from the cwd, using / as the path separator.
+		* If it does not share an ancestor with
+		* the cwd, then this ends up being equivalent to the fullpathPosix()
+		* On posix systems, this is identical to relative().
+		*/
 		relativePosix() {
 			if (this.sep === "/") return this.relative();
 			if (this.isCWD) return "";
@@ -42979,6 +54566,9 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			const pv = p.relativePosix();
 			return pv + (!pv || !p.parent ? "" : "/") + name;
 		}
+		/**
+		* The fully resolved path string for this Path entry
+		*/
 		fullpath() {
 			if (this.#fullpath !== void 0) return this.#fullpath;
 			const name = this.name;
@@ -42986,6 +54576,12 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (!p) return this.#fullpath = this.name;
 			return this.#fullpath = p.fullpath() + (!p.parent ? "" : this.sep) + name;
 		}
+		/**
+		* On platforms other than windows, this is identical to fullpath.
+		*
+		* On windows, this is overridden to return the forward-slash form of the
+		* full UNC path.
+		*/
 		fullpathPosix() {
 			if (this.#fullpathPosix !== void 0) return this.#fullpathPosix;
 			if (this.sep === "/") return this.#fullpathPosix = this.fullpath();
@@ -42998,6 +54594,13 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			const pfpp = p.fullpathPosix();
 			return this.#fullpathPosix = pfpp + (!pfpp || !p.parent ? "" : "/") + this.name;
 		}
+		/**
+		* Is the Path of an unknown type?
+		*
+		* Note that we might know *something* about it if there has been a previous
+		* filesystem operation, for example that it does not exist, or is not a
+		* link, or whether it has child entries.
+		*/
 		isUnknown() {
 			return (this.#type & IFMT) === UNKNOWN;
 		}
@@ -43008,55 +54611,142 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			return this.isUnknown() ? "Unknown" : this.isDirectory() ? "Directory" : this.isFile() ? "File" : this.isSymbolicLink() ? "SymbolicLink" : this.isFIFO() ? "FIFO" : this.isCharacterDevice() ? "CharacterDevice" : this.isBlockDevice() ? "BlockDevice" : this.isSocket() ? "Socket" : "Unknown";
 			/* c8 ignore stop */
 		}
+		/**
+		* Is the Path a regular file?
+		*/
 		isFile() {
 			return (this.#type & IFMT) === IFREG;
 		}
+		/**
+		* Is the Path a directory?
+		*/
 		isDirectory() {
 			return (this.#type & IFMT) === IFDIR;
 		}
+		/**
+		* Is the path a character device?
+		*/
 		isCharacterDevice() {
 			return (this.#type & IFMT) === IFCHR;
 		}
+		/**
+		* Is the path a block device?
+		*/
 		isBlockDevice() {
 			return (this.#type & IFMT) === IFBLK;
 		}
+		/**
+		* Is the path a FIFO pipe?
+		*/
 		isFIFO() {
 			return (this.#type & IFMT) === IFIFO;
 		}
+		/**
+		* Is the path a socket?
+		*/
 		isSocket() {
 			return (this.#type & IFMT) === IFSOCK;
 		}
+		/**
+		* Is the path a symbolic link?
+		*/
 		isSymbolicLink() {
 			return (this.#type & IFLNK) === IFLNK;
 		}
+		/**
+		* Return the entry if it has been subject of a successful lstat, or
+		* undefined otherwise.
+		*
+		* Does not read the filesystem, so an undefined result *could* simply
+		* mean that we haven't called lstat on it.
+		*/
 		lstatCached() {
 			return this.#type & LSTAT_CALLED ? this : void 0;
 		}
+		/**
+		* Return the cached link target if the entry has been the subject of a
+		* successful readlink, or undefined otherwise.
+		*
+		* Does not read the filesystem, so an undefined result *could* just mean we
+		* don't have any cached data. Only use it if you are very sure that a
+		* readlink() has been called at some point.
+		*/
 		readlinkCached() {
 			return this.#linkTarget;
 		}
+		/**
+		* Returns the cached realpath target if the entry has been the subject
+		* of a successful realpath, or undefined otherwise.
+		*
+		* Does not read the filesystem, so an undefined result *could* just mean we
+		* don't have any cached data. Only use it if you are very sure that a
+		* realpath() has been called at some point.
+		*/
 		realpathCached() {
 			return this.#realpath;
 		}
+		/**
+		* Returns the cached child Path entries array if the entry has been the
+		* subject of a successful readdir(), or [] otherwise.
+		*
+		* Does not read the filesystem, so an empty array *could* just mean we
+		* don't have any cached data. Only use it if you are very sure that a
+		* readdir() has been called recently enough to still be valid.
+		*/
 		readdirCached() {
 			const children = this.children();
 			return children.slice(0, children.provisional);
 		}
+		/**
+		* Return true if it's worth trying to readlink.  Ie, we don't (yet) have
+		* any indication that readlink will definitely fail.
+		*
+		* Returns false if the path is known to not be a symlink, if a previous
+		* readlink failed, or if the entry does not exist.
+		*/
 		canReadlink() {
 			if (this.#linkTarget) return true;
 			if (!this.parent) return false;
 			const ifmt = this.#type & IFMT;
 			return !(ifmt !== UNKNOWN && ifmt !== IFLNK || this.#type & ENOREADLINK || this.#type & ENOENT);
 		}
+		/**
+		* Return true if readdir has previously been successfully called on this
+		* path, indicating that cachedReaddir() is likely valid.
+		*/
 		calledReaddir() {
 			return !!(this.#type & READDIR_CALLED);
 		}
+		/**
+		* Returns true if the path is known to not exist. That is, a previous lstat
+		* or readdir failed to verify its existence when that would have been
+		* expected, or a parent entry was marked either enoent or enotdir.
+		*/
 		isENOENT() {
 			return !!(this.#type & ENOENT);
 		}
+		/**
+		* Return true if the path is a match for the given path name.  This handles
+		* case sensitivity and unicode normalization.
+		*
+		* Note: even on case-sensitive systems, it is **not** safe to test the
+		* equality of the `.name` property to determine whether a given pathname
+		* matches, due to unicode normalization mismatches.
+		*
+		* Always use this method instead of testing the `path.name` property
+		* directly.
+		*/
 		isNamed(n) {
 			return !this.nocase ? this.#matchName === normalize(n) : this.#matchName === normalizeNocase(n);
 		}
+		/**
+		* Return the Path object corresponding to the target of a symbolic link.
+		*
+		* If the Path is not a symbolic link, or if the readlink call fails for any
+		* reason, `undefined` is returned.
+		*
+		* Result is cached, and thus may be outdated if the filesystem is mutated.
+		*/
 		async readlink() {
 			const target = this.#linkTarget;
 			if (target) return target;
@@ -43073,6 +54763,9 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				return;
 			}
 		}
+		/**
+		* Synchronous {@link PathBase.readlink}
+		*/
 		readlinkSync() {
 			const target = this.#linkTarget;
 			if (target) return target;
@@ -43172,6 +54865,21 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			c.provisional++;
 			return p;
 		}
+		/**
+		* Call lstat() on this Path, and update all known information that can be
+		* determined.
+		*
+		* Note that unlike `fs.lstat()`, the returned value does not contain some
+		* information, such as `mode`, `dev`, `nlink`, and `ino`.  If that
+		* information is required, you will need to call `fs.lstat` yourself.
+		*
+		* If the Path refers to a nonexistent file, or if the lstat call fails for
+		* any reason, `undefined` is returned.  Otherwise the updated Path object is
+		* returned.
+		*
+		* Results are cached, and thus may be out of date if the filesystem is
+		* mutated.
+		*/
 		async lstat() {
 			if ((this.#type & ENOENT) === 0) try {
 				this.#applyStat(await this.#fs.promises.lstat(this.fullpath()));
@@ -43180,6 +54888,9 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				this.#lstatFail(er.code);
 			}
 		}
+		/**
+		* synchronous {@link PathBase.lstat}
+		*/
 		lstatSync() {
 			if ((this.#type & ENOENT) === 0) try {
 				this.#applyStat(this.#fs.lstatSync(this.fullpath()));
@@ -43220,6 +54931,22 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.#onReaddirCB.length = 0;
 			cbs.forEach((cb) => cb(null, children));
 		}
+		/**
+		* Standard node-style callback interface to get list of directory entries.
+		*
+		* If the Path cannot or does not contain any children, then an empty array
+		* is returned.
+		*
+		* Results are cached, and thus may be out of date if the filesystem is
+		* mutated.
+		*
+		* @param cb The callback called with (er, entries).  Note that the `er`
+		* param is somewhat extraneous, as all readdir() errors are handled and
+		* simply result in an empty set of entries being returned.
+		* @param allowZalgo Boolean indicating that immediately known results should
+		* *not* be deferred with `queueMicrotask`. Defaults to `false`. Release
+		* zalgo at your peril, the dark pony lord is devious and unforgiving.
+		*/
 		readdirCB(cb, allowZalgo = false) {
 			if (!this.canReaddir()) {
 				if (allowZalgo) cb(null, []);
@@ -43249,6 +54976,15 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			});
 		}
 		#asyncReaddirInFlight;
+		/**
+		* Return an array of known child entries.
+		*
+		* If the Path cannot or does not contain any children, then an empty array
+		* is returned.
+		*
+		* Results are cached, and thus may be out of date if the filesystem is
+		* mutated.
+		*/
 		async readdir() {
 			if (!this.canReaddir()) return [];
 			const children = this.children();
@@ -43272,6 +55008,9 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return children.slice(0, children.provisional);
 		}
+		/**
+		* synchronous {@link PathBase.readdir}
+		*/
 		readdirSync() {
 			if (!this.canReaddir()) return [];
 			const children = this.children();
@@ -43297,6 +55036,15 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		shouldWalk(dirs, walkFilter) {
 			return (this.#type & IFDIR) === IFDIR && !(this.#type & ENOCHILD) && !dirs.has(this) && (!walkFilter || walkFilter(this));
 		}
+		/**
+		* Return the Path object corresponding to path as resolved
+		* by realpath(3).
+		*
+		* If the realpath call fails for any reason, `undefined` is returned.
+		*
+		* Result is cached, and thus may be outdated if the filesystem is mutated.
+		* On success, returns a Path object.
+		*/
 		async realpath() {
 			if (this.#realpath) return this.#realpath;
 			if ((ENOREADLINK | 640) & this.#type) return void 0;
@@ -43307,6 +55055,9 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				this.#markENOREALPATH();
 			}
 		}
+		/**
+		* Synchronous {@link realpath}
+		*/
 		realpathSync() {
 			if (this.#realpath) return this.#realpath;
 			if ((ENOREADLINK | 640) & this.#type) return void 0;
@@ -43317,6 +55068,12 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 				this.#markENOREALPATH();
 			}
 		}
+		/**
+		* Internal method to mark this Path object as the scurry cwd,
+		* called by {@link PathScurry#chdir}
+		*
+		* @internal
+		*/
 		[setAsCwd](oldCwd) {
 			if (oldCwd === this) return;
 			oldCwd.isCWD = false;
@@ -43340,57 +55097,145 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 	};
 	exports.PathBase = PathBase;
+	/**
+	* Path class used on win32 systems
+	*
+	* Uses `'\\'` as the path separator for returned paths, either `'\\'` or `'/'`
+	* as the path separator for parsing paths.
+	*/
 	var PathWin32 = class PathWin32 extends PathBase {
+		/**
+		* Separator for generating path strings.
+		*/
 		sep = "\\";
+		/**
+		* Separator for parsing path strings.
+		*/
 		splitSep = eitherSep;
+		/**
+		* Do not create new Path objects directly.  They should always be accessed
+		* via the PathScurry class or other methods on the Path class.
+		*
+		* @internal
+		*/
 		constructor(name, type = UNKNOWN, root, roots, nocase, children, opts) {
 			super(name, type, root, roots, nocase, children, opts);
 		}
+		/**
+		* @internal
+		*/
 		newChild(name, type = UNKNOWN, opts = {}) {
 			return new PathWin32(name, type, this.root, this.roots, this.nocase, this.childrenCache(), opts);
 		}
+		/**
+		* @internal
+		*/
 		getRootString(path) {
 			return node_path_1.win32.parse(path).root;
 		}
+		/**
+		* @internal
+		*/
 		getRoot(rootPath) {
 			rootPath = uncToDrive(rootPath.toUpperCase());
 			if (rootPath === this.root.name) return this.root;
 			for (const [compare, root] of Object.entries(this.roots)) if (this.sameRoot(rootPath, compare)) return this.roots[rootPath] = root;
 			return this.roots[rootPath] = new PathScurryWin32(rootPath, this).root;
 		}
+		/**
+		* @internal
+		*/
 		sameRoot(rootPath, compare = this.root.name) {
 			rootPath = rootPath.toUpperCase().replace(/\//g, "\\").replace(uncDriveRegexp, "$1\\");
 			return rootPath === compare;
 		}
 	};
 	exports.PathWin32 = PathWin32;
+	/**
+	* Path class used on all posix systems.
+	*
+	* Uses `'/'` as the path separator.
+	*/
 	var PathPosix = class PathPosix extends PathBase {
+		/**
+		* separator for parsing path strings
+		*/
 		splitSep = "/";
+		/**
+		* separator for generating path strings
+		*/
 		sep = "/";
+		/**
+		* Do not create new Path objects directly.  They should always be accessed
+		* via the PathScurry class or other methods on the Path class.
+		*
+		* @internal
+		*/
 		constructor(name, type = UNKNOWN, root, roots, nocase, children, opts) {
 			super(name, type, root, roots, nocase, children, opts);
 		}
+		/**
+		* @internal
+		*/
 		getRootString(path) {
 			return path.startsWith("/") ? "/" : "";
 		}
+		/**
+		* @internal
+		*/
 		getRoot(_rootPath) {
 			return this.root;
 		}
+		/**
+		* @internal
+		*/
 		newChild(name, type = UNKNOWN, opts = {}) {
 			return new PathPosix(name, type, this.root, this.roots, this.nocase, this.childrenCache(), opts);
 		}
 	};
 	exports.PathPosix = PathPosix;
+	/**
+	* The base class for all PathScurry classes, providing the interface for path
+	* resolution and filesystem operations.
+	*
+	* Typically, you should *not* instantiate this class directly, but rather one
+	* of the platform-specific classes, or the exported {@link PathScurry} which
+	* defaults to the current platform.
+	*/
 	var PathScurryBase = class {
+		/**
+		* The root Path entry for the current working directory of this Scurry
+		*/
 		root;
+		/**
+		* The string path for the root of this Scurry's current working directory
+		*/
 		rootPath;
+		/**
+		* A collection of all roots encountered, referenced by rootPath
+		*/
 		roots;
+		/**
+		* The Path entry corresponding to this PathScurry's current working directory.
+		*/
 		cwd;
 		#resolveCache;
 		#resolvePosixCache;
 		#children;
+		/**
+		* Perform path comparisons case-insensitively.
+		*
+		* Defaults true on Darwin and Windows systems, false elsewhere.
+		*/
 		nocase;
 		#fs;
+		/**
+		* This class should not be instantiated directly.
+		*
+		* Use PathScurryWin32, PathScurryDarwin, PathScurryPosix, or PathScurry
+		*
+		* @internal
+		*/
 		constructor(cwd = process.cwd(), pathImpl, sep, { nocase, childrenCacheSize = 16 * 1024, fs = defaultFS } = {}) {
 			this.#fs = fsFromOption(fs);
 			if (cwd instanceof URL || cwd.startsWith("file://")) cwd = (0, node_url_1$1.fileURLToPath)(cwd);
@@ -43424,13 +55269,31 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			this.cwd = prev;
 		}
+		/**
+		* Get the depth of a provided path, string, or the cwd
+		*/
 		depth(path = this.cwd) {
 			if (typeof path === "string") path = this.cwd.resolve(path);
 			return path.depth();
 		}
+		/**
+		* Return the cache of child entries.  Exposed so subclasses can create
+		* child Path objects in a platform-specific way.
+		*
+		* @internal
+		*/
 		childrenCache() {
 			return this.#children;
 		}
+		/**
+		* Resolve one or more path strings to a resolved string
+		*
+		* Same interface as require('path').resolve.
+		*
+		* Much faster than path.resolve() when called multiple times for the same
+		* path, because the resolved Path objects are cached.  Much slower
+		* otherwise.
+		*/
 		resolve(...paths) {
 			let r = "";
 			for (let i = paths.length - 1; i >= 0; i--) {
@@ -43445,6 +55308,17 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.#resolveCache.set(r, result);
 			return result;
 		}
+		/**
+		* Resolve one or more path strings to a resolved string, returning
+		* the posix path.  Identical to .resolve() on posix systems, but on
+		* windows will return a forward-slash separated UNC path.
+		*
+		* Same interface as require('path').resolve.
+		*
+		* Much faster than path.resolve() when called multiple times for the same
+		* path, because the resolved Path objects are cached.  Much slower
+		* otherwise.
+		*/
 		resolvePosix(...paths) {
 			let r = "";
 			for (let i = paths.length - 1; i >= 0; i--) {
@@ -43459,18 +55333,31 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.#resolvePosixCache.set(r, result);
 			return result;
 		}
+		/**
+		* find the relative path from the cwd to the supplied path string or entry
+		*/
 		relative(entry = this.cwd) {
 			if (typeof entry === "string") entry = this.cwd.resolve(entry);
 			return entry.relative();
 		}
+		/**
+		* find the relative path from the cwd to the supplied path string or
+		* entry, using / as the path delimiter, even on Windows.
+		*/
 		relativePosix(entry = this.cwd) {
 			if (typeof entry === "string") entry = this.cwd.resolve(entry);
 			return entry.relativePosix();
 		}
+		/**
+		* Return the basename for the provided string or Path object
+		*/
 		basename(entry = this.cwd) {
 			if (typeof entry === "string") entry = this.cwd.resolve(entry);
 			return entry.name;
 		}
+		/**
+		* Return the dirname for the provided string or Path object
+		*/
 		dirname(entry = this.cwd) {
 			if (typeof entry === "string") entry = this.cwd.resolve(entry);
 			return (entry.parent || entry).fullpath();
@@ -43499,10 +55386,28 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			else if (withFileTypes) return entry.readdirSync();
 			else return entry.readdirSync().map((e) => e.name);
 		}
+		/**
+		* Call lstat() on the string or Path object, and update all known
+		* information that can be determined.
+		*
+		* Note that unlike `fs.lstat()`, the returned value does not contain some
+		* information, such as `mode`, `dev`, `nlink`, and `ino`.  If that
+		* information is required, you will need to call `fs.lstat` yourself.
+		*
+		* If the Path refers to a nonexistent file, or if the lstat call fails for
+		* any reason, `undefined` is returned.  Otherwise the updated Path object is
+		* returned.
+		*
+		* Results are cached, and thus may be out of date if the filesystem is
+		* mutated.
+		*/
 		async lstat(entry = this.cwd) {
 			if (typeof entry === "string") entry = this.cwd.resolve(entry);
 			return entry.lstat();
 		}
+		/**
+		* synchronous {@link PathScurryBase.lstat}
+		*/
 		lstatSync(entry = this.cwd) {
 			if (typeof entry === "string") entry = this.cwd.resolve(entry);
 			return entry.lstatSync();
@@ -43606,6 +55511,15 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return results;
 		}
+		/**
+		* Support for `for await`
+		*
+		* Alias for {@link PathScurryBase.iterate}
+		*
+		* Note: As of Node 19, this is very slow, compared to other methods of
+		* walking.  Consider using {@link PathScurryBase.stream} if memory overhead
+		* and backpressure are concerns, or {@link PathScurryBase.walk} if not.
+		*/
 		[Symbol.asyncIterator]() {
 			return this.iterate();
 		}
@@ -43617,6 +55531,11 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return this.stream(entry, options)[Symbol.asyncIterator]();
 		}
+		/**
+		* Iterating over a PathScurry performs a synchronous walk.
+		*
+		* Alias for {@link PathScurryBase.iterateSync}
+		*/
 		[Symbol.iterator]() {
 			return this.iterateSync();
 		}
@@ -43743,7 +55662,16 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 	};
 	exports.PathScurryBase = PathScurryBase;
+	/**
+	* Windows implementation of {@link PathScurryBase}
+	*
+	* Defaults to case insensitve, uses `'\\'` to generate path strings.  Uses
+	* {@link PathWin32} for Path objects.
+	*/
 	var PathScurryWin32 = class extends PathScurryBase {
+		/**
+		* separator for generating path strings
+		*/
 		sep = "\\";
 		constructor(cwd = process.cwd(), opts = {}) {
 			const { nocase = true } = opts;
@@ -43754,18 +55682,37 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.nocase = nocase;
 			for (let p = this.cwd; p; p = p.parent) p.nocase = this.nocase;
 		}
+		/**
+		* @internal
+		*/
 		parseRootPath(dir) {
 			return node_path_1.win32.parse(dir).root.toUpperCase();
 		}
+		/**
+		* @internal
+		*/
 		newRoot(fs) {
 			return new PathWin32(this.rootPath, IFDIR, void 0, this.roots, this.nocase, this.childrenCache(), { fs });
 		}
+		/**
+		* Return true if the provided path string is an absolute path
+		*/
 		isAbsolute(p) {
 			return p.startsWith("/") || p.startsWith("\\") || /^[a-z]:(\/|\\)/i.test(p);
 		}
 	};
 	exports.PathScurryWin32 = PathScurryWin32;
+	/**
+	* {@link PathScurryBase} implementation for all posix systems other than Darwin.
+	*
+	* Defaults to case-sensitive matching, uses `'/'` to generate path strings.
+	*
+	* Uses {@link PathPosix} for Path objects.
+	*/
 	var PathScurryPosix = class extends PathScurryBase {
+		/**
+		* separator for generating path strings
+		*/
 		sep = "/";
 		constructor(cwd = process.cwd(), opts = {}) {
 			const { nocase = false } = opts;
@@ -43775,17 +55722,34 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 			});
 			this.nocase = nocase;
 		}
+		/**
+		* @internal
+		*/
 		parseRootPath(_dir) {
 			return "/";
 		}
+		/**
+		* @internal
+		*/
 		newRoot(fs) {
 			return new PathPosix(this.rootPath, IFDIR, void 0, this.roots, this.nocase, this.childrenCache(), { fs });
 		}
+		/**
+		* Return true if the provided path string is an absolute path
+		*/
 		isAbsolute(p) {
 			return p.startsWith("/");
 		}
 	};
 	exports.PathScurryPosix = PathScurryPosix;
+	/**
+	* {@link PathScurryBase} implementation for Darwin (macOS) systems.
+	*
+	* Defaults to case-insensitive matching, uses `'/'` for generating path
+	* strings.
+	*
+	* Uses {@link PathPosix} for Path objects.
+	*/
 	var PathScurryDarwin = class extends PathScurryPosix {
 		constructor(cwd = process.cwd(), opts = {}) {
 			const { nocase = true } = opts;
@@ -43796,7 +55760,18 @@ var require_commonjs$1 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 	};
 	exports.PathScurryDarwin = PathScurryDarwin;
+	/**
+	* Default {@link PathBase} implementation for the current platform.
+	*
+	* {@link PathWin32} on Windows systems, {@link PathPosix} on all others.
+	*/
 	exports.Path = process.platform === "win32" ? PathWin32 : PathPosix;
+	/**
+	* Default {@link PathScurryBase} implementation for the current platform.
+	*
+	* {@link PathScurryWin32} on Windows systems, {@link PathScurryDarwin} on
+	* Darwin (macOS) systems, {@link PathScurryPosix} on all others.
+	*/
 	exports.PathScurry = process.platform === "win32" ? PathScurryWin32 : process.platform === "darwin" ? PathScurryDarwin : PathScurryPosix;
 }));
 var require_pattern = /* @__PURE__ */ __commonJSMin(((exports) => {
@@ -43867,24 +55842,45 @@ var require_pattern = /* @__PURE__ */ __commonJSMin(((exports) => {
 				}
 			}
 		}
+		/**
+		* The first entry in the parsed list of patterns
+		*/
 		pattern() {
 			return this.#patternList[this.#index];
 		}
+		/**
+		* true of if pattern() returns a string
+		*/
 		isString() {
 			return typeof this.#patternList[this.#index] === "string";
 		}
+		/**
+		* true of if pattern() returns GLOBSTAR
+		*/
 		isGlobstar() {
 			return this.#patternList[this.#index] === minimatch_1.GLOBSTAR;
 		}
+		/**
+		* true if pattern() returns a regexp
+		*/
 		isRegExp() {
 			return this.#patternList[this.#index] instanceof RegExp;
 		}
+		/**
+		* The /-joined set of glob parts that make up this pattern
+		*/
 		globString() {
 			return this.#globString = this.#globString || (this.#index === 0 ? this.isAbsolute() ? this.#globList[0] + this.#globList.slice(1).join("/") : this.#globList.join("/") : this.#globList.slice(this.#index).join("/"));
 		}
+		/**
+		* true if there are more pattern parts after this one
+		*/
 		hasMore() {
 			return this.length > this.#index + 1;
 		}
+		/**
+		* The rest of the pattern after this part, or null if this is the end
+		*/
 		rest() {
 			if (this.#rest !== void 0) return this.#rest;
 			if (!this.hasMore()) return this.#rest = null;
@@ -43894,25 +55890,44 @@ var require_pattern = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.#rest.#isDrive = this.#isDrive;
 			return this.#rest;
 		}
+		/**
+		* true if the pattern represents a //unc/path/ on windows
+		*/
 		isUNC() {
 			const pl = this.#patternList;
 			return this.#isUNC !== void 0 ? this.#isUNC : this.#isUNC = this.#platform === "win32" && this.#index === 0 && pl[0] === "" && pl[1] === "" && typeof pl[2] === "string" && !!pl[2] && typeof pl[3] === "string" && !!pl[3];
 		}
+		/**
+		* True if the pattern starts with a drive letter on Windows
+		*/
 		isDrive() {
 			const pl = this.#patternList;
 			return this.#isDrive !== void 0 ? this.#isDrive : this.#isDrive = this.#platform === "win32" && this.#index === 0 && this.length > 1 && typeof pl[0] === "string" && /^[a-z]:$/i.test(pl[0]);
 		}
+		/**
+		* True if the pattern is rooted on an absolute path
+		*/
 		isAbsolute() {
 			const pl = this.#patternList;
 			return this.#isAbsolute !== void 0 ? this.#isAbsolute : this.#isAbsolute = pl[0] === "" && pl.length > 1 || this.isDrive() || this.isUNC();
 		}
+		/**
+		* consume the root of the pattern, and return it
+		*/
 		root() {
 			const p = this.#patternList[0];
 			return typeof p === "string" && this.isAbsolute() && this.#index === 0 ? p : "";
 		}
+		/**
+		* Check to see if the current globstar pattern is allowed to follow
+		* a symbolic link.
+		*/
 		checkFollowGlobstar() {
 			return !(this.#index === 0 || !this.isGlobstar() || !this.#followGlobstar);
 		}
+		/**
+		* Mark that the current globstar pattern is following a symbolic link
+		*/
 		markFollowGlobstar() {
 			if (this.#index === 0 || !this.isGlobstar() || !this.#followGlobstar) return false;
 			this.#followGlobstar = false;
@@ -43926,6 +55941,9 @@ var require_ignore = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var minimatch_1 = require_commonjs$4();
 	var pattern_js_1 = require_pattern();
 	var defaultPlatform = typeof process === "object" && process && typeof process.platform === "string" ? process.platform : "linux";
+	/**
+	* Class used to process ignored patterns
+	*/
 	var Ignore = class {
 		relative;
 		relativeChildren;
@@ -43997,6 +56015,9 @@ var require_processor = /* @__PURE__ */ __commonJSMin(((exports) => {
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.Processor = exports.SubWalks = exports.MatchRecord = exports.HasWalkedCache = void 0;
 	var minimatch_1 = require_commonjs$4();
+	/**
+	* A cache of which patterns have been processed for a given Path
+	*/
 	var HasWalkedCache = class HasWalkedCache {
 		store;
 		constructor(store = /* @__PURE__ */ new Map()) {
@@ -44016,6 +56037,11 @@ var require_processor = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 	};
 	exports.HasWalkedCache = HasWalkedCache;
+	/**
+	* A record of which paths have been matched in a given walk step,
+	* and whether they only are considered a match if they are a directory,
+	* and whether their absolute or relative path should be returned.
+	*/
 	var MatchRecord = class {
 		store = /* @__PURE__ */ new Map();
 		add(target, absolute, ifDir) {
@@ -44032,6 +56058,10 @@ var require_processor = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 	};
 	exports.MatchRecord = MatchRecord;
+	/**
+	* A collection of patterns that must be processed in a subsequent step
+	* for a given path.
+	*/
 	var SubWalks = class {
 		store = /* @__PURE__ */ new Map();
 		add(target, pattern) {
@@ -44176,10 +56206,19 @@ var require_processor = /* @__PURE__ */ __commonJSMin(((exports) => {
 var require_walker = /* @__PURE__ */ __commonJSMin(((exports) => {
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.GlobStream = exports.GlobWalker = exports.GlobUtil = void 0;
+	/**
+	* Single-use utility classes to provide functionality to the {@link Glob}
+	* methods.
+	*
+	* @module
+	*/
 	var minipass_1 = require_commonjs$2();
 	var ignore_js_1 = require_ignore();
 	var processor_js_1 = require_processor();
 	var makeIgnore = (ignore, opts) => typeof ignore === "string" ? new ignore_js_1.Ignore([ignore], opts) : Array.isArray(ignore) ? new ignore_js_1.Ignore(ignore, opts) : ignore;
+	/**
+	* basic walking utilities that all the glob walker types use
+	*/
 	var GlobUtil = class {
 		path;
 		patterns;
@@ -44465,6 +56504,9 @@ var require_glob = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var pattern_js_1 = require_pattern();
 	var walker_js_1 = require_walker();
 	var defaultPlatform = typeof process === "object" && process && typeof process.platform === "string" ? process.platform : "linux";
+	/**
+	* An object that can perform glob pattern traversals.
+	*/
 	var Glob = class {
 		absolute;
 		cwd;
@@ -44491,8 +56533,26 @@ var require_glob = /* @__PURE__ */ __commonJSMin(((exports) => {
 		windowsPathsNoEscape;
 		withFileTypes;
 		includeChildMatches;
+		/**
+		* The options provided to the constructor.
+		*/
 		opts;
+		/**
+		* An array of parsed immutable {@link Pattern} objects.
+		*/
 		patterns;
+		/**
+		* All options are stored as properties on the `Glob` object.
+		*
+		* See {@link GlobOptions} for full options descriptions.
+		*
+		* Note that a previous `Glob` object can be passed as the
+		* `GlobOptions` to another `Glob` instantiation to re-use settings
+		* and caches with a new pattern.
+		*
+		* Traversal functions can be called multiple times to run the walk
+		* again.
+		*/
 		constructor(pattern, opts) {
 			/* c8 ignore start */
 			if (!opts) throw new TypeError("glob options required");
@@ -44606,12 +56666,20 @@ var require_glob = /* @__PURE__ */ __commonJSMin(((exports) => {
 				includeChildMatches: this.includeChildMatches
 			}).streamSync();
 		}
+		/**
+		* Default sync iteration function. Returns a Generator that
+		* iterates over the results.
+		*/
 		iterateSync() {
 			return this.streamSync()[Symbol.iterator]();
 		}
 		[Symbol.iterator]() {
 			return this.iterateSync();
 		}
+		/**
+		* Default async iteration function. Returns an AsyncGenerator that
+		* iterates over the results.
+		*/
 		iterate() {
 			return this.stream()[Symbol.asyncIterator]();
 		}
@@ -44625,6 +56693,17 @@ var require_has_magic = /* @__PURE__ */ __commonJSMin(((exports) => {
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.hasMagic = void 0;
 	var minimatch_1 = require_commonjs$4();
+	/**
+	* Return true if the patterns provided contain any magic glob characters,
+	* given the options provided.
+	*
+	* Brace expansion is not considered "magic" unless the `magicalBraces` option
+	* is set, as brace expansion just turns one string into an array of strings.
+	* So a pattern like `'x{a,b}y'` would return `false`, because `'xay'` and
+	* `'xby'` both do not contain any magic glob characters, and it's treated the
+	* same as if you had called it on `['xay', 'xby']`. When `magicalBraces:true`
+	* is in the options, brace expansion _is_ treated as a pattern having magic.
+	*/
 	var hasMagic = (pattern, options = {}) => {
 		if (!Array.isArray(pattern)) pattern = [pattern];
 		for (const p of pattern) if (new minimatch_1.Minimatch(p, options).hasMagic()) return true;
@@ -44723,6 +56802,13 @@ var require_commonjs = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.glob.glob = exports.glob;
 }));
 var require_file = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* archiver-utils
+	*
+	* Copyright (c) 2012-2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-archiver/blob/master/LICENSE-MIT
+	*/
 	var fs = require_graceful_fs();
 	var path$5 = __require("path");
 	var flatten = require_flatten();
@@ -44841,6 +56927,13 @@ var require_file = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_archiver_utils = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* archiver-utils
+	*
+	* Copyright (c) 2015 Chris Talkington.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/archiver-utils/blob/master/LICENSE
+	*/
 	var fs = require_graceful_fs();
 	var path$4 = __require("path");
 	var isStream = require_is_stream();
@@ -44991,6 +57084,11 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var ArchiverError = require_error();
 	var Transform = require_ours().Transform;
 	var win32 = process.platform === "win32";
+	/**
+	* @constructor
+	* @param {String} format The archive format to use.
+	* @param {(CoreOptions|TransformOptions)} options See also {@link ZipOptions} and {@link TarOptions}.
+	*/
 	var Archiver = function(format, options) {
 		if (!(this instanceof Archiver)) return new Archiver(format, options);
 		if (typeof format !== "string") {
@@ -45024,12 +57122,26 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		this._streams = [];
 	};
 	inherits$6(Archiver, Transform);
+	/**
+	* Internal logic for `abort`.
+	*
+	* @private
+	* @return void
+	*/
 	Archiver.prototype._abort = function() {
 		this._state.aborted = true;
 		this._queue.kill();
 		this._statQueue.kill();
 		if (this._queue.idle()) this._shutdown();
 	};
+	/**
+	* Internal helper for appending files.
+	*
+	* @private
+	* @param  {String} filepath The source filepath.
+	* @param  {EntryData} data The entry data.
+	* @return void
+	*/
 	Archiver.prototype._append = function(filepath, data) {
 		data = data || {};
 		var task = {
@@ -45048,6 +57160,12 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			}
 		} else this._statQueue.push(task);
 	};
+	/**
+	* Internal logic for `finalize`.
+	*
+	* @private
+	* @return void
+	*/
 	Archiver.prototype._finalize = function() {
 		if (this._state.finalizing || this._state.finalized || this._state.aborted) return;
 		this._state.finalizing = true;
@@ -45055,6 +57173,12 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		this._state.finalizing = false;
 		this._state.finalized = true;
 	};
+	/**
+	* Checks the various state variables to determine if we can `finalize`.
+	*
+	* @private
+	* @return {Boolean}
+	*/
 	Archiver.prototype._maybeFinalize = function() {
 		if (this._state.finalizing || this._state.finalized || this._state.aborted) return false;
 		if (this._state.finalize && this._pending === 0 && this._queue.idle() && this._statQueue.idle()) {
@@ -45063,6 +57187,16 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		}
 		return false;
 	};
+	/**
+	* Appends an entry to the module.
+	*
+	* @private
+	* @fires  Archiver#entry
+	* @param  {(Buffer|Stream)} source
+	* @param  {EntryData} data
+	* @param  {Function} callback
+	* @return void
+	*/
 	Archiver.prototype._moduleAppend = function(source, data, callback) {
 		if (this._state.aborted) {
 			callback();
@@ -45079,9 +57213,19 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 				setImmediate(callback);
 				return;
 			}
+			/**
+			* Fires when the entry's input has been processed and appended to the archive.
+			*
+			* @event Archiver#entry
+			* @type {EntryData}
+			*/
 			this.emit("entry", data);
 			this._entriesProcessedCount++;
 			if (data.stats && data.stats.size) this._fsEntriesProcessedBytes += data.stats.size;
+			/**
+			* @event Archiver#progress
+			* @type {ProgressData}
+			*/
 			this.emit("progress", {
 				entries: {
 					total: this._entriesCount,
@@ -45095,24 +57239,57 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			setImmediate(callback);
 		}.bind(this));
 	};
+	/**
+	* Finalizes the module.
+	*
+	* @private
+	* @return void
+	*/
 	Archiver.prototype._moduleFinalize = function() {
 		if (typeof this._module.finalize === "function") this._module.finalize();
 		else if (typeof this._module.end === "function") this._module.end();
 		else this.emit("error", new ArchiverError("NOENDMETHOD"));
 	};
+	/**
+	* Pipes the module to our internal stream with error bubbling.
+	*
+	* @private
+	* @return void
+	*/
 	Archiver.prototype._modulePipe = function() {
 		this._module.on("error", this._onModuleError.bind(this));
 		this._module.pipe(this);
 		this._state.modulePiped = true;
 	};
+	/**
+	* Determines if the current module supports a defined feature.
+	*
+	* @private
+	* @param  {String} key
+	* @return {Boolean}
+	*/
 	Archiver.prototype._moduleSupports = function(key) {
 		if (!this._module.supports || !this._module.supports[key]) return false;
 		return this._module.supports[key];
 	};
+	/**
+	* Unpipes the module from our internal stream.
+	*
+	* @private
+	* @return void
+	*/
 	Archiver.prototype._moduleUnpipe = function() {
 		this._module.unpipe(this);
 		this._state.modulePiped = false;
 	};
+	/**
+	* Normalizes entry data with fallbacks for key properties.
+	*
+	* @private
+	* @param  {Object} data
+	* @param  {fs.Stats} stats
+	* @return {Object}
+	*/
 	Archiver.prototype._normalizeEntryData = function(data, stats) {
 		data = util.defaults(data, {
 			type: "file",
@@ -45147,13 +57324,39 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		else data.date = util.dateify(data.date);
 		return data;
 	};
+	/**
+	* Error listener that re-emits error on to our internal stream.
+	*
+	* @private
+	* @param  {Error} err
+	* @return void
+	*/
 	Archiver.prototype._onModuleError = function(err) {
+		/**
+		* @event Archiver#error
+		* @type {ErrorData}
+		*/
 		this.emit("error", err);
 	};
+	/**
+	* Checks the various state variables after queue has drained to determine if
+	* we need to `finalize`.
+	*
+	* @private
+	* @return void
+	*/
 	Archiver.prototype._onQueueDrain = function() {
 		if (this._state.finalizing || this._state.finalized || this._state.aborted) return;
 		if (this._state.finalize && this._pending === 0 && this._queue.idle() && this._statQueue.idle()) this._finalize();
 	};
+	/**
+	* Appends each queue task to the module.
+	*
+	* @private
+	* @param  {Object} task
+	* @param  {Function} callback
+	* @return void
+	*/
 	Archiver.prototype._onQueueTask = function(task, callback) {
 		var fullCallback = () => {
 			if (task.data.callback) task.data.callback();
@@ -45166,6 +57369,14 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		this._task = task;
 		this._moduleAppend(task.source, task.data, fullCallback);
 	};
+	/**
+	* Performs a file stat and reinjects the task back into the queue.
+	*
+	* @private
+	* @param  {Object} task
+	* @param  {Function} callback
+	* @return void
+	*/
 	Archiver.prototype._onStatQueueTask = function(task, callback) {
 		if (this._state.finalizing || this._state.finalized || this._state.aborted) {
 			callback();
@@ -45178,6 +57389,10 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			}
 			if (err) {
 				this._entriesCount--;
+				/**
+				* @event Archiver#warning
+				* @type {ErrorData}
+				*/
 				this.emit("warning", err);
 				setImmediate(callback);
 				return;
@@ -45190,14 +57405,37 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			setImmediate(callback);
 		}.bind(this));
 	};
+	/**
+	* Unpipes the module and ends our internal stream.
+	*
+	* @private
+	* @return void
+	*/
 	Archiver.prototype._shutdown = function() {
 		this._moduleUnpipe();
 		this.end();
 	};
+	/**
+	* Tracks the bytes emitted by our internal stream.
+	*
+	* @private
+	* @param  {Buffer} chunk
+	* @param  {String} encoding
+	* @param  {Function} callback
+	* @return void
+	*/
 	Archiver.prototype._transform = function(chunk, encoding, callback) {
 		if (chunk) this._pointer += chunk.length;
 		callback(null, chunk);
 	};
+	/**
+	* Updates and normalizes a queue task using stats data.
+	*
+	* @private
+	* @param  {Object} task
+	* @param  {fs.Stats} stats
+	* @return {Object}
+	*/
 	Archiver.prototype._updateQueueTaskWithStats = function(task, stats) {
 		if (stats.isFile()) {
 			task.data.type = "file";
@@ -45225,11 +57463,34 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		task.data = this._normalizeEntryData(task.data, stats);
 		return task;
 	};
+	/**
+	* Aborts the archiving process, taking a best-effort approach, by:
+	*
+	* - removing any pending queue tasks
+	* - allowing any active queue workers to finish
+	* - detaching internal module pipes
+	* - ending both sides of the Transform stream
+	*
+	* It will NOT drain any remaining sources.
+	*
+	* @return {this}
+	*/
 	Archiver.prototype.abort = function() {
 		if (this._state.aborted || this._state.finalized) return this;
 		this._abort();
 		return this;
 	};
+	/**
+	* Appends an input source (text string, buffer, or stream) to the instance.
+	*
+	* When the instance has received, processed, and emitted the input, the `entry`
+	* event is fired.
+	*
+	* @fires  Archiver#entry
+	* @param  {(Buffer|Stream|String)} source The input source.
+	* @param  {EntryData} data See also {@link ZipEntryData} and {@link TarEntryData}.
+	* @return {this}
+	*/
 	Archiver.prototype.append = function(source, data) {
 		if (this._state.finalize || this._state.aborted) {
 			this.emit("error", new ArchiverError("QUEUECLOSED"));
@@ -45258,6 +57519,15 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		});
 		return this;
 	};
+	/**
+	* Appends a directory and its files, recursively, given its dirpath.
+	*
+	* @param  {String} dirpath The source directory path.
+	* @param  {String} destpath The destination path within the archive.
+	* @param  {(EntryData|Function)} data See also [ZipEntryData]{@link ZipEntryData} and
+	* [TarEntryData]{@link TarEntryData}.
+	* @return {this}
+	*/
 	Archiver.prototype.directory = function(dirpath, destpath, data) {
 		if (this._state.finalize || this._state.aborted) {
 			this.emit("error", new ArchiverError("QUEUECLOSED"));
@@ -45316,6 +57586,19 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		globber.on("end", onGlobEnd.bind(this));
 		return this;
 	};
+	/**
+	* Appends a file given its filepath using a
+	* [lazystream]{@link https://github.com/jpommerening/node-lazystream} wrapper to
+	* prevent issues with open file limits.
+	*
+	* When the instance has received, processed, and emitted the file, the `entry`
+	* event is fired.
+	*
+	* @param  {String} filepath The source filepath.
+	* @param  {EntryData} data See also [ZipEntryData]{@link ZipEntryData} and
+	* [TarEntryData]{@link TarEntryData}.
+	* @return {this}
+	*/
 	Archiver.prototype.file = function(filepath, data) {
 		if (this._state.finalize || this._state.aborted) {
 			this.emit("error", new ArchiverError("QUEUECLOSED"));
@@ -45328,6 +57611,15 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		this._append(filepath, data);
 		return this;
 	};
+	/**
+	* Appends multiple files that match a glob pattern.
+	*
+	* @param  {String} pattern The [glob pattern]{@link https://github.com/isaacs/minimatch} to match.
+	* @param  {Object} options See [node-readdir-glob]{@link https://github.com/yqnn/node-readdir-glob#options}.
+	* @param  {EntryData} data See also [ZipEntryData]{@link ZipEntryData} and
+	* [TarEntryData]{@link TarEntryData}.
+	* @return {this}
+	*/
 	Archiver.prototype.glob = function(pattern, options, data) {
 		this._pending++;
 		options = util.defaults(options, {
@@ -45355,6 +57647,16 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		globber.on("end", onGlobEnd.bind(this));
 		return this;
 	};
+	/**
+	* Finalizes the instance and prevents further appending to the archive
+	* structure (queue will continue til drained).
+	*
+	* The `end`, `close` or `finish` events on the destination stream may fire
+	* right after calling this method so you should set listeners beforehand to
+	* properly detect stream completion.
+	*
+	* @return {Promise}
+	*/
 	Archiver.prototype.finalize = function() {
 		if (this._state.aborted) {
 			var abortedError = new ArchiverError("ABORTED");
@@ -45380,6 +57682,12 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			});
 		});
 	};
+	/**
+	* Sets the module format name used for archiving.
+	*
+	* @param {String} format The name of the format.
+	* @return {this}
+	*/
 	Archiver.prototype.setFormat = function(format) {
 		if (this._format) {
 			this.emit("error", new ArchiverError("FORMATSET"));
@@ -45388,6 +57696,12 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		this._format = format;
 		return this;
 	};
+	/**
+	* Sets the module used for archiving.
+	*
+	* @param {Function} module The function for archiver to interact with.
+	* @return {this}
+	*/
 	Archiver.prototype.setModule = function(module$3) {
 		if (this._state.aborted) {
 			this.emit("error", new ArchiverError("ABORTED"));
@@ -45401,6 +57715,16 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		this._modulePipe();
 		return this;
 	};
+	/**
+	* Appends a symlink to the instance.
+	*
+	* This does NOT interact with filesystem and is used for programmatically creating symlinks.
+	*
+	* @param  {String} filepath The symlink path (within archive).
+	* @param  {String} target The target path (within archive).
+	* @param  {Number} mode Sets the entry permissions.
+	* @return {this}
+	*/
 	Archiver.prototype.symlink = function(filepath, target, mode) {
 		if (this._state.finalize || this._state.aborted) {
 			this.emit("error", new ArchiverError("QUEUECLOSED"));
@@ -45431,16 +57755,86 @@ var require_core = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		});
 		return this;
 	};
+	/**
+	* Returns the current length (in bytes) that has been emitted.
+	*
+	* @return {Number}
+	*/
 	Archiver.prototype.pointer = function() {
 		return this._pointer;
 	};
+	/**
+	* Middleware-like helper that has yet to be fully implemented.
+	*
+	* @private
+	* @param  {Function} plugin
+	* @return {this}
+	*/
 	Archiver.prototype.use = function(plugin) {
 		this._streams.push(plugin);
 		return this;
 	};
 	module.exports = Archiver;
 }));
+/**
+* @typedef {Object} CoreOptions
+* @global
+* @property {Number} [statConcurrency=4] Sets the number of workers used to
+* process the internal fs stat queue.
+*/
+/**
+* @typedef {Object} TransformOptions
+* @property {Boolean} [allowHalfOpen=true] If set to false, then the stream
+* will automatically end the readable side when the writable side ends and vice
+* versa.
+* @property {Boolean} [readableObjectMode=false] Sets objectMode for readable
+* side of the stream. Has no effect if objectMode is true.
+* @property {Boolean} [writableObjectMode=false] Sets objectMode for writable
+* side of the stream. Has no effect if objectMode is true.
+* @property {Boolean} [decodeStrings=true] Whether or not to decode strings
+* into Buffers before passing them to _write(). `Writable`
+* @property {String} [encoding=NULL] If specified, then buffers will be decoded
+* to strings using the specified encoding. `Readable`
+* @property {Number} [highWaterMark=16kb] The maximum number of bytes to store
+* in the internal buffer before ceasing to read from the underlying resource.
+* `Readable` `Writable`
+* @property {Boolean} [objectMode=false] Whether this stream should behave as a
+* stream of objects. Meaning that stream.read(n) returns a single value instead
+* of a Buffer of size n. `Readable` `Writable`
+*/
+/**
+* @typedef {Object} EntryData
+* @property {String} name Sets the entry name including internal path.
+* @property {(String|Date)} [date=NOW()] Sets the entry date.
+* @property {Number} [mode=D:0755/F:0644] Sets the entry permissions.
+* @property {String} [prefix] Sets a path prefix for the entry name. Useful
+* when working with methods like `directory` or `glob`.
+* @property {fs.Stats} [stats] Sets the fs stat data for this entry allowing
+* for reduction of fs stat calls when stat data is already known.
+*/
+/**
+* @typedef {Object} ErrorData
+* @property {String} message The message of the error.
+* @property {String} code The error code assigned to this error.
+* @property {String} data Additional data provided for reporting or debugging (where available).
+*/
+/**
+* @typedef {Object} ProgressData
+* @property {Object} entries
+* @property {Number} entries.total Number of entries that have been appended.
+* @property {Number} entries.processed Number of entries that have been processed.
+* @property {Object} fs
+* @property {Number} fs.totalBytes Number of bytes that have been appended. Calculated asynchronously and might not be accurate: it growth while entries are added. (based on fs.Stats)
+* @property {Number} fs.processedBytes Number of bytes that have been processed. (based on fs.Stats)
+*/
 var require_archive_entry = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	var ArchiveEntry = module.exports = function() {};
 	ArchiveEntry.prototype.getName = function() {};
 	ArchiveEntry.prototype.getSize = function() {};
@@ -45448,6 +57842,13 @@ var require_archive_entry = /* @__PURE__ */ __commonJSMin(((exports, module) => 
 	ArchiveEntry.prototype.isDirectory = function() {};
 }));
 var require_util$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	var util = module.exports = {};
 	util.dateToDos = function(d, forceLocalTime) {
 		forceLocalTime = forceLocalTime || false;
@@ -45497,6 +57898,13 @@ var require_util$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_general_purpose_bit = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	var zipUtil = require_util$1();
 	var DATA_DESCRIPTOR_FLAG = 8;
 	var ENCRYPTION_FLAG = 1;
@@ -45566,6 +57974,13 @@ var require_general_purpose_bit = /* @__PURE__ */ __commonJSMin(((exports, modul
 	};
 }));
 var require_unix_stat = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	module.exports = {
 		PERM_MASK: 4095,
 		FILE_TYPE_FLAG: 61440,
@@ -45578,6 +57993,13 @@ var require_unix_stat = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_constants$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	module.exports = {
 		WORD: 4,
 		DWORD: 8,
@@ -45631,6 +58053,13 @@ var require_constants$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_zip_archive_entry = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	var inherits$5 = __require("util").inherits;
 	var normalizePath = require_normalize_path();
 	var ArchiveEntry = require_archive_entry();
@@ -45658,106 +58087,263 @@ var require_zip_archive_entry = /* @__PURE__ */ __commonJSMin(((exports, module)
 		if (name) this.setName(name);
 	};
 	inherits$5(ZipArchiveEntry, ArchiveEntry);
+	/**
+	* Returns the extra fields related to the entry.
+	*
+	* @returns {Buffer}
+	*/
 	ZipArchiveEntry.prototype.getCentralDirectoryExtra = function() {
 		return this.getExtra();
 	};
+	/**
+	* Returns the comment set for the entry.
+	*
+	* @returns {string}
+	*/
 	ZipArchiveEntry.prototype.getComment = function() {
 		return this.comment !== null ? this.comment : "";
 	};
+	/**
+	* Returns the compressed size of the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getCompressedSize = function() {
 		return this.csize;
 	};
+	/**
+	* Returns the CRC32 digest for the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getCrc = function() {
 		return this.crc;
 	};
+	/**
+	* Returns the external file attributes for the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getExternalAttributes = function() {
 		return this.exattr;
 	};
+	/**
+	* Returns the extra fields related to the entry.
+	*
+	* @returns {Buffer}
+	*/
 	ZipArchiveEntry.prototype.getExtra = function() {
 		return this.extra !== null ? this.extra : constants.EMPTY;
 	};
+	/**
+	* Returns the general purpose bits related to the entry.
+	*
+	* @returns {GeneralPurposeBit}
+	*/
 	ZipArchiveEntry.prototype.getGeneralPurposeBit = function() {
 		return this.gpb;
 	};
+	/**
+	* Returns the internal file attributes for the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getInternalAttributes = function() {
 		return this.inattr;
 	};
+	/**
+	* Returns the last modified date of the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getLastModifiedDate = function() {
 		return this.getTime();
 	};
+	/**
+	* Returns the extra fields related to the entry.
+	*
+	* @returns {Buffer}
+	*/
 	ZipArchiveEntry.prototype.getLocalFileDataExtra = function() {
 		return this.getExtra();
 	};
+	/**
+	* Returns the compression method used on the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getMethod = function() {
 		return this.method;
 	};
+	/**
+	* Returns the filename of the entry.
+	*
+	* @returns {string}
+	*/
 	ZipArchiveEntry.prototype.getName = function() {
 		return this.name;
 	};
+	/**
+	* Returns the platform on which the entry was made.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getPlatform = function() {
 		return this.platform;
 	};
+	/**
+	* Returns the size of the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getSize = function() {
 		return this.size;
 	};
+	/**
+	* Returns a date object representing the last modified date of the entry.
+	*
+	* @returns {number|Date}
+	*/
 	ZipArchiveEntry.prototype.getTime = function() {
 		return this.time !== -1 ? zipUtil.dosToDate(this.time) : -1;
 	};
+	/**
+	* Returns the DOS timestamp for the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getTimeDos = function() {
 		return this.time !== -1 ? this.time : 0;
 	};
+	/**
+	* Returns the UNIX file permissions for the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getUnixMode = function() {
 		return this.platform !== constants.PLATFORM_UNIX ? 0 : this.getExternalAttributes() >> constants.SHORT_SHIFT & constants.SHORT_MASK;
 	};
+	/**
+	* Returns the version of ZIP needed to extract the entry.
+	*
+	* @returns {number}
+	*/
 	ZipArchiveEntry.prototype.getVersionNeededToExtract = function() {
 		return this.minver;
 	};
+	/**
+	* Sets the comment of the entry.
+	*
+	* @param comment
+	*/
 	ZipArchiveEntry.prototype.setComment = function(comment) {
 		if (Buffer.byteLength(comment) !== comment.length) this.getGeneralPurposeBit().useUTF8ForNames(true);
 		this.comment = comment;
 	};
+	/**
+	* Sets the compressed size of the entry.
+	*
+	* @param size
+	*/
 	ZipArchiveEntry.prototype.setCompressedSize = function(size) {
 		if (size < 0) throw new Error("invalid entry compressed size");
 		this.csize = size;
 	};
+	/**
+	* Sets the checksum of the entry.
+	*
+	* @param crc
+	*/
 	ZipArchiveEntry.prototype.setCrc = function(crc) {
 		if (crc < 0) throw new Error("invalid entry crc32");
 		this.crc = crc;
 	};
+	/**
+	* Sets the external file attributes of the entry.
+	*
+	* @param attr
+	*/
 	ZipArchiveEntry.prototype.setExternalAttributes = function(attr) {
 		this.exattr = attr >>> 0;
 	};
+	/**
+	* Sets the extra fields related to the entry.
+	*
+	* @param extra
+	*/
 	ZipArchiveEntry.prototype.setExtra = function(extra) {
 		this.extra = extra;
 	};
+	/**
+	* Sets the general purpose bits related to the entry.
+	*
+	* @param gpb
+	*/
 	ZipArchiveEntry.prototype.setGeneralPurposeBit = function(gpb) {
 		if (!(gpb instanceof GeneralPurposeBit)) throw new Error("invalid entry GeneralPurposeBit");
 		this.gpb = gpb;
 	};
+	/**
+	* Sets the internal file attributes of the entry.
+	*
+	* @param attr
+	*/
 	ZipArchiveEntry.prototype.setInternalAttributes = function(attr) {
 		this.inattr = attr;
 	};
+	/**
+	* Sets the compression method of the entry.
+	*
+	* @param method
+	*/
 	ZipArchiveEntry.prototype.setMethod = function(method) {
 		if (method < 0) throw new Error("invalid entry compression method");
 		this.method = method;
 	};
+	/**
+	* Sets the name of the entry.
+	*
+	* @param name
+	* @param prependSlash
+	*/
 	ZipArchiveEntry.prototype.setName = function(name, prependSlash = false) {
 		name = normalizePath(name, false).replace(/^\w+:/, "").replace(/^(\.\.\/|\/)+/, "");
 		if (prependSlash) name = `/${name}`;
 		if (Buffer.byteLength(name) !== name.length) this.getGeneralPurposeBit().useUTF8ForNames(true);
 		this.name = name;
 	};
+	/**
+	* Sets the platform on which the entry was made.
+	*
+	* @param platform
+	*/
 	ZipArchiveEntry.prototype.setPlatform = function(platform) {
 		this.platform = platform;
 	};
+	/**
+	* Sets the size of the entry.
+	*
+	* @param size
+	*/
 	ZipArchiveEntry.prototype.setSize = function(size) {
 		if (size < 0) throw new Error("invalid entry size");
 		this.size = size;
 	};
+	/**
+	* Sets the time of the entry.
+	*
+	* @param time
+	* @param forceLocalTime
+	*/
 	ZipArchiveEntry.prototype.setTime = function(time, forceLocalTime) {
 		if (!(time instanceof Date)) throw new Error("invalid entry time");
 		this.time = zipUtil.dateToDos(time, forceLocalTime);
 	};
+	/**
+	* Sets the UNIX file permissions for the entry.
+	*
+	* @param mode
+	*/
 	ZipArchiveEntry.prototype.setUnixMode = function(mode) {
 		mode |= this.isDirectory() ? constants.S_IFDIR : constants.S_IFREG;
 		var extattr = 0;
@@ -45766,15 +58352,37 @@ var require_zip_archive_entry = /* @__PURE__ */ __commonJSMin(((exports, module)
 		this.mode = mode & constants.MODE_MASK;
 		this.platform = constants.PLATFORM_UNIX;
 	};
+	/**
+	* Sets the version of ZIP needed to extract this entry.
+	*
+	* @param minver
+	*/
 	ZipArchiveEntry.prototype.setVersionNeededToExtract = function(minver) {
 		this.minver = minver;
 	};
+	/**
+	* Returns true if this entry represents a directory.
+	*
+	* @returns {boolean}
+	*/
 	ZipArchiveEntry.prototype.isDirectory = function() {
 		return this.getName().slice(-1) === "/";
 	};
+	/**
+	* Returns true if this entry represents a unix symlink,
+	* in which case the entry's content contains the target path
+	* for the symlink.
+	*
+	* @returns {boolean}
+	*/
 	ZipArchiveEntry.prototype.isUnixSymlink = function() {
 		return (this.getUnixMode() & UnixStat.FILE_TYPE_FLAG) === UnixStat.LINK_FLAG;
 	};
+	/**
+	* Returns true if this entry is using the ZIP64 extension of ZIP.
+	*
+	* @returns {boolean}
+	*/
 	ZipArchiveEntry.prototype.isZip64 = function() {
 		return this.csize > constants.ZIP64_MAGIC || this.size > constants.ZIP64_MAGIC;
 	};
@@ -45796,6 +58404,13 @@ var require_util = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_archive_output_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	var inherits$4 = __require("util").inherits;
 	var isStream = require_is_stream();
 	var Transform = require_ours().Transform;
@@ -45950,6 +58565,13 @@ var require_crc32 = /* @__PURE__ */ __commonJSMin(((exports) => {
 		CRC32.str = crc32_str;
 	});
 }));
+/**
+* node-crc32-stream
+*
+* Copyright (c) 2014 Chris Talkington, contributors.
+* Licensed under the MIT license.
+* https://github.com/archiverjs/node-crc32-stream/blob/master/LICENSE-MIT
+*/
 var require_crc32_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var { Transform } = require_ours();
 	var crc32 = require_crc32();
@@ -45981,6 +58603,13 @@ var require_crc32_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 	module.exports = CRC32Stream;
 }));
+/**
+* node-crc32-stream
+*
+* Copyright (c) 2014 Chris Talkington, contributors.
+* Licensed under the MIT license.
+* https://github.com/archiverjs/node-crc32-stream/blob/master/LICENSE-MIT
+*/
 var require_deflate_crc32_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var { DeflateRaw } = __require("zlib");
 	var crc32 = require_crc32();
@@ -46018,6 +58647,13 @@ var require_deflate_crc32_stream = /* @__PURE__ */ __commonJSMin(((exports, modu
 	};
 	module.exports = DeflateCRC32Stream;
 }));
+/**
+* node-crc32-stream
+*
+* Copyright (c) 2014 Chris Talkington, contributors.
+* Licensed under the MIT license.
+* https://github.com/archiverjs/node-crc32-stream/blob/master/LICENSE-MIT
+*/
 var require_lib = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = {
 		CRC32Stream: require_crc32_stream(),
@@ -46025,6 +58661,13 @@ var require_lib = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	};
 }));
 var require_zip_archive_output_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	var inherits$3 = __require("util").inherits;
 	var crc32 = require_crc32();
 	var { CRC32Stream } = require_lib();
@@ -46283,6 +58926,13 @@ var require_zip_archive_output_stream = /* @__PURE__ */ __commonJSMin(((exports,
 	};
 }));
 var require_compress_commons = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* node-compress-commons
+	*
+	* Copyright (c) 2014 Chris Talkington, contributors.
+	* Licensed under the MIT license.
+	* https://github.com/archiverjs/node-compress-commons/blob/master/LICENSE-MIT
+	*/
 	module.exports = {
 		ArchiveEntry: require_archive_entry(),
 		ZipArchiveEntry: require_zip_archive_entry(),
@@ -46302,6 +58952,17 @@ var require_zip_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var ZipArchiveOutputStream = require_compress_commons().ZipArchiveOutputStream;
 	var ZipArchiveEntry = require_compress_commons().ZipArchiveEntry;
 	var util = require_archiver_utils();
+	/**
+	* @constructor
+	* @extends external:ZipArchiveOutputStream
+	* @param {Object} [options]
+	* @param {String} [options.comment] Sets the zip archive comment.
+	* @param {Boolean} [options.forceLocalTime=false] Forces the archive to contain local file times instead of UTC.
+	* @param {Boolean} [options.forceZip64=false] Forces the archive to contain ZIP64 headers.
+	* @param {Boolean} [options.store=false] Sets the compression method to STORE.
+	* @param {Object} [options.zlib] Passed to [zlib]{@link https://nodejs.org/api/zlib.html#zlib_class_options}
+	* to control compression.
+	*/
 	var ZipStream = module.exports = function(options) {
 		if (!(this instanceof ZipStream)) return new ZipStream(options);
 		options = this.options = options || {};
@@ -46316,6 +58977,13 @@ var require_zip_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		if (options.comment && options.comment.length > 0) this.setComment(options.comment);
 	};
 	inherits$2(ZipStream, ZipArchiveOutputStream);
+	/**
+	* Normalizes entry data with fallbacks for key properties.
+	*
+	* @private
+	* @param  {Object} data
+	* @return {Object}
+	*/
 	ZipStream.prototype._normalizeFileData = function(data) {
 		data = util.defaults(data, {
 			type: "file",
@@ -46340,6 +59008,21 @@ var require_zip_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		data.date = util.dateify(data.date);
 		return data;
 	};
+	/**
+	* Appends an entry given an input source (text string, buffer, or stream).
+	*
+	* @param  {(Buffer|Stream|String)} source The input source.
+	* @param  {Object} data
+	* @param  {String} data.name Sets the entry name including internal path.
+	* @param  {String} [data.comment] Sets the entry comment.
+	* @param  {(String|Date)} [data.date=NOW()] Sets the entry date.
+	* @param  {Number} [data.mode=D:0755/F:0644] Sets the entry permissions.
+	* @param  {Boolean} [data.store=options.store] Sets the compression method to STORE.
+	* @param  {String} [data.type=file] Sets the entry type. Defaults to `directory`
+	* if name ends with trailing slash.
+	* @param  {Function} callback
+	* @return this
+	*/
 	ZipStream.prototype.entry = function(source, data, callback) {
 		if (typeof callback !== "function") callback = this._emitErrorCallback.bind(this);
 		data = this._normalizeFileData(data);
@@ -46368,10 +59051,26 @@ var require_zip_stream = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		if (data.type === "symlink" && typeof data.linkname === "string") source = Buffer.from(data.linkname);
 		return ZipArchiveOutputStream.prototype.entry.call(this, entry, source, callback);
 	};
+	/**
+	* Finalizes the instance and prevents further appending to the archive
+	* structure (queue will continue til drained).
+	*
+	* @return void
+	*/
 	ZipStream.prototype.finalize = function() {
 		this.finish();
 	};
 }));
+/**
+* Returns the current number of bytes written to this stream.
+* @function ZipStream#getBytesWritten
+* @returns {Number}
+*/
+/**
+* Compress Commons ZipArchiveOutputStream
+* @external ZipArchiveOutputStream
+* @see {@link https://github.com/archiverjs/node-compress-commons}
+*/
 var require_zip = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* ZIP Format Plugin
@@ -46382,6 +59081,16 @@ var require_zip = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	*/
 	var engine = require_zip_stream();
 	var util = require_archiver_utils();
+	/**
+	* @constructor
+	* @param {ZipOptions} [options]
+	* @param {String} [options.comment] Sets the zip archive comment.
+	* @param {Boolean} [options.forceLocalTime=false] Forces the archive to contain local file times instead of UTC.
+	* @param {Boolean} [options.forceZip64=false] Forces the archive to contain ZIP64 headers.
+	* @param {Boolean} [options.namePrependSlash=false] Prepends a forward slash to archive file paths.
+	* @param {Boolean} [options.store=false] Sets the compression method to STORE.
+	* @param {Object} [options.zlib] Passed to [zlib]{@link https://nodejs.org/api/zlib.html#zlib_class_options}
+	*/
 	var Zip = function(options) {
 		if (!(this instanceof Zip)) return new Zip(options);
 		options = this.options = util.defaults(options, {
@@ -46396,23 +59105,79 @@ var require_zip = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		};
 		this.engine = new engine(options);
 	};
+	/**
+	* @param  {(Buffer|Stream)} source
+	* @param  {ZipEntryData} data
+	* @param  {String} data.name Sets the entry name including internal path.
+	* @param  {(String|Date)} [data.date=NOW()] Sets the entry date.
+	* @param  {Number} [data.mode=D:0755/F:0644] Sets the entry permissions.
+	* @param  {String} [data.prefix] Sets a path prefix for the entry name. Useful
+	* when working with methods like `directory` or `glob`.
+	* @param  {fs.Stats} [data.stats] Sets the fs stat data for this entry allowing
+	* for reduction of fs stat calls when stat data is already known.
+	* @param  {Boolean} [data.store=ZipOptions.store] Sets the compression method to STORE.
+	* @param  {Function} callback
+	* @return void
+	*/
 	Zip.prototype.append = function(source, data, callback) {
 		this.engine.entry(source, data, callback);
 	};
+	/**
+	* @return void
+	*/
 	Zip.prototype.finalize = function() {
 		this.engine.finalize();
 	};
+	/**
+	* @return this.engine
+	*/
 	Zip.prototype.on = function() {
 		return this.engine.on.apply(this.engine, arguments);
 	};
+	/**
+	* @return this.engine
+	*/
 	Zip.prototype.pipe = function() {
 		return this.engine.pipe.apply(this.engine, arguments);
 	};
+	/**
+	* @return this.engine
+	*/
 	Zip.prototype.unpipe = function() {
 		return this.engine.unpipe.apply(this.engine, arguments);
 	};
 	module.exports = Zip;
 }));
+/**
+* @typedef {Object} ZipOptions
+* @global
+* @property {String} [comment] Sets the zip archive comment.
+* @property {Boolean} [forceLocalTime=false] Forces the archive to contain local file times instead of UTC.
+* @property {Boolean} [forceZip64=false] Forces the archive to contain ZIP64 headers.
+* @prpperty {Boolean} [namePrependSlash=false] Prepends a forward slash to archive file paths.
+* @property {Boolean} [store=false] Sets the compression method to STORE.
+* @property {Object} [zlib] Passed to [zlib]{@link https://nodejs.org/api/zlib.html#zlib_class_options}
+* to control compression.
+* @property {*} [*] See [zip-stream]{@link https://archiverjs.com/zip-stream/ZipStream.html} documentation for current list of properties.
+*/
+/**
+* @typedef {Object} ZipEntryData
+* @global
+* @property {String} name Sets the entry name including internal path.
+* @property {(String|Date)} [date=NOW()] Sets the entry date.
+* @property {Number} [mode=D:0755/F:0644] Sets the entry permissions.
+* @property {Boolean} [namePrependSlash=ZipOptions.namePrependSlash] Prepends a forward slash to archive file paths.
+* @property {String} [prefix] Sets a path prefix for the entry name. Useful
+* when working with methods like `directory` or `glob`.
+* @property {fs.Stats} [stats] Sets the fs stat data for this entry allowing
+* for reduction of fs stat calls when stat data is already known.
+* @property {Boolean} [store=ZipOptions.store] Sets the compression method to STORE.
+*/
+/**
+* ZipStream Module
+* @external ZipStream
+* @see {@link https://www.archiverjs.com/zip-stream/ZipStream.html}
+*/
 var require_default = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = __require("events");
 }));
@@ -46667,6 +59432,9 @@ var require_pass_through_decoder = /* @__PURE__ */ __commonJSMin(((exports, modu
 }));
 var require_utf8_decoder = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var b4a = require_b4a();
+	/**
+	* https://encoding.spec.whatwg.org/#utf-8-decoder
+	*/
 	module.exports = class UTF8Decoder {
 		constructor() {
 			this.codePoint = 0;
@@ -48546,6 +61314,10 @@ var require_tar = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var zlib$2 = __require("zlib");
 	var engine = require_tar_stream();
 	var util = require_archiver_utils();
+	/**
+	* @constructor
+	* @param {TarOptions} options
+	*/
 	var Tar = function(options) {
 		if (!(this instanceof Tar)) return new Tar(options);
 		options = this.options = util.defaults(options, { gzip: false });
@@ -48561,9 +61333,24 @@ var require_tar = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			this.compressor.on("error", this._onCompressorError.bind(this));
 		}
 	};
+	/**
+	* [_onCompressorError description]
+	*
+	* @private
+	* @param  {Error} err
+	* @return void
+	*/
 	Tar.prototype._onCompressorError = function(err) {
 		this.engine.emit("error", err);
 	};
+	/**
+	* [append description]
+	*
+	* @param  {(Buffer|Stream)} source
+	* @param  {TarEntryData} data
+	* @param  {Function} callback
+	* @return void
+	*/
 	Tar.prototype.append = function(source, data, callback) {
 		var self = this;
 		data.mtime = data.date;
@@ -48585,22 +61372,68 @@ var require_tar = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 			source.pipe(entry);
 		} else if (data.sourceType === "stream") util.collectStream(source, append);
 	};
+	/**
+	* [finalize description]
+	*
+	* @return void
+	*/
 	Tar.prototype.finalize = function() {
 		this.engine.finalize();
 	};
+	/**
+	* [on description]
+	*
+	* @return this.engine
+	*/
 	Tar.prototype.on = function() {
 		return this.engine.on.apply(this.engine, arguments);
 	};
+	/**
+	* [pipe description]
+	*
+	* @param  {String} destination
+	* @param  {Object} options
+	* @return this.engine
+	*/
 	Tar.prototype.pipe = function(destination, options) {
 		if (this.compressor) return this.engine.pipe.apply(this.engine, [this.compressor]).pipe(destination, options);
 		else return this.engine.pipe.apply(this.engine, arguments);
 	};
+	/**
+	* [unpipe description]
+	*
+	* @return this.engine
+	*/
 	Tar.prototype.unpipe = function() {
 		if (this.compressor) return this.compressor.unpipe.apply(this.compressor, arguments);
 		else return this.engine.unpipe.apply(this.engine, arguments);
 	};
 	module.exports = Tar;
 }));
+/**
+* @typedef {Object} TarOptions
+* @global
+* @property {Boolean} [gzip=false] Compress the tar archive using gzip.
+* @property {Object} [gzipOptions] Passed to [zlib]{@link https://nodejs.org/api/zlib.html#zlib_class_options}
+* to control compression.
+* @property {*} [*] See [tar-stream]{@link https://github.com/mafintosh/tar-stream} documentation for additional properties.
+*/
+/**
+* @typedef {Object} TarEntryData
+* @global
+* @property {String} name Sets the entry name including internal path.
+* @property {(String|Date)} [date=NOW()] Sets the entry date.
+* @property {Number} [mode=D:0755/F:0644] Sets the entry permissions.
+* @property {String} [prefix] Sets a path prefix for the entry name. Useful
+* when working with methods like `directory` or `glob`.
+* @property {fs.Stats} [stats] Sets the fs stat data for this entry allowing
+* for reduction of fs stat calls when stat data is already known.
+*/
+/**
+* TarStream Module
+* @external TarStream
+* @see {@link https://github.com/mafintosh/tar-stream}
+*/
 var require_dist$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	function getDefaultExportFromCjs(x) {
 		return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, "default") ? x["default"] : x;
@@ -48904,6 +61737,10 @@ var require_json = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var Transform = require_ours().Transform;
 	var crc32 = require_dist$1();
 	var util = require_archiver_utils();
+	/**
+	* @constructor
+	* @param {(JsonOptions|TransformOptions)} options
+	*/
 	var Json = function(options) {
 		if (!(this instanceof Json)) return new Json(options);
 		options = this.options = util.defaults(options, {});
@@ -48915,13 +61752,36 @@ var require_json = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		this.files = [];
 	};
 	inherits$1(Json, Transform);
+	/**
+	* [_transform description]
+	*
+	* @private
+	* @param  {Buffer}   chunk
+	* @param  {String}   encoding
+	* @param  {Function} callback
+	* @return void
+	*/
 	Json.prototype._transform = function(chunk, encoding, callback) {
 		callback(null, chunk);
 	};
+	/**
+	* [_writeStringified description]
+	*
+	* @private
+	* @return void
+	*/
 	Json.prototype._writeStringified = function() {
 		var fileString = JSON.stringify(this.files);
 		this.write(fileString);
 	};
+	/**
+	* [append description]
+	*
+	* @param  {(Buffer|Stream)}   source
+	* @param  {EntryData}   data
+	* @param  {Function} callback
+	* @return void
+	*/
 	Json.prototype.append = function(source, data, callback) {
 		var self = this;
 		data.crc32 = 0;
@@ -48938,6 +61798,11 @@ var require_json = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 		if (data.sourceType === "buffer") onend(null, source);
 		else if (data.sourceType === "stream") util.collectStream(source, onend);
 	};
+	/**
+	* [finalize description]
+	*
+	* @return void
+	*/
 	Json.prototype.finalize = function() {
 		this._writeStringified();
 		this.end();
@@ -48954,9 +61819,24 @@ var import_archiver = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((e
 	*/
 	var Archiver = require_core();
 	var formats = {};
+	/**
+	* Dispenses a new Archiver instance.
+	*
+	* @constructor
+	* @param  {String} format The archive format to use.
+	* @param  {Object} options See [Archiver]{@link Archiver}
+	* @return {Archiver}
+	*/
 	var vending = function(format, options) {
 		return vending.create(format, options);
 	};
+	/**
+	* Creates a new Archiver instance.
+	*
+	* @param  {String} format The archive format to use.
+	* @param  {Object} options See [Archiver]{@link Archiver}
+	* @return {Archiver}
+	*/
 	vending.create = function(format, options) {
 		if (formats[format]) {
 			var instance = new Archiver(format, options);
@@ -48965,12 +61845,25 @@ var import_archiver = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((e
 			return instance;
 		} else throw new Error("create(" + format + "): format not registered");
 	};
+	/**
+	* Registers a format for use with archiver.
+	*
+	* @param  {String} format The name of the format.
+	* @param  {Function} module The function for archiver to interact with.
+	* @return void
+	*/
 	vending.registerFormat = function(format, module$1) {
 		if (formats[format]) throw new Error("register(" + format + "): format already registered");
 		if (typeof module$1 !== "function") throw new Error("register(" + format + "): format module invalid");
 		if (typeof module$1.prototype.append !== "function" || typeof module$1.prototype.finalize !== "function") throw new Error("register(" + format + "): format module missing methods");
 		formats[format] = module$1;
 	};
+	/**
+	* Check if the format is already registered.
+	* 
+	* @param {String} format the name of the format.
+	* @return boolean
+	*/
 	vending.isRegisteredFormat = function(format) {
 		if (formats[format]) return true;
 		return false;
@@ -50950,6 +63843,10 @@ function requestLog(octokit) {
 }
 requestLog.VERSION = VERSION$1;
 var import_light = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((exports, module) => {
+	/**
+	* This file contains the Bottleneck library (MIT), compiled to ES2017, and without Clustering support.
+	* https://github.com/SGrondin/bottleneck
+	*/
 	(function(global, factory) {
 		typeof exports === "object" && typeof module !== "undefined" ? module.exports = factory() : typeof define === "function" && define.amd ? define(factory) : global.Bottleneck = factory();
 	})(exports, (function() {
@@ -52443,6 +65340,11 @@ function listArtifactsInternal() {
 		return { artifacts };
 	});
 }
+/**
+* Filters a list of artifacts to only include the latest artifact for each name
+* @param artifacts The artifacts to filter
+* @returns The filtered list of artifacts
+*/
 function filterLatest(artifacts) {
 	artifacts.sort((a, b) => b.id - a.id);
 	const latestArtifacts = [];
@@ -52488,6 +65390,9 @@ var __rest = function(s, e) {
 	}
 	return t;
 };
+/**
+* The default artifact client that is used by the artifact action(s).
+*/
 var DefaultArtifactClient = class {
 	uploadArtifact(name, files, rootDirectory, options) {
 		return __awaiter(this, void 0, void 0, function* () {
@@ -52705,6 +65610,12 @@ var ArtifactService = class extends Service()("ArtifactService", { succeed: {
 		});
 	}
 } }) {};
+/**
+* Utility functions re-exported from service files
+*
+* This module separates pure utility functions from service interfaces.
+* Import services from "./index.js" and utilities from "./utils.js".
+*/
 const hasDixChanges = (diff) => {
 	if (!diff || diff.trim() === "") return false;
 	const baseMatch = diff.match(/^<<<\s*(.+)$/m);
@@ -52928,14 +65839,47 @@ var require_visit = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var BREAK = Symbol("break visit");
 	var SKIP = Symbol("skip children");
 	var REMOVE = Symbol("remove node");
+	/**
+	* Apply a visitor to an AST node or document.
+	*
+	* Walks through the tree (depth-first) starting from `node`, calling a
+	* `visitor` function with three arguments:
+	*   - `key`: For sequence values and map `Pair`, the node's index in the
+	*     collection. Within a `Pair`, `'key'` or `'value'`, correspondingly.
+	*     `null` for the root node.
+	*   - `node`: The current node.
+	*   - `path`: The ancestry of the current node.
+	*
+	* The return value of the visitor may be used to control the traversal:
+	*   - `undefined` (default): Do nothing and continue
+	*   - `visit.SKIP`: Do not visit the children of this node, continue with next
+	*     sibling
+	*   - `visit.BREAK`: Terminate traversal completely
+	*   - `visit.REMOVE`: Remove the current node, then continue with the next one
+	*   - `Node`: Replace the current node, then continue by visiting it
+	*   - `number`: While iterating the items of a sequence or map, set the index
+	*     of the next step. This is useful especially if the index of the current
+	*     node has changed.
+	*
+	* If `visitor` is a single function, it will be called with all values
+	* encountered in the tree, including e.g. `null` values. Alternatively,
+	* separate visitor functions may be defined for each `Map`, `Pair`, `Seq`,
+	* `Alias` and `Scalar` node. To define the same visitor function for more than
+	* one node type, use the `Collection` (map and seq), `Value` (map, seq & scalar)
+	* and `Node` (alias, map, seq & scalar) targets. Of all these, only the most
+	* specific defined one will be used for each node.
+	*/
 	function visit(node, visitor) {
 		const visitor_ = initVisitor(visitor);
 		if (identity.isDocument(node)) {
 			if (visit_(null, node.contents, visitor_, Object.freeze([node])) === REMOVE) node.contents = null;
 		} else visit_(null, node, visitor_, Object.freeze([]));
 	}
+	/** Terminate visit traversal completely */
 	visit.BREAK = BREAK;
+	/** Do not visit the children of the current node */
 	visit.SKIP = SKIP;
+	/** Remove the current node */
 	visit.REMOVE = REMOVE;
 	function visit_(key, node, visitor, path) {
 		const ctrl = callVisitor(key, node, visitor, path);
@@ -52967,14 +65911,48 @@ var require_visit = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 		return ctrl;
 	}
+	/**
+	* Apply an async visitor to an AST node or document.
+	*
+	* Walks through the tree (depth-first) starting from `node`, calling a
+	* `visitor` function with three arguments:
+	*   - `key`: For sequence values and map `Pair`, the node's index in the
+	*     collection. Within a `Pair`, `'key'` or `'value'`, correspondingly.
+	*     `null` for the root node.
+	*   - `node`: The current node.
+	*   - `path`: The ancestry of the current node.
+	*
+	* The return value of the visitor may be used to control the traversal:
+	*   - `Promise`: Must resolve to one of the following values
+	*   - `undefined` (default): Do nothing and continue
+	*   - `visit.SKIP`: Do not visit the children of this node, continue with next
+	*     sibling
+	*   - `visit.BREAK`: Terminate traversal completely
+	*   - `visit.REMOVE`: Remove the current node, then continue with the next one
+	*   - `Node`: Replace the current node, then continue by visiting it
+	*   - `number`: While iterating the items of a sequence or map, set the index
+	*     of the next step. This is useful especially if the index of the current
+	*     node has changed.
+	*
+	* If `visitor` is a single function, it will be called with all values
+	* encountered in the tree, including e.g. `null` values. Alternatively,
+	* separate visitor functions may be defined for each `Map`, `Pair`, `Seq`,
+	* `Alias` and `Scalar` node. To define the same visitor function for more than
+	* one node type, use the `Collection` (map and seq), `Value` (map, seq & scalar)
+	* and `Node` (alias, map, seq & scalar) targets. Of all these, only the most
+	* specific defined one will be used for each node.
+	*/
 	async function visitAsync(node, visitor) {
 		const visitor_ = initVisitor(visitor);
 		if (identity.isDocument(node)) {
 			if (await visitAsync_(null, node.contents, visitor_, Object.freeze([node])) === REMOVE) node.contents = null;
 		} else await visitAsync_(null, node, visitor_, Object.freeze([]));
 	}
+	/** Terminate visit traversal completely */
 	visitAsync.BREAK = BREAK;
+	/** Do not visit the children of the current node */
 	visitAsync.SKIP = SKIP;
+	/** Remove the current node */
 	visitAsync.REMOVE = REMOVE;
 	async function visitAsync_(key, node, visitor, path) {
 		const ctrl = await callVisitor(key, node, visitor, path);
@@ -53058,7 +66036,12 @@ var require_directives = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var escapeTagName = (tn) => tn.replace(/[!,[\]{}]/g, (ch) => escapeChars[ch]);
 	var Directives = class Directives {
 		constructor(yaml, tags) {
+			/**
+			* The directives-end/doc-start marker `---`. If `null`, a marker may still be
+			* included in the document's stringified representation.
+			*/
 			this.docStart = null;
+			/** The doc-end marker `...`.  */
 			this.docEnd = false;
 			this.yaml = Object.assign({}, Directives.defaultYaml, yaml);
 			this.tags = Object.assign({}, Directives.defaultTags, tags);
@@ -53068,6 +66051,10 @@ var require_directives = /* @__PURE__ */ __commonJSMin(((exports) => {
 			copy.docStart = this.docStart;
 			return copy;
 		}
+		/**
+		* During parsing, get a Directives instance for the current document and
+		* update the stream state according to the current version's spec.
+		*/
 		atDocument() {
 			const res = new Directives(this.yaml, this.tags);
 			switch (this.yaml.version) {
@@ -53085,6 +66072,10 @@ var require_directives = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return res;
 		}
+		/**
+		* @param onError - May be called even if the action was successful
+		* @returns `true` on success
+		*/
 		add(line, onError) {
 			if (this.atNextDocument) {
 				this.yaml = {
@@ -53127,6 +66118,12 @@ var require_directives = /* @__PURE__ */ __commonJSMin(((exports) => {
 					return false;
 			}
 		}
+		/**
+		* Resolves a tag, matching handles to those defined in %TAG directives.
+		*
+		* @returns Resolved tag, which may also be the non-specific tag `'!'` or a
+		*   `'!local'` tag, or `null` if unresolvable.
+		*/
 		tagName(source, onError) {
 			if (source === "!") return "!";
 			if (source[0] !== "!") {
@@ -53155,6 +66152,10 @@ var require_directives = /* @__PURE__ */ __commonJSMin(((exports) => {
 			onError(`Could not resolve tag: ${source}`);
 			return null;
 		}
+		/**
+		* Given a fully resolved tag, returns its printable string form,
+		* taking into account current tag prefixes and defaults.
+		*/
 		tagString(tag) {
 			for (const [handle, prefix] of Object.entries(this.tags)) if (tag.startsWith(prefix)) return handle + escapeTagName(tag.substring(prefix.length));
 			return tag[0] === "!" ? tag : `!<${tag}>`;
@@ -53187,6 +66188,11 @@ var require_directives = /* @__PURE__ */ __commonJSMin(((exports) => {
 var require_anchors = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var identity = require_identity();
 	var visit = require_visit();
+	/**
+	* Verify that the input string is a valid anchor.
+	*
+	* Will throw on errors.
+	*/
 	function anchorIsValid(anchor) {
 		if (/[\x00-\x19\s,[\]{}]/.test(anchor)) {
 			const msg = `Anchor must not contain whitespace or control characters: ${JSON.stringify(anchor)}`;
@@ -53201,6 +66207,7 @@ var require_anchors = /* @__PURE__ */ __commonJSMin(((exports) => {
 		} });
 		return anchors;
 	}
+	/** Find a new anchor name with the given `prefix` and a one-indexed suffix. */
 	function findNewAnchor(prefix, exclude) {
 		for (let i = 1;; ++i) {
 			const name = `${prefix}${i}`;
@@ -53239,6 +66246,13 @@ var require_anchors = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.findNewAnchor = findNewAnchor;
 }));
 var require_applyReviver = /* @__PURE__ */ __commonJSMin(((exports) => {
+	/**
+	* Applies the JSON.parse reviver algorithm as defined in the ECMA-262 spec,
+	* in section 24.5.1.1 "Runtime Semantics: InternalizeJSONProperty" of the
+	* 2021 edition: https://tc39.es/ecma262/#sec-json.parse
+	*
+	* Includes extensions for handling Map and Set objects.
+	*/
 	function applyReviver(reviver, obj, key, val) {
 		if (val && typeof val === "object") if (Array.isArray(val)) for (let i = 0, len = val.length; i < len; ++i) {
 			const v0 = val[i];
@@ -53271,6 +66285,16 @@ var require_applyReviver = /* @__PURE__ */ __commonJSMin(((exports) => {
 }));
 var require_toJS = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var identity = require_identity();
+	/**
+	* Recursively convert any node or its contents to native JavaScript
+	*
+	* @param value - The input value
+	* @param arg - If `value` defines a `toJSON()` method, use this
+	*   as its first argument
+	* @param ctx - Conversion context, originally set in Document#toJS(). If
+	*   `{ keep: true }` is not set, output should be suitable for JSON
+	*   stringification.
+	*/
 	function toJS(value, arg, ctx) {
 		if (Array.isArray(value)) return value.map((v, i) => toJS(v, String(i), ctx));
 		if (value && typeof value.toJSON === "function") {
@@ -53302,11 +66326,13 @@ var require_Node = /* @__PURE__ */ __commonJSMin(((exports) => {
 		constructor(type) {
 			Object.defineProperty(this, identity.NODE_TYPE, { value: type });
 		}
+		/** Create a copy of this node.  */
 		clone() {
 			const copy = Object.create(Object.getPrototypeOf(this), Object.getOwnPropertyDescriptors(this));
 			if (this.range) copy.range = this.range.slice();
 			return copy;
 		}
+		/** A plain JavaScript representation of this node. */
 		toJS(doc, { mapAsMap, maxAliasCount, onAnchor, reviver } = {}) {
 			if (!identity.isDocument(doc)) throw new TypeError("A document argument is required");
 			const ctx = {
@@ -53338,6 +66364,10 @@ var require_Alias = /* @__PURE__ */ __commonJSMin(((exports) => {
 				throw new Error("Alias nodes cannot have tags");
 			} });
 		}
+		/**
+		* Resolve the value of this alias within `doc`, finding the last
+		* instance of the `source` anchor before this node.
+		*/
 		resolve(doc, ctx) {
 			let nodes;
 			if (ctx?.aliasResolveCache) nodes = ctx.aliasResolveCache;
@@ -53532,6 +66562,11 @@ var require_Collection = /* @__PURE__ */ __commonJSMin(((exports) => {
 				writable: true
 			});
 		}
+		/**
+		* Create a copy of this collection.
+		*
+		* @param schema - If defined, overwrites the original's schema
+		*/
 		clone(schema) {
 			const copy = Object.create(Object.getPrototypeOf(this), Object.getOwnPropertyDescriptors(this));
 			if (schema) copy.schema = schema;
@@ -53539,6 +66574,11 @@ var require_Collection = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (this.range) copy.range = this.range.slice();
 			return copy;
 		}
+		/**
+		* Adds a value to the collection. For `!!map` and `!!omap` the value must
+		* be a Pair instance or a `{ key, value }` object, which may not have a key
+		* that already exists in the map.
+		*/
 		addIn(path, value) {
 			if (isEmptyPath(path)) this.add(value);
 			else {
@@ -53549,6 +66589,10 @@ var require_Collection = /* @__PURE__ */ __commonJSMin(((exports) => {
 				else throw new Error(`Expected YAML collection at ${key}. Remaining path: ${rest}`);
 			}
 		}
+		/**
+		* Removes a value from the collection.
+		* @returns `true` if the item was found and removed.
+		*/
 		deleteIn(path) {
 			const [key, ...rest] = path;
 			if (rest.length === 0) return this.delete(key);
@@ -53556,6 +66600,11 @@ var require_Collection = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (identity.isCollection(node)) return node.deleteIn(rest);
 			else throw new Error(`Expected YAML collection at ${key}. Remaining path: ${rest}`);
 		}
+		/**
+		* Returns item at `key`, or `undefined` if not found. By default unwraps
+		* scalar values from their surrounding node; to disable set `keepScalar` to
+		* `true` (collections are always returned intact).
+		*/
 		getIn(path, keepScalar) {
 			const [key, ...rest] = path;
 			const node = this.get(key, true);
@@ -53569,12 +66618,19 @@ var require_Collection = /* @__PURE__ */ __commonJSMin(((exports) => {
 				return n == null || allowScalar && identity.isScalar(n) && n.value == null && !n.commentBefore && !n.comment && !n.tag;
 			});
 		}
+		/**
+		* Checks if the collection includes a value with the key `key`.
+		*/
 		hasIn(path) {
 			const [key, ...rest] = path;
 			if (rest.length === 0) return this.has(key);
 			const node = this.get(key, true);
 			return identity.isCollection(node) ? node.hasIn(rest) : false;
 		}
+		/**
+		* Sets a value in this collection. For `!!set`, `value` needs to be a
+		* boolean to add/remove the item from the set.
+		*/
 		setIn(path, value) {
 			const [key, ...rest] = path;
 			if (rest.length === 0) this.set(key, value);
@@ -53591,6 +66647,13 @@ var require_Collection = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.isEmptyPath = isEmptyPath;
 }));
 var require_stringifyComment = /* @__PURE__ */ __commonJSMin(((exports) => {
+	/**
+	* Stringifies a comment.
+	*
+	* Empty comment lines are left empty,
+	* lines consisting of a single space are replaced by `#`,
+	* and all other lines are prefixed with a `#`.
+	*/
 	var stringifyComment = (str) => str.replace(/^(?!$)(?: $)?/gm, "#");
 	function indentComment(comment, indent) {
 		if (/^\n+$/.test(comment)) return comment.substring(1);
@@ -53605,6 +66668,11 @@ var require_foldFlowLines = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var FOLD_FLOW = "flow";
 	var FOLD_BLOCK = "block";
 	var FOLD_QUOTED = "quoted";
+	/**
+	* Tries to keep input at up to `lineWidth` characters, splitting only on spaces
+	* not followed by newlines or spaces unless `mode` is `'quoted'`. Lines are
+	* terminated with `\n` and started with `indent`.
+	*/
 	function foldFlowLines(text, indent, mode = "flow", { indentAtStart, lineWidth = 80, minContentWidth = 20, onFold, onOverflow } = {}) {
 		if (!lineWidth || lineWidth < 0) return text;
 		if (lineWidth < minContentWidth) minContentWidth = 0;
@@ -53686,6 +66754,10 @@ var require_foldFlowLines = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 		return res;
 	}
+	/**
+	* Presumes `i + 1` is at the start of a line
+	* @returns index of last newline in more-indented block
+	*/
 	function consumeMoreIndentedLines(text, i, indent) {
 		let end = i;
 		let start = i + 1;
@@ -54392,6 +67464,10 @@ var require_YAMLMap = /* @__PURE__ */ __commonJSMin(((exports) => {
 			super(identity.MAP, schema);
 			this.items = [];
 		}
+		/**
+		* A generic collection parsing method that can be extended
+		* to other node classes that inherit from YAMLMap
+		*/
 		static from(schema, obj, ctx) {
 			const { keepUndefined, replacer } = ctx;
 			const map = new this(schema);
@@ -54405,6 +67481,12 @@ var require_YAMLMap = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (typeof schema.sortMapEntries === "function") map.items.sort(schema.sortMapEntries);
 			return map;
 		}
+		/**
+		* Adds a value to the collection.
+		*
+		* @param overwrite - If not set `true`, using a key that is already in the
+		*   collection will throw. Otherwise, overwrites the previous value.
+		*/
 		add(pair, overwrite) {
 			let _pair;
 			if (identity.isPair(pair)) _pair = pair;
@@ -54437,6 +67519,11 @@ var require_YAMLMap = /* @__PURE__ */ __commonJSMin(((exports) => {
 		set(key, value) {
 			this.add(new Pair.Pair(key, value), true);
 		}
+		/**
+		* @param ctx - Conversion context, originally set in Document#toJS()
+		* @param {Class} Type - If set, forces the returned collection type
+		* @returns Instance of Type, Map, or Object
+		*/
 		toJSON(_, ctx, Type) {
 			const map = Type ? new Type() : ctx?.mapAsMap ? /* @__PURE__ */ new Map() : {};
 			if (ctx?.onCreate) ctx.onCreate(map);
@@ -54495,6 +67582,14 @@ var require_YAMLSeq = /* @__PURE__ */ __commonJSMin(((exports) => {
 		add(value) {
 			this.items.push(value);
 		}
+		/**
+		* Removes a value from the collection.
+		*
+		* `key` must contain a representation of an integer for this to succeed.
+		* It may be wrapped in a `Scalar`.
+		*
+		* @returns `true` if the item was found and removed.
+		*/
 		delete(key) {
 			const idx = asItemIndex(key);
 			if (typeof idx !== "number") return false;
@@ -54506,10 +67601,23 @@ var require_YAMLSeq = /* @__PURE__ */ __commonJSMin(((exports) => {
 			const it = this.items[idx];
 			return !keepScalar && identity.isScalar(it) ? it.value : it;
 		}
+		/**
+		* Checks if the collection includes a value with the key `key`.
+		*
+		* `key` must contain a representation of an integer for this to succeed.
+		* It may be wrapped in a `Scalar`.
+		*/
 		has(key) {
 			const idx = asItemIndex(key);
 			return typeof idx === "number" && idx < this.items.length;
 		}
+		/**
+		* Sets a value in this collection. For `!!set`, `value` needs to be a
+		* boolean to add/remove the item from the set.
+		*
+		* If `key` does not contain a representation of an integer, this will throw.
+		* It may be wrapped in a `Scalar`.
+		*/
 		set(key, value) {
 			const idx = asItemIndex(key);
 			if (typeof idx !== "number") throw new Error(`Expected a valid index, not ${key}.`);
@@ -54917,6 +68025,10 @@ var require_omap = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.set = YAMLMap.YAMLMap.prototype.set.bind(this);
 			this.tag = YAMLOMap.tag;
 		}
+		/**
+		* If `ctx` is given, the return type is actually `Map<unknown, unknown>`,
+		* but TypeScript won't allow widening the signature of a child method.
+		*/
 		toJSON(_, ctx) {
 			if (!ctx) return super.toJSON(_);
 			const map = /* @__PURE__ */ new Map();
@@ -55114,6 +68226,10 @@ var require_set = /* @__PURE__ */ __commonJSMin(((exports) => {
 			else pair = new Pair.Pair(key, null);
 			if (!YAMLMap.findPair(this.items, pair.key)) this.items.push(pair);
 		}
+		/**
+		* If `keepPair` is `true`, returns the Pair matching `key`.
+		* Otherwise, returns the value of that Pair's key.
+		*/
 		get(key, keepPair) {
 			const pair = YAMLMap.findPair(this.items, key);
 			return !keepPair && identity.isPair(pair) ? identity.isScalar(pair.key) ? pair.key.value : pair.key : pair;
@@ -55162,6 +68278,7 @@ var require_set = /* @__PURE__ */ __commonJSMin(((exports) => {
 }));
 var require_timestamp = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var stringifyNumber = require_stringifyNumber();
+	/** Internal types handle bigint as number, because TS can't figure it out. */
 	function parseSexagesimal(str, asBigInt) {
 		const sign = str[0];
 		const parts = sign === "-" || sign === "+" ? str.substring(1) : str;
@@ -55169,6 +68286,11 @@ var require_timestamp = /* @__PURE__ */ __commonJSMin(((exports) => {
 		const res = parts.replace(/_/g, "").split(":").reduce((res, p) => res * num(60) + num(p), num(0));
 		return sign === "-" ? num(-1) * res : res;
 	}
+	/**
+	* hhhh:mm:ss.sss
+	*
+	* Internal types handle bigint as number, because TS can't figure it out.
+	*/
 	function stringifySexagesimal(node) {
 		let { value } = node;
 		let num = (n) => n;
@@ -55454,9 +68576,13 @@ var require_Document = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var directives = require_directives();
 	var Document = class Document {
 		constructor(value, replacer, options) {
+			/** A comment before this Document */
 			this.commentBefore = null;
+			/** A comment immediately after this Document */
 			this.comment = null;
+			/** Errors encountered during parsing. */
 			this.errors = [];
+			/** Warnings encountered during parsing. */
 			this.warnings = [];
 			Object.defineProperty(this, identity.NODE_TYPE, { value: identity.DOC });
 			let _replacer = null;
@@ -55484,6 +68610,11 @@ var require_Document = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.setSchema(version, options);
 			this.contents = value === void 0 ? null : this.createNode(value, _replacer, options);
 		}
+		/**
+		* Create a deep copy of this Document and its contents.
+		*
+		* Custom Node values that inherit from `Object` still refer to their original instances.
+		*/
 		clone() {
 			const copy = Object.create(Document.prototype, { [identity.NODE_TYPE]: { value: identity.DOC } });
 			copy.commentBefore = this.commentBefore;
@@ -55497,12 +68628,23 @@ var require_Document = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (this.range) copy.range = this.range.slice();
 			return copy;
 		}
+		/** Adds a value to the document. */
 		add(value) {
 			if (assertCollection(this.contents)) this.contents.add(value);
 		}
+		/** Adds a value to the document. */
 		addIn(path, value) {
 			if (assertCollection(this.contents)) this.contents.addIn(path, value);
 		}
+		/**
+		* Create a new `Alias` node, ensuring that the target `node` has the required anchor.
+		*
+		* If `node` already has an anchor, `name` is ignored.
+		* Otherwise, the `node.anchor` value will be set to `name`,
+		* or if an anchor with that name is already present in the document,
+		* `name` will be used as a prefix for a new unique anchor.
+		* If `name` is undefined, the generated anchor will use 'a' as a prefix.
+		*/
 		createAlias(node, name) {
 			if (!node.anchor) {
 				const prev = anchors.anchorNames(this);
@@ -55540,14 +68682,26 @@ var require_Document = /* @__PURE__ */ __commonJSMin(((exports) => {
 			setAnchors();
 			return node;
 		}
+		/**
+		* Convert a key and a value into a `Pair` using the current schema,
+		* recursively wrapping all values as `Scalar` or `Collection` nodes.
+		*/
 		createPair(key, value, options = {}) {
 			const k = this.createNode(key, null, options);
 			const v = this.createNode(value, null, options);
 			return new Pair.Pair(k, v);
 		}
+		/**
+		* Removes a value from the document.
+		* @returns `true` if the item was found and removed.
+		*/
 		delete(key) {
 			return assertCollection(this.contents) ? this.contents.delete(key) : false;
 		}
+		/**
+		* Removes a value from the document.
+		* @returns `true` if the item was found and removed.
+		*/
 		deleteIn(path) {
 			if (Collection.isEmptyPath(path)) {
 				if (this.contents == null) return false;
@@ -55556,29 +68710,60 @@ var require_Document = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 			return assertCollection(this.contents) ? this.contents.deleteIn(path) : false;
 		}
+		/**
+		* Returns item at `key`, or `undefined` if not found. By default unwraps
+		* scalar values from their surrounding node; to disable set `keepScalar` to
+		* `true` (collections are always returned intact).
+		*/
 		get(key, keepScalar) {
 			return identity.isCollection(this.contents) ? this.contents.get(key, keepScalar) : void 0;
 		}
+		/**
+		* Returns item at `path`, or `undefined` if not found. By default unwraps
+		* scalar values from their surrounding node; to disable set `keepScalar` to
+		* `true` (collections are always returned intact).
+		*/
 		getIn(path, keepScalar) {
 			if (Collection.isEmptyPath(path)) return !keepScalar && identity.isScalar(this.contents) ? this.contents.value : this.contents;
 			return identity.isCollection(this.contents) ? this.contents.getIn(path, keepScalar) : void 0;
 		}
+		/**
+		* Checks if the document includes a value with the key `key`.
+		*/
 		has(key) {
 			return identity.isCollection(this.contents) ? this.contents.has(key) : false;
 		}
+		/**
+		* Checks if the document includes a value at `path`.
+		*/
 		hasIn(path) {
 			if (Collection.isEmptyPath(path)) return this.contents !== void 0;
 			return identity.isCollection(this.contents) ? this.contents.hasIn(path) : false;
 		}
+		/**
+		* Sets a value in this document. For `!!set`, `value` needs to be a
+		* boolean to add/remove the item from the set.
+		*/
 		set(key, value) {
 			if (this.contents == null) this.contents = Collection.collectionFromPath(this.schema, [key], value);
 			else if (assertCollection(this.contents)) this.contents.set(key, value);
 		}
+		/**
+		* Sets a value in this document. For `!!set`, `value` needs to be a
+		* boolean to add/remove the item from the set.
+		*/
 		setIn(path, value) {
 			if (Collection.isEmptyPath(path)) this.contents = value;
 			else if (this.contents == null) this.contents = Collection.collectionFromPath(this.schema, Array.from(path), value);
 			else if (assertCollection(this.contents)) this.contents.setIn(path, value);
 		}
+		/**
+		* Change the YAML version and schema used by the document.
+		* A `null` version disables support for directives, explicit tags, anchors, and aliases.
+		* It also requires the `schema` option to be given as a `Schema` instance value.
+		*
+		* Overrides all previously set schema options.
+		*/
 		setSchema(version, options = {}) {
 			if (typeof version === "number") version = String(version);
 			let opt;
@@ -55626,6 +68811,12 @@ var require_Document = /* @__PURE__ */ __commonJSMin(((exports) => {
 			if (typeof onAnchor === "function") for (const { count, res } of ctx.anchors.values()) onAnchor(res, count);
 			return typeof reviver === "function" ? applyReviver.applyReviver(reviver, { "": res }, "", res) : res;
 		}
+		/**
+		* A JSON representation of the document `contents`.
+		*
+		* @param jsonArg Used by `JSON.stringify` to indicate the array index or
+		*   property name.
+		*/
 		toJSON(jsonArg, onAnchor) {
 			return this.toJS({
 				json: true,
@@ -55634,6 +68825,7 @@ var require_Document = /* @__PURE__ */ __commonJSMin(((exports) => {
 				onAnchor
 			});
 		}
+		/** A YAML representation of the document. */
 		toString(options = {}) {
 			if (this.errors.length > 0) throw new Error("Document with errors cannot be stringified");
 			if ("indent" in options && (!Number.isInteger(options.indent) || Number(options.indent) <= 0)) {
@@ -56375,6 +69567,7 @@ var require_resolve_block_scalar = /* @__PURE__ */ __commonJSMin(((exports) => {
 			length
 		};
 	}
+	/** @returns Array of lines split up as `[indent, content]` */
 	function splitLines(source) {
 		const split = source.split(/\n( *)/);
 		const first = split[0];
@@ -56461,6 +69654,13 @@ var require_resolve_flow_scalar = /* @__PURE__ */ __commonJSMin(((exports) => {
 		return foldLines(source.slice(1, -1)).replace(/''/g, "'");
 	}
 	function foldLines(source) {
+		/**
+		* The negative lookbehind here and in the `re` RegExp is to
+		* prevent causing a polynomial search time in certain cases.
+		*
+		* The try-catch is for Safari, which doesn't support this yet:
+		* https://caniuse.com/js-regexp-lookbehind
+		*/
 		let first, line;
 		try {
 			first = /* @__PURE__ */ new RegExp("(.*?)(?<![ 	])[ 	]*\r?\n", "sy");
@@ -56531,6 +69731,10 @@ var require_resolve_flow_scalar = /* @__PURE__ */ __commonJSMin(((exports) => {
 		if (source[source.length - 1] !== "\"" || source.length === 1) onError(source.length, "MISSING_CHAR", "Missing closing \"quote");
 		return res;
 	}
+	/**
+	* Fold a single newline into a space, multiple newlines to N - 1 newlines.
+	* Presumes `source[offset] === '\n'`
+	*/
 	function foldNewline(source, offset) {
 		let fold = "";
 		let ch = source[offset + 1];
@@ -56823,6 +70027,17 @@ var require_composer = /* @__PURE__ */ __commonJSMin(((exports) => {
 			afterEmptyLine
 		};
 	}
+	/**
+	* Compose a stream of CST nodes into a stream of YAML Documents.
+	*
+	* ```ts
+	* import { Composer, Parser } from 'yaml'
+	*
+	* const src: string = ...
+	* const tokens = new Parser().parse(src)
+	* const docs = new Composer().compose(tokens)
+	* ```
+	*/
 	var Composer = class {
 		constructor(options = {}) {
 			this.doc = null;
@@ -56865,6 +70080,11 @@ var require_composer = /* @__PURE__ */ __commonJSMin(((exports) => {
 			this.errors = [];
 			this.warnings = [];
 		}
+		/**
+		* Current stream status information.
+		*
+		* Mostly useful at the end of input for an empty stream.
+		*/
 		streamInfo() {
 			return {
 				comment: parsePrelude(this.prelude).comment,
@@ -56873,10 +70093,17 @@ var require_composer = /* @__PURE__ */ __commonJSMin(((exports) => {
 				warnings: this.warnings
 			};
 		}
+		/**
+		* Compose tokens into documents.
+		*
+		* @param forceDoc - If the stream contains no document, still emit a final document including any comments and directives that would be applied to a subsequent document.
+		* @param endOffset - Should be set if `forceDoc` is also set, to set the document range end and to indicate errors correctly.
+		*/
 		*compose(tokens, forceDoc = false, endOffset = -1) {
 			for (const token of tokens) yield* this.next(token);
 			yield* this.end(forceDoc, endOffset);
 		}
+		/** Advance the composer by one CST token. */
 		*next(token) {
 			if (node_process$1.env.LOG_STREAM) console.dir(token, { depth: null });
 			switch (token.type) {
@@ -56929,6 +70156,12 @@ var require_composer = /* @__PURE__ */ __commonJSMin(((exports) => {
 				default: this.errors.push(new errors.YAMLParseError(getErrorPos(token), "UNEXPECTED_TOKEN", `Unsupported token ${token.type}`));
 			}
 		}
+		/**
+		* Call at end of input to yield any remaining document.
+		*
+		* @param forceDoc - If the stream contains no document, still emit a final document including any comments and directives that would be applied to a subsequent document.
+		* @param endOffset - Should be set if `forceDoc` is also set, to set the document range end and to indicate errors correctly.
+		*/
 		*end(forceDoc = false, endOffset = -1) {
 			if (this.doc) {
 				this.decorate(this.doc, true);
@@ -56971,6 +70204,20 @@ var require_cst_scalar = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 		return null;
 	}
+	/**
+	* Create a new scalar token with `value`
+	*
+	* Values that represent an actual string but may be parsed as a different type should use a `type` other than `'PLAIN'`,
+	* as this function does not support any schema operations and won't check for such conflicts.
+	*
+	* @param value The string representation of the value, which will have its content properly indented.
+	* @param context.end Comments and whitespace after the end of the value, or after the block scalar header. If undefined, a newline will be added.
+	* @param context.implicitKey Being within an implicit key may affect the resolved type of the token's value.
+	* @param context.indent The indent level of the token.
+	* @param context.inFlow Is this scalar within a flow collection? This may affect the resolved type of the token's value.
+	* @param context.offset The offset position of the token.
+	* @param context.type The preferred type of the scalar token. If undefined, the previous type of the `token` will be used, defaulting to `'PLAIN'`.
+	*/
 	function createScalarToken(value, context) {
 		const { implicitKey = false, indent, inFlow = false, offset = -1, type = "PLAIN" } = context;
 		const source = stringifyString.stringifyString({
@@ -57040,6 +70287,22 @@ var require_cst_scalar = /* @__PURE__ */ __commonJSMin(((exports) => {
 			};
 		}
 	}
+	/**
+	* Set the value of `token` to the given string `value`, overwriting any previous contents and type that it may have.
+	*
+	* Best efforts are made to retain any comments previously associated with the `token`,
+	* though all contents within a collection's `items` will be overwritten.
+	*
+	* Values that represent an actual string but may be parsed as a different type should use a `type` other than `'PLAIN'`,
+	* as this function does not support any schema operations and won't check for such conflicts.
+	*
+	* @param token Any token. If it does not include an `indent` value, the value will be stringified as if it were an implicit key.
+	* @param value The string representation of the value, which will have its content properly indented.
+	* @param context.afterKey In most cases, values after a key should have an additional level of indentation.
+	* @param context.implicitKey Being within an implicit key may affect the resolved type of the token's value.
+	* @param context.inFlow Being within a flow collection may affect the resolved type of the token's value.
+	* @param context.type The preferred type of the scalar token. If undefined, the previous type of the `token` will be used, defaulting to `'PLAIN'`.
+	*/
 	function setScalarValue(token, value, context = {}) {
 		let { afterKey = false, implicitKey = false, inFlow = false, type } = context;
 		let indent = "indent" in token ? token.indent : null;
@@ -57118,6 +70381,7 @@ var require_cst_scalar = /* @__PURE__ */ __commonJSMin(((exports) => {
 			});
 		}
 	}
+	/** @returns `true` if last token is a newline */
 	function addEndtoBlockProps(props, end) {
 		if (end) for (const st of end) switch (st.type) {
 			case "space":
@@ -57185,6 +70449,12 @@ var require_cst_scalar = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.setScalarValue = setScalarValue;
 }));
 var require_cst_stringify = /* @__PURE__ */ __commonJSMin(((exports) => {
+	/**
+	* Stringify a CST document, token, or collection item
+	*
+	* Fair warning: This applies no validation whatsoever, and
+	* simply concatenates the sources in their logical order.
+	*/
 	var stringify = (cst) => "type" in cst ? stringifyToken(cst) : stringifyItem(cst);
 	function stringifyToken(token) {
 		switch (token.type) {
@@ -57231,6 +70501,34 @@ var require_cst_visit = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var BREAK = Symbol("break visit");
 	var SKIP = Symbol("skip children");
 	var REMOVE = Symbol("remove item");
+	/**
+	* Apply a visitor to a CST document or item.
+	*
+	* Walks through the tree (depth-first) starting from the root, calling a
+	* `visitor` function with two arguments when entering each item:
+	*   - `item`: The current item, which included the following members:
+	*     - `start: SourceToken[]` – Source tokens before the key or value,
+	*       possibly including its anchor or tag.
+	*     - `key?: Token | null` – Set for pair values. May then be `null`, if
+	*       the key before the `:` separator is empty.
+	*     - `sep?: SourceToken[]` – Source tokens between the key and the value,
+	*       which should include the `:` map value indicator if `value` is set.
+	*     - `value?: Token` – The value of a sequence item, or of a map pair.
+	*   - `path`: The steps from the root to the current node, as an array of
+	*     `['key' | 'value', number]` tuples.
+	*
+	* The return value of the visitor may be used to control the traversal:
+	*   - `undefined` (default): Do nothing and continue
+	*   - `visit.SKIP`: Do not visit the children of this token, continue with
+	*      next sibling
+	*   - `visit.BREAK`: Terminate traversal completely
+	*   - `visit.REMOVE`: Remove the current item, then continue with the next one
+	*   - `number`: Set the index of the next step. This is useful especially if
+	*     the index of the current token has changed.
+	*   - `function`: Define the next visitor for this item. After the original
+	*     visitor is called on item entry, next visitors are called after handling
+	*     a non-empty `key` and when exiting the item.
+	*/
 	function visit(cst, visitor) {
 		if ("type" in cst && cst.type === "document") cst = {
 			start: cst.start,
@@ -57238,9 +70536,13 @@ var require_cst_visit = /* @__PURE__ */ __commonJSMin(((exports) => {
 		};
 		_visit(Object.freeze([]), cst, visitor);
 	}
+	/** Terminate visit traversal completely */
 	visit.BREAK = BREAK;
+	/** Do not visit the children of the current item */
 	visit.SKIP = SKIP;
+	/** Remove the current item */
 	visit.REMOVE = REMOVE;
+	/** Find the item at `path` from `cst` as the root */
 	visit.itemAtPath = (cst, path) => {
 		let item = cst;
 		for (const [field, index] of path) {
@@ -57250,6 +70552,11 @@ var require_cst_visit = /* @__PURE__ */ __commonJSMin(((exports) => {
 		}
 		return item;
 	};
+	/**
+	* Get the immediate parent collection of the item at `path` from `cst` as the root.
+	*
+	* Throws an error if the collection is not found, which should never happen if the item itself exists.
+	*/
 	visit.parentCollection = (cst, path) => {
 		const parent = visit.itemAtPath(cst, path.slice(0, -1));
 		const field = path[path.length - 1][0];
@@ -57283,13 +70590,20 @@ var require_cst = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var cstScalar = require_cst_scalar();
 	var cstStringify = require_cst_stringify();
 	var cstVisit = require_cst_visit();
+	/** The byte order mark */
 	var BOM = "﻿";
+	/** Start of doc-mode */
 	var DOCUMENT = "";
+	/** Unexpected end of flow-mode */
 	var FLOW_END = "";
+	/** Next token is a scalar value */
 	var SCALAR = "";
+	/** @returns `true` if `token` is a flow or block collection */
 	var isCollection = (token) => !!token && "items" in token;
+	/** @returns `true` if `token` is a flow or block scalar; not an alias */
 	var isScalar = (token) => !!token && (token.type === "scalar" || token.type === "single-quoted-scalar" || token.type === "double-quoted-scalar" || token.type === "block-scalar");
 	/* istanbul ignore next */
+	/** Get a printable representation of a lexer token */
 	function prettyToken(token) {
 		switch (token) {
 			case BOM: return "<BOM>";
@@ -57299,6 +70613,7 @@ var require_cst = /* @__PURE__ */ __commonJSMin(((exports) => {
 			default: return JSON.stringify(token);
 		}
 	}
+	/** Identify the type of a lexer token. May return `null` for unknown tokens. */
 	function tokenType(source) {
 		switch (source) {
 			case BOM: return "byte-order-mark";
@@ -57365,20 +70680,69 @@ var require_lexer = /* @__PURE__ */ __commonJSMin(((exports) => {
 	var flowIndicatorChars = /* @__PURE__ */ new Set(",[]{}");
 	var invalidAnchorChars = /* @__PURE__ */ new Set(" ,[]{}\n\r	");
 	var isNotAnchorChar = (ch) => !ch || invalidAnchorChars.has(ch);
+	/**
+	* Splits an input string into lexical tokens, i.e. smaller strings that are
+	* easily identifiable by `tokens.tokenType()`.
+	*
+	* Lexing starts always in a "stream" context. Incomplete input may be buffered
+	* until a complete token can be emitted.
+	*
+	* In addition to slices of the original input, the following control characters
+	* may also be emitted:
+	*
+	* - `\x02` (Start of Text): A document starts with the next token
+	* - `\x18` (Cancel): Unexpected end of flow-mode (indicates an error)
+	* - `\x1f` (Unit Separator): Next token is a scalar value
+	* - `\u{FEFF}` (Byte order mark): Emitted separately outside documents
+	*/
 	var Lexer = class {
 		constructor() {
+			/**
+			* Flag indicating whether the end of the current buffer marks the end of
+			* all input
+			*/
 			this.atEnd = false;
+			/**
+			* Explicit indent set in block scalar header, as an offset from the current
+			* minimum indent, so e.g. set to 1 from a header `|2+`. Set to -1 if not
+			* explicitly set.
+			*/
 			this.blockScalarIndent = -1;
+			/**
+			* Block scalars that include a + (keep) chomping indicator in their header
+			* include trailing empty lines, which are otherwise excluded from the
+			* scalar's contents.
+			*/
 			this.blockScalarKeep = false;
+			/** Current input */
 			this.buffer = "";
+			/**
+			* Flag noting whether the map value indicator : can immediately follow this
+			* node within a flow context.
+			*/
 			this.flowKey = false;
+			/** Count of surrounding flow collection levels. */
 			this.flowLevel = 0;
+			/**
+			* Minimum level of indentation required for next lines to be parsed as a
+			* part of the current scalar value.
+			*/
 			this.indentNext = 0;
+			/** Indentation level of the current line. */
 			this.indentValue = 0;
+			/** Position of the next \n character. */
 			this.lineEndPos = null;
+			/** Stores the state of the lexer if reaching the end of incpomplete input */
 			this.next = null;
+			/** A pointer to `buffer`; the current position of the lexer. */
 			this.pos = 0;
 		}
+		/**
+		* Generate YAML tokens from the `source` string. If `incomplete`,
+		* a part of the last line may be left as a buffer for the next call.
+		*
+		* @returns A generator of lexical tokens
+		*/
 		*lex(source, incomplete = false) {
 			if (source) {
 				if (typeof source !== "string") throw TypeError("source is not a string");
@@ -57817,10 +71181,24 @@ var require_lexer = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.Lexer = Lexer;
 }));
 var require_line_counter = /* @__PURE__ */ __commonJSMin(((exports) => {
+	/**
+	* Tracks newlines during parsing in order to provide an efficient API for
+	* determining the one-indexed `{ line, col }` position for any offset
+	* within the input.
+	*/
 	var LineCounter = class {
 		constructor() {
 			this.lineStarts = [];
+			/**
+			* Should be called in ascending order. Otherwise, call
+			* `lineCounter.lineStarts.sort()` before calling `linePos()`.
+			*/
 			this.addNewLine = (offset) => this.lineStarts.push(offset);
+			/**
+			* Performs a binary search and returns the 1-indexed { line, col }
+			* position of `offset`. If `line === 0`, `addNewLine` has never been
+			* called or `offset` is before the first known newline.
+			*/
 			this.linePos = (offset) => {
 				let low = 0;
 				let high = this.lineStarts.length;
@@ -57885,6 +71263,7 @@ var require_parser = /* @__PURE__ */ __commonJSMin(((exports) => {
 			default: return [];
 		}
 	}
+	/** Note: May modify input array */
 	function getFirstKeyStartProps(prev) {
 		if (prev.length === 0) return [];
 		let i = prev.length;
@@ -57910,24 +71289,74 @@ var require_parser = /* @__PURE__ */ __commonJSMin(((exports) => {
 			}
 		}
 	}
+	/**
+	* A YAML concrete syntax tree (CST) parser
+	*
+	* ```ts
+	* const src: string = ...
+	* for (const token of new Parser().parse(src)) {
+	*   // token: Token
+	* }
+	* ```
+	*
+	* To use the parser with a user-provided lexer:
+	*
+	* ```ts
+	* function* parse(source: string, lexer: Lexer) {
+	*   const parser = new Parser()
+	*   for (const lexeme of lexer.lex(source))
+	*     yield* parser.next(lexeme)
+	*   yield* parser.end()
+	* }
+	*
+	* const src: string = ...
+	* const lexer = new Lexer()
+	* for (const token of parse(src, lexer)) {
+	*   // token: Token
+	* }
+	* ```
+	*/
 	var Parser = class {
+		/**
+		* @param onNewLine - If defined, called separately with the start position of
+		*   each new line (in `parse()`, including the start of input).
+		*/
 		constructor(onNewLine) {
+			/** If true, space and sequence indicators count as indentation */
 			this.atNewLine = true;
+			/** If true, next token is a scalar value */
 			this.atScalar = false;
+			/** Current indentation level */
 			this.indent = 0;
+			/** Current offset since the start of parsing */
 			this.offset = 0;
+			/** On the same line with a block map key */
 			this.onKeyLine = false;
+			/** Top indicates the node that's currently being built */
 			this.stack = [];
+			/** The source of the current token, set in parse() */
 			this.source = "";
+			/** The type of the current token, set in parse() */
 			this.type = "";
 			this.lexer = new lexer.Lexer();
 			this.onNewLine = onNewLine;
 		}
+		/**
+		* Parse `source` as a YAML stream.
+		* If `incomplete`, a part of the last line may be left as a buffer for the next call.
+		*
+		* Errors are not thrown, but yielded as `{ type: 'error', message }` tokens.
+		*
+		* @returns A generator of tokens representing each directive, document, and other structure.
+		*/
 		*parse(source, incomplete = false) {
 			if (this.onNewLine && this.offset === 0) this.onNewLine(0);
 			for (const lexeme of this.lexer.lex(source, incomplete)) yield* this.next(lexeme);
 			if (!incomplete) yield* this.end();
 		}
+		/**
+		* Advance the parser by the `source` of one lexical token.
+		*/
 		*next(source) {
 			this.source = source;
 			if (node_process.env.LOG_TOKENS) console.log("|", cst.prettyToken(source));
@@ -57975,6 +71404,7 @@ var require_parser = /* @__PURE__ */ __commonJSMin(((exports) => {
 				this.offset += source.length;
 			}
 		}
+		/** Call at end of input to push out any remaining constructions */
 		*end() {
 			while (this.stack.length > 0) yield* this.pop();
 		}
@@ -58664,6 +72094,15 @@ var require_public_api = /* @__PURE__ */ __commonJSMin(((exports) => {
 			prettyErrors
 		};
 	}
+	/**
+	* Parse the input as a stream of YAML documents.
+	*
+	* Documents should be separated from each other by `...` or `---` marker lines.
+	*
+	* @returns If an empty `docs` array is returned, it will be of type
+	*   EmptyStream and contain additional stream information. In
+	*   TypeScript, you should use `'empty' in docs` as a type guard for it.
+	*/
 	function parseAllDocuments(source, options = {}) {
 		const { lineCounter, prettyErrors } = parseOptions(options);
 		const parser$1 = new parser.Parser(lineCounter?.addNewLine);
@@ -58676,6 +72115,7 @@ var require_public_api = /* @__PURE__ */ __commonJSMin(((exports) => {
 		if (docs.length > 0) return docs;
 		return Object.assign([], { empty: true }, composer$1.streamInfo());
 	}
+	/** Parse an input string into a single YAML.Document */
 	function parseDocument(source, options = {}) {
 		const { lineCounter, prettyErrors } = parseOptions(options);
 		const parser$1 = new parser.Parser(lineCounter?.addNewLine);
@@ -58770,10 +72210,22 @@ var import_dist = (/* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.visit = visit.visit;
 	exports.visitAsync = visit.visitAsync;
 })))();
+/**
+* Get GitHub token from config (redacted for security)
+* Used by: runFull, runComment
+*/
 const getGithubToken = gen(function* () {
 	return value(yield* ActionConfig.githubToken);
 });
+/**
+* Get attributes input with required validation
+* Used by: runFull, runDiff
+*/
 const getAttributesInput = ActionConfig.attributes.pipe(mapError$2(() => new MissingAttributesError({ message: "attributes input is required" })));
+/**
+* Set diff output as GitHub Actions output
+* Used by: runFull, runDiff
+*/
 const setDiffOutput = (results) => {
 	if (results.length > 0) {
 		const diffOutputs = results.map((r) => ({
@@ -58783,6 +72235,10 @@ const setDiffOutput = (results) => {
 		setOutput("diff", JSON.stringify(diffOutputs));
 	}
 };
+/**
+* Load and parse common configuration for diff pipeline
+* Used by: runFull, runDiff
+*/
 const loadDiffPipelineConfig = gen(function* () {
 	const attributesInput = yield* getAttributesInput;
 	const directoryInput = yield* ActionConfig.directory;
@@ -58799,6 +72255,10 @@ const loadDiffPipelineConfig = gen(function* () {
 		cwd
 	};
 });
+/**
+* Execute diff pipeline and return results
+* Used by: runFull, runDiff
+*/
 const runDiffPipeline = gen(function* () {
 	const pr = yield* (yield* GitHubService).getPullRequest();
 	const config = yield* loadDiffPipelineConfig;
@@ -58816,6 +72276,10 @@ const runDiffPipeline = gen(function* () {
 		}))
 	};
 });
+/**
+* Post aggregated comment to PR
+* Used by: runFull, runComment
+*/
 const postComment = (params) => gen(function* () {
 	const githubService = yield* GitHubService;
 	const context = githubService.getContext();
@@ -58831,6 +72295,10 @@ const postComment = (params) => gen(function* () {
 		commentStrategy: params.commentStrategy
 	}, formatOptions);
 });
+/**
+* Load comment-related configuration
+* Used by: runFull, runComment
+*/
 const loadCommentConfig = gen(function* () {
 	return {
 		skipNoChange: yield* ActionConfig.skipNoChange,
