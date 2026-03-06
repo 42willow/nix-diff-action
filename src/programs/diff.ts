@@ -40,6 +40,7 @@ export const runDiff: Effect.Effect<
   // Set GitHub Actions output
   setDiffOutput(results);
 
-  // Upload artifact with first attribute's displayName
-  yield* artifactService.uploadDiffResults(results, config.attributes[0].displayName);
+  // Upload JSON artifact for the aggregator to collect. HTML is generated
+  // once in the comment job so the single rendered view covers all matrix legs.
+  yield* artifactService.uploadJsonResult(results, config.attributes[0].displayName);
 });

@@ -1,4 +1,4 @@
-import { $ as TaggedError, $n as isNone, A as as, B as logInfo, C as option, Cn as make$3, Cr as __exportAll, D as Service, E as isConfigError, Er as __toESM, F as fail$2, G as provide$2, H as map$4, Ht as mergeAll$1, I as flatMap$2, J as succeed$2, K as runPromise, L as forEach, M as catchIf, N as catchTag, O as all, P as catchTags, Pn as fromMap$1, Q as try_, Qn as getOrElse, R as gen, S as boolean, Sn as get, Sr as __esmMin, T as string, Tr as __toCommonJS, U as mapError$2, V as logWarning, Vn as orElse$3, Vt as merge$2, W as orElseSucceed, X as tapError$2, Xn as flatMap$3, Y as sync$2, Z as tryPromise, Zn as fromNullable, _ as Struct, _r as HttpClient, a as GitHubApiError, ar as pipe, b as pattern, br as require_tunnel, c as MissingAttributesError, cr as getInput, d as NixPathInfoError, dr as setFailed$1, en as scopedDiscard$1, er as isSome, f as NotPullRequestContextError, fr as setOutput, g as NonEmptyString, gr as BearerCredentialHandler, h as Literal, hr as exec, i as AttributeParseError, ir as some$2, j as catchAll$2, jn as fromEnv$1, k as andThen, l as NixBuildError, m as Config, mr as warning, nr as match$2, o as InvalidCommentStrategyError, or as debug, p as Array$, pr as setSecret, q as scoped$2, r as ArtifactError, rr as none, s as InvalidDirectoryError, sr as error, t as GitService, tr as map$5, u as NixDixError, ur as info, v as decodeUnknown, vr as HttpCodes, w as redacted, wn as set, wr as __require, x as value, xr as __commonJSMin, y as filter$2, yn as withConfigProviderScoped, yr as require_undici, z as logError } from "./assets/git-B93axXDy.js";
+import { $ as sync$2, A as andThen, B as gen, C as option$1, Cr as require_tunnel, D as Service, Dn as get, Dr as __require, E as isConfigError, Er as __exportAll, F as catchTag, G as mapError$2, Gt as merge$2, H as logInfo, I as catchTags, In as fromEnv$1, J as promise, K as option, Kn as orElse$3, Kt as mergeAll$1, L as fail$2, M as catchAll$2, N as catchAllCause$2, O as acquireRelease, On as make$3, Or as __toCommonJS, P as catchIf, Q as succeed$2, R as flatMap$2, S as boolean, Sr as require_undici, T as string, Tr as __esmMin, U as logWarning, V as logError, W as map$4, X as runPromise, Y as provide$2, Z as scoped$2, _ as Struct, _r as warning, a as GitHubApiError, ar as isNone, b as pattern, br as HttpClient, c as MissingAttributesError, cr as pipe, d as NixPathInfoError, dr as getInput, et as tapError$2, f as NotPullRequestContextError, g as NonEmptyString, gr as setSecret, h as Literal, hr as setOutput, i as AttributeParseError, in as scopedDiscard$1, ir as getOrUndefined, j as as, k as all, kn as set, kr as __toESM, l as NixBuildError, lr as debug, m as Config, mr as setFailed$1, nr as fromNullable, nt as try_, o as InvalidCommentStrategyError, or as map$5, p as Array$, pr as info, q as orElseSucceed, r as ArtifactError, rr as getOrElse, rt as TaggedError, s as InvalidDirectoryError, sr as match$2, t as GitService, tr as flatMap$3, tt as tryPromise, u as NixDixError, ur as error, v as decodeUnknown, vr as exec, w as redacted, wn as withConfigProviderScoped, wr as __commonJSMin, x as value, xn as pretty, xr as HttpCodes, y as filter$2, yr as BearerCredentialHandler, z as forEach, zn as fromMap$1 } from "./assets/git-Df2GX_-v.js";
 import * as os$2 from "os";
 import os, { EOL } from "os";
 import * as crypto$1 from "crypto";
@@ -65817,8 +65817,190 @@ const DiffResultArray = Array$(Struct({
 	prRef: NonEmptyString.annotations({ description: "Commit SHA of the PR head" }),
 	diff: NonEmptyString.annotations({ description: "Diff output from dix tool" })
 }).annotations({ identifier: "DiffResult" })).annotations({ identifier: "DiffResultArray" });
+var diff_html_default = ":root {\n  color-scheme: light dark;\n  --bg: #ffffff;\n  --bg-elevated: #ffffff;\n  --bg-muted: #f6f8fa;\n  --bg-header: #f0f3f6;\n  --fg: #1f2328;\n  --fg-muted: #59636e;\n  --border: #d1d9e0;\n  --border-muted: #d1d9e0b3;\n  --accent: #0969da;\n  --added-fg: #1a7f37;\n  --added-bg: #dafbe1;\n  --added-border: #1a7f3733;\n  --removed-fg: #cf222e;\n  --removed-bg: #ffebe9;\n  --removed-border: #cf222e33;\n  --changed-fg: #9a6700;\n  --changed-bg: #fff8c5;\n  --changed-border: #9a670033;\n}\n@media (prefers-color-scheme: dark) {\n  :root {\n    --bg: #0d1117;\n    --bg-elevated: #151b23;\n    --bg-muted: #151b23;\n    --bg-header: #151b23;\n    --fg: #f0f6fc;\n    --fg-muted: #9198a1;\n    --border: #3d444d;\n    --border-muted: #3d444d80;\n    --accent: #4493f8;\n    --added-fg: #3fb950;\n    --added-bg: #1f6feb1a;\n    --added-border: #3fb95033;\n    --removed-fg: #f85149;\n    --removed-bg: #f851491a;\n    --removed-border: #f8514933;\n    --changed-fg: #d29922;\n    --changed-bg: #d299221a;\n    --changed-border: #d2992233;\n  }\n}\n* {\n  box-sizing: border-box;\n}\nhtml,\nbody {\n  margin: 0;\n  padding: 0;\n}\nbody {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif;\n  background: var(--bg);\n  color: var(--fg);\n  line-height: 1.5;\n  padding: 2rem 1.5rem 4rem;\n  max-width: 1100px;\n  margin: 0 auto;\n  font-size: 14px;\n}\nh1 {\n  margin: 0 0 0.25rem;\n  font-size: 1.6rem;\n  font-weight: 600;\n  letter-spacing: -0.01em;\n}\n.page-header {\n  padding-bottom: 1rem;\n  margin-bottom: 1.5rem;\n  border-bottom: 1px solid var(--border);\n}\n.page-header p {\n  margin: 0;\n  color: var(--fg-muted);\n  font-size: 0.9rem;\n}\nh2 {\n  font-size: 1.1rem;\n  font-weight: 600;\n  margin: 0;\n}\ncode {\n  font-family: ui-monospace, SFMono-Regular, \"SF Mono\", Menlo, Consolas, monospace;\n  font-size: 0.82em;\n  background: var(--bg-muted);\n  padding: 0.1em 0.4em;\n  border-radius: 4px;\n  border: 1px solid var(--border-muted);\n}\na {\n  color: var(--accent);\n  text-decoration: none;\n}\na:hover {\n  text-decoration: underline;\n}\n.muted {\n  color: var(--fg-muted);\n}\n.arrow {\n  color: var(--fg-muted);\n  margin: 0 0.15em;\n}\n\n/* Summary */\n.summary {\n  margin-bottom: 2rem;\n}\n.summary h2 {\n  margin-bottom: 0.75rem;\n}\n.summary-table {\n  width: 100%;\n  border-collapse: collapse;\n  background: var(--bg-elevated);\n  border: 1px solid var(--border);\n  border-radius: 6px;\n  overflow: hidden;\n}\n.summary-table th,\n.summary-table td {\n  padding: 0.55rem 0.9rem;\n  text-align: left;\n  border-bottom: 1px solid var(--border-muted);\n  vertical-align: middle;\n}\n.summary-table thead th {\n  background: var(--bg-header);\n  font-weight: 600;\n  font-size: 0.85rem;\n  color: var(--fg-muted);\n}\n.summary-table tbody tr:last-child td {\n  border-bottom: 0;\n}\n.summary-table .num {\n  text-align: right;\n  font-variant-numeric: tabular-nums;\n}\n\n/* Diff cards */\n.diff-card {\n  border: 1px solid var(--border);\n  border-radius: 6px;\n  background: var(--bg-elevated);\n  margin-bottom: 1.5rem;\n  overflow: hidden;\n}\n.diff-card-header {\n  padding: 1rem 1.25rem;\n  background: var(--bg-header);\n  border-bottom: 1px solid var(--border);\n}\n.diff-card-header h2 {\n  margin-bottom: 0.5rem;\n}\n.diff-card-body {\n  padding: 1rem 1.25rem;\n}\n\n.diff-meta {\n  display: grid;\n  grid-template-columns: auto 1fr;\n  gap: 0.15rem 0.85rem;\n  margin: 0;\n  font-size: 0.85rem;\n}\n.diff-meta dt {\n  color: var(--fg-muted);\n  font-weight: 500;\n}\n.diff-meta dd {\n  margin: 0;\n  min-width: 0;\n  overflow-wrap: anywhere;\n}\n\n/* Stats strip */\n.stats {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.5rem;\n  margin-bottom: 1rem;\n}\n.stat {\n  flex: 1 1 auto;\n  min-width: 140px;\n  padding: 0.55rem 0.85rem;\n  background: var(--bg-muted);\n  border: 1px solid var(--border-muted);\n  border-radius: 6px;\n  display: flex;\n  flex-direction: column;\n  gap: 0.15rem;\n}\n.stat-label {\n  color: var(--fg-muted);\n  font-size: 0.75rem;\n  text-transform: uppercase;\n  letter-spacing: 0.04em;\n}\n.stat-value {\n  font-size: 1rem;\n  font-weight: 600;\n}\n.stat-added {\n  color: var(--added-fg);\n}\n.stat-removed {\n  color: var(--removed-fg);\n}\n.stat-changed {\n  color: var(--changed-fg);\n}\n\n/* Store paths */\n.store-paths {\n  display: grid;\n  grid-template-columns: auto 1fr;\n  gap: 0.2rem 0.85rem;\n  margin: 0 0 1rem;\n  font-size: 0.85rem;\n}\n.store-paths dt {\n  color: var(--fg-muted);\n  font-weight: 500;\n}\n.store-paths dd {\n  margin: 0;\n  min-width: 0;\n  overflow-wrap: anywhere;\n}\n\n/* Change sections */\n.change-group {\n  margin-bottom: 1rem;\n  border-radius: 6px;\n  overflow: hidden;\n  border: 1px solid var(--border-muted);\n}\n.change-group:last-of-type {\n  margin-bottom: 0;\n}\n.change-heading {\n  display: flex;\n  align-items: center;\n  gap: 0.6rem;\n  margin: 0;\n  padding: 0.5rem 0.85rem;\n  font-size: 0.9rem;\n  cursor: pointer;\n  list-style: none;\n  user-select: none;\n}\n.change-heading::-webkit-details-marker {\n  display: none;\n}\n.change-heading::before {\n  content: \"\";\n  width: 0;\n  height: 0;\n  border-left: 5px solid currentColor;\n  border-top: 4px solid transparent;\n  border-bottom: 4px solid transparent;\n  transition: transform 0.15s ease;\n  flex-shrink: 0;\n}\n.change-group[open] > .change-heading::before {\n  transform: rotate(90deg);\n}\n.change-badge {\n  display: inline-block;\n  padding: 0.1rem 0.55rem;\n  font-size: 0.72rem;\n  font-weight: 600;\n  letter-spacing: 0.05em;\n  border-radius: 999px;\n  border: 1px solid currentColor;\n}\n.change-count {\n  color: var(--fg-muted);\n  font-size: 0.85rem;\n  font-weight: 500;\n}\n.change-added > .change-heading {\n  background: var(--added-bg);\n  color: var(--added-fg);\n}\n.change-removed > .change-heading {\n  background: var(--removed-bg);\n  color: var(--removed-fg);\n}\n.change-changed > .change-heading {\n  background: var(--changed-bg);\n  color: var(--changed-fg);\n}\n.change-added[open] > .change-heading {\n  border-bottom: 1px solid var(--added-border);\n}\n.change-removed[open] > .change-heading {\n  border-bottom: 1px solid var(--removed-border);\n}\n.change-changed[open] > .change-heading {\n  border-bottom: 1px solid var(--changed-border);\n}\n\n.change-table {\n  width: 100%;\n  border-collapse: collapse;\n  background: var(--bg-elevated);\n}\n.change-table td {\n  padding: 0.3rem 0.85rem;\n  border-top: 1px solid var(--border-muted);\n  vertical-align: top;\n}\n.change-table tr:first-child td {\n  border-top: 0;\n}\n.change-table .pkg-name {\n  width: 35%;\n  white-space: nowrap;\n  overflow-wrap: anywhere;\n}\n.change-table .pkg-ver {\n  color: var(--fg-muted);\n  overflow-wrap: anywhere;\n}\n.change-table code {\n  background: transparent;\n  border: 0;\n  padding: 0;\n  font-size: 0.85em;\n}\n\n.no-changes {\n  margin: 0 0 1rem;\n  padding: 0.8rem 1rem;\n  background: var(--bg-muted);\n  border: 1px solid var(--border-muted);\n  border-radius: 6px;\n  color: var(--fg-muted);\n  text-align: center;\n}\n\n.raw-block {\n  margin-top: 1rem;\n}\n.raw-block summary {\n  cursor: pointer;\n  color: var(--fg-muted);\n  font-size: 0.85rem;\n  padding: 0.35rem 0;\n}\n.raw-block summary:hover {\n  color: var(--accent);\n}\n.raw-block pre {\n  background: var(--bg-muted);\n  border: 1px solid var(--border-muted);\n  border-radius: 6px;\n  padding: 0.85rem 1rem;\n  overflow-x: auto;\n  white-space: pre;\n  font-size: 0.8rem;\n  margin: 0.35rem 0 0;\n}\n.raw-block pre code {\n  background: transparent;\n  border: 0;\n  padding: 0;\n  font-size: 1em;\n}\n\nfooter {\n  margin-top: 2.5rem;\n  padding-top: 1rem;\n  border-top: 1px solid var(--border);\n  color: var(--fg-muted);\n  font-size: 0.8rem;\n  text-align: center;\n}\n\n@media (max-width: 600px) {\n  body {\n    padding: 1rem 0.75rem 3rem;\n  }\n  .stat {\n    min-width: 45%;\n  }\n  .summary-table {\n    font-size: 0.85rem;\n  }\n  .summary-table th,\n  .summary-table td {\n    padding: 0.45rem 0.6rem;\n  }\n}\n";
+var escapeHtml = (text) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+const parseDiff = (diff) => {
+	const result = {
+		added: [],
+		removed: [],
+		changed: [],
+		unparsed: []
+	};
+	const lines = diff.split("\n");
+	let section = null;
+	for (const rawLine of lines) {
+		const line = rawLine.replace(/\s+$/, "");
+		if (!line) {
+			section = null;
+			continue;
+		}
+		const oldPath = /^<<<\s+(.+)$/.exec(line);
+		if (oldPath) {
+			result.oldPath = oldPath[1];
+			continue;
+		}
+		const newPath = /^>>>\s+(.+)$/.exec(line);
+		if (newPath) {
+			result.newPath = newPath[1];
+			continue;
+		}
+		if (line === "ADDED") {
+			section = "added";
+			continue;
+		}
+		if (line === "REMOVED") {
+			section = "removed";
+			continue;
+		}
+		if (line === "CHANGED") {
+			section = "changed";
+			continue;
+		}
+		const size = /^SIZE:\s*(.+?)\s*->\s*(.+)$/.exec(line);
+		if (size) {
+			result.sizeBefore = size[1];
+			result.sizeAfter = size[2];
+			section = null;
+			continue;
+		}
+		const diffSize = /^DIFF:\s*(.+)$/.exec(line);
+		if (diffSize) {
+			result.diffSize = diffSize[1];
+			section = null;
+			continue;
+		}
+		if (section) result[section].push(line);
+		else result.unparsed.push(line);
+	}
+	return result;
+};
+const stripPrefix = (line) => line.replace(/^\[[A-Za-z.]{1,4}\]\s*/, "");
+const isUnchanged = (parsed) => parsed.added.length === 0 && parsed.removed.length === 0 && parsed.changed.length === 0;
+const slugify = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "diff";
+var renderEntryRows = (lines) => lines.map((line) => {
+	const stripped = stripPrefix(line);
+	const match = /^(\S+)\s{2,}(.+)$/.exec(stripped);
+	if (match) return `<tr><td class="pkg-name"><code>${escapeHtml(match[1])}</code></td><td class="pkg-ver"><code>${escapeHtml(match[2])}</code></td></tr>`;
+	return `<tr><td class="pkg-name" colspan="2"><code>${escapeHtml(stripped)}</code></td></tr>`;
+}).join("");
+var renderChangeSection = (kind, label, lines) => {
+	if (lines.length === 0) return "";
+	return `
+      <details open class="change-group change-${kind}">
+        <summary class="change-heading">
+          <span class="change-badge">${label}</span>
+          <span class="change-count">${lines.length}</span>
+        </summary>
+        <table class="change-table">
+          <tbody>${renderEntryRows(lines)}</tbody>
+        </table>
+      </details>`;
+};
+var renderNoChanges = (parsed) => isUnchanged(parsed) ? `<p class="no-changes">No package additions, removals, or version changes.</p>` : "";
+var renderStats = (parsed) => {
+	const stats = [];
+	if (parsed.sizeBefore && parsed.sizeAfter) stats.push(`<div class="stat"><span class="stat-label">Closure size</span><span class="stat-value"><code>${escapeHtml(parsed.sizeBefore)}</code> <span class="arrow">→</span> <code>${escapeHtml(parsed.sizeAfter)}</code></span></div>`);
+	if (parsed.diffSize) stats.push(`<div class="stat"><span class="stat-label">Diff size</span><span class="stat-value"><code>${escapeHtml(parsed.diffSize)}</code></span></div>`);
+	if (!isUnchanged(parsed)) {
+		stats.push(`<div class="stat"><span class="stat-label">Added</span><span class="stat-value stat-added">${parsed.added.length}</span></div>`);
+		stats.push(`<div class="stat"><span class="stat-label">Removed</span><span class="stat-value stat-removed">${parsed.removed.length}</span></div>`);
+		stats.push(`<div class="stat"><span class="stat-label">Changed</span><span class="stat-value stat-changed">${parsed.changed.length}</span></div>`);
+	}
+	if (stats.length === 0) return "";
+	return `<div class="stats">${stats.join("")}</div>`;
+};
+var renderStorePaths = (parsed) => {
+	if (!parsed.oldPath && !parsed.newPath) return "";
+	const rows = [];
+	if (parsed.oldPath) rows.push(`<dt>Base store path</dt><dd><code>${escapeHtml(parsed.oldPath)}</code></dd>`);
+	if (parsed.newPath) rows.push(`<dt>PR store path</dt><dd><code>${escapeHtml(parsed.newPath)}</code></dd>`);
+	return `<dl class="store-paths">${rows.join("")}</dl>`;
+};
+var prepare = (results) => results.map((result, index) => ({
+	result,
+	parsed: parseDiff(result.diff),
+	anchor: `diff-${index}-${slugify(result.displayName)}`
+}));
+var renderSection = ({ result, parsed, anchor }) => {
+	const rawBlock = `<details class="raw-block"><summary>Raw dix output</summary><pre><code>${escapeHtml(result.diff)}</code></pre></details>`;
+	return `
+    <article class="diff-card" id="${escapeHtml(anchor)}">
+      <header class="diff-card-header">
+        <h2>${escapeHtml(result.displayName)}</h2>
+        <dl class="diff-meta">
+          <dt>Attribute</dt>
+          <dd><code>${escapeHtml(result.attributePath)}</code></dd>
+          <dt>Base</dt>
+          <dd><code>${escapeHtml(result.baseRef)}</code></dd>
+          <dt>PR</dt>
+          <dd><code>${escapeHtml(result.prRef)}</code></dd>
+        </dl>
+      </header>
+      <div class="diff-card-body">
+        ${renderStats(parsed)}
+        ${renderStorePaths(parsed)}
+        ${renderNoChanges(parsed)}
+        ${renderChangeSection("changed", "CHANGED", parsed.changed)}
+        ${renderChangeSection("added", "ADDED", parsed.added)}
+        ${renderChangeSection("removed", "REMOVED", parsed.removed)}
+        ${rawBlock}
+      </div>
+    </article>`;
+};
+var renderSummary = (prepared) => {
+	if (prepared.length === 0) return "";
+	return `
+    <section class="summary">
+      <h2>Summary</h2>
+      <table class="summary-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Attribute</th>
+            <th class="num">+</th>
+            <th class="num">−</th>
+            <th class="num">Δ</th>
+            <th>Closure size</th>
+          </tr>
+        </thead>
+        <tbody>${prepared.map(({ result, parsed, anchor }) => {
+		const sizeCell = parsed.sizeBefore && parsed.sizeAfter ? `<code>${escapeHtml(parsed.sizeBefore)}</code> <span class="arrow">→</span> <code>${escapeHtml(parsed.sizeAfter)}</code>` : `<span class="muted">—</span>`;
+		return `
+        <tr>
+          <td><a href="#${escapeHtml(anchor)}">${escapeHtml(result.displayName)}</a></td>
+          <td><code>${escapeHtml(result.attributePath)}</code></td>
+          <td class="num stat-added">${parsed.added.length}</td>
+          <td class="num stat-removed">${parsed.removed.length}</td>
+          <td class="num stat-changed">${parsed.changed.length}</td>
+          <td>${sizeCell}</td>
+        </tr>`;
+	}).join("")}</tbody>
+      </table>
+    </section>`;
+};
+const generateDiffHtml = (results) => {
+	const prepared = prepare(results);
+	return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nix Diff Results</title>
+  <style>${diff_html_default}</style>
+</head>
+<body>
+  <div class="page-header">
+    <h1>Nix Diff Results</h1>
+    <p>${prepared.length} ${prepared.length === 1 ? "comparison" : "comparisons"}</p>
+  </div>
+${renderSummary(prepared)}
+${prepared.map(renderSection).join("\n")}
+  <footer>Generated by <a href="https://github.com/natsukium/nix-diff-action">nix-diff-action</a> · diff engine: <a href="https://github.com/faukah/dix">dix</a></footer>
+</body>
+</html>`;
+};
 var artifactClient = new DefaultArtifactClient();
-var withWarningOption = (effect, context) => effect.pipe(map$4(some$2), catchAll$2((error) => logWarning(`${context}: ${String(error)}`).pipe(as(none()))));
+var withWarningOption = (effect, context) => effect.pipe(tapError$2((error) => logWarning(`${context}: ${JSON.stringify(error)}`)), option);
 var downloadArtifact = (artId, artName, downloadPath, findBy) => tryPromise({
 	try: () => artifactClient.downloadArtifact(artId, {
 		path: downloadPath,
@@ -65862,17 +66044,22 @@ var downloadAndParseArtifact = (art, downloadPath, findBy) => gen(function* () {
 const createArtifactName = (displayName) => {
 	return `diff-result-${displayName.replace(/[^a-zA-Z0-9-_]/g, "-")}-${crypto$1.createHash("sha256").update(displayName).digest("hex").slice(0, 6)}`;
 };
+var HTML_ARTIFACT_NAME = "diff-view.html";
+var withTempDir = (prefix, errorName) => acquireRelease(tryPromise({
+	try: () => fs$2.mkdtemp(path$2.join(os$2.tmpdir(), prefix)),
+	catch: (e) => new ArtifactError({
+		name: errorName,
+		message: `Failed to create temp directory: ${e}`
+	})
+}), (dir) => promise(() => fs$2.rm(dir, {
+	recursive: true,
+	force: true
+})).pipe(catchAllCause$2((cause) => logWarning(`Failed to clean up temp directory ${dir}: ${pretty(cause)}`))));
 var ArtifactService = class extends Service()("ArtifactService", { succeed: {
-	uploadDiffResults: (results, displayName) => {
+	uploadJsonResult: (results, displayName) => {
 		const artifactName = createArtifactName(displayName);
-		return gen(function* () {
-			const tempDir = yield* tryPromise({
-				try: () => fs$2.mkdtemp(path$2.join(os$2.tmpdir(), "dix-")),
-				catch: (e) => new ArtifactError({
-					name: artifactName,
-					message: `Failed to create temp directory: ${e}`
-				})
-			});
+		return scoped$2(gen(function* () {
+			const tempDir = yield* withTempDir("dix-", artifactName);
 			const resultPath = path$2.join(tempDir, "result.json");
 			yield* tryPromise({
 				try: () => fs$2.writeFile(resultPath, JSON.stringify(results, null, 2)),
@@ -65889,9 +66076,32 @@ var ArtifactService = class extends Service()("ArtifactService", { succeed: {
 				})
 			});
 			yield* logInfo(`Uploaded artifact: ${artifactName}`);
-			return artifactName;
-		});
+		}));
 	},
+	uploadAggregatedHtml: (results) => scoped$2(gen(function* () {
+		if (results.length === 0) {
+			yield* logInfo("No diff results to render as HTML; skipping HTML artifact");
+			return false;
+		}
+		const tempDir = yield* withTempDir("dix-html-", HTML_ARTIFACT_NAME);
+		const htmlPath = path$2.join(tempDir, HTML_ARTIFACT_NAME);
+		yield* tryPromise({
+			try: () => fs$2.writeFile(htmlPath, generateDiffHtml(results)),
+			catch: (e) => new ArtifactError({
+				name: HTML_ARTIFACT_NAME,
+				message: `Failed to write HTML file: ${e}`
+			})
+		});
+		yield* tryPromise({
+			try: () => artifactClient.uploadArtifact(HTML_ARTIFACT_NAME, [htmlPath], tempDir, { skipArchive: true }),
+			catch: (e) => new ArtifactError({
+				name: HTML_ARTIFACT_NAME,
+				message: `Failed to upload HTML artifact: ${e}`
+			})
+		});
+		yield* logInfo(`Uploaded HTML artifact: ${HTML_ARTIFACT_NAME}`);
+		return true;
+	})),
 	downloadAllDiffResults: (token, runId, owner, repo) => {
 		const downloadPath = path$2.join(os$2.tmpdir(), "dix-results");
 		const findBy = {
@@ -65951,16 +66161,12 @@ var calculateMaxDiffPerAttribute = (attributeCount) => {
 	const availableForDiffs = MAX_COMMENT_LENGTH - HEADER_FOOTER_OVERHEAD - PER_SECTION_OVERHEAD * attributeCount;
 	return Math.max(1e3, Math.floor(availableForDiffs / attributeCount));
 };
-const checkIfAnyDiffTruncated = (results) => {
-	const maxLength = calculateMaxDiffPerAttribute(results.length);
-	return results.some((r) => r.diff.length > maxLength);
-};
 const formatAggregatedComment = (results, headSha, options) => {
 	const maxDiffLength = calculateMaxDiffPerAttribute(results.length);
 	const marker = results.length === 1 ? getNixDiffActionMarker(results[0].displayName) : getNixDiffActionMarker();
 	const sections = results.map((result) => {
 		const { truncated, text } = truncateDiff(result.diff || "No differences found", maxDiffLength);
-		const artifactHint = truncated && options?.runId && options?.repoUrl ? `\n\n> **Note**: Diff was truncated. [View full diff in artifacts](${options.repoUrl}/actions/runs/${options.runId})` : "";
+		const artifactHint = truncated ? "\n\n> **Note**: Diff was truncated. See the full output in the artifacts below." : "";
 		return `### ${sanitizeDisplayName(result.displayName)}
 
 **Attribute**: \`${result.attributePath}\`
@@ -65977,10 +66183,10 @@ ${artifactHint}
 	return `${marker}
 ## Nix Diff
 
-${options?.repoUrl ? `[Compare changes](${options.repoUrl}/compare/${results[0].baseRef}...${results[0].prRef})` : `\`${results[0].baseRef}...${results[0].prRef}\``}
+${options ? `[Compare changes](${options.repoUrl}/compare/${results[0].baseRef}...${results[0].prRef})` : `\`${results[0].baseRef}...${results[0].prRef}\``}
 
 ${sections}
-
+${options?.runId && results.length > 0 && options.htmlViewerAvailable ? `\n> :page_facing_up: [View diff as HTML](${options.repoUrl}/actions/runs/${options.runId}) in the Artifacts section\n` : ""}
 ${`---
 <sub>Generated by [nix-diff-action](https://github.com/natsukium/nix-diff-action) using [dix](https://github.com/faukah/dix)</sub>
 <!-- nix-diff-action-footer sha=${headSha} -->`}`;
@@ -66091,7 +66297,7 @@ const ActionConfig = {
 	build: boolean("build"),
 	skipNoChange: boolean("skip-no-change"),
 	commentStrategy: Config("comment-strategy", CommentStrategySchema$1),
-	githubRunId: option(string("GITHUB_RUN_ID"))
+	githubRunId: option$1(string("GITHUB_RUN_ID"))
 };
 const ConfigProviderLayer = setConfigProvider(ActionsConfigProvider);
 var require_identity = /* @__PURE__ */ __commonJSMin(((exports) => {
@@ -72551,15 +72757,15 @@ const loadDiffPipelineConfig = gen(function* () {
 	const attributesInput = yield* getAttributesInput;
 	const directoryInput = yield* ActionConfig.directory;
 	const build = yield* ActionConfig.build;
-	const runIdOption = yield* ActionConfig.githubRunId;
-	const runId = getOrElse(runIdOption, () => crypto$1.randomUUID());
+	const githubRunId = yield* ActionConfig.githubRunId;
+	const runId = getOrElse(githubRunId, () => crypto$1.randomUUID());
 	const cwd = yield* sync$2(() => process.cwd());
 	return {
 		attributes: yield* parseAttributes(attributesInput),
 		directory: yield* validateDirectory(directoryInput, cwd),
 		build,
 		runId,
-		runIdOption,
+		githubRunId,
 		cwd
 	};
 });
@@ -72592,16 +72798,15 @@ const postComment = (params) => gen(function* () {
 	const githubService = yield* GitHubService;
 	const context = githubService.getContext();
 	const pr = yield* githubService.getPullRequest();
-	const willTruncate = checkIfAnyDiffTruncated(params.results);
 	const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
-	const formatOptions = willTruncate && params.showArtifactLinkWhenTruncated ? {
-		runId: params.runId,
-		repoUrl
-	} : { repoUrl };
 	yield* githubService.postAggregatedComment(githubService.createOctokit(params.token), context, pr, params.results, {
 		skipNoChange: params.skipNoChange,
 		commentStrategy: params.commentStrategy
-	}, formatOptions);
+	}, {
+		repoUrl,
+		runId: params.runId,
+		htmlViewerAvailable: params.htmlViewerAvailable
+	});
 });
 /**
 * Load comment-related configuration
@@ -72646,14 +72851,15 @@ const runFull = gen(function* () {
 	const token = yield* getGithubToken;
 	const commentConfig = yield* loadCommentConfig;
 	const { config, results } = yield* runDiffPipeline;
-	yield* artifactService.uploadDiffResults(results, "full");
+	yield* artifactService.uploadJsonResult(results, "full");
+	const htmlViewerAvailable = yield* artifactService.uploadAggregatedHtml(results).pipe(catchAll$2((error) => logWarning(`HTML viewer artifact upload failed: ${error.message}`).pipe(as(false))));
 	yield* postComment({
 		results,
-		runId: config.runId,
+		runId: getOrUndefined(config.githubRunId),
 		skipNoChange: commentConfig.skipNoChange,
 		commentStrategy: commentConfig.commentStrategy,
 		token,
-		showArtifactLinkWhenTruncated: isSome(config.runIdOption)
+		htmlViewerAvailable
 	});
 	setDiffOutput(results);
 });
@@ -72661,7 +72867,7 @@ const runDiff = gen(function* () {
 	const artifactService = yield* ArtifactService;
 	const { config, results } = yield* runDiffPipeline;
 	setDiffOutput(results);
-	yield* artifactService.uploadDiffResults(results, config.attributes[0].displayName);
+	yield* artifactService.uploadJsonResult(results, config.attributes[0].displayName);
 });
 const runComment = gen(function* () {
 	const githubService = yield* GitHubService;
@@ -72669,13 +72875,15 @@ const runComment = gen(function* () {
 	const context = githubService.getContext();
 	const token = yield* getGithubToken;
 	const commentConfig = yield* loadCommentConfig;
+	const results = yield* artifactService.downloadAllDiffResults(token, context.runId, context.repo.owner, context.repo.repo);
+	const htmlViewerAvailable = yield* artifactService.uploadAggregatedHtml(results).pipe(catchAll$2((error) => logWarning(`HTML viewer artifact upload failed: ${error.message}`).pipe(as(false))));
 	yield* postComment({
-		results: yield* artifactService.downloadAllDiffResults(token, context.runId, context.repo.owner, context.repo.repo),
-		runId: String(context.runId),
+		results,
+		runId: context.runId > 0 ? String(context.runId) : void 0,
 		skipNoChange: commentConfig.skipNoChange,
 		commentStrategy: commentConfig.commentStrategy,
 		token,
-		showArtifactLinkWhenTruncated: true
+		htmlViewerAvailable
 	});
 });
 const parseAttributes = (input) => gen(function* () {
