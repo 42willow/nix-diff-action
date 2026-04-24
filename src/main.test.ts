@@ -7,6 +7,7 @@ import { GitService, sanitizeBranchName } from "./services/git.js";
 import { NixService } from "./services/nix.js";
 import { hasDixChanges } from "./services/utils.js";
 import { createArtifactName } from "./services/artifact.js";
+import { generateDiffHtml, isUnchanged, parseDiff, slugify, stripPrefix } from "./services/html.js";
 
 describe("parseAttributes", () => {
   test("parses valid YAML array", async () => {
@@ -214,7 +215,7 @@ describe("formatAggregatedComment", () => {
     const comment = formatAggregatedComment(results, "abc123def456");
 
     // Both diffs should be truncated since 50000 * 2 > 60000 limit
-    expect((comment.match(/truncated/g) || []).length).toBe(2);
+    expect((comment.match(/Diff was truncated/g) || []).length).toBe(2);
     expect(comment.length).toBeLessThan(65536);
   });
 
@@ -232,7 +233,7 @@ describe("formatAggregatedComment", () => {
     expect(comment.length).toBeLessThan(65536);
   });
 
-  test("includes artifact link when truncated and options provided", () => {
+  test("shows truncation notice when truncated", () => {
     const largeDiff = "d".repeat(70000);
     const results = [
       {
@@ -246,13 +247,14 @@ describe("formatAggregatedComment", () => {
     const comment = formatAggregatedComment(results, "abc123def456", {
       runId: "12345",
       repoUrl: "https://github.com/owner/repo",
+      htmlViewerAvailable: true,
     });
 
-    expect(comment).toContain("View full diff in artifacts");
-    expect(comment).toContain("https://github.com/owner/repo/actions/runs/12345");
+    expect(comment).toContain("Diff was truncated");
+    expect(comment).toContain("View diff as HTML");
   });
 
-  test("does not include artifact link when not truncated", () => {
+  test("no truncation notice when not truncated but still shows HTML viewer link", () => {
     const smallDiff = "small diff";
     const results = [
       {
@@ -266,9 +268,52 @@ describe("formatAggregatedComment", () => {
     const comment = formatAggregatedComment(results, "abc123def456", {
       runId: "12345",
       repoUrl: "https://github.com/owner/repo",
+      htmlViewerAvailable: true,
     });
 
-    expect(comment).not.toContain("View full diff in artifacts");
+    expect(comment).not.toContain("Diff was truncated");
+    expect(comment).toContain("View diff as HTML");
+    expect(comment).toContain("https://github.com/owner/repo/actions/runs/12345");
+  });
+
+  // Guards the contract between ArtifactService.uploadAggregatedHtml and the
+  // comment body: if the upload was skipped/failed, the link must be omitted
+  // so users don't click through to a 404.
+  test("omits HTML viewer link when artifact is unavailable", () => {
+    const results = [
+      {
+        displayName: "host1",
+        attributePath: "nixosConfigurations.host1...",
+        baseRef: "github:owner/repo",
+        prRef: ".",
+        diff: "small diff",
+      },
+    ];
+    const comment = formatAggregatedComment(results, "abc123def456", {
+      runId: "12345",
+      repoUrl: "https://github.com/owner/repo",
+      htmlViewerAvailable: false,
+    });
+
+    expect(comment).not.toContain("View diff as HTML");
+  });
+
+  test("omits HTML viewer link when htmlViewerAvailable is undefined", () => {
+    const results = [
+      {
+        displayName: "host1",
+        attributePath: "nixosConfigurations.host1...",
+        baseRef: "github:owner/repo",
+        prRef: ".",
+        diff: "small diff",
+      },
+    ];
+    const comment = formatAggregatedComment(results, "abc123def456", {
+      runId: "12345",
+      repoUrl: "https://github.com/owner/repo",
+    });
+
+    expect(comment).not.toContain("View diff as HTML");
   });
 });
 
@@ -688,5 +733,157 @@ SIZE: 10.0 MiB`;
 SIZE: 5.0 MiB -> 5.0 MiB
 DIFF: 0 bytes`;
     expect(hasDixChanges(diff)).toBe(false);
+  });
+});
+
+describe("parseDiff", () => {
+  test("parses base/PR paths, sections, and size lines", () => {
+    const diff = `<<< /nix/store/abc123-old.drv
+>>> /nix/store/def456-new.drv
+
+ADDED
+[A.] new-pkg   1.0.0
+
+REMOVED
+[R.] old-pkg   0.9.0
+
+CHANGED
+[C.] shared-pkg   1.0.0 -> 2.0.0
+
+SIZE: 10.0 MiB -> 12.0 MiB
+DIFF: 500 KiB`;
+    const parsed = parseDiff(diff);
+
+    expect(parsed.oldPath).toBe("/nix/store/abc123-old.drv");
+    expect(parsed.newPath).toBe("/nix/store/def456-new.drv");
+    expect(parsed.added).toEqual(["[A.] new-pkg   1.0.0"]);
+    expect(parsed.removed).toEqual(["[R.] old-pkg   0.9.0"]);
+    expect(parsed.changed).toEqual(["[C.] shared-pkg   1.0.0 -> 2.0.0"]);
+    expect(parsed.sizeBefore).toBe("10.0 MiB");
+    expect(parsed.sizeAfter).toBe("12.0 MiB");
+    expect(parsed.diffSize).toBe("500 KiB");
+    expect(parsed.unparsed).toEqual([]);
+  });
+
+  test("treats empty input as fully unchanged", () => {
+    const parsed = parseDiff("");
+    expect(isUnchanged(parsed)).toBe(true);
+    expect(parsed.oldPath).toBeUndefined();
+    expect(parsed.newPath).toBeUndefined();
+  });
+
+  test("collects lines outside any section into unparsed", () => {
+    const diff = `some preamble line
+another stray line`;
+    const parsed = parseDiff(diff);
+    expect(parsed.unparsed).toEqual(["some preamble line", "another stray line"]);
+    expect(isUnchanged(parsed)).toBe(true);
+  });
+
+  test("stops collecting section entries after a blank line", () => {
+    const diff = `ADDED
+[A.] first   1.0
+
+stray-line`;
+    const parsed = parseDiff(diff);
+    expect(parsed.added).toEqual(["[A.] first   1.0"]);
+    // The blank line resets the section, so stray-line falls into unparsed
+    // rather than being misclassified as an ADDED entry.
+    expect(parsed.unparsed).toEqual(["stray-line"]);
+  });
+
+  test("size line without arrow falls through to unparsed", () => {
+    const parsed = parseDiff("SIZE: 10.0 MiB");
+    expect(parsed.sizeBefore).toBeUndefined();
+    expect(parsed.unparsed).toEqual(["SIZE: 10.0 MiB"]);
+  });
+
+  test("isUnchanged is false when any section has entries", () => {
+    const parsed = parseDiff(`CHANGED
+[C.] pkg   1 -> 2`);
+    expect(isUnchanged(parsed)).toBe(false);
+  });
+});
+
+describe("stripPrefix", () => {
+  test("strips standard 2-char dix marker", () => {
+    expect(stripPrefix("[A.] pkg   1.0")).toBe("pkg   1.0");
+    expect(stripPrefix("[C.] pkg   1 -> 2")).toBe("pkg   1 -> 2");
+  });
+
+  test("accepts 1-4 char markers to tolerate dix format changes", () => {
+    expect(stripPrefix("[A] pkg   1.0")).toBe("pkg   1.0");
+    expect(stripPrefix("[ADD] pkg   1.0")).toBe("pkg   1.0");
+    expect(stripPrefix("[ADDE] pkg   1.0")).toBe("pkg   1.0");
+  });
+
+  test("leaves lines without a bracket marker unchanged", () => {
+    expect(stripPrefix("pkg   1.0")).toBe("pkg   1.0");
+  });
+});
+
+describe("slugify", () => {
+  test("lowercases and hyphenates non-alphanumeric runs", () => {
+    expect(slugify("Host 1")).toBe("host-1");
+    expect(slugify("my.app:prod")).toBe("my-app-prod");
+  });
+
+  test("falls back to 'diff' on input that produces an empty slug", () => {
+    expect(slugify("...")).toBe("diff");
+    expect(slugify("")).toBe("diff");
+  });
+});
+
+describe("generateDiffHtml", () => {
+  const baseResult = {
+    displayName: "host1",
+    attributePath: "nixosConfigurations.host1.config.system.build.toplevel",
+    baseRef: "abc123",
+    prRef: "def456",
+    diff: `<<< /nix/store/abc-old.drv
+>>> /nix/store/def-new.drv
+
+ADDED
+[A.] pkg-new   1.0
+
+SIZE: 10.0 MiB -> 12.0 MiB`,
+  };
+
+  test("renders a valid HTML document with core metadata", () => {
+    const html = generateDiffHtml([baseResult]);
+    expect(html.startsWith("<!DOCTYPE html>")).toBe(true);
+    expect(html).toContain("<title>Nix Diff Results</title>");
+    expect(html).toContain("1 comparison");
+    expect(html).toContain("nixosConfigurations.host1.config.system.build.toplevel");
+    expect(html).toContain("ADDED");
+    expect(html).toContain("pkg-new");
+    expect(html).toContain("10.0 MiB");
+  });
+
+  test("escapes HTML-sensitive characters in user-controlled fields", () => {
+    const html = generateDiffHtml([
+      {
+        displayName: "<script>alert(1)</script>",
+        attributePath: "a&b",
+        baseRef: "<base>",
+        prRef: "<pr>",
+        diff: "plain",
+      },
+    ]);
+    expect(html).not.toContain("<script>alert(1)</script>");
+    expect(html).toContain("&lt;script&gt;alert(1)&lt;/script&gt;");
+    expect(html).toContain("a&amp;b");
+  });
+
+  test("uses singular/plural comparison label correctly", () => {
+    const pluralHtml = generateDiffHtml([baseResult, baseResult]);
+    expect(pluralHtml).toContain("2 comparisons");
+  });
+
+  test("renders an empty document gracefully when there are no results", () => {
+    const html = generateDiffHtml([]);
+    expect(html).toContain("0 comparisons");
+    // With zero results there is no summary table to render.
+    expect(html).not.toContain('<table class="summary-table">');
   });
 });

@@ -3,7 +3,6 @@ import * as crypto from "crypto";
 import { Effect, Option, Redacted } from "effect";
 import type { ConfigError } from "effect/ConfigError";
 import { GitService, NixService, GitHubService } from "../services/index.js";
-import { checkIfAnyDiffTruncated } from "../services/github.js";
 import type { NixOutputConfig, DiffResult } from "../schemas.js";
 import {
   MissingAttributesError,
@@ -71,7 +70,7 @@ export type DiffPipelineConfig = {
   directory: string;
   build: boolean;
   runId: string;
-  runIdOption: Option.Option<string>;
+  githubRunId: Option.Option<string>;
   cwd: string;
 };
 
@@ -92,14 +91,14 @@ export const loadDiffPipelineConfig: Effect.Effect<
   const attributesInput = yield* getAttributesInput;
   const directoryInput = yield* ActionConfig.directory;
   const build = yield* ActionConfig.build;
-  const runIdOption = yield* ActionConfig.githubRunId;
-  const runId = Option.getOrElse(runIdOption, () => crypto.randomUUID());
+  const githubRunId = yield* ActionConfig.githubRunId;
+  const runId = Option.getOrElse(githubRunId, () => crypto.randomUUID());
   const cwd = yield* Effect.sync(() => process.cwd());
 
   const attributes = yield* parseAttributes(attributesInput);
   const directory = yield* validateDirectory(directoryInput, cwd);
 
-  return { attributes, directory, build, runId, runIdOption, cwd };
+  return { attributes, directory, build, runId, githubRunId, cwd };
 });
 
 export type RunDiffPipelineError =
@@ -145,11 +144,13 @@ export const runDiffPipeline: Effect.Effect<
 
 export type PostCommentParams = {
   results: readonly DiffResult[];
-  runId: string;
+  runId?: string;
   skipNoChange: boolean;
   commentStrategy: CommentStrategy;
   token: string;
-  showArtifactLinkWhenTruncated: boolean;
+  // Whether the HTML viewer artifact is actually present in the run's artifacts.
+  // Controls whether the "View diff as HTML" link is included in the comment.
+  htmlViewerAvailable: boolean;
 };
 
 /**
@@ -164,12 +165,7 @@ export const postComment = (
     const context = githubService.getContext();
     const pr = yield* githubService.getPullRequest();
 
-    const willTruncate = checkIfAnyDiffTruncated(params.results);
     const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
-    const shouldShowArtifactLink = willTruncate && params.showArtifactLinkWhenTruncated;
-
-    // Always pass repoUrl for commit links, runId only when showing artifact link
-    const formatOptions = shouldShowArtifactLink ? { runId: params.runId, repoUrl } : { repoUrl };
 
     yield* githubService.postAggregatedComment(
       githubService.createOctokit(params.token),
@@ -177,7 +173,11 @@ export const postComment = (
       pr,
       params.results,
       { skipNoChange: params.skipNoChange, commentStrategy: params.commentStrategy },
-      formatOptions,
+      {
+        repoUrl,
+        runId: params.runId,
+        htmlViewerAvailable: params.htmlViewerAvailable,
+      },
     );
   });
 

@@ -138,16 +138,27 @@ export const runFull: Effect.Effect<
   const { config, results } = yield* runDiffPipeline;
 
   // Always upload diff results as artifact (JSON format for consistency with diff-only mode)
-  yield* artifactService.uploadDiffResults(results, "full");
+  yield* artifactService.uploadJsonResult(results, "full");
+  // HTML viewer is a nice-to-have — don't block the comment on it. Record the
+  // outcome so the comment only links the viewer when it was actually uploaded.
+  const htmlViewerAvailable = yield* artifactService
+    .uploadAggregatedHtml(results)
+    .pipe(
+      Effect.catchAll((error) =>
+        Effect.logWarning(`HTML viewer artifact upload failed: ${error.message}`).pipe(
+          Effect.as(false),
+        ),
+      ),
+    );
 
   // Post comment to PR
   yield* postComment({
     results,
-    runId: config.runId,
+    runId: Option.getOrUndefined(config.githubRunId),
     skipNoChange: commentConfig.skipNoChange,
     commentStrategy: commentConfig.commentStrategy,
     token,
-    showArtifactLinkWhenTruncated: Option.isSome(config.runIdOption),
+    htmlViewerAvailable,
   });
 
   // Set GitHub Actions output
