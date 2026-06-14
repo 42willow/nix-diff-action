@@ -130,7 +130,7 @@ var NixService = class extends Service()("NixService", { effect: gen(function* (
 		getDixDiff: (basePath, prPath, inputsFromPath) => {
 			const baseArgs = [
 				"run",
-				"nixpkgs#dix",
+				"github:manic-systems/dix/32320eb",
 				"--inputs-from",
 				`path:${inputsFromPath}`,
 				"--"

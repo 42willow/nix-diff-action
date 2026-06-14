@@ -33,9 +33,7 @@ const execNix = (args: string[], ignoreReturnCode = true): Effect.Effect<ExecRes
       }),
     catch: (error) => error,
   }).pipe(
-    Effect.catchAll((error) =>
-      Effect.logWarning(`nix exec failed unexpectedly: ${error}`).pipe(Effect.as(-1)),
-    ),
+    Effect.catchAll((error) => Effect.logWarning(`nix exec failed unexpectedly: ${error}`).pipe(Effect.as(-1))),
     Effect.map((exitCode) => ({
       exitCode,
       stdout: stdoutChunks.join("").trim(),
@@ -66,17 +64,12 @@ export class NixService extends Effect.Service<NixService>()("NixService", {
             const alreadyLogged = yield* Ref.get(prefetchLogged);
             if (!alreadyLogged) {
               yield* Ref.set(prefetchLogged, true);
-              yield* Effect.logInfo(
-                "Skipping parallel input fetch: nix flake prefetch-inputs requires Nix 2.31.0+",
-              );
+              yield* Effect.logInfo("Skipping parallel input fetch: nix flake prefetch-inputs requires Nix 2.31.0+");
             }
           }
         }),
 
-      getNixPath: (
-        flakeRef: string,
-        build: boolean,
-      ): Effect.Effect<string, NixPathInfoError | NixBuildError> =>
+      getNixPath: (flakeRef: string, build: boolean): Effect.Effect<string, NixPathInfoError | NixBuildError> =>
         Effect.gen(function* () {
           // nix path-info does not build or substitute, so we need to build first
           // when build mode is enabled
@@ -120,14 +113,10 @@ export class NixService extends Effect.Service<NixService>()("NixService", {
       // Using the PR branch's flake.lock would allow attackers to inject a malicious nixpkgs
       // fork that replaces dix with arbitrary code, which would then execute in the CI environment
       // with access to GITHUB_TOKEN and other secrets.
-      getDixDiff: (
-        basePath: string,
-        prPath: string,
-        inputsFromPath: string,
-      ): Effect.Effect<string, NixDixError> => {
+      getDixDiff: (basePath: string, prPath: string, inputsFromPath: string): Effect.Effect<string, NixDixError> => {
         // Use path: to avoid git history requirements
         const inputsFromRef = `path:${inputsFromPath}`;
-        const baseArgs = ["run", "nixpkgs#dix", "--inputs-from", inputsFromRef, "--"];
+        const baseArgs = ["run", "github:manic-systems/dix/32320eb", "--inputs-from", inputsFromRef, "--"];
 
         const handleDixResult = (result: ExecResult) => {
           if (result.exitCode !== 0) {
@@ -149,8 +138,7 @@ export class NixService extends Effect.Service<NixService>()("NixService", {
         // without it for older versions that don't recognize the flag.
         return execNix([...baseArgs, "--force-correctness", basePath, prPath]).pipe(
           Effect.flatMap((result) =>
-            result.exitCode !== 0 &&
-            result.stderr.includes("unexpected argument '--force-correctness'")
+            result.exitCode !== 0 && result.stderr.includes("unexpected argument '--force-correctness'")
               ? Effect.fail(new DixUnsupportedFlag())
               : Effect.succeed(result),
           ),
